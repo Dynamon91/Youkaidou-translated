@@ -1,0 +1,2154 @@
+{
+  "target_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+  "resolution": [
+    240,
+    160
+  ],
+  "cells_per_line": 27,
+  "line_height": 16,
+  "default_player_name": "ヤシャオウ",
+  "method": "Normal game controls and emulator checkpoints, with no gameplay data edits. Decoded scenario RAM matched the final event asset. Expected final-ROM glyph ink matched both dialogue lines and both choice selections exactly.",
+  "pages": [
+    {
+      "section": "shrine",
+      "page": 5,
+      "screenshot": "screenshots/shrine/page-05.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x36e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(Huh?!)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 6,
+      "screenshot": "screenshots/shrine/page-06.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x3b0",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(Who are those people...?)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 7,
+      "screenshot": "screenshots/shrine/page-07.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x4c4",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Miroku: You're late...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 8,
+      "screenshot": "screenshots/shrine/page-08.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x508",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shittara: Sorry...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 9,
+      "screenshot": "screenshots/shrine/page-09.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x54c",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shittara: That guy wouldn't",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "leave me alone...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 10,
+      "screenshot": "screenshots/shrine/page-10.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x5be",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Miroku: Right, let's begin!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 11,
+      "screenshot": "screenshots/shrine/page-11.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x5fa",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Monju: At last...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 12,
+      "screenshot": "screenshots/shrine/page-12.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x630",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Miroku: Kongo!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 13,
+      "screenshot": "screenshots/shrine/page-13.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x680",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Kongo: Ugaaah!!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 14,
+      "screenshot": "screenshots/shrine/page-14.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x6e0",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(Whoa! That big guy...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "The shrine door...)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 15,
+      "screenshot": "screenshots/shrine/page-15.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x79a",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(He took it right off!!)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 16,
+      "screenshot": "screenshots/shrine/page-16.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x800",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shittara: Come forth,",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "yokai bound by the seal!!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 17,
+      "screenshot": "screenshots/shrine/page-17.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x896",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(Sealed?!)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 18,
+      "screenshot": "screenshots/shrine/page-18.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x8ec",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(So yokai were sealed",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "inside that shrine!)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 19,
+      "screenshot": "screenshots/shrine/page-19.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x920",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(Yokai?!)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 20,
+      "screenshot": "screenshots/shrine/page-20.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0x96e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(So yokai were sealed",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "inside that shrine!)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 21,
+      "screenshot": "screenshots/shrine/page-21.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0xa2c",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yokai: Keh heh heh...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 22,
+      "screenshot": "screenshots/shrine/page-22.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0xa48",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(...!!)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 23,
+      "screenshot": "screenshots/shrine/page-23.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0xaac",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shittara: It worked!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 24,
+      "screenshot": "screenshots/shrine/page-24.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0xaf4",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Miroku: Now there'll be",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "yokai everywhere.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 25,
+      "screenshot": "screenshots/shrine/page-25.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0xb60",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shittara: Ordinary folks",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "can't control yokai, so...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 26,
+      "screenshot": "screenshots/shrine/page-26.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0xbda",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Monju: We yokai tamers",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "will make a fortune!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 27,
+      "screenshot": "screenshots/shrine/page-27.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0xc5a",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Kongo: Wah hah hah!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "This is too good...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 28,
+      "screenshot": "screenshots/shrine/page-28.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0xcf2",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shittara: Put the door back",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "before anyone finds out.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 29,
+      "screenshot": "screenshots/shrine/page-29.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0xd70",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Kongo: Got it!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 30,
+      "screenshot": "screenshots/shrine/page-30.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0xde0",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(This is bad! I'd better",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "tell the elder first!)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "page": 31,
+      "screenshot": "screenshots/shrine/page-31.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "script_pc": "0xe48",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I headed for the elder.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 1,
+      "screenshot": "screenshots/elder_story/page-01.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x2e4",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: What's up, {PLAYER_NAME}?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 2,
+      "screenshot": "screenshots/elder_story/page-02.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x31e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder, the thing is...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 3,
+      "screenshot": "screenshots/elder_story/page-03.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x358",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I told the elder about",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "Shittara and the others.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 4,
+      "screenshot": "screenshots/elder_story/page-04.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x3bc",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: What?!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 5,
+      "screenshot": "screenshots/elder_story/page-05.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x3fa",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: I see...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 6,
+      "screenshot": "screenshots/elder_story/page-06.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x43c",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Just as I feared...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 7,
+      "screenshot": "screenshots/elder_story/page-07.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x476",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Just as you feared...?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 8,
+      "screenshot": "screenshots/elder_story/page-08.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x4ba",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Since Shittara first",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "came to this village...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 9,
+      "screenshot": "screenshots/elder_story/page-09.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x526",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: I thought he'd do",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "this sort of thing someday.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 10,
+      "screenshot": "screenshots/elder_story/page-10.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x5b8",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Makes sense!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 11,
+      "screenshot": "screenshots/elder_story/page-11.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x616",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: Oh, {PLAYER_NAME}!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 12,
+      "screenshot": "screenshots/elder_story/page-12.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x656",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: What's wrong?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "You look pale...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 13,
+      "screenshot": "screenshots/elder_story/page-13.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x6b6",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Well, I need the elder...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 14,
+      "screenshot": "screenshots/elder_story/page-14.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x6f2",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: He's in the room",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "at the back...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 15,
+      "screenshot": "screenshots/elder_story/page-15.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x75e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Why?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 16,
+      "screenshot": "screenshots/elder_story/page-16.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x7a8",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Coming all this way",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "to a backwater seemed odd.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 17,
+      "screenshot": "screenshots/elder_story/page-17.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x820",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: He must've come here",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "for that shrine...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 18,
+      "screenshot": "screenshots/elder_story/page-18.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x8d6",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Why were yokai in there?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 19,
+      "screenshot": "screenshots/elder_story/page-19.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x922",
+      "lines": [
+        {
+          "line": 1,
+          "text": "What's that shrine, anyway?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 20,
+      "screenshot": "screenshots/elder_story/page-20.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x962",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: That shrine...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 21,
+      "screenshot": "screenshots/elder_story/page-21.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x9a4",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Shuten Doji's yokai",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "minions were sealed there.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 22,
+      "screenshot": "screenshots/elder_story/page-22.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xa10",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shuten Doji?!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 23,
+      "screenshot": "screenshots/elder_story/page-23.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xa56",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: A savage yokai boss.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 24,
+      "screenshot": "screenshots/elder_story/page-24.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xa9a",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: He's always run wild",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "in times of chaos.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 25,
+      "screenshot": "screenshots/elder_story/page-25.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xaf4",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Why were his minions",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "kept in a place like that?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 26,
+      "screenshot": "screenshots/elder_story/page-26.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xb64",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: A great exorcist",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "defeated him 200 years ago.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 27,
+      "screenshot": "screenshots/elder_story/page-27.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xbd4",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: He sealed those",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "minions inside that shrine.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 28,
+      "screenshot": "screenshots/elder_story/page-28.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xc92",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Who are those people?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 29,
+      "screenshot": "screenshots/elder_story/page-29.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xccc",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Why did they break",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "the seal?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 30,
+      "screenshot": "screenshots/elder_story/page-30.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xd22",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Shittara's group",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "must be the Kidoshu...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 31,
+      "screenshot": "screenshots/elder_story/page-31.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xd86",
+      "lines": [
+        {
+          "line": 1,
+          "text": "The Kidoshu?!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 32,
+      "screenshot": "screenshots/elder_story/page-32.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xdc2",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: They fight yokai",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "for a living, like you.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 33,
+      "screenshot": "screenshots/elder_story/page-33.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xe32",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: More violent yokai,",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "more work. That's the idea.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 34,
+      "screenshot": "screenshots/elder_story/page-34.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xea8",
+      "lines": [
+        {
+          "line": 1,
+          "text": "And the yokai they freed?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 35,
+      "screenshot": "screenshots/elder_story/page-35.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xee2",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: The mischief of",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "yokai you usually fight...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 36,
+      "screenshot": "screenshots/elder_story/page-36.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xf5a",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: ...does little harm.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "Shuten Doji's minions...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 37,
+      "screenshot": "screenshots/elder_story/page-37.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0xfc6",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: ...will probably",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "cause some serious havoc...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 38,
+      "screenshot": "screenshots/elder_story/page-38.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x1038",
+      "lines": [
+        {
+          "line": 1,
+          "text": "What should I do, then?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 39,
+      "screenshot": "screenshots/elder_story/page-39.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x1062",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Well...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 40,
+      "screenshot": "screenshots/elder_story/page-40.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x10a0",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: You could profit,",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "just as they plan to...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 41,
+      "screenshot": "screenshots/elder_story/page-41.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x1102",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Or you could",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "help people instead...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "page": 42,
+      "screenshot": "screenshots/elder_story/page-42.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "script_pc": "0x119e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "After the elder's long talk",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "I went home for a rest.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    }
+  ],
+  "choices": [
+    {
+      "section": "shrine",
+      "menu": 2,
+      "selected": 0,
+      "screenshot": "screenshots/shrine-choices/menu-2-selected-0.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "script_pc": "0x860",
+      "lines": [
+        {
+          "id": "shrine_line_034",
+          "text": "(Yokai?!)",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "shrine_line_035",
+          "text": "(Sealed?!)",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "shrine",
+      "menu": 2,
+      "selected": 1,
+      "screenshot": "screenshots/shrine-choices/menu-2-selected-1.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "script_pc": "0x860",
+      "lines": [
+        {
+          "id": "shrine_line_034",
+          "text": "(Yokai?!)",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "shrine_line_035",
+          "text": "(Sealed?!)",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "menu": 1,
+      "selected": 0,
+      "screenshot": "screenshots/elder_story-choices/menu-1-selected-0.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "script_pc": "0x562",
+      "lines": [
+        {
+          "id": "elder_story_line_019",
+          "text": "Why?",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "elder_story_line_020",
+          "text": "Makes sense!",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "menu": 1,
+      "selected": 1,
+      "screenshot": "screenshots/elder_story-choices/menu-1-selected-1.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "script_pc": "0x562",
+      "lines": [
+        {
+          "id": "elder_story_line_019",
+          "text": "Why?",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "elder_story_line_020",
+          "text": "Makes sense!",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "menu": 2,
+      "selected": 0,
+      "screenshot": "screenshots/elder_story-choices/menu-2-selected-0.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "script_pc": "0x84a",
+      "lines": [
+        {
+          "id": "elder_story_line_038",
+          "text": "About the shrine?",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "elder_story_line_039",
+          "text": "Why seal them?",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "menu": 2,
+      "selected": 1,
+      "screenshot": "screenshots/elder_story-choices/menu-2-selected-1.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "script_pc": "0x84a",
+      "lines": [
+        {
+          "id": "elder_story_line_038",
+          "text": "About the shrine?",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "elder_story_line_039",
+          "text": "Why seal them?",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "menu": 3,
+      "selected": 0,
+      "screenshot": "screenshots/elder_story-choices/menu-3-selected-0.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "script_pc": "0xc10",
+      "lines": [
+        {
+          "id": "elder_story_line_061",
+          "text": "Why unseal them?",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "elder_story_line_062",
+          "text": "Who are they?",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "elder_story",
+      "menu": 3,
+      "selected": 1,
+      "screenshot": "screenshots/elder_story-choices/menu-3-selected-1.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "script_pc": "0xc10",
+      "lines": [
+        {
+          "id": "elder_story_line_061",
+          "text": "Why unseal them?",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "elder_story_line_062",
+          "text": "Who are they?",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    }
+  ],
+  "scenarios": {
+    "shrine": {
+      "localized_scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b",
+      "dialogue_pages_checked": 27,
+      "dialogue_pages_total": 33,
+      "choice_menus_checked": 1,
+      "choice_menus_total": 2,
+      "choice_captures_checked": 2,
+      "unchecked_pages": [
+        1,
+        2,
+        3,
+        4,
+        32,
+        33
+      ],
+      "unchecked_choice_menus": [
+        1
+      ],
+      "verified_record_ids": [
+        "shrine_line_009",
+        "shrine_line_010",
+        "shrine_line_011",
+        "shrine_line_012",
+        "shrine_line_013",
+        "shrine_line_014",
+        "shrine_line_015",
+        "shrine_line_016",
+        "shrine_line_017",
+        "shrine_line_018",
+        "shrine_line_019",
+        "shrine_line_020",
+        "shrine_line_021",
+        "shrine_line_022",
+        "shrine_line_023",
+        "shrine_line_024",
+        "shrine_line_025",
+        "shrine_line_026",
+        "shrine_line_027",
+        "shrine_line_028",
+        "shrine_line_029",
+        "shrine_line_030",
+        "shrine_line_031",
+        "shrine_line_032",
+        "shrine_line_034",
+        "shrine_line_035",
+        "shrine_line_036",
+        "shrine_line_037",
+        "shrine_line_038",
+        "shrine_line_039",
+        "shrine_line_040",
+        "shrine_line_041",
+        "shrine_line_042",
+        "shrine_line_043",
+        "shrine_line_044",
+        "shrine_line_045",
+        "shrine_line_046",
+        "shrine_line_047",
+        "shrine_line_048",
+        "shrine_line_049",
+        "shrine_line_050",
+        "shrine_line_051",
+        "shrine_line_052",
+        "shrine_line_053",
+        "shrine_line_054",
+        "shrine_line_055",
+        "shrine_line_056",
+        "shrine_line_057",
+        "shrine_line_058",
+        "shrine_line_059",
+        "shrine_line_060",
+        "shrine_line_061",
+        "shrine_line_062",
+        "shrine_line_063"
+      ]
+    },
+    "return": {
+      "localized_scenario_sha256": "a2bad8c8e8711a59ac24062107eaf79431f0f23140d68ad629c5c02ff297df65",
+      "dialogue_pages_checked": 0,
+      "dialogue_pages_total": 6,
+      "choice_menus_checked": 0,
+      "choice_menus_total": 0,
+      "choice_captures_checked": 0,
+      "unchecked_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "unchecked_choice_menus": [],
+      "verified_record_ids": []
+    },
+    "elder_story": {
+      "localized_scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962",
+      "dialogue_pages_checked": 42,
+      "dialogue_pages_total": 42,
+      "choice_menus_checked": 3,
+      "choice_menus_total": 3,
+      "choice_captures_checked": 6,
+      "unchecked_pages": [],
+      "unchecked_choice_menus": [],
+      "verified_record_ids": [
+        "elder_story_line_000",
+        "elder_story_line_001",
+        "elder_story_line_002",
+        "elder_story_line_003",
+        "elder_story_line_004",
+        "elder_story_line_005",
+        "elder_story_line_006",
+        "elder_story_line_007",
+        "elder_story_line_008",
+        "elder_story_line_009",
+        "elder_story_line_010",
+        "elder_story_line_011",
+        "elder_story_line_012",
+        "elder_story_line_013",
+        "elder_story_line_014",
+        "elder_story_line_015",
+        "elder_story_line_016",
+        "elder_story_line_017",
+        "elder_story_line_019",
+        "elder_story_line_020",
+        "elder_story_line_021",
+        "elder_story_line_022",
+        "elder_story_line_023",
+        "elder_story_line_024",
+        "elder_story_line_025",
+        "elder_story_line_026",
+        "elder_story_line_027",
+        "elder_story_line_028",
+        "elder_story_line_029",
+        "elder_story_line_030",
+        "elder_story_line_031",
+        "elder_story_line_032",
+        "elder_story_line_033",
+        "elder_story_line_034",
+        "elder_story_line_035",
+        "elder_story_line_036",
+        "elder_story_line_038",
+        "elder_story_line_039",
+        "elder_story_line_040",
+        "elder_story_line_041",
+        "elder_story_line_042",
+        "elder_story_line_043",
+        "elder_story_line_044",
+        "elder_story_line_045",
+        "elder_story_line_046",
+        "elder_story_line_047",
+        "elder_story_line_048",
+        "elder_story_line_049",
+        "elder_story_line_050",
+        "elder_story_line_051",
+        "elder_story_line_052",
+        "elder_story_line_053",
+        "elder_story_line_054",
+        "elder_story_line_055",
+        "elder_story_line_056",
+        "elder_story_line_057",
+        "elder_story_line_058",
+        "elder_story_line_059",
+        "elder_story_line_061",
+        "elder_story_line_062",
+        "elder_story_line_063",
+        "elder_story_line_064",
+        "elder_story_line_065",
+        "elder_story_line_066",
+        "elder_story_line_067",
+        "elder_story_line_068",
+        "elder_story_line_069",
+        "elder_story_line_070",
+        "elder_story_line_071",
+        "elder_story_line_072",
+        "elder_story_line_073",
+        "elder_story_line_074",
+        "elder_story_line_075",
+        "elder_story_line_076",
+        "elder_story_line_077",
+        "elder_story_line_078",
+        "elder_story_line_079",
+        "elder_story_line_080",
+        "elder_story_line_081",
+        "elder_story_line_082",
+        "elder_story_line_083",
+        "elder_story_line_084",
+        "elder_story_line_085",
+        "elder_story_line_086",
+        "elder_story_line_087",
+        "elder_story_line_088",
+        "elder_story_line_089",
+        "elder_story_line_090",
+        "elder_story_line_091",
+        "elder_story_line_092"
+      ]
+    }
+  },
+  "all_pixel_checks_pass": true
+}

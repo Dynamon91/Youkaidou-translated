@@ -1,0 +1,611 @@
+{
+  "resolution": [
+    240,
+    160
+  ],
+  "text_origin": [
+    8,
+    120
+  ],
+  "line_height": 16,
+  "cells_per_line": 27,
+  "pixel_comparison": "Exact expected white-ink mask against actual mGBA framebuffer; player name is the unchanged default, Yashaou, in this test.",
+  "all_pages_match": true,
+  "pages": [
+    {
+      "page": 1,
+      "script_pc": "0x20119e8",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Long ago...",
+          "expected_ink_pixels": 117,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "",
+          "expected_ink_pixels": 0,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-01.png"
+    },
+    {
+      "page": 2,
+      "script_pc": "0x2011a18",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Back when samurai",
+          "expected_ink_pixels": 197,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "still walked the land...",
+          "expected_ink_pixels": 234,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-02.png"
+    },
+    {
+      "page": 3,
+      "script_pc": "0x2011a8a",
+      "lines": [
+        {
+          "line": 1,
+          "text": "In this land, people lived",
+          "expected_ink_pixels": 270,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "with the supernatural.",
+          "expected_ink_pixels": 235,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-03.png"
+    },
+    {
+      "page": 4,
+      "script_pc": "0x2011afa",
+      "lines": [
+        {
+          "line": 1,
+          "text": "They knew of strange beings",
+          "expected_ink_pixels": 309,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "and called them yokai.",
+          "expected_ink_pixels": 236,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-04.png"
+    },
+    {
+      "page": 5,
+      "script_pc": "0x2011b6a",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yokai usually lived quietly",
+          "expected_ink_pixels": 297,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "with humans. But...",
+          "expected_ink_pixels": 189,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-05.png"
+    },
+    {
+      "page": 6,
+      "script_pc": "0x2011c04",
+      "lines": [
+        {
+          "line": 1,
+          "text": "When chaos swept the world,",
+          "expected_ink_pixels": 301,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "they rampaged.",
+          "expected_ink_pixels": 175,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-06.png"
+    },
+    {
+      "page": 7,
+      "script_pc": "0x2011c5e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "People took it as curses",
+          "expected_ink_pixels": 251,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "or divine punishment.",
+          "expected_ink_pixels": 222,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-07.png"
+    },
+    {
+      "page": 8,
+      "script_pc": "0x2011ccc",
+      "lines": [
+        {
+          "line": 1,
+          "text": "They built a peaceful world",
+          "expected_ink_pixels": 294,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "where samurai were no more.",
+          "expected_ink_pixels": 276,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-08.png"
+    },
+    {
+      "page": 9,
+      "script_pc": "0x2011d4c",
+      "lines": [
+        {
+          "line": 1,
+          "text": "And then...",
+          "expected_ink_pixels": 110,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "",
+          "expected_ink_pixels": 0,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-09.png"
+    },
+    {
+      "page": 10,
+      "script_pc": "0x2011d90",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Two hundred years passed...",
+          "expected_ink_pixels": 300,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "",
+          "expected_ink_pixels": 0,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-10.png"
+    },
+    {
+      "page": 11,
+      "script_pc": "0x2011e02",
+      "lines": [
+        {
+          "line": 1,
+          "text": "After many years of peace,",
+          "expected_ink_pixels": 283,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "",
+          "expected_ink_pixels": 0,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-11.png"
+    },
+    {
+      "page": 12,
+      "script_pc": "0x2011e46",
+      "lines": [
+        {
+          "line": 1,
+          "text": "people had begun to forget",
+          "expected_ink_pixels": 296,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "the yokai even existed.",
+          "expected_ink_pixels": 241,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-12.png"
+    },
+    {
+      "page": 13,
+      "script_pc": "0x2011eb8",
+      "lines": [
+        {
+          "line": 1,
+          "text": "From the latest newspapers,",
+          "expected_ink_pixels": 310,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "this land seems set on war.",
+          "expected_ink_pixels": 269,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-13.png"
+    },
+    {
+      "page": 14,
+      "script_pc": "0x2011f08",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I'm {PLAYER_NAME}.",
+          "expected_ink_pixels": 120,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "",
+          "expected_ink_pixels": 0,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-14.png"
+    },
+    {
+      "page": 15,
+      "script_pc": "0x2011f4c",
+      "lines": [
+        {
+          "line": 1,
+          "text": "As this village's exorcist,",
+          "expected_ink_pixels": 270,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "I carry on a family trade.",
+          "expected_ink_pixels": 251,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-15.png"
+    },
+    {
+      "page": 16,
+      "script_pc": "0x2011fba",
+      "lines": [
+        {
+          "line": 1,
+          "text": "An exorcist's odd job:",
+          "expected_ink_pixels": 223,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "hunting yokai for a living.",
+          "expected_ink_pixels": 268,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-16.png"
+    },
+    {
+      "page": 17,
+      "script_pc": "0x2012030",
+      "lines": [
+        {
+          "line": 1,
+          "text": "But now, only the elderly",
+          "expected_ink_pixels": 267,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "believe in yokai, so...",
+          "expected_ink_pixels": 213,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-17.png"
+    },
+    {
+      "page": 18,
+      "script_pc": "0x201209e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "frankly, there's no money",
+          "expected_ink_pixels": 260,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "in it.",
+          "expected_ink_pixels": 45,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-18.png"
+    },
+    {
+      "page": 19,
+      "script_pc": "0x20120dc",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Which explains why",
+          "expected_ink_pixels": 214,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "I'm always hungry.",
+          "expected_ink_pixels": 194,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-19.png"
+    },
+    {
+      "page": 20,
+      "script_pc": "0x201213e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "And I'm not the only one",
+          "expected_ink_pixels": 239,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "with an empty stomach.",
+          "expected_ink_pixels": 236,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-20.png"
+    },
+    {
+      "page": 21,
+      "script_pc": "0x20121d8",
+      "lines": [
+        {
+          "line": 1,
+          "text": "This is Kawauso, a yokai",
+          "expected_ink_pixels": 261,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "who lives in my journal.",
+          "expected_ink_pixels": 229,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-21.png"
+    },
+    {
+      "page": 22,
+      "script_pc": "0x201224c",
+      "lines": [
+        {
+          "line": 1,
+          "text": "This magic heirloom journal",
+          "expected_ink_pixels": 295,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "can house yokai inside.",
+          "expected_ink_pixels": 240,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-22.png"
+    },
+    {
+      "page": 23,
+      "script_pc": "0x20122be",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I'm human, so I can't fight",
+          "expected_ink_pixels": 252,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "yokai. He fights for me.",
+          "expected_ink_pixels": 250,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-23.png"
+    },
+    {
+      "page": 24,
+      "script_pc": "0x2012332",
+      "lines": [
+        {
+          "line": 1,
+          "text": "His master gets little work",
+          "expected_ink_pixels": 292,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "or food. He's hungry too...",
+          "expected_ink_pixels": 261,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-24.png"
+    },
+    {
+      "page": 25,
+      "script_pc": "0x20123b6",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Well, then...",
+          "expected_ink_pixels": 132,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "",
+          "expected_ink_pixels": 0,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-25.png"
+    },
+    {
+      "page": 26,
+      "script_pc": "0x20123f4",
+      "lines": [
+        {
+          "line": 1,
+          "text": "No point in complaining.",
+          "expected_ink_pixels": 262,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "",
+          "expected_ink_pixels": 0,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-26.png"
+    },
+    {
+      "page": 27,
+      "script_pc": "0x201242a",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Time to head out and",
+          "expected_ink_pixels": 215,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        },
+        {
+          "line": 2,
+          "text": "find some work!",
+          "expected_ink_pixels": 164,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0
+        }
+      ],
+      "pixel_match": true,
+      "screenshot": "screenshots/opening/page-27.png"
+    }
+  ],
+  "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1"
+}

@@ -1,0 +1,906 @@
+{
+  "game": "Youkaidou",
+  "batch": 2,
+  "strings": [
+    {
+      "id": "title_new",
+      "offset": "0x078F20",
+      "source_hex": "82cd82b682df82a982e701",
+      "japanese": "はじめから\u0001",
+      "english": "New game\u0001",
+      "max_cells": 8,
+      "context": "Title menu",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "title_continue",
+      "offset": "0x078F2C",
+      "source_hex": "82c282c382ab82a982e701",
+      "japanese": "つづきから\u0001",
+      "english": "Continue\u0001",
+      "max_cells": 8,
+      "context": "Title menu",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "title_link",
+      "offset": "0x078F38",
+      "source_hex": "82c282a482b582f101",
+      "japanese": "つうしん\u0001",
+      "english": "Link\u0001",
+      "max_cells": 8,
+      "context": "Title menu",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "title_yes",
+      "offset": "0x078F44",
+      "source_hex": "82cd82a201",
+      "japanese": "はい\u0001",
+      "english": "Yes\u0001",
+      "max_cells": 3,
+      "context": "Title menu",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "title_no",
+      "offset": "0x078F4C",
+      "source_hex": "82a282a282a601",
+      "japanese": "いいえ\u0001",
+      "english": "No\u0001",
+      "max_cells": 3,
+      "context": "Title menu",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "records_clear_confirm",
+      "offset": "0x078E14",
+      "source_hex": "82a282dc82dc82c582cc814082bd82a282b982f182b982a282b982ab82f00a0a0a0a834e838a834182b582dc82b782a9814801",
+      "japanese": "いままでの　たいせんせいせきを\n\n\n\nクリアしますか？\u0001",
+      "english": "Clear all battle records?\n\n\n\nAre you sure?\u0001",
+      "max_cells": 27,
+      "context": "Battle-record reset confirmation",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "records_retry",
+      "offset": "0x078E48",
+      "source_hex": "82ab82eb82ad82c982b582c182cf82a282b582dc82b582bd0a0a0a0a82e082a482a282bf82c7814082b682c182b182a482b582dc82b782a9814801",
+      "japanese": "きろくにしっぱいしました\n\n\n\nもういちど　じっこうしますか？\u0001",
+      "english": "Save failed.\n\n\n\nTry again?\u0001",
+      "max_cells": 27,
+      "context": "Retry after battle-record write failure",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "records_cleared",
+      "offset": "0x078E84",
+      "source_hex": "82bd82a282b982f182b982a282b982ab82f08140834e838a834182b582dc82b582bd01",
+      "japanese": "たいせんせいせきを　クリアしました\u0001",
+      "english": "Battle records cleared.\u0001",
+      "max_cells": 27,
+      "context": "Battle-record reset completion",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "save_corrupt",
+      "offset": "0x078F54",
+      "source_hex": "835a815b8375837483408343838b82aa814082b182ed82ea82c482a282dc82b701",
+      "japanese": "セーブファイルが　こわれています\u0001",
+      "english": "The save file is corrupted.\u0001",
+      "max_cells": 27,
+      "context": "Title save error",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "next_level",
+      "offset": "0x07B264",
+      "source_hex": "82c282ac82cc838c8378838b82dc82c501",
+      "japanese": "つぎのレベルまで\u0001",
+      "english": "NEXT LV\u0001",
+      "max_cells": 8,
+      "context": "Fixed Journal stat caption: experience needed for the next level; original field is eight tiles",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "release_confirm",
+      "offset": "0x07B278",
+      "source_hex": "82c982aa82b582dc82b782a9814801",
+      "japanese": "にがしますか？\u0001",
+      "english": "Release?\u0001",
+      "max_cells": 12,
+      "context": "Release a yokai",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "sort",
+      "offset": "0x07B288",
+      "source_hex": "82c882e782d782a982a601",
+      "japanese": "ならべかえ\u0001",
+      "english": "Sort\u0001",
+      "max_cells": 10,
+      "context": "Yokai list sort command",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "sort_level",
+      "offset": "0x07B294",
+      "source_hex": "82b182a4838c8378838b814082b682e382f101",
+      "japanese": "こうレベル　じゅん\u0001",
+      "english": "Level desc.\u0001",
+      "max_cells": 12,
+      "context": "Yokai list order: highest level first",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "sort_name",
+      "offset": "0x07B2A8",
+      "source_hex": "82a082a282a482a682a8814082b682e382f101",
+      "japanese": "あいうえお　じゅん\u0001",
+      "english": "Name\u0001",
+      "max_cells": 12,
+      "context": "Yokai list order: name",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "sort_element",
+      "offset": "0x07B2BC",
+      "source_hex": "82bc82ad82b982a28140814082b682e382f101",
+      "japanese": "ぞくせい　　じゅん\u0001",
+      "english": "Element\u0001",
+      "max_cells": 12,
+      "context": "Yokai list order: element",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "sort_hp",
+      "offset": "0x07B2D0",
+      "source_hex": "8267826f814081408140814082b682e382f101",
+      "japanese": "ＨＰ　　　　じゅん\u0001",
+      "english": "HP\u0001",
+      "max_cells": 12,
+      "context": "Yokai list order: HP",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "sort_maxhp",
+      "offset": "0x07B2E4",
+      "source_hex": "826c826082778267826f814082b682e382f101",
+      "japanese": "ＭＡＸＨＰ　じゅん\u0001",
+      "english": "Max HP\u0001",
+      "max_cells": 12,
+      "context": "Yokai list order: maximum HP",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "menu_magic",
+      "offset": "0x0872F4",
+      "source_hex": "82dc82d982a401",
+      "japanese": "まほう\u0001",
+      "english": "Magic\u0001",
+      "max_cells": 9,
+      "context": "Main menu",
+      "verification": "Observed in mGBA; no clipping on the first battle command menu"
+    },
+    {
+      "id": "menu_items",
+      "offset": "0x087300",
+      "source_hex": "82e082bf82e082cc01",
+      "japanese": "もちもの\u0001",
+      "english": "Items\u0001",
+      "max_cells": 9,
+      "context": "Main menu",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "menu_journal",
+      "offset": "0x08730C",
+      "source_hex": "82c482bf82e582a401",
+      "japanese": "てちょう\u0001",
+      "english": "Journal\u0001",
+      "max_cells": 9,
+      "context": "Main menu: notebook",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "menu_talismans",
+      "offset": "0x087318",
+      "source_hex": "82a882d382be01",
+      "japanese": "おふだ\u0001",
+      "english": "Talismans\u0001",
+      "max_cells": 9,
+      "context": "Main menu: paper talisman configuration",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "menu_codex",
+      "offset": "0x087320",
+      "source_hex": "82b682c482f101",
+      "japanese": "じてん\u0001",
+      "english": "Codex\u0001",
+      "max_cells": 9,
+      "context": "Main menu: yokai dictionary",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "menu_options",
+      "offset": "0x087328",
+      "source_hex": "82b982c182c482a201",
+      "japanese": "せってい\u0001",
+      "english": "Options\u0001",
+      "max_cells": 9,
+      "context": "Main menu",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "menu_save",
+      "offset": "0x087334",
+      "source_hex": "82ab82eb82ad01",
+      "japanese": "きろく\u0001",
+      "english": "Save\u0001",
+      "max_cells": 9,
+      "context": "Main menu",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "menu_close",
+      "offset": "0x08733C",
+      "source_hex": "82c682b682e901",
+      "japanese": "とじる\u0001",
+      "english": "Close\u0001",
+      "max_cells": 9,
+      "context": "Main menu",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "items_key",
+      "offset": "0x087344",
+      "source_hex": "82bd82a282b982c201",
+      "japanese": "たいせつ\u0001",
+      "english": "Key\u0001",
+      "max_cells": 4,
+      "context": "Important/key item category",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "items_use",
+      "offset": "0x087350",
+      "source_hex": "82c282a982a401",
+      "japanese": "つかう\u0001",
+      "english": "Use\u0001",
+      "max_cells": 6,
+      "context": "Inventory action",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "items_discard",
+      "offset": "0x087358",
+      "source_hex": "82b782c482e901",
+      "japanese": "すてる\u0001",
+      "english": "Toss\u0001",
+      "max_cells": 4,
+      "context": "Inventory action",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "items_cancel",
+      "offset": "0x087360",
+      "source_hex": "82e282df82e901",
+      "japanese": "やめる\u0001",
+      "english": "Back\u0001",
+      "max_cells": 4,
+      "context": "Inventory action",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "battle_yes",
+      "offset": "0x087A40",
+      "source_hex": "82cd82a201",
+      "japanese": "はい\u0001",
+      "english": "Yes\u0001",
+      "max_cells": 3,
+      "context": "Shared battle and game confirmation choice",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "battle_no",
+      "offset": "0x087A48",
+      "source_hex": "82a282a282a601",
+      "japanese": "いいえ\u0001",
+      "english": "No\u0001",
+      "max_cells": 3,
+      "context": "Shared battle and game confirmation choice",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "battle_items",
+      "offset": "0x087A60",
+      "source_hex": "82c782a482ae01",
+      "japanese": "どうぐ\u0001",
+      "english": "Items\u0001",
+      "max_cells": 8,
+      "context": "Battle command",
+      "verification": "Observed in mGBA; no clipping on the first battle command menu"
+    },
+    {
+      "id": "battle_switch",
+      "offset": "0x087A68",
+      "source_hex": "82b182a482bd82a201",
+      "japanese": "こうたい\u0001",
+      "english": "Switch\u0001",
+      "max_cells": 8,
+      "context": "Battle command: switch active yokai",
+      "verification": "Observed in mGBA; no clipping on the first battle command menu"
+    },
+    {
+      "id": "battle_run",
+      "offset": "0x087A74",
+      "source_hex": "82c982b082e901",
+      "japanese": "にげる\u0001",
+      "english": "Run\u0001",
+      "max_cells": 8,
+      "context": "Battle command",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "battle_switch_who",
+      "offset": "0x087A7C",
+      "source_hex": "82be82ea814082c6814082b182a482bd82a201",
+      "japanese": "だれ　と　こうたい\u0001",
+      "english": "Switch with whom?\u0001",
+      "max_cells": 26,
+      "context": "Choose replacement yokai",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "battle_use_who",
+      "offset": "0x087A90",
+      "source_hex": "82be82ea814082c9814082c282a982a4814801",
+      "japanese": "だれ　に　つかう？\u0001",
+      "english": "Use on whom?\u0001",
+      "max_cells": 26,
+      "context": "Select an item target",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "battle_use_which",
+      "offset": "0x087AA4",
+      "source_hex": "82c782bf82e7814082c9814082c282a982a4814801",
+      "japanese": "どちら　に　つかう？\u0001",
+      "english": "Use on which one?\u0001",
+      "max_cells": 26,
+      "context": "Select one of two item targets",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "battle_switch_none",
+      "offset": "0x087ABC",
+      "source_hex": "82b182a482bd82a282c582ab82e9814082e682a482a982a282cd814082a282c882a201",
+      "japanese": "こうたいできる　ようかいは　いない\u0001",
+      "english": "No yokai can switch in.\u0001",
+      "max_cells": 26,
+      "context": "No eligible replacement yokai",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "battle_attack",
+      "offset": "0x087B20",
+      "source_hex": "82b182a482b082ab01",
+      "japanese": "こうげき\u0001",
+      "english": "Attack\u0001",
+      "max_cells": 8,
+      "context": "Battle command",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "battle_no_items",
+      "offset": "0x087BC4",
+      "source_hex": "82c282a982a682e9814082c782a482ae814082f0814082e082c182c482a282c882a2814901",
+      "japanese": "つかえる　どうぐ　を　もっていない！\u0001",
+      "english": "No usable items!\u0001",
+      "max_cells": 26,
+      "context": "Battle inventory has no usable items",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "battle_no_magic",
+      "offset": "0x087C10",
+      "source_hex": "82dc82d982a4814082f0814082a882da82a682c482a282c882a201",
+      "japanese": "まほう　を　おぼえていない\u0001",
+      "english": "No spells learned.\u0001",
+      "max_cells": 26,
+      "context": "Active yokai has not learned magic",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "items_empty",
+      "offset": "0x0881CC",
+      "source_hex": "82c882c982e0814082e082c182c482a282dc82b982f101",
+      "japanese": "なにも　もっていません\u0001",
+      "english": "You have no items.\u0001",
+      "max_cells": 27,
+      "context": "Inventory empty",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "items_wrong_place",
+      "offset": "0x0881E4",
+      "source_hex": "82b182b182c582cd814082c282a982a682dc82b982f1814901",
+      "japanese": "ここでは　つかえません！\u0001",
+      "english": "Cannot use that here!\u0001",
+      "max_cells": 27,
+      "context": "Item unavailable at this location",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "options_text_speed",
+      "offset": "0x088200",
+      "source_hex": "83818362835a815b835782bb82ad82c701",
+      "japanese": "メッセージそくど\u0001",
+      "english": "Text speed\u0001",
+      "max_cells": 12,
+      "context": "Options label",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "options_normal",
+      "offset": "0x088214",
+      "source_hex": "82d382c282a401",
+      "japanese": "ふつう\u0001",
+      "english": "Normal\u0001",
+      "max_cells": 8,
+      "context": "Text speed option",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "options_fast",
+      "offset": "0x08821C",
+      "source_hex": "82cd82e282a201",
+      "japanese": "はやい\u0001",
+      "english": "Fast\u0001",
+      "max_cells": 8,
+      "context": "Text speed option",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "save_confirm",
+      "offset": "0x0883C8",
+      "source_hex": "82b182b182dc82c582cc814082ab82eb82ad82f0814082a982ab82b182dd82dc82b782a9814801",
+      "japanese": "ここまでの　きろくを　かきこみますか？\u0001",
+      "english": "Save your progress?\u0001",
+      "max_cells": 27,
+      "context": "Save prompt",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "save_overwrite",
+      "offset": "0x0883F0",
+      "source_hex": "82a282ba82f182cc814082ab82eb82ad82f00a0a0a0a82a982ab82a982a682c482e0814082e682eb82b582a282c582b782a9814801",
+      "japanese": "いぜんの　きろくを\n\n\n\nかきかえても　よろしいですか？\u0001",
+      "english": "Overwrite the previous\n\n\n\nsave data?\u0001",
+      "max_cells": 27,
+      "context": "Overwrite prompt",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "save_cancelled",
+      "offset": "0x088428",
+      "source_hex": "82ab82eb82ad82f0814082bf82e382a482b582b582dc82b582bd01",
+      "japanese": "きろくを　ちゅうししました\u0001",
+      "english": "Save cancelled.\u0001",
+      "max_cells": 27,
+      "context": "Save cancelled",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "save_writing",
+      "offset": "0x088444",
+      "source_hex": "82ab82eb82ad82f0814082a982ab82b182f182c582a282dc82b781420a0a0a0a82c582f182b082f182f0814082ab82c182bd82e80a0a0a0a834a815b8367838a8362835782f0814082ca82a282bd82e80a0a0a0a82b582c882a282c582ad82be82b382a2814901",
+      "japanese": "きろくを　かきこんでいます。\n\n\n\nでんげんを　きったり\n\n\n\nカートリッジを　ぬいたり\n\n\n\nしないでください！\u0001",
+      "english": "Saving your progress.\n\n\n\nDo not turn off the power\n\n\n\nor remove the Game Pak\n\n\n\nuntil saving is complete!\u0001",
+      "max_cells": 27,
+      "context": "Write-in-progress message",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "save_complete",
+      "offset": "0x0884AC",
+      "source_hex": "82d482b6814082ab82eb82ad82aa814082a882ed82e882dc82b582bd01",
+      "japanese": "ぶじ　きろくが　おわりました\u0001",
+      "english": "Save complete.\u0001",
+      "max_cells": 27,
+      "context": "Save succeeded",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "save_failed",
+      "offset": "0x0884CC",
+      "source_hex": "82ab82eb82ad82c9814082b582c182cf82a282b582dc82b582bd01",
+      "japanese": "きろくに　しっぱいしました\u0001",
+      "english": "Save failed.\u0001",
+      "max_cells": 27,
+      "context": "Save failed",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "save_wrong_place",
+      "offset": "0x0884E8",
+      "source_hex": "82b182b182c582cd814082ab82eb82ad82c582ab82dc82b982f101",
+      "japanese": "ここでは　きろくできません\u0001",
+      "english": "Cannot save here.\u0001",
+      "max_cells": 27,
+      "context": "Saving unavailable at this location",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "shop_buy",
+      "offset": "0x088AC4",
+      "source_hex": "82a982a282c982ab82bd01",
+      "japanese": "かいにきた\u0001",
+      "english": "Buy\u0001",
+      "max_cells": 8,
+      "context": "Shop choice",
+      "verification": "Observed in mGBA; no clipping on the shop command menu"
+    },
+    {
+      "id": "shop_sell",
+      "offset": "0x088AD0",
+      "source_hex": "82a482e882c982ab82bd01",
+      "japanese": "うりにきた\u0001",
+      "english": "Sell\u0001",
+      "max_cells": 8,
+      "context": "Shop choice",
+      "verification": "Observed in mGBA; no clipping on the shop command menu"
+    },
+    {
+      "id": "shop_leave",
+      "offset": "0x088ADC",
+      "source_hex": "82c682ad82c982c882a201",
+      "japanese": "とくにない\u0001",
+      "english": "Leave\u0001",
+      "max_cells": 5,
+      "context": "Shop choice: no purchase or sale",
+      "verification": "Observed in mGBA; no clipping on the shop command menu"
+    },
+    {
+      "id": "name_confirm",
+      "offset": "0x089B30",
+      "source_hex": "82b182cc814082c882dc82a682c5814082e682eb82b582a282c582b782a9814801",
+      "japanese": "この　なまえで　よろしいですか？\u0001",
+      "english": "Use this name?\u0001",
+      "max_cells": 18,
+      "context": "Confirm player name",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "talisman_done",
+      "offset": "0x07B3C4",
+      "source_hex": "82a882ed82e901",
+      "japanese": "おわる\u0001",
+      "english": "Done\u0001",
+      "max_cells": 4,
+      "context": "Talisman settings action",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "talisman_undo",
+      "offset": "0x07B3D4",
+      "source_hex": "82e082c782b701",
+      "japanese": "もどす\u0001",
+      "english": "Undo\u0001",
+      "max_cells": 4,
+      "context": "Restore previous talisman settings",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "talisman_type",
+      "offset": "0x07B3DC",
+      "source_hex": "82bc82ad82b982a201",
+      "japanese": "ぞくせい\u0001",
+      "english": "Type\u0001",
+      "max_cells": 4,
+      "context": "Talisman element/type label",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "talisman_apply_help",
+      "offset": "0x07B3EC",
+      "source_hex": "82a882d382be82cc814082b982c182c482a282f0814082d682f182b182a482b582c4814082a882ed82e882dc82b701",
+      "japanese": "おふだの　せっていを　へんこうして　おわります\u0001",
+      "english": "Apply changes and exit.\u0001",
+      "max_cells": 24,
+      "context": "Talisman settings bottom help",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "talisman_apply_confirm",
+      "offset": "0x07B41C",
+      "source_hex": "82b182cc814082b982c182c482a282c5814082e682eb82b582a282c582b782a9814881408140814081408140814001",
+      "japanese": "この　せっていで　よろしいですか？　　　　　　\u0001",
+      "english": "Use these settings?\u0001",
+      "max_cells": 24,
+      "context": "Confirm talisman settings",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "talisman_undo_help",
+      "offset": "0x07B44C",
+      "source_hex": "82dc82a682cc814082b982c182c482a282c9814082e082c782b582dc82b78140814081408140814081408140814001",
+      "japanese": "まえの　せっていに　もどします　　　　　　　　\u0001",
+      "english": "Restore prior settings.\u0001",
+      "max_cells": 24,
+      "context": "Talisman settings undo help",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "talisman_undo_confirm",
+      "offset": "0x07B47C",
+      "source_hex": "82b982c182c482a282f0814082e082c782b582c4814082e682eb82b582a282c582b782a98148814081408140814001",
+      "japanese": "せっていを　もどして　よろしいですか？　　　　\u0001",
+      "english": "Undo these changes?\u0001",
+      "max_cells": 24,
+      "context": "Confirm restoring previous talisman settings",
+      "verification": "Observed in mGBA; no clipping on the checked screen"
+    },
+    {
+      "id": "talisman_attack_type",
+      "offset": "0x07B4AC",
+      "source_hex": "814082b182a482b082ab814001",
+      "japanese": "　こうげき　\u0001",
+      "english": "Attack\u0001",
+      "max_cells": 6,
+      "context": "Six-cell talisman type label",
+      "verification": "Observed in mGBA; no clipping in the talisman description field"
+    },
+    {
+      "id": "talisman_guard_type",
+      "offset": "0x07B4BC",
+      "source_hex": "814082da82a482ac82e5814001",
+      "japanese": "　ぼうぎょ　\u0001",
+      "english": "Guard\u0001",
+      "max_cells": 6,
+      "context": "Six-cell talisman type label",
+      "verification": "Observed in mGBA; no clipping in the talisman description field"
+    },
+    {
+      "id": "battle_turn_player",
+      "offset": "0x0874AC",
+      "source_hex": "82b182bf82e7814082cc814082ce82f182be01",
+      "japanese": "こちら　の　ばんだ\u0001",
+      "english": "Your turn\u0001",
+      "max_cells": 16,
+      "context": "Battle popup",
+      "verification": "Observed in mGBA; no clipping in the battle popup"
+    },
+    {
+      "id": "battle_turn_enemy",
+      "offset": "0x0874C0",
+      "source_hex": "82a082a282c4814082cc814082ce82f182be01",
+      "japanese": "あいて　の　ばんだ\u0001",
+      "english": "Enemy turn\u0001",
+      "max_cells": 16,
+      "context": "Battle popup",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "battle_enemy_thinking",
+      "offset": "0x0874D4",
+      "source_hex": "82a082a282c4814082cd814082a982f182aa82a682bf82e382a401",
+      "japanese": "あいて　は　かんがえちゅう\u0001",
+      "english": "Enemy thinking...\u0001",
+      "max_cells": 20,
+      "context": "Battle popup",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "battle_defending",
+      "offset": "0x0875E0",
+      "source_hex": "82da82a482ac82e5814082b582c482a282e901",
+      "japanese": "ぼうぎょ　している\u0001",
+      "english": "Defending\u0001",
+      "max_cells": 16,
+      "context": "Battle popup",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "battle_enemy_defeated",
+      "offset": "0x0875F4",
+      "source_hex": "814082f0814082bd82a882b582bd01",
+      "japanese": "　を　たおした\u0001",
+      "english": " is down!\u0001",
+      "max_cells": 16,
+      "context": "Battle popup; suffix following an unchanged name",
+      "verification": "Observed in mGBA; no clipping in the battle popup",
+      "prefix_budget_cells": 8,
+      "total_cell_limit": 24
+    },
+    {
+      "id": "battle_yokai_defeated",
+      "offset": "0x087604",
+      "source_hex": "814082cd814082e282e782ea82c482b582dc82c182bd01",
+      "japanese": "　は　やられてしまった\u0001",
+      "english": " is down!\u0001",
+      "max_cells": 16,
+      "context": "Battle popup; suffix following an unchanged name",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "prefix_budget_cells": 8,
+      "total_cell_limit": 24
+    },
+    {
+      "id": "battle_party_defeated",
+      "offset": "0x08761C",
+      "source_hex": "814082bd82bf82cd814082ba82f182df82c282b582bd01",
+      "japanese": "　たちは　ぜんめつした\u0001",
+      "english": " and team fell.\u0001",
+      "max_cells": 16,
+      "context": "Battle popup; suffix following an unchanged name",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "prefix_budget_cells": 8,
+      "total_cell_limit": 24
+    },
+    {
+      "id": "battle_outcome_win",
+      "offset": "0x087634",
+      "source_hex": "814082cc814082a982bf82c582b701",
+      "japanese": "　の　かちです\u0001",
+      "english": " wins!\u0001",
+      "max_cells": 16,
+      "context": "Battle popup; suffix following an unchanged name",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "prefix_budget_cells": 8,
+      "total_cell_limit": 24
+    },
+    {
+      "id": "battle_outcome_loss",
+      "offset": "0x087644",
+      "source_hex": "814082cc814082dc82af82c582b701",
+      "japanese": "　の　まけです\u0001",
+      "english": " loses!\u0001",
+      "max_cells": 16,
+      "context": "Battle popup; suffix following an unchanged name",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "prefix_budget_cells": 8,
+      "total_cell_limit": 24
+    },
+    {
+      "id": "level_up_subject_link",
+      "offset": "0x0879F0",
+      "source_hex": "82cd8140",
+      "japanese": "は　",
+      "english": " is now ",
+      "max_cells": 8,
+      "reference_offsets": [
+        "0x211ac"
+      ],
+      "context": "Level-up popup composition; only the listed level-up references are localized",
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+    },
+    {
+      "id": "level_up_level_label",
+      "offset": "0x08771C",
+      "source_hex": "838c8378838b",
+      "japanese": "レベル",
+      "english": "Lv ",
+      "max_cells": 3,
+      "reference_offsets": [
+        "0x211b0"
+      ],
+      "context": "Level-up popup composition; only the listed level-up references are localized",
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+    },
+    {
+      "id": "level_up_result_end",
+      "offset": "0x087724",
+      "source_hex": "82c9814082c882c182bd01",
+      "japanese": "に　なった\u0001",
+      "english": "!\u0001",
+      "max_cells": 1,
+      "reference_offsets": [
+        "0x211b4",
+        "0x21980"
+      ],
+      "context": "Level-up popup composition; only the listed level-up references are localized",
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+    },
+    {
+      "id": "level_up_stat_value_link",
+      "offset": "0x0879E8",
+      "source_hex": "82aa8140",
+      "japanese": "が　",
+      "english": " is now ",
+      "max_cells": 8,
+      "reference_offsets": [
+        "0x2197c"
+      ],
+      "context": "Level-up popup composition; only the listed level-up references are localized",
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+    },
+    {
+      "id": "level_up_attack",
+      "offset": "0x087730",
+      "source_hex": "82b182a482b082ab82e882e582ad",
+      "japanese": "こうげきりょく",
+      "english": "Attack",
+      "max_cells": 6,
+      "reference_offsets": [
+        "0x21508"
+      ],
+      "context": "Level-up popup composition; only the listed level-up references are localized",
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+    },
+    {
+      "id": "level_up_defense",
+      "offset": "0x087740",
+      "source_hex": "82da82a482ac82e582e882e582ad",
+      "japanese": "ぼうぎょりょく",
+      "english": "Defense",
+      "max_cells": 7,
+      "reference_offsets": [
+        "0x215c8"
+      ],
+      "context": "Level-up popup composition; only the listed level-up references are localized",
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+    },
+    {
+      "id": "level_up_magic",
+      "offset": "0x087750",
+      "source_hex": "82dc82e882e582ad",
+      "japanese": "まりょく",
+      "english": "Magic",
+      "max_cells": 5,
+      "reference_offsets": [
+        "0x21688"
+      ],
+      "context": "Level-up popup composition; only the listed level-up references are localized",
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+    },
+    {
+      "id": "level_up_magic_defense",
+      "offset": "0x08775C",
+      "source_hex": "82bd82a282dc82e882e582ad",
+      "japanese": "たいまりょく",
+      "english": "Magic Def",
+      "max_cells": 9,
+      "reference_offsets": [
+        "0x21748"
+      ],
+      "context": "Level-up popup composition; only the listed level-up references are localized",
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+    },
+    {
+      "id": "level_up_speed",
+      "offset": "0x08776C",
+      "source_hex": "82b782ce82e282b3",
+      "japanese": "すばやさ",
+      "english": "Speed",
+      "max_cells": 5,
+      "reference_offsets": [
+        "0x21808"
+      ],
+      "context": "Level-up popup composition; only the listed level-up references are localized",
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+    },
+    {
+      "id": "level_up_luck",
+      "offset": "0x087778",
+      "source_hex": "82a482f1",
+      "japanese": "うん",
+      "english": "Luck",
+      "max_cells": 4,
+      "reference_offsets": [
+        "0x218c8"
+      ],
+      "context": "Level-up popup composition; only the listed level-up references are localized",
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    }
+  ],
+  "scope": "English UI and the complete 27-page opening cutscene. Later story and most names remain Japanese.",
+  "terminology": {
+    "おふだ": "Talismans",
+    "てちょう": "Journal",
+    "じてん": "Codex",
+    "たいせつ": "Key (key items)",
+    "つうしん": "Link"
+  },
+  "version": 2
+}

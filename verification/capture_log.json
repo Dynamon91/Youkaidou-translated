@@ -1,0 +1,2670 @@
+[
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 47,
+    "records": [
+      "village_line_095",
+      "village_line_096"
+    ],
+    "text": [
+      "Shittara: Oh, it's you...",
+      ""
+    ],
+    "label": "rival-offer-00",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-offer-00.png",
+    "script_pc": "0x15ca",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 48,
+    "records": [
+      "village_line_097",
+      "village_line_098"
+    ],
+    "text": [
+      "(That's Shittara, a yokai",
+      "tamer new to this village.)"
+    ],
+    "label": "rival-offer-01",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-offer-01.png",
+    "script_pc": "0x160a",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 49,
+    "records": [
+      "village_line_099",
+      "village_line_100"
+    ],
+    "text": [
+      "(In other words, he's my",
+      "business rival.)"
+    ],
+    "label": "rival-offer-02",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-offer-02.png",
+    "script_pc": "0x167e",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 50,
+    "records": [
+      "village_line_101",
+      "village_line_102"
+    ],
+    "text": [
+      "(Naturally, we don't get",
+      "along with each other...)"
+    ],
+    "label": "rival-offer-03",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-offer-03.png",
+    "script_pc": "0x16dc",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 51,
+    "records": [
+      "village_line_103",
+      "village_line_104"
+    ],
+    "text": [
+      "Shittara: Want to make",
+      "a fortune?"
+    ],
+    "label": "rival-offer-04",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-offer-04.png",
+    "script_pc": "0x1748",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "choice",
+    "section": "village",
+    "menu": 5,
+    "selected": 0,
+    "records": [
+      "village_line_106",
+      "village_line_107"
+    ],
+    "text": [
+      "Not really...",
+      "Of course..."
+    ],
+    "label": "rival-offer-05",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-offer-05.png",
+    "script_pc": "0x1762",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 36,
+    "records": [
+      "village_line_074"
+    ],
+    "text": [
+      "No, not really...",
+      ""
+    ],
+    "label": "rival-no-reply-00",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-no-reply-00.png",
+    "script_pc": "0x10f6",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 37,
+    "records": [
+      "village_line_075",
+      "village_line_076"
+    ],
+    "text": [
+      "Shittara: Then don't get",
+      "in my way..."
+    ],
+    "label": "rival-no-reply-01",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-no-reply-01.png",
+    "script_pc": "0x115a",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 55,
+    "records": [
+      "village_line_112",
+      "village_line_113"
+    ],
+    "text": [
+      "(Huh?)",
+      ""
+    ],
+    "label": "rival-no-reply-03",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-no-reply-03.png",
+    "script_pc": "0x1864",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 56,
+    "records": [
+      "village_line_114",
+      "village_line_115"
+    ],
+    "text": [
+      "(Shittara's heading for",
+      "the Seal Shrine?!)"
+    ],
+    "label": "rival-no-reply-04",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-no-reply-04.png",
+    "script_pc": "0x18a0",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 57,
+    "records": [
+      "village_line_116",
+      "village_line_117"
+    ],
+    "text": [
+      "(What's he up to??)",
+      ""
+    ],
+    "label": "rival-no-reply-05",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-no-reply-05.png",
+    "script_pc": "0x18f8",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 58,
+    "records": [
+      "village_line_118",
+      "village_line_119"
+    ],
+    "text": [
+      "I decided to follow",
+      "Shittara in secret..."
+    ],
+    "label": "rival-no-reply-06",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-no-reply-06.png",
+    "script_pc": "0x192c",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "choice",
+    "section": "village",
+    "menu": 5,
+    "selected": 1,
+    "records": [
+      "village_line_106",
+      "village_line_107"
+    ],
+    "text": [
+      "Not really...",
+      "Of course..."
+    ],
+    "label": "rival-offer-choice-yes",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-offer-choice-yes.png",
+    "script_pc": "0x1762",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 52,
+    "records": [
+      "village_line_108"
+    ],
+    "text": [
+      "Yeah, of course...",
+      ""
+    ],
+    "label": "rival-yes-reply-00",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-yes-reply-00.png",
+    "script_pc": "0x17a4",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 53,
+    "records": [
+      "village_line_109",
+      "village_line_110"
+    ],
+    "text": [
+      "Shittara: Then don't get",
+      "in my way..."
+    ],
+    "label": "rival-yes-reply-01",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-yes-reply-01.png",
+    "script_pc": "0x1810",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 55,
+    "records": [
+      "village_line_112",
+      "village_line_113"
+    ],
+    "text": [
+      "(Huh?)",
+      ""
+    ],
+    "label": "rival-yes-reply-03",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-yes-reply-03.png",
+    "script_pc": "0x1864",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 56,
+    "records": [
+      "village_line_114",
+      "village_line_115"
+    ],
+    "text": [
+      "(Shittara's heading for",
+      "the Seal Shrine?!)"
+    ],
+    "label": "rival-yes-reply-04",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-yes-reply-04.png",
+    "script_pc": "0x18a0",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 57,
+    "records": [
+      "village_line_116",
+      "village_line_117"
+    ],
+    "text": [
+      "(What's he up to??)",
+      ""
+    ],
+    "label": "rival-yes-reply-05",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-yes-reply-05.png",
+    "script_pc": "0x18f8",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "village",
+    "page": 58,
+    "records": [
+      "village_line_118",
+      "village_line_119"
+    ],
+    "text": [
+      "I decided to follow",
+      "Shittara in secret..."
+    ],
+    "label": "rival-yes-reply-06",
+    "scene": "village",
+    "screenshot": "analysis/v05/screens/rival-yes-reply-06.png",
+    "script_pc": "0x192c",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 5,
+    "records": [
+      "shrine_line_009",
+      "shrine_line_010"
+    ],
+    "text": [
+      "(Huh?!)",
+      ""
+    ],
+    "label": "shrine-scene-00",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-scene-00.png",
+    "script_pc": "0x36e",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 6,
+    "records": [
+      "shrine_line_011",
+      "shrine_line_012"
+    ],
+    "text": [
+      "(Who are those people...?)",
+      ""
+    ],
+    "label": "shrine-scene-01",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-scene-01.png",
+    "script_pc": "0x3b0",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 7,
+    "records": [
+      "shrine_line_013",
+      "shrine_line_014"
+    ],
+    "text": [
+      "Miroku: You're late...",
+      ""
+    ],
+    "label": "shrine-scene-02",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-scene-02.png",
+    "script_pc": "0x4c4",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 8,
+    "records": [
+      "shrine_line_015",
+      "shrine_line_016"
+    ],
+    "text": [
+      "Shittara: Sorry...",
+      ""
+    ],
+    "label": "shrine-scene-03",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-scene-03.png",
+    "script_pc": "0x508",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 9,
+    "records": [
+      "shrine_line_017",
+      "shrine_line_018"
+    ],
+    "text": [
+      "Shittara: That guy wouldn't",
+      "leave me alone..."
+    ],
+    "label": "shrine-scene-04",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-scene-04.png",
+    "script_pc": "0x54c",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 10,
+    "records": [
+      "shrine_line_019",
+      "shrine_line_020"
+    ],
+    "text": [
+      "Miroku: Right, let's begin!",
+      ""
+    ],
+    "label": "shrine-scene-05",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-scene-05.png",
+    "script_pc": "0x5be",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 11,
+    "records": [
+      "shrine_line_021",
+      "shrine_line_022"
+    ],
+    "text": [
+      "Monju: At last...",
+      ""
+    ],
+    "label": "shrine-scene-06",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-scene-06.png",
+    "script_pc": "0x5fa",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 12,
+    "records": [
+      "shrine_line_023",
+      "shrine_line_024"
+    ],
+    "text": [
+      "Miroku: Kongo!",
+      ""
+    ],
+    "label": "shrine-scene-07",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-scene-07.png",
+    "script_pc": "0x630",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 13,
+    "records": [
+      "shrine_line_025",
+      "shrine_line_026"
+    ],
+    "text": [
+      "Kongo: Ugaaah!!",
+      ""
+    ],
+    "label": "shrine-scene-08",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-scene-08.png",
+    "script_pc": "0x680",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 14,
+    "records": [
+      "shrine_line_027",
+      "shrine_line_028"
+    ],
+    "text": [
+      "(Whoa! That big guy...",
+      "The shrine door...)"
+    ],
+    "label": "shrine-scene-09",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-scene-09.png",
+    "script_pc": "0x6e0",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 15,
+    "records": [
+      "shrine_line_029",
+      "shrine_line_030"
+    ],
+    "text": [
+      "(He took it right off!!)",
+      ""
+    ],
+    "label": "shrine-scene-10",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-scene-10.png",
+    "script_pc": "0x79a",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 16,
+    "records": [
+      "shrine_line_031",
+      "shrine_line_032"
+    ],
+    "text": [
+      "Shittara: Come forth,",
+      "yokai bound by the seal!!"
+    ],
+    "label": "shrine-scene-11",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-scene-11.png",
+    "script_pc": "0x800",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "choice",
+    "section": "shrine",
+    "menu": 2,
+    "selected": 0,
+    "records": [
+      "shrine_line_034",
+      "shrine_line_035"
+    ],
+    "text": [
+      "(Yokai?!)",
+      "(Sealed?!)"
+    ],
+    "label": "shrine-scene-12",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-scene-12.png",
+    "script_pc": "0x860",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 19,
+    "records": [
+      "shrine_line_039"
+    ],
+    "text": [
+      "(Yokai?!)",
+      ""
+    ],
+    "label": "shrine-yokai-00",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-yokai-00.png",
+    "script_pc": "0x920",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 20,
+    "records": [
+      "shrine_line_040",
+      "shrine_line_041"
+    ],
+    "text": [
+      "(So yokai were sealed",
+      "inside that shrine!)"
+    ],
+    "label": "shrine-yokai-01",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-yokai-01.png",
+    "script_pc": "0x96e",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 21,
+    "records": [
+      "shrine_line_042",
+      "shrine_line_043"
+    ],
+    "text": [
+      "Yokai: Keh heh heh...",
+      ""
+    ],
+    "label": "shrine-yokai-02",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-yokai-02.png",
+    "script_pc": "0xa2c",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 22,
+    "records": [
+      "shrine_line_044",
+      "shrine_line_045"
+    ],
+    "text": [
+      "(...!!)",
+      ""
+    ],
+    "label": "shrine-yokai-03",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-yokai-03.png",
+    "script_pc": "0xa48",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 23,
+    "records": [
+      "shrine_line_046",
+      "shrine_line_047"
+    ],
+    "text": [
+      "Shittara: It worked!",
+      ""
+    ],
+    "label": "shrine-yokai-04",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-yokai-04.png",
+    "script_pc": "0xaac",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 24,
+    "records": [
+      "shrine_line_048",
+      "shrine_line_049"
+    ],
+    "text": [
+      "Miroku: Now there'll be",
+      "yokai everywhere."
+    ],
+    "label": "shrine-yokai-05",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-yokai-05.png",
+    "script_pc": "0xaf4",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 25,
+    "records": [
+      "shrine_line_050",
+      "shrine_line_051"
+    ],
+    "text": [
+      "Shittara: Ordinary folks",
+      "can't control yokai, so..."
+    ],
+    "label": "shrine-yokai-06",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-yokai-06.png",
+    "script_pc": "0xb60",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 26,
+    "records": [
+      "shrine_line_052",
+      "shrine_line_053"
+    ],
+    "text": [
+      "Monju: We yokai tamers",
+      "will make a fortune!"
+    ],
+    "label": "shrine-yokai-07",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-yokai-07.png",
+    "script_pc": "0xbda",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 27,
+    "records": [
+      "shrine_line_054",
+      "shrine_line_055"
+    ],
+    "text": [
+      "Kongo: Wah hah hah!",
+      "This is too good..."
+    ],
+    "label": "shrine-yokai-08",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-yokai-08.png",
+    "script_pc": "0xc5a",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 28,
+    "records": [
+      "shrine_line_056",
+      "shrine_line_057"
+    ],
+    "text": [
+      "Shittara: Put the door back",
+      "before anyone finds out."
+    ],
+    "label": "shrine-yokai-09",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-yokai-09.png",
+    "script_pc": "0xcf2",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 29,
+    "records": [
+      "shrine_line_058",
+      "shrine_line_059"
+    ],
+    "text": [
+      "Kongo: Got it!",
+      ""
+    ],
+    "label": "shrine-yokai-10",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-yokai-10.png",
+    "script_pc": "0xd70",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 30,
+    "records": [
+      "shrine_line_060",
+      "shrine_line_061"
+    ],
+    "text": [
+      "(This is bad! I'd better",
+      "tell the elder first!)"
+    ],
+    "label": "shrine-yokai-11",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-yokai-11.png",
+    "script_pc": "0xde0",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 31,
+    "records": [
+      "shrine_line_062",
+      "shrine_line_063"
+    ],
+    "text": [
+      "I headed for the elder.",
+      ""
+    ],
+    "label": "shrine-yokai-12",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-yokai-12.png",
+    "script_pc": "0xe48",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "choice",
+    "section": "shrine",
+    "menu": 2,
+    "selected": 1,
+    "records": [
+      "shrine_line_034",
+      "shrine_line_035"
+    ],
+    "text": [
+      "(Yokai?!)",
+      "(Sealed?!)"
+    ],
+    "label": "shrine-choice-seal",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-choice-seal.png",
+    "script_pc": "0x860",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 17,
+    "records": [
+      "shrine_line_036"
+    ],
+    "text": [
+      "(Sealed?!)",
+      ""
+    ],
+    "label": "shrine-seal-00",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-seal-00.png",
+    "script_pc": "0x896",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 18,
+    "records": [
+      "shrine_line_037",
+      "shrine_line_038"
+    ],
+    "text": [
+      "(So yokai were sealed",
+      "inside that shrine!)"
+    ],
+    "label": "shrine-seal-01",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-seal-01.png",
+    "script_pc": "0x8ec",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 21,
+    "records": [
+      "shrine_line_042",
+      "shrine_line_043"
+    ],
+    "text": [
+      "Yokai: Keh heh heh...",
+      ""
+    ],
+    "label": "shrine-seal-02",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-seal-02.png",
+    "script_pc": "0xa2c",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 22,
+    "records": [
+      "shrine_line_044",
+      "shrine_line_045"
+    ],
+    "text": [
+      "(...!!)",
+      ""
+    ],
+    "label": "shrine-seal-03",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-seal-03.png",
+    "script_pc": "0xa48",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 23,
+    "records": [
+      "shrine_line_046",
+      "shrine_line_047"
+    ],
+    "text": [
+      "Shittara: It worked!",
+      ""
+    ],
+    "label": "shrine-seal-04",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-seal-04.png",
+    "script_pc": "0xaac",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 24,
+    "records": [
+      "shrine_line_048",
+      "shrine_line_049"
+    ],
+    "text": [
+      "Miroku: Now there'll be",
+      "yokai everywhere."
+    ],
+    "label": "shrine-seal-05",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-seal-05.png",
+    "script_pc": "0xaf4",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 25,
+    "records": [
+      "shrine_line_050",
+      "shrine_line_051"
+    ],
+    "text": [
+      "Shittara: Ordinary folks",
+      "can't control yokai, so..."
+    ],
+    "label": "shrine-seal-06",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-seal-06.png",
+    "script_pc": "0xb60",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 26,
+    "records": [
+      "shrine_line_052",
+      "shrine_line_053"
+    ],
+    "text": [
+      "Monju: We yokai tamers",
+      "will make a fortune!"
+    ],
+    "label": "shrine-seal-07",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-seal-07.png",
+    "script_pc": "0xbda",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 27,
+    "records": [
+      "shrine_line_054",
+      "shrine_line_055"
+    ],
+    "text": [
+      "Kongo: Wah hah hah!",
+      "This is too good..."
+    ],
+    "label": "shrine-seal-08",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-seal-08.png",
+    "script_pc": "0xc5a",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 28,
+    "records": [
+      "shrine_line_056",
+      "shrine_line_057"
+    ],
+    "text": [
+      "Shittara: Put the door back",
+      "before anyone finds out."
+    ],
+    "label": "shrine-seal-09",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-seal-09.png",
+    "script_pc": "0xcf2",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 29,
+    "records": [
+      "shrine_line_058",
+      "shrine_line_059"
+    ],
+    "text": [
+      "Kongo: Got it!",
+      ""
+    ],
+    "label": "shrine-seal-10",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-seal-10.png",
+    "script_pc": "0xd70",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 30,
+    "records": [
+      "shrine_line_060",
+      "shrine_line_061"
+    ],
+    "text": [
+      "(This is bad! I'd better",
+      "tell the elder first!)"
+    ],
+    "label": "shrine-seal-11",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-seal-11.png",
+    "script_pc": "0xde0",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "shrine",
+    "page": 31,
+    "records": [
+      "shrine_line_062",
+      "shrine_line_063"
+    ],
+    "text": [
+      "I headed for the elder.",
+      ""
+    ],
+    "label": "shrine-seal-12",
+    "scene": "shrine",
+    "screenshot": "analysis/v05/screens/shrine-seal-12.png",
+    "script_pc": "0xe48",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "97be205e23d9d4ac5151e85ab6a5948a7522b2410a42413d975cd9acc2f9d46b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 11,
+    "records": [
+      "elder_story_line_023",
+      "elder_story_line_024"
+    ],
+    "text": [
+      "Yayoi: Oh, {PLAYER_NAME}!",
+      ""
+    ],
+    "label": "yayoi-report-1",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/yayoi-report-1.png",
+    "script_pc": "0x616",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 12,
+    "records": [
+      "elder_story_line_025",
+      "elder_story_line_026"
+    ],
+    "text": [
+      "Yayoi: What's wrong?",
+      "You look pale..."
+    ],
+    "label": "yayoi-report-2",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/yayoi-report-2.png",
+    "script_pc": "0x656",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 13,
+    "records": [
+      "elder_story_line_027",
+      "elder_story_line_028"
+    ],
+    "text": [
+      "Well, I need the elder...",
+      ""
+    ],
+    "label": "yayoi-report-3",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/yayoi-report-3.png",
+    "script_pc": "0x6b6",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 14,
+    "records": [
+      "elder_story_line_029",
+      "elder_story_line_030"
+    ],
+    "text": [
+      "Yayoi: He's in the room",
+      "at the back..."
+    ],
+    "label": "yayoi-report-4",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/yayoi-report-4.png",
+    "script_pc": "0x6f2",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 1,
+    "records": [
+      "elder_story_line_000",
+      "elder_story_line_001"
+    ],
+    "text": [
+      "Elder: What's up, {PLAYER_NAME}?",
+      ""
+    ],
+    "label": "elder-report-00",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-report-00.png",
+    "script_pc": "0x2e4",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 2,
+    "records": [
+      "elder_story_line_002",
+      "elder_story_line_003"
+    ],
+    "text": [
+      "Elder, the thing is...",
+      ""
+    ],
+    "label": "elder-report-01",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-report-01.png",
+    "script_pc": "0x31e",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 3,
+    "records": [
+      "elder_story_line_004",
+      "elder_story_line_005"
+    ],
+    "text": [
+      "I told the elder about",
+      "Shittara and the others."
+    ],
+    "label": "elder-report-02",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-report-02.png",
+    "script_pc": "0x358",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 4,
+    "records": [
+      "elder_story_line_006",
+      "elder_story_line_007"
+    ],
+    "text": [
+      "Elder: What?!",
+      ""
+    ],
+    "label": "elder-report-03",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-report-03.png",
+    "script_pc": "0x3bc",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 5,
+    "records": [
+      "elder_story_line_008",
+      "elder_story_line_009"
+    ],
+    "text": [
+      "Elder: I see...",
+      ""
+    ],
+    "label": "elder-report-04",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-report-04.png",
+    "script_pc": "0x3fa",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 6,
+    "records": [
+      "elder_story_line_010",
+      "elder_story_line_011"
+    ],
+    "text": [
+      "Elder: Just as I feared...",
+      ""
+    ],
+    "label": "elder-report-05",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-report-05.png",
+    "script_pc": "0x43c",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 7,
+    "records": [
+      "elder_story_line_012",
+      "elder_story_line_013"
+    ],
+    "text": [
+      "Just as you feared...?",
+      ""
+    ],
+    "label": "elder-report-06",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-report-06.png",
+    "script_pc": "0x476",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 8,
+    "records": [
+      "elder_story_line_014",
+      "elder_story_line_015"
+    ],
+    "text": [
+      "Elder: Since Shittara first",
+      "came to this village..."
+    ],
+    "label": "elder-report-07",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-report-07.png",
+    "script_pc": "0x4ba",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 9,
+    "records": [
+      "elder_story_line_016",
+      "elder_story_line_017"
+    ],
+    "text": [
+      "Elder: I thought he'd do",
+      "this sort of thing someday."
+    ],
+    "label": "elder-report-08",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-report-08.png",
+    "script_pc": "0x526",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "choice",
+    "section": "elder_story",
+    "menu": 1,
+    "selected": 0,
+    "records": [
+      "elder_story_line_019",
+      "elder_story_line_020"
+    ],
+    "text": [
+      "Why?",
+      "Makes sense!"
+    ],
+    "label": "elder-report-09",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-report-09.png",
+    "script_pc": "0x562",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "choice",
+    "section": "elder_story",
+    "menu": 1,
+    "selected": 1,
+    "records": [
+      "elder_story_line_019",
+      "elder_story_line_020"
+    ],
+    "text": [
+      "Why?",
+      "Makes sense!"
+    ],
+    "label": "elder-choice-1-sense",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-choice-1-sense.png",
+    "script_pc": "0x562",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 10,
+    "records": [
+      "elder_story_line_021",
+      "elder_story_line_022"
+    ],
+    "text": [
+      "Makes sense!",
+      ""
+    ],
+    "label": "elder-sense-00",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-sense-00.png",
+    "script_pc": "0x5b8",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 16,
+    "records": [
+      "elder_story_line_033",
+      "elder_story_line_034"
+    ],
+    "text": [
+      "Elder: Coming all this way",
+      "to a backwater seemed odd."
+    ],
+    "label": "elder-sense-01",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-sense-01.png",
+    "script_pc": "0x7a8",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 17,
+    "records": [
+      "elder_story_line_035",
+      "elder_story_line_036"
+    ],
+    "text": [
+      "Elder: He must've come here",
+      "for that shrine..."
+    ],
+    "label": "elder-sense-02",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-sense-02.png",
+    "script_pc": "0x820",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "choice",
+    "section": "elder_story",
+    "menu": 2,
+    "selected": 0,
+    "records": [
+      "elder_story_line_038",
+      "elder_story_line_039"
+    ],
+    "text": [
+      "About the shrine?",
+      "Why seal them?"
+    ],
+    "label": "elder-sense-03",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-sense-03.png",
+    "script_pc": "0x84a",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 15,
+    "records": [
+      "elder_story_line_031",
+      "elder_story_line_032"
+    ],
+    "text": [
+      "Why?",
+      ""
+    ],
+    "label": "elder-why-00",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-why-00.png",
+    "script_pc": "0x75e",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 16,
+    "records": [
+      "elder_story_line_033",
+      "elder_story_line_034"
+    ],
+    "text": [
+      "Elder: Coming all this way",
+      "to a backwater seemed odd."
+    ],
+    "label": "elder-why-01",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-why-01.png",
+    "script_pc": "0x7a8",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 17,
+    "records": [
+      "elder_story_line_035",
+      "elder_story_line_036"
+    ],
+    "text": [
+      "Elder: He must've come here",
+      "for that shrine..."
+    ],
+    "label": "elder-why-02",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-why-02.png",
+    "script_pc": "0x820",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "choice",
+    "section": "elder_story",
+    "menu": 2,
+    "selected": 0,
+    "records": [
+      "elder_story_line_038",
+      "elder_story_line_039"
+    ],
+    "text": [
+      "About the shrine?",
+      "Why seal them?"
+    ],
+    "label": "elder-why-03",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-why-03.png",
+    "script_pc": "0x84a",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 19,
+    "records": [
+      "elder_story_line_042",
+      "elder_story_line_043"
+    ],
+    "text": [
+      "What's that shrine, anyway?",
+      ""
+    ],
+    "label": "elder-history-shrine-00",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-shrine-00.png",
+    "script_pc": "0x922",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 20,
+    "records": [
+      "elder_story_line_044",
+      "elder_story_line_045"
+    ],
+    "text": [
+      "Elder: That shrine...",
+      ""
+    ],
+    "label": "elder-history-shrine-01",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-shrine-01.png",
+    "script_pc": "0x962",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 21,
+    "records": [
+      "elder_story_line_046",
+      "elder_story_line_047"
+    ],
+    "text": [
+      "Elder: Shuten Doji's yokai",
+      "minions were sealed there."
+    ],
+    "label": "elder-history-shrine-02",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-shrine-02.png",
+    "script_pc": "0x9a4",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 22,
+    "records": [
+      "elder_story_line_048",
+      "elder_story_line_049"
+    ],
+    "text": [
+      "Shuten Doji?!",
+      ""
+    ],
+    "label": "elder-history-shrine-03",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-shrine-03.png",
+    "script_pc": "0xa10",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 23,
+    "records": [
+      "elder_story_line_050",
+      "elder_story_line_051"
+    ],
+    "text": [
+      "Elder: A savage yokai boss.",
+      ""
+    ],
+    "label": "elder-history-shrine-04",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-shrine-04.png",
+    "script_pc": "0xa56",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 24,
+    "records": [
+      "elder_story_line_052",
+      "elder_story_line_053"
+    ],
+    "text": [
+      "Elder: He's always run wild",
+      "in times of chaos."
+    ],
+    "label": "elder-history-shrine-05",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-shrine-05.png",
+    "script_pc": "0xa9a",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 25,
+    "records": [
+      "elder_story_line_054",
+      "elder_story_line_055"
+    ],
+    "text": [
+      "Why were his minions",
+      "kept in a place like that?"
+    ],
+    "label": "elder-history-shrine-06",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-shrine-06.png",
+    "script_pc": "0xaf4",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 26,
+    "records": [
+      "elder_story_line_056",
+      "elder_story_line_057"
+    ],
+    "text": [
+      "Elder: A great exorcist",
+      "defeated him 200 years ago."
+    ],
+    "label": "elder-history-shrine-07",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-shrine-07.png",
+    "script_pc": "0xb64",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 27,
+    "records": [
+      "elder_story_line_058",
+      "elder_story_line_059"
+    ],
+    "text": [
+      "Elder: He sealed those",
+      "minions inside that shrine."
+    ],
+    "label": "elder-history-shrine-08",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-shrine-08.png",
+    "script_pc": "0xbd4",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "choice",
+    "section": "elder_story",
+    "menu": 3,
+    "selected": 0,
+    "records": [
+      "elder_story_line_061",
+      "elder_story_line_062"
+    ],
+    "text": [
+      "Why unseal them?",
+      "Who are they?"
+    ],
+    "label": "elder-history-shrine-09",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-shrine-09.png",
+    "script_pc": "0xc10",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "choice",
+    "section": "elder_story",
+    "menu": 2,
+    "selected": 1,
+    "records": [
+      "elder_story_line_038",
+      "elder_story_line_039"
+    ],
+    "text": [
+      "About the shrine?",
+      "Why seal them?"
+    ],
+    "label": "elder-choice-2-sealed",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-choice-2-sealed.png",
+    "script_pc": "0x84a",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 18,
+    "records": [
+      "elder_story_line_040",
+      "elder_story_line_041"
+    ],
+    "text": [
+      "Why were yokai in there?",
+      ""
+    ],
+    "label": "elder-history-sealed-00",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-sealed-00.png",
+    "script_pc": "0x8d6",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 20,
+    "records": [
+      "elder_story_line_044",
+      "elder_story_line_045"
+    ],
+    "text": [
+      "Elder: That shrine...",
+      ""
+    ],
+    "label": "elder-history-sealed-01",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-sealed-01.png",
+    "script_pc": "0x962",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 21,
+    "records": [
+      "elder_story_line_046",
+      "elder_story_line_047"
+    ],
+    "text": [
+      "Elder: Shuten Doji's yokai",
+      "minions were sealed there."
+    ],
+    "label": "elder-history-sealed-02",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-sealed-02.png",
+    "script_pc": "0x9a4",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 22,
+    "records": [
+      "elder_story_line_048",
+      "elder_story_line_049"
+    ],
+    "text": [
+      "Shuten Doji?!",
+      ""
+    ],
+    "label": "elder-history-sealed-03",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-sealed-03.png",
+    "script_pc": "0xa10",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 23,
+    "records": [
+      "elder_story_line_050",
+      "elder_story_line_051"
+    ],
+    "text": [
+      "Elder: A savage yokai boss.",
+      ""
+    ],
+    "label": "elder-history-sealed-04",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-sealed-04.png",
+    "script_pc": "0xa56",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 24,
+    "records": [
+      "elder_story_line_052",
+      "elder_story_line_053"
+    ],
+    "text": [
+      "Elder: He's always run wild",
+      "in times of chaos."
+    ],
+    "label": "elder-history-sealed-05",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-sealed-05.png",
+    "script_pc": "0xa9a",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 25,
+    "records": [
+      "elder_story_line_054",
+      "elder_story_line_055"
+    ],
+    "text": [
+      "Why were his minions",
+      "kept in a place like that?"
+    ],
+    "label": "elder-history-sealed-06",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-sealed-06.png",
+    "script_pc": "0xaf4",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 26,
+    "records": [
+      "elder_story_line_056",
+      "elder_story_line_057"
+    ],
+    "text": [
+      "Elder: A great exorcist",
+      "defeated him 200 years ago."
+    ],
+    "label": "elder-history-sealed-07",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-sealed-07.png",
+    "script_pc": "0xb64",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 27,
+    "records": [
+      "elder_story_line_058",
+      "elder_story_line_059"
+    ],
+    "text": [
+      "Elder: He sealed those",
+      "minions inside that shrine."
+    ],
+    "label": "elder-history-sealed-08",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-sealed-08.png",
+    "script_pc": "0xbd4",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "choice",
+    "section": "elder_story",
+    "menu": 3,
+    "selected": 0,
+    "records": [
+      "elder_story_line_061",
+      "elder_story_line_062"
+    ],
+    "text": [
+      "Why unseal them?",
+      "Who are they?"
+    ],
+    "label": "elder-history-sealed-09",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-history-sealed-09.png",
+    "script_pc": "0xc10",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 29,
+    "records": [
+      "elder_story_line_065",
+      "elder_story_line_066"
+    ],
+    "text": [
+      "Why did they break",
+      "the seal?"
+    ],
+    "label": "elder-conclusion-seal-00",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-seal-00.png",
+    "script_pc": "0xccc",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 30,
+    "records": [
+      "elder_story_line_067",
+      "elder_story_line_068"
+    ],
+    "text": [
+      "Elder: Shittara's group",
+      "must be the Kidoshu..."
+    ],
+    "label": "elder-conclusion-seal-01",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-seal-01.png",
+    "script_pc": "0xd22",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 31,
+    "records": [
+      "elder_story_line_069",
+      "elder_story_line_070"
+    ],
+    "text": [
+      "The Kidoshu?!",
+      ""
+    ],
+    "label": "elder-conclusion-seal-02",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-seal-02.png",
+    "script_pc": "0xd86",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 32,
+    "records": [
+      "elder_story_line_071",
+      "elder_story_line_072"
+    ],
+    "text": [
+      "Elder: They fight yokai",
+      "for a living, like you."
+    ],
+    "label": "elder-conclusion-seal-03",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-seal-03.png",
+    "script_pc": "0xdc2",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 33,
+    "records": [
+      "elder_story_line_073",
+      "elder_story_line_074"
+    ],
+    "text": [
+      "Elder: More violent yokai,",
+      "more work. That's the idea."
+    ],
+    "label": "elder-conclusion-seal-04",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-seal-04.png",
+    "script_pc": "0xe32",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 34,
+    "records": [
+      "elder_story_line_075",
+      "elder_story_line_076"
+    ],
+    "text": [
+      "And the yokai they freed?",
+      ""
+    ],
+    "label": "elder-conclusion-seal-05",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-seal-05.png",
+    "script_pc": "0xea8",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 35,
+    "records": [
+      "elder_story_line_077",
+      "elder_story_line_078"
+    ],
+    "text": [
+      "Elder: The mischief of",
+      "yokai you usually fight..."
+    ],
+    "label": "elder-conclusion-seal-06",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-seal-06.png",
+    "script_pc": "0xee2",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 36,
+    "records": [
+      "elder_story_line_079",
+      "elder_story_line_080"
+    ],
+    "text": [
+      "Elder: ...does little harm.",
+      "Shuten Doji's minions..."
+    ],
+    "label": "elder-conclusion-seal-07",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-seal-07.png",
+    "script_pc": "0xf5a",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 37,
+    "records": [
+      "elder_story_line_081",
+      "elder_story_line_082"
+    ],
+    "text": [
+      "Elder: ...will probably",
+      "cause some serious havoc..."
+    ],
+    "label": "elder-conclusion-seal-08",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-seal-08.png",
+    "script_pc": "0xfc6",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 38,
+    "records": [
+      "elder_story_line_083",
+      "elder_story_line_084"
+    ],
+    "text": [
+      "What should I do, then?",
+      ""
+    ],
+    "label": "elder-conclusion-seal-09",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-seal-09.png",
+    "script_pc": "0x1038",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 39,
+    "records": [
+      "elder_story_line_085",
+      "elder_story_line_086"
+    ],
+    "text": [
+      "Elder: Well...",
+      ""
+    ],
+    "label": "elder-conclusion-seal-10",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-seal-10.png",
+    "script_pc": "0x1062",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 40,
+    "records": [
+      "elder_story_line_087",
+      "elder_story_line_088"
+    ],
+    "text": [
+      "Elder: You could profit,",
+      "just as they plan to..."
+    ],
+    "label": "elder-conclusion-seal-11",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-seal-11.png",
+    "script_pc": "0x10a0",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 41,
+    "records": [
+      "elder_story_line_089",
+      "elder_story_line_090"
+    ],
+    "text": [
+      "Elder: Or you could",
+      "help people instead..."
+    ],
+    "label": "elder-conclusion-seal-12",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-seal-12.png",
+    "script_pc": "0x1102",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 42,
+    "records": [
+      "elder_story_line_091",
+      "elder_story_line_092"
+    ],
+    "text": [
+      "After the elder's long talk",
+      "I went home for a rest."
+    ],
+    "label": "elder-conclusion-seal-13",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-seal-13.png",
+    "script_pc": "0x119e",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "choice",
+    "section": "elder_story",
+    "menu": 3,
+    "selected": 1,
+    "records": [
+      "elder_story_line_061",
+      "elder_story_line_062"
+    ],
+    "text": [
+      "Why unseal them?",
+      "Who are they?"
+    ],
+    "label": "elder-choice-3-group",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-choice-3-group.png",
+    "script_pc": "0xc10",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 28,
+    "records": [
+      "elder_story_line_063",
+      "elder_story_line_064"
+    ],
+    "text": [
+      "Who are those people?",
+      ""
+    ],
+    "label": "elder-conclusion-group-00",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-group-00.png",
+    "script_pc": "0xc92",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 30,
+    "records": [
+      "elder_story_line_067",
+      "elder_story_line_068"
+    ],
+    "text": [
+      "Elder: Shittara's group",
+      "must be the Kidoshu..."
+    ],
+    "label": "elder-conclusion-group-01",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-group-01.png",
+    "script_pc": "0xd22",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 31,
+    "records": [
+      "elder_story_line_069",
+      "elder_story_line_070"
+    ],
+    "text": [
+      "The Kidoshu?!",
+      ""
+    ],
+    "label": "elder-conclusion-group-02",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-group-02.png",
+    "script_pc": "0xd86",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 32,
+    "records": [
+      "elder_story_line_071",
+      "elder_story_line_072"
+    ],
+    "text": [
+      "Elder: They fight yokai",
+      "for a living, like you."
+    ],
+    "label": "elder-conclusion-group-03",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-group-03.png",
+    "script_pc": "0xdc2",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 33,
+    "records": [
+      "elder_story_line_073",
+      "elder_story_line_074"
+    ],
+    "text": [
+      "Elder: More violent yokai,",
+      "more work. That's the idea."
+    ],
+    "label": "elder-conclusion-group-04",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-group-04.png",
+    "script_pc": "0xe32",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 34,
+    "records": [
+      "elder_story_line_075",
+      "elder_story_line_076"
+    ],
+    "text": [
+      "And the yokai they freed?",
+      ""
+    ],
+    "label": "elder-conclusion-group-05",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-group-05.png",
+    "script_pc": "0xea8",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 35,
+    "records": [
+      "elder_story_line_077",
+      "elder_story_line_078"
+    ],
+    "text": [
+      "Elder: The mischief of",
+      "yokai you usually fight..."
+    ],
+    "label": "elder-conclusion-group-06",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-group-06.png",
+    "script_pc": "0xee2",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 36,
+    "records": [
+      "elder_story_line_079",
+      "elder_story_line_080"
+    ],
+    "text": [
+      "Elder: ...does little harm.",
+      "Shuten Doji's minions..."
+    ],
+    "label": "elder-conclusion-group-07",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-group-07.png",
+    "script_pc": "0xf5a",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 37,
+    "records": [
+      "elder_story_line_081",
+      "elder_story_line_082"
+    ],
+    "text": [
+      "Elder: ...will probably",
+      "cause some serious havoc..."
+    ],
+    "label": "elder-conclusion-group-08",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-group-08.png",
+    "script_pc": "0xfc6",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 38,
+    "records": [
+      "elder_story_line_083",
+      "elder_story_line_084"
+    ],
+    "text": [
+      "What should I do, then?",
+      ""
+    ],
+    "label": "elder-conclusion-group-09",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-group-09.png",
+    "script_pc": "0x1038",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 39,
+    "records": [
+      "elder_story_line_085",
+      "elder_story_line_086"
+    ],
+    "text": [
+      "Elder: Well...",
+      ""
+    ],
+    "label": "elder-conclusion-group-10",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-group-10.png",
+    "script_pc": "0x1062",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 40,
+    "records": [
+      "elder_story_line_087",
+      "elder_story_line_088"
+    ],
+    "text": [
+      "Elder: You could profit,",
+      "just as they plan to..."
+    ],
+    "label": "elder-conclusion-group-11",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-group-11.png",
+    "script_pc": "0x10a0",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 41,
+    "records": [
+      "elder_story_line_089",
+      "elder_story_line_090"
+    ],
+    "text": [
+      "Elder: Or you could",
+      "help people instead..."
+    ],
+    "label": "elder-conclusion-group-12",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-group-12.png",
+    "script_pc": "0x1102",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "elder_story",
+    "page": 42,
+    "records": [
+      "elder_story_line_091",
+      "elder_story_line_092"
+    ],
+    "text": [
+      "After the elder's long talk",
+      "I went home for a rest."
+    ],
+    "label": "elder-conclusion-group-13",
+    "scene": "elder_story",
+    "screenshot": "analysis/v05/screens/elder-conclusion-group-13.png",
+    "script_pc": "0x119e",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "7c2b82bcaa61e4a9942d1077cf2ffdad8684b578d05ffbebfcd936478c55c962"
+  },
+  {
+    "kind": "dialogue",
+    "section": "houses",
+    "page": 10,
+    "records": [
+      "house_line_021",
+      "house_line_022"
+    ],
+    "text": [
+      "Granny Tora: Thank you!",
+      "I'm feeling better!"
+    ],
+    "label": "v04-save-upgraded-tora",
+    "scene": "houses",
+    "screenshot": "analysis/v05/screens/v04-save-upgraded-tora.png",
+    "script_pc": "0x72e",
+    "pixel_match": true,
+    "rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+    "scenario_sha256": "99d8966b44355127a4b2951850da9a792d778e26605c0d14331ed790c1a3bea0"
+  }
+]

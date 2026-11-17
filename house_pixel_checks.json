@@ -1,0 +1,1244 @@
+{
+  "target_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+  "localized_scenario_sha256": "99d8966b44355127a4b2951850da9a792d778e26605c0d14331ed790c1a3bea0",
+  "resolution": [
+    240,
+    160
+  ],
+  "cells_per_line": 27,
+  "line_height": 16,
+  "default_player_name": "ヤシャオウ",
+  "method": "Actual mGBA captures reached with game controls. Final ROM glyph masks were compared again; scene data bytes are identical across the recorded v04 capture drafts. No gameplay data was edited.",
+  "dialogue_pages_checked": 40,
+  "dialogue_pages_total": 47,
+  "choice_menus_checked": 4,
+  "choice_menus_total": 5,
+  "choice_captures_checked": 8,
+  "verified_record_ids": [
+    "house_line_000",
+    "house_line_001",
+    "house_line_002",
+    "house_line_003",
+    "house_line_004",
+    "house_line_005",
+    "house_line_006",
+    "house_line_007",
+    "house_line_009",
+    "house_line_010",
+    "house_line_011",
+    "house_line_012",
+    "house_line_013",
+    "house_line_014",
+    "house_line_015",
+    "house_line_016",
+    "house_line_017",
+    "house_line_018",
+    "house_line_019",
+    "house_line_020",
+    "house_line_021",
+    "house_line_022",
+    "house_line_023",
+    "house_line_024",
+    "house_line_025",
+    "house_line_026",
+    "house_line_027",
+    "house_line_028",
+    "house_line_029",
+    "house_line_030",
+    "house_line_031",
+    "house_line_032",
+    "house_line_034",
+    "house_line_035",
+    "house_line_036",
+    "house_line_037",
+    "house_line_038",
+    "house_line_039",
+    "house_line_051",
+    "house_line_052",
+    "house_line_053",
+    "house_line_054",
+    "house_line_055",
+    "house_line_056",
+    "house_line_063",
+    "house_line_064",
+    "house_line_065",
+    "house_line_066",
+    "house_line_068",
+    "house_line_069",
+    "house_line_070",
+    "house_line_071",
+    "house_line_072",
+    "house_line_073",
+    "house_line_074",
+    "house_line_075",
+    "house_line_076",
+    "house_line_077",
+    "house_line_078",
+    "house_line_079",
+    "house_line_080",
+    "house_line_081",
+    "house_line_082",
+    "house_line_083",
+    "house_line_084",
+    "house_line_085",
+    "house_line_086",
+    "house_line_087",
+    "house_line_088",
+    "house_line_089",
+    "house_line_090",
+    "house_line_091",
+    "house_line_093",
+    "house_line_094",
+    "house_line_095",
+    "house_line_096",
+    "house_line_097",
+    "house_line_098",
+    "house_line_099",
+    "house_line_100",
+    "house_line_101",
+    "house_line_102",
+    "house_line_103",
+    "house_line_104",
+    "house_line_105",
+    "house_line_106",
+    "house_line_107",
+    "house_line_108"
+  ],
+  "unchecked_pages": [
+    18,
+    19,
+    20,
+    21,
+    25,
+    26,
+    27
+  ],
+  "unchecked_choice_menus": [
+    3
+  ],
+  "all_pixel_checks_pass": true,
+  "pages": [
+    {
+      "page": 1,
+      "screenshot": "screenshots/houses/page-01.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "script_pc": "0x33e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Beware of Shittara!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 2,
+      "screenshot": "screenshots/houses/page-02.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "script_pc": "0x37c",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: There's something",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "dangerous about him...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 3,
+      "screenshot": "screenshots/houses/page-03.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "script_pc": "0x436",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: Oh, {PLAYER_NAME}!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 4,
+      "screenshot": "screenshots/houses/page-04.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "script_pc": "0x470",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: Need the elder?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 5,
+      "screenshot": "screenshots/houses/page-05.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "script_pc": "0x508",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yeah, I need a word...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 6,
+      "screenshot": "screenshots/houses/page-06.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "script_pc": "0x54e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: He's in the room",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "at the back...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 7,
+      "screenshot": "screenshots/houses/page-07.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x5c6",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Gramps Nobu: Thank you.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "I feel much better now.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 8,
+      "screenshot": "screenshots/houses/page-08.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "script_pc": "0x646",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Tomi: Oh, some yokai seem",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "to want to join you.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 9,
+      "screenshot": "screenshots/houses/page-09.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "script_pc": "0x6ac",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Tomi: Having more allies",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "would be reassuring, right?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "houses",
+      "page": 10,
+      "screenshot": "screenshots/houses/page-10.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "99d8966b44355127a4b2951850da9a792d778e26605c0d14331ed790c1a3bea0",
+      "script_pc": "0x72e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Granny Tora: Thank you!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "I'm feeling better!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 11,
+      "screenshot": "screenshots/houses/page-11.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "script_pc": "0x7e4",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Never go near",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "the shrine to the east...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 12,
+      "screenshot": "screenshots/houses/page-12.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x892",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: Oh, {PLAYER_NAME}!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 13,
+      "screenshot": "screenshots/houses/page-13.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x8d2",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(That's Yayoi. We've been",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "friends since childhood.)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 14,
+      "screenshot": "screenshots/houses/page-14.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x944",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(She lives and works here",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "at the mansion.)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 15,
+      "screenshot": "screenshots/houses/page-15.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x99e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: Need the elder?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 16,
+      "screenshot": "screenshots/houses/page-16.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0xa38",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yeah, I need a word...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 17,
+      "screenshot": "screenshots/houses/page-17.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0xa74",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: He's in the room",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "at the back...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 22,
+      "screenshot": "screenshots/houses/page-22.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "script_pc": "0xcaa",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I came to see you, Yayoi.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 23,
+      "screenshot": "screenshots/houses/page-23.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "script_pc": "0xce4",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: Oh, {PLAYER_NAME}!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "You're always teasing me!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 24,
+      "screenshot": "screenshots/houses/page-24.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "script_pc": "0xd52",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: He's in the room",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "at the back...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 28,
+      "screenshot": "screenshots/houses/page-28.png",
+      "capture_rom_sha256": "20e79fd70df8d9439048dc469efee99fdd45e210c0bc8d7b2cc77a1e04efcf19",
+      "script_pc": "0xee2",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Gramps Nobu: My room has",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "felt eerie lately...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 29,
+      "screenshot": "screenshots/houses/page-29.png",
+      "capture_rom_sha256": "20e79fd70df8d9439048dc469efee99fdd45e210c0bc8d7b2cc77a1e04efcf19",
+      "script_pc": "0xf4a",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Gramps Nobu: I think it's",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "a yokai. Will you fight it?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 30,
+      "screenshot": "screenshots/houses/page-30.png",
+      "capture_rom_sha256": "20e79fd70df8d9439048dc469efee99fdd45e210c0bc8d7b2cc77a1e04efcf19",
+      "script_pc": "0xffa",
+      "lines": [
+        {
+          "line": 1,
+          "text": "No, not today...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 31,
+      "screenshot": "screenshots/houses/page-31.png",
+      "capture_rom_sha256": "20e79fd70df8d9439048dc469efee99fdd45e210c0bc8d7b2cc77a1e04efcf19",
+      "script_pc": "0x1032",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Gramps Nobu: I see...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "Some other time, then...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 32,
+      "screenshot": "screenshots/houses/page-32.png",
+      "capture_rom_sha256": "20e79fd70df8d9439048dc469efee99fdd45e210c0bc8d7b2cc77a1e04efcf19",
+      "script_pc": "0x10aa",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Got it! Leave it to me!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 33,
+      "screenshot": "screenshots/houses/page-33.png",
+      "capture_rom_sha256": "20e79fd70df8d9439048dc469efee99fdd45e210c0bc8d7b2cc77a1e04efcf19",
+      "script_pc": "0x10e4",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I decided to drive out",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "the yokai.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 34,
+      "screenshot": "screenshots/houses/page-34.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x1158",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Gramps Nobu: Thank you!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 35,
+      "screenshot": "screenshots/houses/page-35.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x118c",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Gramps Nobu: Here's",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "your fee!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 36,
+      "screenshot": "screenshots/houses/page-36.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x11fa",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I received my fee: 30 gold!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 37,
+      "screenshot": "screenshots/houses/page-37.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x125e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Tomi: Grandma's rheumatism",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "has flared up again...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 38,
+      "screenshot": "screenshots/houses/page-38.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x12d2",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Granny Tora: Oh, dear...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "A yokai's got me again...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 39,
+      "screenshot": "screenshots/houses/page-39.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x1340",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Granny Tora: At my age,",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "yokai latch on so easily...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 40,
+      "screenshot": "screenshots/houses/page-40.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x13b2",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Granny Tora: Sorry, but",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "could you drive it out?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 41,
+      "screenshot": "screenshots/houses/page-41.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x145a",
+      "lines": [
+        {
+          "line": 1,
+          "text": "No, not today...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 42,
+      "screenshot": "screenshots/houses/page-42.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x1494",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Granny Tora: Show some",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "kindness to your elders!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 43,
+      "screenshot": "screenshots/houses/page-43.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x1508",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Got it! Leave it to me!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 44,
+      "screenshot": "screenshots/houses/page-44.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "script_pc": "0x1542",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I decided to drive out",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "the yokai.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 45,
+      "screenshot": "screenshots/houses/page-45.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "script_pc": "0x15b6",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Granny Tora: Thank you!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 46,
+      "screenshot": "screenshots/houses/page-46.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "script_pc": "0x15f6",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Granny Tora: Here you go.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "Your fee!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 47,
+      "screenshot": "screenshots/houses/page-47.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "script_pc": "0x1666",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I received my fee: 30 gold!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    }
+  ],
+  "choices": [
+    {
+      "menu": 1,
+      "screenshot": "screenshots/house-choices/menu-1-selected-0.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "lines": [
+        {
+          "id": "house_line_009",
+          "text": "A word with him...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "house_line_010",
+          "text": "I came to see you.",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "menu": 1,
+      "screenshot": "screenshots/house-choices/menu-1-selected-1.png",
+      "capture_rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+      "lines": [
+        {
+          "id": "house_line_009",
+          "text": "A word with him...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "house_line_010",
+          "text": "I came to see you.",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "menu": 2,
+      "screenshot": "screenshots/house-choices/menu-2-selected-0.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "lines": [
+        {
+          "id": "house_line_034",
+          "text": "A word with him...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "house_line_035",
+          "text": "I came to see you.",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "menu": 2,
+      "screenshot": "screenshots/house-choices/menu-2-selected-1.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "lines": [
+        {
+          "id": "house_line_034",
+          "text": "A word with him...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "house_line_035",
+          "text": "I came to see you.",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "menu": 4,
+      "screenshot": "screenshots/house-choices/menu-4-selected-0.png",
+      "capture_rom_sha256": "20e79fd70df8d9439048dc469efee99fdd45e210c0bc8d7b2cc77a1e04efcf19",
+      "lines": [
+        {
+          "id": "house_line_068",
+          "text": "Leave it to me!",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "house_line_069",
+          "text": "Not today...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "menu": 4,
+      "screenshot": "screenshots/house-choices/menu-4-selected-1.png",
+      "capture_rom_sha256": "20e79fd70df8d9439048dc469efee99fdd45e210c0bc8d7b2cc77a1e04efcf19",
+      "lines": [
+        {
+          "id": "house_line_068",
+          "text": "Leave it to me!",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "house_line_069",
+          "text": "Not today...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "menu": 5,
+      "screenshot": "screenshots/house-choices/menu-5-selected-0.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "lines": [
+        {
+          "id": "house_line_093",
+          "text": "Leave it to me!",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "house_line_094",
+          "text": "Not today...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "menu": 5,
+      "screenshot": "screenshots/house-choices/menu-5-selected-1.png",
+      "capture_rom_sha256": "6b5f7c31201c92ba707abb31eee47b3f31ef706fa0070fcd1804ed87e1c692ba",
+      "lines": [
+        {
+          "id": "house_line_093",
+          "text": "Leave it to me!",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "house_line_094",
+          "text": "Not today...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    }
+  ],
+  "evidence_releases": [
+    "v04",
+    "v05"
+  ],
+  "shared_scenario_unchanged": true,
+  "final_font_pixel_recheck": true
+}

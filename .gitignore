@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.gba
+*.state
+*.sav
+!verification/roundtrip.sav
+*.so
+output/
+rebuilt/
+builds/

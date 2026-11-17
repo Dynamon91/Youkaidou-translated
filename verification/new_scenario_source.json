@@ -1,0 +1,1064 @@
+[
+  {
+    "asset": "7084ee",
+    "source_sha256": "ac9fa7eec08d8c6a66da9ccd99a02c16ce67570b95ebad775b09c306f8743e69",
+    "header": [
+      16,
+      352,
+      368,
+      2884
+    ],
+    "strings": [
+      {
+        "offset": "0x1ec",
+        "marker": "0x4005",
+        "source_hex": "ab00ed006e00120160003c003c003c00",
+        "japanese": "オレの家だ・・・"
+      },
+      {
+        "offset": "0x206",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x208",
+        "marker": "0x4003",
+        "source_hex": "1b0194026f0082004600f102820046003c003c003c00",
+        "japanese": "今日はもう休もう・・・"
+      },
+      {
+        "offset": "0x224",
+        "marker": "0x4003",
+        "source_hex": "440084000b0082004600de0157004c00930070008d0046000100",
+        "japanese": "いや、もう少しがんばろう！"
+      },
+      {
+        "offset": "0x24c",
+        "marker": "0x4005",
+        "source_hex": "440084000b0082004600de0157004c00930070008d0046000100",
+        "japanese": "いや、もう少しがんばろう！"
+      },
+      {
+        "offset": "0x2b2",
+        "marker": "0x4005",
+        "source_hex": "07004a006300680001000800",
+        "japanese": "（おっと！）"
+      },
+      {
+        "offset": "0x2c4",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x2cc",
+        "marker": "0x4005",
+        "source_hex": "0700b800c400c000ea006e00420068009200380146009300600063005f003c003c003c000800",
+        "japanese": "（シッタラのあとを<138>うんだった・・・）"
+      },
+      {
+        "offset": "0x2f8",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x308",
+        "marker": "0x4005",
+        "source_hex": "0700a700f4001f0001000800",
+        "japanese": "（ウン？！）"
+      },
+      {
+        "offset": "0x31a",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x322",
+        "marker": "0x4005",
+        "source_hex": "07006a00930060000b00a300a500c50089003c003c003c001f000800",
+        "japanese": "（なんだ、アイツら・・・？）"
+      },
+      {
+        "offset": "0x344",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x426",
+        "marker": "0x4005",
+        "source_hex": "e000ee00b0001a003f004a005d004b0063005f006d003c003c003c004000",
+        "japanese": "ミロク：「おそかったね・・・」"
+      },
+      {
+        "offset": "0x44a",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x464",
+        "marker": "0x4005",
+        "source_hex": "b800c400c000ea001a003f0059007e006a0044003c003c003c004000",
+        "japanese": "シッタラ：「すまない・・・」"
+      },
+      {
+        "offset": "0x486",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x48e",
+        "marker": "0x4005",
+        "source_hex": "b800c400c000ea001a003f00e500c5006b0064004d007e0068008f008c0066006a003c003c003c004000",
+        "japanese": "シッタラ：「ヤツにつきまとわれてな・・・」"
+      },
+      {
+        "offset": "0x4be",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x4d2",
+        "marker": "0x4005",
+        "source_hex": "e000ee00b0001a003f00550042000b006f00580081008b008f00880001004000",
+        "japanese": "ミロク：「さあ、はじめるわよ！」"
+      },
+      {
+        "offset": "0x4f8",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x50c",
+        "marker": "0x4005",
+        "source_hex": "e300f400b900e6001a003f004400880044008800580083006a003c003c003c004000",
+        "japanese": "モンジュ：「いよいよじゃな・・・」"
+      },
+      {
+        "offset": "0x534",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x548",
+        "marker": "0x4005",
+        "source_hex": "e000ee00b0001a003f00b400f400b500a70001004000",
+        "japanese": "ミロク：「コンゴウ！」"
+      },
+      {
+        "offset": "0x564",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x590",
+        "marker": "0x4005",
+        "source_hex": "b400f400b500a7001a003f0046004c000d000d00010001004000",
+        "japanese": "コンゴウ：「うが−−！！」"
+      },
+      {
+        "offset": "0x5b0",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x5de",
+        "marker": "0x4005",
+        "source_hex": "070046008f006300010042006e00ff013c010b00dc00b400ea006e0068007300890092003c003c003c000800",
+        "japanese": "（うわっ！あの大<13c>、ホコラのとびらを・・・）"
+      },
+      {
+        "offset": "0x610",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x66e",
+        "marker": "0x4005",
+        "source_hex": "07006f005a00570084004c0063005f00010001000800",
+        "japanese": "（はずしやがった！！）"
+      },
+      {
+        "offset": "0x68a",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x6c0",
+        "marker": "0x4005",
+        "source_hex": "b800c400c000ea001a003f004400670088000100",
+        "japanese": "シッタラ：「いでよ！"
+      },
+      {
+        "offset": "0x6da",
+        "marker": "0x4005",
+        "source_hex": "000000000000000000000000a00220010700d600a700a500f400080055008c005700030354015f0061008800010001004000",
+        "japanese": "　　　　　　封印（フウイン）されし妖怪たちよ！！」"
+      },
+      {
+        "offset": "0x73c",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x73e",
+        "marker": "0x4003",
+        "source_hex": "0700030354011f0001000800",
+        "japanese": "（妖怪？！）"
+      },
+      {
+        "offset": "0x750",
+        "marker": "0x4003",
+        "source_hex": "0700a00220011f0001000800",
+        "japanese": "（封印？！）"
+      },
+      {
+        "offset": "0x76a",
+        "marker": "0x4005",
+        "source_hex": "0700a00220011f0001000800",
+        "japanese": "（封印？！）"
+      },
+      {
+        "offset": "0x780",
+        "marker": "0x4005",
+        "source_hex": "07005d0046004b000100000042006e00dc00b400ea006b006f00",
+        "japanese": "（そうか！　あのホコラには"
+      },
+      {
+        "offset": "0x7a0",
+        "marker": "0x4005",
+        "source_hex": "0000030354014c00a002200155008c00660044005f009300600001000800",
+        "japanese": "　妖怪が封印されていたんだ！）"
+      },
+      {
+        "offset": "0x7cc",
+        "marker": "0x4005",
+        "source_hex": "0700030354011f0001000800",
+        "japanese": "（妖怪？！）"
+      },
+      {
+        "offset": "0x7e2",
+        "marker": "0x4005",
+        "source_hex": "07005d0046004b000100000042006e00dc00b400ea006b006f00",
+        "japanese": "（そうか！　あのホコラには"
+      },
+      {
+        "offset": "0x802",
+        "marker": "0x4005",
+        "source_hex": "0000030354014c00a002200155008c00660044005f009300600001000800",
+        "japanese": "　妖怪が封印されていたんだ！）"
+      },
+      {
+        "offset": "0x886",
+        "marker": "0x4005",
+        "source_hex": "030354015f0061003f00b200b200b200b200b2003c003c003c004000",
+        "japanese": "妖怪たち「ケケケケケ・・・」"
+      },
+      {
+        "offset": "0x8a8",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x8b0",
+        "marker": "0x4005",
+        "source_hex": "07003c003c003c00010001000800",
+        "japanese": "（・・・！！）"
+      },
+      {
+        "offset": "0x8c4",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x8fa",
+        "marker": "0x4005",
+        "source_hex": "b800c400c000ea001a003f0046007e004f00440063005f005e0001004000",
+        "japanese": "シッタラ：「うまくいったぞ！」"
+      },
+      {
+        "offset": "0x91e",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x932",
+        "marker": "0x4005",
+        "source_hex": "e000ee00b0001a003f0053008c0067000b00",
+        "japanese": "ミロク：「これで、"
+      },
+      {
+        "offset": "0x94a",
+        "marker": "0x4005",
+        "source_hex": "00000000000000000000f40156016f000303540160008900510063006600f000b2006d004000",
+        "japanese": "　　　　　世<156>は妖怪だらけってワケね」"
+      },
+      {
+        "offset": "0x984",
+        "marker": "0x4005",
+        "source_hex": "b800c400c000ea001a003f007500640046006e009a02bc026f00",
+        "japanese": "シッタラ：「ふつうの人間は"
+      },
+      {
+        "offset": "0x9a4",
+        "marker": "0x4005",
+        "source_hex": "0000000000000000000000000303540192004200840064008c006a0044004b0089003c003c003c004000",
+        "japanese": "　　　　　　妖怪をあやつれないから・・・」"
+      },
+      {
+        "offset": "0x9e2",
+        "marker": "0x4005",
+        "source_hex": "e300f400b900e6001a003f008f008c008f008c000b00a0000303540127024400a1004c00",
+        "japanese": "モンジュ：「われわれ、『妖怪使い』が"
+      },
+      {
+        "offset": "0xa0c",
+        "marker": "0x4005",
+        "source_hex": "000000000000000000000000ff0182004600510067004d008b0063006600f000b200580083006a004000",
+        "japanese": "　　　　　　大もうけできるってワケじゃな」"
+      },
+      {
+        "offset": "0xa62",
+        "marker": "0x4005",
+        "source_hex": "b400f400b500a7001a003f0046006f006f006f000b005f007e0093006a0044006a003c003c003c004000",
+        "japanese": "コンゴウ：「うははは、たまんないな・・・」"
+      },
+      {
+        "offset": "0xa92",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0xac8",
+        "marker": "0x4005",
+        "source_hex": "b800c400c000ea001a003f00550042000b00d100ed006a004400460061006b006800730089009200e7025900930060004000",
+        "japanese": "シッタラ：「さあ、バレないうちにとびらを<2e7>すんだ」"
+      },
+      {
+        "offset": "0xb00",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0xb2c",
+        "marker": "0x4005",
+        "source_hex": "b400f400b500a7001a003f00ab00c400b2003e0001004000",
+        "japanese": "コンゴウ：「オッケ〜！」"
+      },
+      {
+        "offset": "0xb4a",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0xb84",
+        "marker": "0x4005",
+        "source_hex": "0700ff015a0160000b0068008a00420048005a005d020f036b00570089005b006a004400680001000800",
+        "japanese": "（大変だ、とりあえず長老にしらせないと！）"
+      },
+      {
+        "offset": "0xbb4",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0xbbc",
+        "marker": "0x4005",
+        "source_hex": "ab00ed006f005d020f036e008200680078006800dc024b0063005f000c00",
+        "japanese": "オレは長老のもとへと<2dc>かった。"
+      },
+      {
+        "offset": "0xbe0",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0xc3c",
+        "marker": "0x4005",
+        "source_hex": "1b0194026f0082004600f102820046003c003c003c00",
+        "japanese": "今日はもう休もう・・・"
+      },
+      {
+        "offset": "0xc7a",
+        "marker": "0x4005",
+        "source_hex": "880057000b00e60273016b006a0063005f005e00",
+        "japanese": "よし、元気になったぞ"
+      }
+    ]
+  },
+  {
+    "asset": "708ad6",
+    "source_sha256": "272ae0e6e7463dc0238a16ab5bb29777d2325369651659cf884de61f4b891beb",
+    "header": [
+      16,
+      336,
+      352,
+      600
+    ],
+    "strings": [
+      {
+        "offset": "0x240",
+        "marker": "0x4005",
+        "source_hex": "07004a006300680001000800",
+        "japanese": "（おっと！）"
+      },
+      {
+        "offset": "0x252",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x25a",
+        "marker": "0x4005",
+        "source_hex": "07005d020f036b007b00460053004f0057006a00440068003c003c003c000800",
+        "japanese": "（長老にほうこくしないと・・・）"
+      },
+      {
+        "offset": "0x280",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x290",
+        "marker": "0x4005",
+        "source_hex": "07004a006300680001000800",
+        "japanese": "（おっと！）"
+      },
+      {
+        "offset": "0x2a2",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x2aa",
+        "marker": "0x4005",
+        "source_hex": "07005d020f036b007b00460053004f0057006a00440068003c003c003c000800",
+        "japanese": "（長老にほうこくしないと・・・）"
+      },
+      {
+        "offset": "0x2d0",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x2e0",
+        "marker": "0x4005",
+        "source_hex": "07004a006300680001000800",
+        "japanese": "（おっと！）"
+      },
+      {
+        "offset": "0x2f2",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x2fa",
+        "marker": "0x4005",
+        "source_hex": "07005d020f036b007b00460053004f0057006a00440068003c003c003c000800",
+        "japanese": "（長老にほうこくしないと・・・）"
+      },
+      {
+        "offset": "0x320",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      }
+    ]
+  },
+  {
+    "asset": "708cfe",
+    "source_sha256": "95cc1ccf4839d6234cb6c7d8ef61769ee2b0aa510845e8aeb39340cebe176ea3",
+    "header": [
+      16,
+      360,
+      376,
+      3320
+    ],
+    "strings": [
+      {
+        "offset": "0x2b8",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f006900460057005f000b0000101f004000",
+        "japanese": "長老：「どうした、{PLAYER_NAME}？」"
+      },
+      {
+        "offset": "0x2d6",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x2de",
+        "marker": "0x4005",
+        "source_hex": "3f005d020f030b00580064006f003c003c003c004000",
+        "japanese": "「長老、じつは・・・」"
+      },
+      {
+        "offset": "0x2fa",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x302",
+        "marker": "0x4005",
+        "source_hex": "ab00ed006f005d020f036b00b800c400c000ea005f0061006e005300680092007b00460053004f0057005f000c00",
+        "japanese": "オレは長老にシッタラたちのことをほうこくした。"
+      },
+      {
+        "offset": "0x336",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x34a",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f006a006b00630001004000",
+        "japanese": "長老：「なにっ！」"
+      },
+      {
+        "offset": "0x362",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x37c",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f005d0046004b003c003c003c004000",
+        "japanese": "長老：「そうか・・・」"
+      },
+      {
+        "offset": "0x398",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x3a0",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f008400630071008a0084008a004a0063005f004b003c003c003c004000",
+        "japanese": "長老：「やっぱりやりおったか・・・」"
+      },
+      {
+        "offset": "0x3ca",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x3d2",
+        "marker": "0x4005",
+        "source_hex": "3f008400630071008a00630066003c003c003c001f004000",
+        "japanese": "「やっぱりって・・・？」"
+      },
+      {
+        "offset": "0x3f0",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x3f8",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f00f000b8006f0042006e00b800c400c000ea004c0053006e00e0026b0098015f0068004d004b0089004000",
+        "japanese": "長老：「ワシはあのシッタラがこの村に来たときから」"
+      },
+      {
+        "offset": "0x430",
+        "marker": "0x4005",
+        "source_hex": "0000000000000000",
+        "japanese": "　　　　"
+      },
+      {
+        "offset": "0x440",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f00440064004b0053006e00880046006a00d2019200",
+        "japanese": "長老：「いつかこのような事を"
+      },
+      {
+        "offset": "0x462",
+        "marker": "0x4005",
+        "source_hex": "0000000000000000570067004b00590068004401630066004a0063005f003c003c003c004000",
+        "japanese": "　　　　しでかすと思っておった・・・」"
+      },
+      {
+        "offset": "0x490",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x492",
+        "marker": "0x4003",
+        "source_hex": "3f0069004600570066001f004000",
+        "japanese": "「どうして？」"
+      },
+      {
+        "offset": "0x4a6",
+        "marker": "0x4003",
+        "source_hex": "3f006a008b007b00690001004000",
+        "japanese": "「なるほど！」"
+      },
+      {
+        "offset": "0x4c2",
+        "marker": "0x4005",
+        "source_hex": "3f006a008b007b00690001004000",
+        "japanese": "「なるほど！」"
+      },
+      {
+        "offset": "0x4d6",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x514",
+        "marker": "0x4005",
+        "source_hex": "8400880044001a003f00420089000b00001001004000",
+        "japanese": "やよい：「あら、{PLAYER_NAME}！」"
+      },
+      {
+        "offset": "0x530",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x542",
+        "marker": "0x4005",
+        "source_hex": "8400880044001a003f006900460057005f006e001f005b011d014c008f008b0044008f0088003c003c003c004000",
+        "japanese": "やよい：「どうしたの？<15b><11d>がわるいわよ・・・」"
+      },
+      {
+        "offset": "0x576",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x57e",
+        "marker": "0x4005",
+        "source_hex": "3f00440084000b0061008700630068005d020f036b003c003c003c004000",
+        "japanese": "「いや、ちょっと長老に・・・」"
+      },
+      {
+        "offset": "0x5a2",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x5aa",
+        "marker": "0x4005",
+        "source_hex": "8400880044001a003f005d020f036a0089003b016e009f02ee0288003c003c003c004000",
+        "japanese": "やよい：「長老なら奥の部屋よ・・・」"
+      },
+      {
+        "offset": "0x5d4",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x616",
+        "marker": "0x4005",
+        "source_hex": "3f0069004600570066001f004000",
+        "japanese": "「どうして？」"
+      },
+      {
+        "offset": "0x62a",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x63a",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f00530093006a00550073008c005f00e0026b008f0056008f005600",
+        "japanese": "長老：「こんなさびれた村にわざわざ"
+      },
+      {
+        "offset": "0x662",
+        "marker": "0x4005",
+        "source_hex": "000000000000000084006300660098018b006a00930066004a004b005700440068004401630066005f009300580083004000",
+        "japanese": "　　　　やって来るなんておかしいと思ってたんじゃ」"
+      },
+      {
+        "offset": "0x69c",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f004d00630068000b00b800c400c000ea006f00",
+        "japanese": "長老：「きっと、シッタラは"
+      },
+      {
+        "offset": "0x6bc",
+        "marker": "0x4005",
+        "source_hex": "000000000000000042006e00dc00b400ea004c00e3023d02600063005f009300580083008d0046003c003c003c004000",
+        "japanese": "　　　　あのホコラが<2e3><23d>だったんじゃろう・・・」"
+      },
+      {
+        "offset": "0x6f4",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x6f6",
+        "marker": "0x4003",
+        "source_hex": "3f0042006e00dc00b400ea006f00440063005f0044001f004000",
+        "japanese": "「あのホコラはいったい？」"
+      },
+      {
+        "offset": "0x716",
+        "marker": "0x4003",
+        "source_hex": "3f006a005c000b0042005d0053006b00030354014c001f004000",
+        "japanese": "「なぜ、あそこに妖怪が？」"
+      },
+      {
+        "offset": "0x73e",
+        "marker": "0x4005",
+        "source_hex": "3f006a005c000b0042005d0053006b00030354014c001f004000",
+        "japanese": "「なぜ、あそこに妖怪が？」"
+      },
+      {
+        "offset": "0x75e",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x76e",
+        "marker": "0x4005",
+        "source_hex": "3f0042006e00dc00b400ea006f00440063005f0044001f004000",
+        "japanese": "「あのホコラはいったい？」"
+      },
+      {
+        "offset": "0x78e",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x79e",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f0042006e00dc00b400ea006b006f000b004000",
+        "japanese": "長老：「あのホコラには、」"
+      },
+      {
+        "offset": "0x7be",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x7c6",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f00a000c10174025302ac010700b800e600c700f400ca00a700b9000800a1006e00",
+        "japanese": "長老：「『<1c1><274>童子（シュテンドウジ）』の"
+      },
+      {
+        "offset": "0x7f4",
+        "marker": "0x4005",
+        "source_hex": "0000000000000000ac0117036e00030354014c00a002200155008c0066005f009300580083004000",
+        "japanese": "　　　　子<317>の妖怪が封印されてたんじゃ」"
+      },
+      {
+        "offset": "0x834",
+        "marker": "0x4005",
+        "source_hex": "3f00a000c10174025302ac01a1001f0001004000",
+        "japanese": "「『<1c1><274>童子』？！」"
+      },
+      {
+        "offset": "0x84e",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x858",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f007f017c0046006a00030354016e00d4011102580083003c003c003c004000",
+        "japanese": "長老：「<17f>ぼうな妖怪の親<211>じゃ・・・」"
+      },
+      {
+        "offset": "0x884",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x88c",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f00df024b0089000b00f4016e005b024c007f0060008c008b006800",
+        "japanese": "長老：「昔から、世の中がみだれると"
+      },
+      {
+        "offset": "0x8b4",
+        "marker": "0x4005",
+        "source_hex": "0000000000000000420070008c00600059004a005d008d005700440003035401580083004000",
+        "japanese": "　　　　あばれだすおそろしい妖怪じゃ」"
+      },
+      {
+        "offset": "0x8e2",
+        "marker": "0x4005",
+        "source_hex": "3f005d006e00ac0117035f0061004c006a005c00420093006a0054026b001f004000",
+        "japanese": "「その子<317>たちがなぜあんな<254>に？」"
+      },
+      {
+        "offset": "0x90a",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x912",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f001200100010006b02be026b0042008b0009027f026a00",
+        "japanese": "長老：「２００年前にある<209><27f>な"
+      },
+      {
+        "offset": "0x936",
+        "marker": "0x4005",
+        "source_hex": "00000000000000000102bd02ce014c00a000c10174025302ac01a100920001025a0257004000",
+        "japanese": "　　　　退魔師が『<1c1><274>童子』を退治し」"
+      },
+      {
+        "offset": "0x964",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f005d006e00ac0117035f0061009200",
+        "japanese": "長老：「その子<317>たちを"
+      },
+      {
+        "offset": "0x980",
+        "marker": "0x4005",
+        "source_hex": "000000000000000042006e00dc00b400ea006b00a002200157005f009300580083003c003c003c004000",
+        "japanese": "　　　　あのホコラに封印したんじゃ・・・」"
+      },
+      {
+        "offset": "0x9b2",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0x9b4",
+        "marker": "0x4003",
+        "source_hex": "3f00a300a500c50089006f006a005c00a002200192001f004000",
+        "japanese": "「アイツらはなぜ封印を？」"
+      },
+      {
+        "offset": "0x9d4",
+        "marker": "0x4003",
+        "source_hex": "3f00a300a500c50089006f00440063005f0044001f004000",
+        "japanese": "「アイツらはいったい？」"
+      },
+      {
+        "offset": "0x9fa",
+        "marker": "0x4005",
+        "source_hex": "3f00a300a500c50089006f00440063005f0044001f004000",
+        "japanese": "「アイツらはいったい？」"
+      },
+      {
+        "offset": "0xa18",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0xa28",
+        "marker": "0x4005",
+        "source_hex": "3f00a300a500c50089006f006a005c00a002200192001f004000",
+        "japanese": "「アイツらはなぜ封印を？」"
+      },
+      {
+        "offset": "0xa48",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0xa58",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f00b800c400c000ea0068005d006e005c02bc025f0061006f000b004d0063006800",
+        "japanese": "長老：「シッタラとその仲間たちは、きっと"
+      },
+      {
+        "offset": "0xa86",
+        "marker": "0x4005",
+        "source_hex": "0000000000000000a0004201d902db010700ae00ca00a700b800e600a7000800a100580083003c003c003c004000",
+        "japanese": "　　　　『<142>道衆（キドウシュウ）』じゃ・・・」"
+      },
+      {
+        "offset": "0xacc",
+        "marker": "0x4005",
+        "source_hex": "3f004201d902db010700ae00ca00a700b800e600a70008001f0001004000",
+        "japanese": "「<142>道衆（キドウシュウ）？！」"
+      },
+      {
+        "offset": "0xaf0",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0xaf8",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f00ab00df00a900680045015800880046006b000303540101025a029200",
+        "japanese": "長老：「オマエと<145>じように妖怪退治を"
+      },
+      {
+        "offset": "0xb22",
+        "marker": "0x4005",
+        "source_hex": "00000000000000006a008a008f0044006b005700660044008b000a011502580083003c003c003c004000",
+        "japanese": "　　　　なりわいにしている<10a><215>じゃ・・・」"
+      },
+      {
+        "offset": "0xb54",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f004d00630068000b007f017c0046006a00030354014c00750048008b0068000b00",
+        "japanese": "長老：「きっと、<17f>ぼうな妖怪がふえると、"
+      },
+      {
+        "offset": "0xb82",
+        "marker": "0x4005",
+        "source_hex": "0000000000000000cd01d2014c00750048008b006800440163005f009300580083006a004000",
+        "japanese": "　　　　仕事がふえると思ったんじゃな」"
+      },
+      {
+        "offset": "0xbb0",
+        "marker": "0x4005",
+        "source_hex": "3f0067000b00a0022001920068004b008c005f00030354015f0061006f001f004000",
+        "japanese": "「で、封印をとかれた妖怪たちは？」"
+      },
+      {
+        "offset": "0xbd8",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0xbe0",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f00750060009300ab00df00a9004c00fa016300660044008b00880046006a00",
+        "japanese": "長老：「ふだんオマエが戦っているような"
+      },
+      {
+        "offset": "0xc0c",
+        "marker": "0x4005",
+        "source_hex": "0000000000000000030354016e0059008b00060155005000890044006a0089004000",
+        "japanese": "　　　　妖怪のする<106>さぐらいなら」"
+      },
+      {
+        "offset": "0xc36",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f0055007b0069000b0014015f016b00480044004d00870046006f006a0044004c00",
+        "japanese": "長老：「さほど、生<15f>にえいきょうはないが"
+      },
+      {
+        "offset": "0xc64",
+        "marker": "0x4005",
+        "source_hex": "0000000000000000c10174025302ac016e00ac0117036e005300680060004000",
+        "japanese": "　　　　<1c1><274>童子の子<317>のことだ」"
+      },
+      {
+        "offset": "0xc8c",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f005d00460068004600ff01420070008c0059008b00580083008d0046006a003c003c003c004000",
+        "japanese": "長老：「そうとう大あばれするじゃろうな・・・」"
+      },
+      {
+        "offset": "0xcc0",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0xcc8",
+        "marker": "0x4005",
+        "source_hex": "3f00ab00ed006f00440063005f0044006900460059008c007000440044009300670059004b001f004000",
+        "japanese": "「オレはいったいどうすればいいんですか？」"
+      },
+      {
+        "offset": "0xcf8",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0xd00",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f00550042003c003c003c004000",
+        "japanese": "長老：「さあ・・・」"
+      },
+      {
+        "offset": "0xd1a",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0xd22",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f00a300a500c5008900680045015800880046006b008201820046005100920059008b005300680082004000",
+        "japanese": "長老：「アイツらと<145>じように金もうけをすることも」"
+      },
+      {
+        "offset": "0xd5a",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0xd62",
+        "marker": "0x4005",
+        "source_hex": "5d020f031a003f009a020802510059008b0053006800820067004d008b00580083008d0046006a003c003c003c004000",
+        "japanese": "長老：「人<208>けすることもできるじゃろうな・・・」"
+      },
+      {
+        "offset": "0xd98",
+        "marker": "0x4005",
+        "source_hex": "",
+        "japanese": ""
+      },
+      {
+        "offset": "0xdcc",
+        "marker": "0x4005",
+        "source_hex": "5d020f036e005d024400870292007a0144005f00ab00ed006f00",
+        "japanese": "長老の長い話を聞いたオレは"
+      },
+      {
+        "offset": "0xdec",
+        "marker": "0x4005",
+        "source_hex": "440063005f0093001201780059018a00f1028000530068006b0057005f000c00",
+        "japanese": "いったん家へ<159>り休むことにした。"
+      }
+    ]
+  }
+]

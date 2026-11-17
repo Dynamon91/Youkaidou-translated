@@ -1,0 +1,90 @@
+{
+  "rom_sha256": "fcc6c3e7aa84ff79e52cbd98739802f376753a2e961f026672c9946f5112d9b1",
+  "method": "Composed Shift-JIS popup strings read from game RAM and matched exactly against the actual 8x8 framebuffer glyph ink. Name and numeric values come from the unmodified game logic.",
+  "records": [
+    {
+      "text": "かわうそ is now Lv 6!",
+      "screenshot": "screenshots/level-up/popup-01.png",
+      "origin": [
+        56,
+        56
+      ],
+      "cells": 17,
+      "pixels": 136,
+      "pixel_match": true
+    },
+    {
+      "text": "HP is now 65!",
+      "screenshot": "screenshots/level-up/popup-02.png",
+      "origin": [
+        72,
+        56
+      ],
+      "cells": 13,
+      "pixels": 104,
+      "pixel_match": true
+    },
+    {
+      "text": "Attack is now 13!",
+      "screenshot": "screenshots/level-up/popup-03.png",
+      "origin": [
+        56,
+        56
+      ],
+      "cells": 17,
+      "pixels": 136,
+      "pixel_match": true
+    },
+    {
+      "text": "Defense is now 17!",
+      "screenshot": "screenshots/level-up/popup-04.png",
+      "origin": [
+        48,
+        56
+      ],
+      "cells": 18,
+      "pixels": 144,
+      "pixel_match": true
+    },
+    {
+      "text": "Magic is now 16!",
+      "screenshot": "screenshots/level-up/popup-05.png",
+      "origin": [
+        56,
+        56
+      ],
+      "cells": 16,
+      "pixels": 128,
+      "pixel_match": true
+    },
+    {
+      "text": "Magic Def is now 14!",
+      "screenshot": "screenshots/level-up/popup-06.png",
+      "origin": [
+        40,
+        56
+      ],
+      "cells": 20,
+      "pixels": 160,
+      "pixel_match": true
+    },
+    {
+      "text": "Speed is now 9!",
+      "screenshot": "screenshots/level-up/popup-07.png",
+      "origin": [
+        64,
+        56
+      ],
+      "cells": 15,
+      "pixels": 120,
+      "pixel_match": true
+    }
+  ],
+  "pending_ui_records": [
+    "level_up_luck"
+  ],
+  "target_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+  "evidence_release": "v04",
+  "final_font_pixel_recheck": true,
+  "renderer_and_font_bytes_unchanged": true
+}

@@ -1,0 +1,9 @@
+{
+  "source_save_sha256": "1342751c80edbb9732dea028348c5e0b38529f927ae55ed7523e4d3b53c87130",
+  "target_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+  "backup_bytes": 8192,
+  "fresh_reset_continue": true,
+  "completed_quest_preserved": true,
+  "response_page": 10,
+  "pixel_match": true
+}

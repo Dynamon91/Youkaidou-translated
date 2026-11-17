@@ -1,0 +1,1443 @@
+{
+  "rom_sha256": "0c9b29d4b32479ca0c2014ff0941902690e8e64aaa7cf468ac191ef80372f820",
+  "localized_scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090",
+  "resolution": [
+    240,
+    160
+  ],
+  "dialogue_origin": [
+    8,
+    120
+  ],
+  "cells_per_line": 27,
+  "line_height": 16,
+  "default_player_name": "ヤシャオウ",
+  "method": "Exact glyph ink masks from the built font compared against mGBA framebuffer captures. Selected choices use black ink; ordinary text uses white ink. Screens were reached with game controls and emulator checkpoints; no gameplay data was edited.",
+  "dialogue_pages_checked": 52,
+  "choice_captures_checked": 6,
+  "verified_record_ids": [
+    "village_line_000",
+    "village_line_002",
+    "village_line_003",
+    "village_line_004",
+    "village_line_005",
+    "village_line_006",
+    "village_line_011",
+    "village_line_012",
+    "village_line_013",
+    "village_line_014",
+    "village_line_015",
+    "village_line_016",
+    "village_line_017",
+    "village_line_018",
+    "village_line_027",
+    "village_line_028",
+    "village_line_029",
+    "village_line_030",
+    "village_line_031",
+    "village_line_032",
+    "village_line_033",
+    "village_line_034",
+    "village_line_035",
+    "village_line_036",
+    "village_line_037",
+    "village_line_038",
+    "village_line_039",
+    "village_line_040",
+    "village_line_041",
+    "village_line_042",
+    "village_line_043",
+    "village_line_045",
+    "village_line_046",
+    "village_line_047",
+    "village_line_048",
+    "village_line_049",
+    "village_line_050",
+    "village_line_051",
+    "village_line_052",
+    "village_line_053",
+    "village_line_055",
+    "village_line_056",
+    "village_line_057",
+    "village_line_058",
+    "village_line_059",
+    "village_line_060",
+    "village_line_061",
+    "village_line_062",
+    "village_line_063",
+    "village_line_064",
+    "village_line_065",
+    "village_line_066",
+    "village_line_067",
+    "village_line_068",
+    "village_line_069",
+    "village_line_070",
+    "village_line_071",
+    "village_line_072",
+    "village_line_073",
+    "village_line_074",
+    "village_line_075",
+    "village_line_076",
+    "village_line_077",
+    "village_line_078",
+    "village_line_079",
+    "village_line_080",
+    "village_line_081",
+    "village_line_082",
+    "village_line_083",
+    "village_line_084",
+    "village_line_085",
+    "village_line_086",
+    "village_line_087",
+    "village_line_088",
+    "village_line_089",
+    "village_line_090",
+    "village_line_091",
+    "village_line_092",
+    "village_line_093",
+    "village_line_094",
+    "village_line_095",
+    "village_line_096",
+    "village_line_097",
+    "village_line_098",
+    "village_line_099",
+    "village_line_100",
+    "village_line_101",
+    "village_line_102",
+    "village_line_103",
+    "village_line_104",
+    "village_line_106",
+    "village_line_107",
+    "village_line_108",
+    "village_line_109",
+    "village_line_110",
+    "village_line_112",
+    "village_line_113",
+    "village_line_114",
+    "village_line_115",
+    "village_line_116",
+    "village_line_117",
+    "village_line_118",
+    "village_line_119"
+  ],
+  "all_pixel_checks_pass": true,
+  "pages": [
+    {
+      "page": 1,
+      "screenshot": "screenshots/village/page-01.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "This is my home...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 2,
+      "screenshot": "screenshots/village/page-02.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "No, I'll keep going a bit.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 3,
+      "screenshot": "screenshots/village/page-03.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Young man: We're waiting",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "for a shipment from town.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 6,
+      "screenshot": "screenshots/village/page-06.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Ippei: {PLAYER_NAME}!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "Let's play together again!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 7,
+      "screenshot": "screenshots/village/page-07.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Okin: Ippei! Slow down!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "Running like that's risky!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 8,
+      "screenshot": "screenshots/village/page-08.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Bunmaru: Hunting yokai in",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "this day and age...?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 9,
+      "screenshot": "screenshots/village/page-09.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Bunmaru: You're behind",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "the times!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 13,
+      "screenshot": "screenshots/village/page-13.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Let's call it a day...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 14,
+      "screenshot": "screenshots/village/page-14.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "All right! I feel better!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 15,
+      "screenshot": "screenshots/village/page-15.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Young man: Move! Get lost!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 16,
+      "screenshot": "screenshots/village/page-16.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: Just in time!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 17,
+      "screenshot": "screenshots/village/page-17.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: My body has",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "felt so heavy lately.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 18,
+      "screenshot": "screenshots/village/page-18.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: I was hoping",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "you'd take a look at me...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 19,
+      "screenshot": "screenshots/village/page-19.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "...Hold on, Mr. Toku!!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 20,
+      "screenshot": "screenshots/village/page-20.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "You're completely possessed",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "by a yokai!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 21,
+      "screenshot": "screenshots/village/page-21.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: I thought so!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 22,
+      "screenshot": "screenshots/village/page-22.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: Could you get",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "rid of it for me?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 23,
+      "screenshot": "screenshots/village/page-23.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "No, not today...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 24,
+      "screenshot": "screenshots/village/page-24.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: Oh, I see...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "It can't be helped, then...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 25,
+      "screenshot": "screenshots/village/page-25.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: Please help me...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 26,
+      "screenshot": "screenshots/village/page-26.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: Could you get",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "rid of it for me?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 27,
+      "screenshot": "screenshots/village/page-27.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "No, not today...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 28,
+      "screenshot": "screenshots/village/page-28.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: Oh, I see...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "It can't be helped, then...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 29,
+      "screenshot": "screenshots/village/page-29.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Got it! Leave it to me!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 30,
+      "screenshot": "screenshots/village/page-30.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: Good! I'm",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "counting on you!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 31,
+      "screenshot": "screenshots/village/page-31.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Here I come, yokai!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 32,
+      "screenshot": "screenshots/village/page-32.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shittara: Still earning",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "pocket money off old folks?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 33,
+      "screenshot": "screenshots/village/page-33.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Leave me alone!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 34,
+      "screenshot": "screenshots/village/page-34.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shittara: Heh heh heh...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 35,
+      "screenshot": "screenshots/village/page-35.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shittara: Later...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "village",
+      "page": 36,
+      "screenshot": "screenshots/village/page-36.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090",
+      "script_pc": "0x10f6",
+      "lines": [
+        {
+          "line": 1,
+          "text": "No, not really...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "village",
+      "page": 37,
+      "screenshot": "screenshots/village/page-37.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090",
+      "script_pc": "0x115a",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shittara: Then don't get",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "in my way...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 38,
+      "screenshot": "screenshots/village/page-38.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shittara: Oh, it's you...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 39,
+      "screenshot": "screenshots/village/page-39.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(That's Shittara, a yokai",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "tamer new to this village.)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 40,
+      "screenshot": "screenshots/village/page-40.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(In other words, he's my",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "business rival.)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 41,
+      "screenshot": "screenshots/village/page-41.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(Naturally, we don't get",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "along with each other...)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 42,
+      "screenshot": "screenshots/village/page-42.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shittara: Unless you need",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "something, don't bother me.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 43,
+      "screenshot": "screenshots/village/page-43.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(Tch... What a jerk...)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 44,
+      "screenshot": "screenshots/village/page-44.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: Thanks!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "I'm good as new!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 45,
+      "screenshot": "screenshots/village/page-45.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: Here's your fee!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "page": 46,
+      "screenshot": "screenshots/village/page-46.png",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I received my fee: 30 gold!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "village",
+      "page": 47,
+      "screenshot": "screenshots/village/page-47.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090",
+      "script_pc": "0x15ca",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shittara: Oh, it's you...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "village",
+      "page": 48,
+      "screenshot": "screenshots/village/page-48.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090",
+      "script_pc": "0x160a",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(That's Shittara, a yokai",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "tamer new to this village.)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "village",
+      "page": 49,
+      "screenshot": "screenshots/village/page-49.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090",
+      "script_pc": "0x167e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(In other words, he's my",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "business rival.)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "village",
+      "page": 50,
+      "screenshot": "screenshots/village/page-50.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090",
+      "script_pc": "0x16dc",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(Naturally, we don't get",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "along with each other...)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "village",
+      "page": 51,
+      "screenshot": "screenshots/village/page-51.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090",
+      "script_pc": "0x1748",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shittara: Want to make",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "a fortune?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "village",
+      "page": 52,
+      "screenshot": "screenshots/village/page-52.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090",
+      "script_pc": "0x17a4",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yeah, of course...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "village",
+      "page": 53,
+      "screenshot": "screenshots/village/page-53.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090",
+      "script_pc": "0x1810",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Shittara: Then don't get",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "in my way...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "village",
+      "page": 55,
+      "screenshot": "screenshots/village/page-55.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090",
+      "script_pc": "0x1864",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(Huh?)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "village",
+      "page": 56,
+      "screenshot": "screenshots/village/page-56.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090",
+      "script_pc": "0x18a0",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(Shittara's heading for",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "the Seal Shrine?!)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "village",
+      "page": 57,
+      "screenshot": "screenshots/village/page-57.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090",
+      "script_pc": "0x18f8",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(What's he up to??)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "village",
+      "page": 58,
+      "screenshot": "screenshots/village/page-58.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "localized_scenario_sha256": "d8b14b905bf38b9fedcf85cc2e9628957decbed5b45c34a21b4d90f97e68b090",
+      "script_pc": "0x192c",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I decided to follow",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "Shittara in secret...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    }
+  ],
+  "choices": [
+    {
+      "screenshot": "screenshots/choices/choice-01.png",
+      "lines": [
+        {
+          "id": "village_line_002",
+          "text": "Call it a day...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "village_line_003",
+          "text": "Keep going!",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "screenshot": "screenshots/choices/choice-02.png",
+      "lines": [
+        {
+          "id": "village_line_002",
+          "text": "Call it a day...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "village_line_003",
+          "text": "Keep going!",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "screenshot": "screenshots/choices/choice-03.png",
+      "lines": [
+        {
+          "id": "village_line_045",
+          "text": "Leave it to me!",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "village_line_046",
+          "text": "Not today...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "screenshot": "screenshots/choices/choice-04.png",
+      "lines": [
+        {
+          "id": "village_line_055",
+          "text": "Leave it to me!",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "village_line_056",
+          "text": "Not today...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "village",
+      "menu": 5,
+      "selected": 0,
+      "screenshot": "screenshots/village-choices/menu-5-selected-0.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "script_pc": "0x1762",
+      "lines": [
+        {
+          "id": "village_line_106",
+          "text": "Not really...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "village_line_107",
+          "text": "Of course...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "village",
+      "menu": 5,
+      "selected": 1,
+      "screenshot": "screenshots/village-choices/menu-5-selected-1.png",
+      "capture_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+      "script_pc": "0x1762",
+      "lines": [
+        {
+          "id": "village_line_106",
+          "text": "Not really...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "village_line_107",
+          "text": "Of course...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    }
+  ],
+  "target_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+  "shared_scenario_unchanged": true,
+  "final_font_pixel_recheck": true,
+  "evidence_releases": [
+    "v03",
+    "v05"
+  ],
+  "dialogue_pages_total": 57,
+  "choice_menus_checked": 4,
+  "choice_menus_total": 5,
+  "unchecked_pages": [
+    4,
+    5,
+    10,
+    11,
+    12,
+    54
+  ],
+  "unchecked_choice_menus": [
+    2
+  ],
+  "choice_menus_with_both_selections": [
+    1,
+    5
+  ],
+  "choice_menus_with_one_selection": [
+    3,
+    4
+  ]
+}
