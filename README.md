@@ -1,44 +1,44 @@
 # Youkaidou — English translation
 
 A work-in-progress English fan translation of **Youkaidou for Game Boy Advance**.
-Current version: **v05**.
+Current version: **v06**.
 
-The project translates menus and early story dialogue into natural, mixed-case
-English while keeping the original text boxes, choices, and character-name variables.
+Menus and early story dialogue use natural, mixed-case English while preserving
+the original text boxes, choices, and character-name variables.
 
 ## Current progress
 
-- English menus, the full 27-page opening, village and house conversations.
-- New in v05: 125 English lines for the shrine incident, the elder's explanation,
-  and related reminders.
-- 188 dialogue pages, 22 choice captures, and seven level-up messages have passed
-  text-pixel checks in mGBA. Saving, Continue, and an early v04 save were also checked.
-- Later chapters and some UI text are still Japanese. Some translated branches
-  still need to be reached and checked in game.
+- New in v06: **140 English lines** for the village's supply shortage, the elder's
+  request, departure conversations, and party tips.
+- The request's acceptance, refusal, and return-after-refusal paths were checked,
+  along with both home/rest choices and the main replies to Yayoi.
+- **44 of 83 new dialogue pages** passed exact text-pixel checks. Across the
+  project, the included evidence covers **232 dialogue pages, 34 choice captures,
+  and seven level-up messages**.
+- Saving and Continue preserve the accepted mission. An earlier v05 save also
+  loads correctly in v06.
+- Later chapters and some UI text are still Japanese. Untested translated
+  branches are identified in the verification reports.
 
 ## Screenshots from the working translation
 
-These are real emulator captures. The first image shows the new shrine dialogue
-and the elder's explanation, enlarged without smoothing.
+Real emulator captures of the supply-shortage story and Yayoi's reply, enlarged
+without smoothing. The player name remains the game's variable.
 
-![v05 shrine scene and elder report](Youkaidou_English_v05_Preview.png)
+![v06 elder request and Yayoi dialogue](Youkaidou_English_v06_Preview.png)
 
-English opening narration:
+English field menu after loading the accepted mission:
 
-![English opening narration](screenshots/opening/page-07.png)
+![English field menu after Continue](screenshots/save-v06/continued-field-menu.png)
 
-English field menu after loading a save:
+## Try v06
 
-![English field menu](screenshots/save-v05/continued-field-menu.png)
-
-## Try v05
-
-[Download the v05 IPS patch](https://github.com/Dynamon91/Youkaidou-translated/raw/refs/heads/main/Youkaidou_English_v05.ips)
+[Download the v06 IPS patch](https://github.com/Dynamon91/Youkaidou-translated/raw/refs/heads/main/Youkaidou_English_v06.ips)
 and apply it to the clean Japanese ROM with an IPS patcher.
 
 Required original: `YOUKAIDOU`, game code `AFUJ`, 8,388,608 bytes.
 SHA-256: `080a70324ee02c0ef850fccec0c2353faff4598e1f18cdf35277f5c05ba3ce06`.
-Apply the patch to the original Japanese game, not a previous English version.
+Apply the patch to the clean original, not an earlier English build.
 
 To build from source with Python 3.8 or newer:
 
@@ -46,8 +46,6 @@ To build from source with Python 3.8 or newer:
 python3 build_patch.py "/path/to/Youkaidou (Japan).gba" --output rebuilt
 ```
 
-The repository contains translation files, the patch builder, the IPS patch,
-and screenshot evidence. See [technical notes](docs/technical-notes-v05.md)
-for the detailed verification results and remaining work.
-
-The translation is still in progress and is not affiliated with the original developers.
+The repository contains the translation files, patch builder, IPS patches, and
+screenshot evidence. See [v06 technical notes](docs/technical-notes-v06.md)
+for detailed results and remaining work.

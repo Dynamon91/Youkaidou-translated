@@ -1,0 +1,1628 @@
+{
+  "target_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+  "resolution": [
+    240,
+    160
+  ],
+  "cells_per_line": 27,
+  "line_height": 16,
+  "default_player_name": "ヤシャオウ",
+  "pages": [
+    {
+      "section": "departure_houses",
+      "page": 1,
+      "screenshot": "screenshots/v06/departure_houses/page-01.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x2d6",
+      "localized_scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: I'm counting on you.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_houses",
+      "page": 2,
+      "screenshot": "screenshots/v06/departure_houses/page-02.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x34a",
+      "localized_scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: Good luck, {PLAYER_NAME}!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_houses",
+      "page": 3,
+      "screenshot": "screenshots/v06/departure_houses/page-03.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x3c8",
+      "localized_scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Leave it to me!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_houses",
+      "page": 4,
+      "screenshot": "screenshots/v06/departure_houses/page-04.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x404",
+      "localized_scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: Take care, then.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_houses",
+      "page": 8,
+      "screenshot": "screenshots/v06/departure_houses/page-08.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x5d4",
+      "localized_scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Easy for you to say...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_houses",
+      "page": 9,
+      "screenshot": "screenshots/v06/departure_houses/page-09.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x612",
+      "localized_scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: I'm sorry...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_houses",
+      "page": 10,
+      "screenshot": "screenshots/v06/departure_houses/page-10.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x640",
+      "localized_scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Well, I'll do",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "what I can.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_houses",
+      "page": 11,
+      "screenshot": "screenshots/v06/departure_houses/page-11.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x692",
+      "localized_scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: Take care, then.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_village",
+      "page": 1,
+      "screenshot": "screenshots/v06/departure_village/page-01.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x204",
+      "localized_scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081",
+      "lines": [
+        {
+          "line": 1,
+          "text": "This is my home...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_village",
+      "page": 2,
+      "screenshot": "screenshots/v06/departure_village/page-02.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x278",
+      "localized_scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Keep going!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_village",
+      "page": 10,
+      "screenshot": "screenshots/v06/departure_village/page-10.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x6bc",
+      "localized_scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Okin: EXP is split among",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "yokai with bookmarks set.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_village",
+      "page": 11,
+      "screenshot": "screenshots/v06/departure_village/page-11.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x730",
+      "localized_scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Okin: Set just one to help",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "it level up faster!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_village",
+      "page": 13,
+      "screenshot": "screenshots/v06/departure_village/page-13.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x800",
+      "localized_scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Call it a day...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_village",
+      "page": 14,
+      "screenshot": "screenshots/v06/departure_village/page-14.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x84c",
+      "localized_scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081",
+      "lines": [
+        {
+          "line": 1,
+          "text": "All right! Good as new!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 1,
+      "screenshot": "screenshots/v06/supply_houses/page-01.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x2fc",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Ah, {PLAYER_NAME}...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "I knew you'd come.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 2,
+      "screenshot": "screenshots/v06/supply_houses/page-02.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x360",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: It seems yokai are",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "blocking our deliveries.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 3,
+      "screenshot": "screenshots/v06/supply_houses/page-03.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x3d0",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: What can we do...?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 4,
+      "screenshot": "screenshots/v06/supply_houses/page-04.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x406",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "...You want me to go",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "deal with them, don't you?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 6,
+      "screenshot": "screenshots/v06/supply_houses/page-06.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x4e4",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Good! I'm counting",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "on you...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 7,
+      "screenshot": "screenshots/v06/supply_houses/page-07.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x52e",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I agreed to take care",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "of the yokai.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 8,
+      "screenshot": "screenshots/v06/supply_houses/page-08.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x5de",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: Oh, {PLAYER_NAME}!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 9,
+      "screenshot": "screenshots/v06/supply_houses/page-09.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x618",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: Need the elder?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 10,
+      "screenshot": "screenshots/v06/supply_houses/page-10.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x6a8",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Just need a word...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 11,
+      "screenshot": "screenshots/v06/supply_houses/page-11.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x6e6",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: He's in the back.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 15,
+      "screenshot": "screenshots/v06/supply_houses/page-15.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x8f2",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Ah, {PLAYER_NAME}...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "I knew you'd come.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 16,
+      "screenshot": "screenshots/v06/supply_houses/page-16.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x94c",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Will you help",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "the village now?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 17,
+      "screenshot": "screenshots/v06/supply_houses/page-17.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x9a4",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I guess I'd better go",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "and deal with the yokai...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 19,
+      "screenshot": "screenshots/v06/supply_houses/page-19.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0xa82",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Good! I'm counting",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "on you...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 20,
+      "screenshot": "screenshots/v06/supply_houses/page-20.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0xacc",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I agreed to take care",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "of the yokai.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 21,
+      "screenshot": "screenshots/v06/supply_houses/page-21.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0xb4e",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I'd rather not...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 22,
+      "screenshot": "screenshots/v06/supply_houses/page-22.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0xb9e",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Well, if you insist,",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "I can't make you...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 23,
+      "screenshot": "screenshots/v06/supply_houses/page-23.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0xbfe",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I refused to deal",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "with the yokai.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 29,
+      "screenshot": "screenshots/v06/supply_houses/page-29.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0xe4e",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I came to see you, Yayoi.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 30,
+      "screenshot": "screenshots/v06/supply_houses/page-30.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0xe80",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: Oh, {PLAYER_NAME}!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "You're always joking!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "page": 31,
+      "screenshot": "screenshots/v06/supply_houses/page-31.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0xee8",
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: He's in the back.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_village",
+      "page": 1,
+      "screenshot": "screenshots/v06/supply_village/page-01.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x204",
+      "localized_scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "This is my home...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_village",
+      "page": 2,
+      "screenshot": "screenshots/v06/supply_village/page-02.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x278",
+      "localized_scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Keep going!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_village",
+      "page": 3,
+      "screenshot": "screenshots/v06/supply_village/page-03.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x3cc",
+      "localized_scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Young man: Damn! Days pass,",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "but no supplies arrive...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_village",
+      "page": 4,
+      "screenshot": "screenshots/v06/supply_village/page-04.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x43c",
+      "localized_scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Young man: At this rate,",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "we'll all starve to death!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_village",
+      "page": 5,
+      "screenshot": "screenshots/v06/supply_village/page-05.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x4c2",
+      "localized_scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Young man: Supplies from",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "the next town aren't here.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_village",
+      "page": 6,
+      "screenshot": "screenshots/v06/supply_village/page-06.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x53a",
+      "localized_scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Young man: Most of our food",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "comes from the next town!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_village",
+      "page": 11,
+      "screenshot": "screenshots/v06/supply_village/page-11.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x780",
+      "localized_scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Call it a day...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_village",
+      "page": 12,
+      "screenshot": "screenshots/v06/supply_village/page-12.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x7cc",
+      "localized_scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "All right! Good as new!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_village",
+      "page": 13,
+      "screenshot": "screenshots/v06/supply_village/page-13.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x836",
+      "localized_scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Young man: We will starve!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    }
+  ],
+  "choices": [
+    {
+      "section": "departure_houses",
+      "menu": 1,
+      "selected": 0,
+      "screenshot": "screenshots/v06/departure_houses/menu-1-selected-0.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x350",
+      "lines": [
+        {
+          "id": "departure_houses_line_005",
+          "text": "Leave it to me!",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "departure_houses_line_006",
+          "text": "Easy for you...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_houses",
+      "menu": 1,
+      "selected": 1,
+      "screenshot": "screenshots/v06/departure_houses/menu-1-selected-1.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x350",
+      "lines": [
+        {
+          "id": "departure_houses_line_005",
+          "text": "Leave it to me!",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "departure_houses_line_006",
+          "text": "Easy for you...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_village",
+      "menu": 1,
+      "selected": 0,
+      "screenshot": "screenshots/v06/departure_village/menu-1-selected-0.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x232",
+      "lines": [
+        {
+          "id": "departure_village_line_002",
+          "text": "Call it a day...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "departure_village_line_003",
+          "text": "Keep going!",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "departure_village",
+      "menu": 1,
+      "selected": 1,
+      "screenshot": "screenshots/v06/departure_village/menu-1-selected-1.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x232",
+      "lines": [
+        {
+          "id": "departure_village_line_002",
+          "text": "Call it a day...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "departure_village_line_003",
+          "text": "Keep going!",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "menu": 1,
+      "selected": 0,
+      "screenshot": "screenshots/v06/supply_houses/menu-1-selected-0.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x440",
+      "lines": [
+        {
+          "id": "supply_houses_line_009",
+          "text": "I'll go!",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "supply_houses_line_010",
+          "text": "I'd rather not...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "menu": 1,
+      "selected": 1,
+      "screenshot": "screenshots/v06/supply_houses/menu-1-selected-1.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x440",
+      "lines": [
+        {
+          "id": "supply_houses_line_009",
+          "text": "I'll go!",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "supply_houses_line_010",
+          "text": "I'd rather not...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "menu": 2,
+      "selected": 0,
+      "screenshot": "screenshots/v06/supply_houses/menu-2-selected-0.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x61e",
+      "lines": [
+        {
+          "id": "supply_houses_line_021",
+          "text": "Just need a word.",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "supply_houses_line_022",
+          "text": "I came to see you.",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "menu": 2,
+      "selected": 1,
+      "screenshot": "screenshots/v06/supply_houses/menu-2-selected-1.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x61e",
+      "lines": [
+        {
+          "id": "supply_houses_line_021",
+          "text": "Just need a word.",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "supply_houses_line_022",
+          "text": "I came to see you.",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "menu": 3,
+      "selected": 0,
+      "screenshot": "screenshots/v06/supply_houses/menu-3-selected-0.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x9de",
+      "lines": [
+        {
+          "id": "supply_houses_line_040",
+          "text": "I'll go!",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "supply_houses_line_041",
+          "text": "I'd rather not...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_houses",
+      "menu": 3,
+      "selected": 1,
+      "screenshot": "screenshots/v06/supply_houses/menu-3-selected-1.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x9de",
+      "lines": [
+        {
+          "id": "supply_houses_line_040",
+          "text": "I'll go!",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "supply_houses_line_041",
+          "text": "I'd rather not...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_village",
+      "menu": 1,
+      "selected": 0,
+      "screenshot": "screenshots/v06/supply_village/menu-1-selected-0.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x232",
+      "lines": [
+        {
+          "id": "supply_village_line_002",
+          "text": "Call it a day...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "supply_village_line_003",
+          "text": "Keep going!",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "supply_village",
+      "menu": 1,
+      "selected": 1,
+      "screenshot": "screenshots/v06/supply_village/menu-1-selected-1.png",
+      "capture_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+      "script_pc": "0x232",
+      "lines": [
+        {
+          "id": "supply_village_line_002",
+          "text": "Call it a day...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "supply_village_line_003",
+          "text": "Keep going!",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    }
+  ],
+  "scenarios": {
+    "supply_village": {
+      "localized_scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3",
+      "dialogue_pages_checked": 9,
+      "dialogue_pages_total": 14,
+      "choice_menus_checked": 1,
+      "choice_menus_total": 1,
+      "choice_captures_checked": 2,
+      "unchecked_pages": [
+        7,
+        8,
+        9,
+        10,
+        14
+      ],
+      "unchecked_choice_menus": [],
+      "verified_record_ids": [
+        "supply_village_line_000",
+        "supply_village_line_002",
+        "supply_village_line_003",
+        "supply_village_line_004",
+        "supply_village_line_005",
+        "supply_village_line_006",
+        "supply_village_line_007",
+        "supply_village_line_008",
+        "supply_village_line_009",
+        "supply_village_line_010",
+        "supply_village_line_011",
+        "supply_village_line_012",
+        "supply_village_line_021",
+        "supply_village_line_022",
+        "supply_village_line_023"
+      ]
+    },
+    "supply_houses": {
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "dialogue_pages_checked": 21,
+      "dialogue_pages_total": 34,
+      "choice_menus_checked": 3,
+      "choice_menus_total": 4,
+      "choice_captures_checked": 6,
+      "unchecked_pages": [
+        5,
+        12,
+        13,
+        14,
+        18,
+        24,
+        25,
+        26,
+        27,
+        28,
+        32,
+        33,
+        34
+      ],
+      "unchecked_choice_menus": [
+        4
+      ],
+      "verified_record_ids": [
+        "supply_houses_line_000",
+        "supply_houses_line_001",
+        "supply_houses_line_002",
+        "supply_houses_line_003",
+        "supply_houses_line_004",
+        "supply_houses_line_005",
+        "supply_houses_line_006",
+        "supply_houses_line_007",
+        "supply_houses_line_009",
+        "supply_houses_line_010",
+        "supply_houses_line_012",
+        "supply_houses_line_013",
+        "supply_houses_line_014",
+        "supply_houses_line_015",
+        "supply_houses_line_016",
+        "supply_houses_line_017",
+        "supply_houses_line_018",
+        "supply_houses_line_019",
+        "supply_houses_line_021",
+        "supply_houses_line_022",
+        "supply_houses_line_023",
+        "supply_houses_line_024",
+        "supply_houses_line_025",
+        "supply_houses_line_026",
+        "supply_houses_line_033",
+        "supply_houses_line_034",
+        "supply_houses_line_035",
+        "supply_houses_line_036",
+        "supply_houses_line_037",
+        "supply_houses_line_038",
+        "supply_houses_line_040",
+        "supply_houses_line_041",
+        "supply_houses_line_043",
+        "supply_houses_line_044",
+        "supply_houses_line_045",
+        "supply_houses_line_046",
+        "supply_houses_line_047",
+        "supply_houses_line_048",
+        "supply_houses_line_049",
+        "supply_houses_line_050",
+        "supply_houses_line_051",
+        "supply_houses_line_052",
+        "supply_houses_line_066",
+        "supply_houses_line_067",
+        "supply_houses_line_068",
+        "supply_houses_line_069",
+        "supply_houses_line_070",
+        "supply_houses_line_071"
+      ]
+    },
+    "departure_village": {
+      "localized_scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081",
+      "dialogue_pages_checked": 6,
+      "dialogue_pages_total": 16,
+      "choice_menus_checked": 1,
+      "choice_menus_total": 1,
+      "choice_captures_checked": 2,
+      "unchecked_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        15,
+        16
+      ],
+      "unchecked_choice_menus": [],
+      "verified_record_ids": [
+        "departure_village_line_000",
+        "departure_village_line_002",
+        "departure_village_line_003",
+        "departure_village_line_004",
+        "departure_village_line_017",
+        "departure_village_line_018",
+        "departure_village_line_019",
+        "departure_village_line_020",
+        "departure_village_line_023",
+        "departure_village_line_024"
+      ]
+    },
+    "departure_houses": {
+      "localized_scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32",
+      "dialogue_pages_checked": 8,
+      "dialogue_pages_total": 19,
+      "choice_menus_checked": 1,
+      "choice_menus_total": 2,
+      "choice_captures_checked": 2,
+      "unchecked_pages": [
+        5,
+        6,
+        7,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "unchecked_choice_menus": [
+        2
+      ],
+      "verified_record_ids": [
+        "departure_houses_line_000",
+        "departure_houses_line_001",
+        "departure_houses_line_002",
+        "departure_houses_line_003",
+        "departure_houses_line_005",
+        "departure_houses_line_006",
+        "departure_houses_line_007",
+        "departure_houses_line_008",
+        "departure_houses_line_009",
+        "departure_houses_line_010",
+        "departure_houses_line_017",
+        "departure_houses_line_018",
+        "departure_houses_line_019",
+        "departure_houses_line_020",
+        "departure_houses_line_021",
+        "departure_houses_line_022",
+        "departure_houses_line_023",
+        "departure_houses_line_024"
+      ]
+    }
+  },
+  "method": "Actual mGBA captures reached with normal controls and checkpoints. No gameplay data edits. The decoded scenario RAM matched the final asset; both text lines and both selected choice rows were compared against exact final-ROM glyph ink.",
+  "all_pixel_checks_pass": true
+}

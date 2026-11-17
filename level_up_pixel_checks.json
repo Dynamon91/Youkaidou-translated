@@ -83,8 +83,9 @@
   "pending_ui_records": [
     "level_up_luck"
   ],
-  "target_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+  "target_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
   "evidence_release": "v04",
   "final_font_pixel_recheck": true,
-  "renderer_and_font_bytes_unchanged": true
+  "renderer_and_font_bytes_unchanged": true,
+  "earlier_event_assets_and_font_banks_unchanged": true
 }

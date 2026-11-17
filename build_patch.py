@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the Youkaidou English UI and shared scenario from a clean AFUJ ROM."""
+"""Build the Youkaidou English UI and event scenarios from a clean AFUJ ROM."""
 from pathlib import Path
 import argparse, hashlib, json, struct
 from script_codec import localize_script, decode_lzss, SCRIPT_DEST
@@ -115,7 +115,7 @@ def build(path, out):
     if hashlib.sha256(source).hexdigest() != SOURCE_SHA256:
         raise SystemExit('Wrong source ROM. This batch requires the exact unmodified ROM identified in README.md.')
     manifest = json.loads((Path(__file__).parent/'translations.json').read_text())
-    if (out/'Youkaidou_English_v05.gba').resolve() == path.resolve():
+    if (out/'Youkaidou_English_v06.gba').resolve() == path.resolve():
         raise SystemExit('The output must not overwrite the input ROM.')
     patched = bytearray(source); font = make_font(source)
     assert all(x == 0 for x in source[FONT_DEST:FONT_DEST+len(font)])
@@ -218,7 +218,7 @@ def build(path, out):
         patched[reference:reference+4] = struct.pack('<I',0x8000000+house_dest)
     additional_reports = {};additional_decoded = {}
     occupied_end = house_dest+len(house_packed)
-    for name in ['shrine','return','elder_story']:
+    for name in ['shrine','return','elder_story','supply_village','supply_houses','departure_village','departure_houses']:
         event_manifest = json.loads((Path(__file__).parent/(name+'_translations.json')).read_text())
         event_packed,event_refs,event_report,event_decoded = localize_script(source,event_manifest)
         destination = int(event_manifest['destination_rom_offset'],16)
@@ -236,9 +236,9 @@ def build(path, out):
     patch = ips(source,patched)
     assert apply_ips(source,patch) == patched
     out.mkdir(parents=True,exist_ok=True)
-    (out/'Youkaidou_English_v05.gba').write_bytes(patched)
-    (out/'Youkaidou_English_v05.ips').write_bytes(patch)
-    report = {'stage':'English v05: village, shrine incident and elder report; partial localization','source_sha256':SOURCE_SHA256,'output_sha256':hashlib.sha256(patched).hexdigest(),'rom_size':len(patched),'translated_strings':len(records),'lowercase_glyphs':26,'existing_8x16_glyphs_preserved':800,'existing_8x8_font_bank_unchanged_outside_lowercase_slots':True,'font_sizes':['8x8','8x16'],'header_unchanged':True,'control_sequences_preserved':True,'patch_roundtrip_verified':True,'main_menu_layout':{'x_tiles':18,'width_tiles':12,'right_edge_pixels':240,'longest_label_cells':9},'screen_checked_string_count':sum(x['verification'].startswith('Observed') for x in manifest['strings']),'static_only_string_count':sum(not x['verification'].startswith('Observed') for x in manifest['strings']),'story':story_report,'houses':house_report,'records':records}
+    (out/'Youkaidou_English_v06.gba').write_bytes(patched)
+    (out/'Youkaidou_English_v06.ips').write_bytes(patch)
+    report = {'stage':'English v06: village supply shortage and departure preparations; partial localization','source_sha256':SOURCE_SHA256,'output_sha256':hashlib.sha256(patched).hexdigest(),'rom_size':len(patched),'translated_strings':len(records),'lowercase_glyphs':26,'existing_8x16_glyphs_preserved':800,'existing_8x8_font_bank_unchanged_outside_lowercase_slots':True,'font_sizes':['8x8','8x16'],'header_unchanged':True,'control_sequences_preserved':True,'patch_roundtrip_verified':True,'main_menu_layout':{'x_tiles':18,'width_tiles':12,'right_edge_pixels':240,'longest_label_cells':9},'screen_checked_string_count':sum(x['verification'].startswith('Observed') for x in manifest['strings']),'static_only_string_count':sum(not x['verification'].startswith('Observed') for x in manifest['strings']),'story':story_report,'houses':house_report,'records':records}
     report['level_up_layout'] = {'name_budget_cells':8,'level_digits':3,'stat_digits_with_sign':6,'level_sentence_max_cells':level_cells,'stat_sentence_max_cells':stat_cells,'limit_cells':24,'reference_scope':'Only level-up call sites; shared Japanese particles and fixed-field stat paths are preserved elsewhere'}
     (out/'localized_scenario.bin').write_bytes(localized_script)
     (out/'localized_houses.bin').write_bytes(localized_houses)

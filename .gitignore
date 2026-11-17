@@ -8,3 +8,4 @@ __pycache__/
 output/
 rebuilt/
 builds/
+!verification/v06/roundtrip.sav

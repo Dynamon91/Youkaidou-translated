@@ -1,0 +1,1125 @@
+[
+  {
+    "kind": "dialogue",
+    "section": "departure_houses",
+    "page": 1,
+    "records": [
+      "departure_houses_line_000",
+      "departure_houses_line_001"
+    ],
+    "text": [
+      "Elder: I'm counting on you.",
+      ""
+    ],
+    "label": "after-accept-retalk",
+    "scene": "departure_houses",
+    "screenshot": "screenshots/v06/departure_houses/page-01.png",
+    "script_pc": "0x2d6",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32"
+  },
+  {
+    "kind": "dialogue",
+    "section": "departure_houses",
+    "page": 2,
+    "records": [
+      "departure_houses_line_002",
+      "departure_houses_line_003"
+    ],
+    "text": [
+      "Yayoi: Good luck, {PLAYER_NAME}!",
+      ""
+    ],
+    "label": "saved-mission-yayoi",
+    "scene": "departure_houses",
+    "screenshot": "screenshots/v06/departure_houses/page-02.png",
+    "script_pc": "0x34a",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32"
+  },
+  {
+    "kind": "dialogue",
+    "section": "departure_houses",
+    "page": 3,
+    "records": [
+      "departure_houses_line_007",
+      "departure_houses_line_008"
+    ],
+    "text": [
+      "Leave it to me!",
+      ""
+    ],
+    "label": "departure-yayoi-confident-00",
+    "scene": "departure_houses",
+    "screenshot": "screenshots/v06/departure_houses/page-03.png",
+    "script_pc": "0x3c8",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32"
+  },
+  {
+    "kind": "dialogue",
+    "section": "departure_houses",
+    "page": 4,
+    "records": [
+      "departure_houses_line_009",
+      "departure_houses_line_010"
+    ],
+    "text": [
+      "Yayoi: Take care, then.",
+      ""
+    ],
+    "label": "departure-yayoi-confident-01",
+    "scene": "departure_houses",
+    "screenshot": "screenshots/v06/departure_houses/page-04.png",
+    "script_pc": "0x404",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32"
+  },
+  {
+    "kind": "dialogue",
+    "section": "departure_houses",
+    "page": 8,
+    "records": [
+      "departure_houses_line_017",
+      "departure_houses_line_018"
+    ],
+    "text": [
+      "Easy for you to say...",
+      ""
+    ],
+    "label": "departure-yayoi-sarcastic-00",
+    "scene": "departure_houses",
+    "screenshot": "screenshots/v06/departure_houses/page-08.png",
+    "script_pc": "0x5d4",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32"
+  },
+  {
+    "kind": "dialogue",
+    "section": "departure_houses",
+    "page": 9,
+    "records": [
+      "departure_houses_line_019",
+      "departure_houses_line_020"
+    ],
+    "text": [
+      "Yayoi: I'm sorry...",
+      ""
+    ],
+    "label": "departure-yayoi-sarcastic-01",
+    "scene": "departure_houses",
+    "screenshot": "screenshots/v06/departure_houses/page-09.png",
+    "script_pc": "0x612",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32"
+  },
+  {
+    "kind": "dialogue",
+    "section": "departure_houses",
+    "page": 10,
+    "records": [
+      "departure_houses_line_021",
+      "departure_houses_line_022"
+    ],
+    "text": [
+      "Well, I'll do",
+      "what I can."
+    ],
+    "label": "departure-yayoi-sarcastic-02",
+    "scene": "departure_houses",
+    "screenshot": "screenshots/v06/departure_houses/page-10.png",
+    "script_pc": "0x640",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32"
+  },
+  {
+    "kind": "dialogue",
+    "section": "departure_houses",
+    "page": 11,
+    "records": [
+      "departure_houses_line_023",
+      "departure_houses_line_024"
+    ],
+    "text": [
+      "Yayoi: Take care, then.",
+      ""
+    ],
+    "label": "departure-yayoi-sarcastic-03",
+    "scene": "departure_houses",
+    "screenshot": "screenshots/v06/departure_houses/page-11.png",
+    "script_pc": "0x692",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32"
+  },
+  {
+    "kind": "dialogue",
+    "section": "departure_village",
+    "page": 1,
+    "records": [
+      "departure_village_line_000"
+    ],
+    "text": [
+      "This is my home...",
+      ""
+    ],
+    "label": "departure-home-00",
+    "scene": "departure_village",
+    "screenshot": "screenshots/v06/departure_village/page-01.png",
+    "script_pc": "0x204",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081"
+  },
+  {
+    "kind": "dialogue",
+    "section": "departure_village",
+    "page": 2,
+    "records": [
+      "departure_village_line_004"
+    ],
+    "text": [
+      "Keep going!",
+      ""
+    ],
+    "label": "departure-home-keep-00",
+    "scene": "departure_village",
+    "screenshot": "screenshots/v06/departure_village/page-02.png",
+    "script_pc": "0x278",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081"
+  },
+  {
+    "kind": "dialogue",
+    "section": "departure_village",
+    "page": 10,
+    "records": [
+      "departure_village_line_017",
+      "departure_village_line_018"
+    ],
+    "text": [
+      "Okin: EXP is split among",
+      "yokai with bookmarks set."
+    ],
+    "label": "departure-young-east-00",
+    "scene": "departure_village",
+    "screenshot": "screenshots/v06/departure_village/page-10.png",
+    "script_pc": "0x6bc",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081"
+  },
+  {
+    "kind": "dialogue",
+    "section": "departure_village",
+    "page": 11,
+    "records": [
+      "departure_village_line_019",
+      "departure_village_line_020"
+    ],
+    "text": [
+      "Okin: Set just one to help",
+      "it level up faster!"
+    ],
+    "label": "departure-okin-tip-02",
+    "scene": "departure_village",
+    "screenshot": "screenshots/v06/departure_village/page-11.png",
+    "script_pc": "0x730",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081"
+  },
+  {
+    "kind": "dialogue",
+    "section": "departure_village",
+    "page": 13,
+    "records": [
+      "departure_village_line_023"
+    ],
+    "text": [
+      "Call it a day...",
+      ""
+    ],
+    "label": "departure-home-rest-00",
+    "scene": "departure_village",
+    "screenshot": "screenshots/v06/departure_village/page-13.png",
+    "script_pc": "0x800",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081"
+  },
+  {
+    "kind": "dialogue",
+    "section": "departure_village",
+    "page": 14,
+    "records": [
+      "departure_village_line_024"
+    ],
+    "text": [
+      "All right! Good as new!",
+      ""
+    ],
+    "label": "departure-home-rest-01",
+    "scene": "departure_village",
+    "screenshot": "screenshots/v06/departure_village/page-14.png",
+    "script_pc": "0x84c",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 1,
+    "records": [
+      "supply_houses_line_000",
+      "supply_houses_line_001"
+    ],
+    "text": [
+      "Elder: Ah, {PLAYER_NAME}...",
+      "I knew you'd come."
+    ],
+    "label": "supply-request-00",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-01.png",
+    "script_pc": "0x2fc",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 2,
+    "records": [
+      "supply_houses_line_002",
+      "supply_houses_line_003"
+    ],
+    "text": [
+      "Elder: It seems yokai are",
+      "blocking our deliveries."
+    ],
+    "label": "supply-request-01",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-02.png",
+    "script_pc": "0x360",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 3,
+    "records": [
+      "supply_houses_line_004",
+      "supply_houses_line_005"
+    ],
+    "text": [
+      "Elder: What can we do...?",
+      ""
+    ],
+    "label": "supply-request-02",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-03.png",
+    "script_pc": "0x3d0",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 4,
+    "records": [
+      "supply_houses_line_006",
+      "supply_houses_line_007"
+    ],
+    "text": [
+      "...You want me to go",
+      "deal with them, don't you?"
+    ],
+    "label": "supply-request-03",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-04.png",
+    "script_pc": "0x406",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 6,
+    "records": [
+      "supply_houses_line_012",
+      "supply_houses_line_013"
+    ],
+    "text": [
+      "Elder: Good! I'm counting",
+      "on you..."
+    ],
+    "label": "supply-elder-accept-00",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-06.png",
+    "script_pc": "0x4e4",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 7,
+    "records": [
+      "supply_houses_line_014",
+      "supply_houses_line_015"
+    ],
+    "text": [
+      "I agreed to take care",
+      "of the yokai."
+    ],
+    "label": "supply-elder-accept-01",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-07.png",
+    "script_pc": "0x52e",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 8,
+    "records": [
+      "supply_houses_line_016",
+      "supply_houses_line_017"
+    ],
+    "text": [
+      "Yayoi: Oh, {PLAYER_NAME}!",
+      ""
+    ],
+    "label": "supply-yayoi-repeat-00",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-08.png",
+    "script_pc": "0x5de",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 9,
+    "records": [
+      "supply_houses_line_018",
+      "supply_houses_line_019"
+    ],
+    "text": [
+      "Yayoi: Need the elder?",
+      ""
+    ],
+    "label": "supply-yayoi-repeat-01",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-09.png",
+    "script_pc": "0x618",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 10,
+    "records": [
+      "supply_houses_line_023",
+      "supply_houses_line_024"
+    ],
+    "text": [
+      "Just need a word...",
+      ""
+    ],
+    "label": "supply-yayoi-elder-00",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-10.png",
+    "script_pc": "0x6a8",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 11,
+    "records": [
+      "supply_houses_line_025",
+      "supply_houses_line_026"
+    ],
+    "text": [
+      "Yayoi: He's in the back.",
+      ""
+    ],
+    "label": "supply-yayoi-elder-01",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-11.png",
+    "script_pc": "0x6e6",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 15,
+    "records": [
+      "supply_houses_line_033",
+      "supply_houses_line_034"
+    ],
+    "text": [
+      "Elder: Ah, {PLAYER_NAME}...",
+      "I knew you'd come."
+    ],
+    "label": "supply-elder-return-00",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-15.png",
+    "script_pc": "0x8f2",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 16,
+    "records": [
+      "supply_houses_line_035",
+      "supply_houses_line_036"
+    ],
+    "text": [
+      "Elder: Will you help",
+      "the village now?"
+    ],
+    "label": "supply-elder-return-01",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-16.png",
+    "script_pc": "0x94c",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 17,
+    "records": [
+      "supply_houses_line_037",
+      "supply_houses_line_038"
+    ],
+    "text": [
+      "I guess I'd better go",
+      "and deal with the yokai..."
+    ],
+    "label": "supply-elder-return-02",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-17.png",
+    "script_pc": "0x9a4",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 19,
+    "records": [
+      "supply_houses_line_043",
+      "supply_houses_line_044"
+    ],
+    "text": [
+      "Elder: Good! I'm counting",
+      "on you..."
+    ],
+    "label": "supply-elder-return-accept-00",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-19.png",
+    "script_pc": "0xa82",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 20,
+    "records": [
+      "supply_houses_line_045",
+      "supply_houses_line_046"
+    ],
+    "text": [
+      "I agreed to take care",
+      "of the yokai."
+    ],
+    "label": "supply-elder-return-accept-01",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-20.png",
+    "script_pc": "0xacc",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 21,
+    "records": [
+      "supply_houses_line_047",
+      "supply_houses_line_048"
+    ],
+    "text": [
+      "I'd rather not...",
+      ""
+    ],
+    "label": "supply-elder-return-refuse-00",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-21.png",
+    "script_pc": "0xb4e",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 22,
+    "records": [
+      "supply_houses_line_049",
+      "supply_houses_line_050"
+    ],
+    "text": [
+      "Elder: Well, if you insist,",
+      "I can't make you..."
+    ],
+    "label": "supply-elder-return-refuse-01",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-22.png",
+    "script_pc": "0xb9e",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 23,
+    "records": [
+      "supply_houses_line_051",
+      "supply_houses_line_052"
+    ],
+    "text": [
+      "I refused to deal",
+      "with the yokai."
+    ],
+    "label": "supply-elder-return-refuse-02",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-23.png",
+    "script_pc": "0xbfe",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 29,
+    "records": [
+      "supply_houses_line_066",
+      "supply_houses_line_067"
+    ],
+    "text": [
+      "I came to see you, Yayoi.",
+      ""
+    ],
+    "label": "supply-yayoi-visit-00",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-29.png",
+    "script_pc": "0xe4e",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 30,
+    "records": [
+      "supply_houses_line_068",
+      "supply_houses_line_069"
+    ],
+    "text": [
+      "Yayoi: Oh, {PLAYER_NAME}!",
+      "You're always joking!"
+    ],
+    "label": "supply-yayoi-visit-01",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-30.png",
+    "script_pc": "0xe80",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_houses",
+    "page": 31,
+    "records": [
+      "supply_houses_line_070",
+      "supply_houses_line_071"
+    ],
+    "text": [
+      "Yayoi: He's in the back.",
+      ""
+    ],
+    "label": "supply-yayoi-visit-02",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/page-31.png",
+    "script_pc": "0xee8",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_village",
+    "page": 1,
+    "records": [
+      "supply_village_line_000"
+    ],
+    "text": [
+      "This is my home...",
+      ""
+    ],
+    "label": "supply-home-00",
+    "scene": "supply_village",
+    "screenshot": "screenshots/v06/supply_village/page-01.png",
+    "script_pc": "0x204",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_village",
+    "page": 2,
+    "records": [
+      "supply_village_line_004"
+    ],
+    "text": [
+      "Keep going!",
+      ""
+    ],
+    "label": "supply-home-keep-00",
+    "scene": "supply_village",
+    "screenshot": "screenshots/v06/supply_village/page-02.png",
+    "script_pc": "0x278",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_village",
+    "page": 3,
+    "records": [
+      "supply_village_line_005",
+      "supply_village_line_006"
+    ],
+    "text": [
+      "Young man: Damn! Days pass,",
+      "but no supplies arrive..."
+    ],
+    "label": "supply-young-first-00",
+    "scene": "supply_village",
+    "screenshot": "screenshots/v06/supply_village/page-03.png",
+    "script_pc": "0x3cc",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_village",
+    "page": 4,
+    "records": [
+      "supply_village_line_007",
+      "supply_village_line_008"
+    ],
+    "text": [
+      "Young man: At this rate,",
+      "we'll all starve to death!"
+    ],
+    "label": "supply-young-first-01",
+    "scene": "supply_village",
+    "screenshot": "screenshots/v06/supply_village/page-04.png",
+    "script_pc": "0x43c",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_village",
+    "page": 5,
+    "records": [
+      "supply_village_line_009",
+      "supply_village_line_010"
+    ],
+    "text": [
+      "Young man: Supplies from",
+      "the next town aren't here."
+    ],
+    "label": "supply-young-00",
+    "scene": "supply_village",
+    "screenshot": "screenshots/v06/supply_village/page-05.png",
+    "script_pc": "0x4c2",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_village",
+    "page": 6,
+    "records": [
+      "supply_village_line_011",
+      "supply_village_line_012"
+    ],
+    "text": [
+      "Young man: Most of our food",
+      "comes from the next town!"
+    ],
+    "label": "supply-young-east-repeat-00",
+    "scene": "supply_village",
+    "screenshot": "screenshots/v06/supply_village/page-06.png",
+    "script_pc": "0x53a",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_village",
+    "page": 11,
+    "records": [
+      "supply_village_line_021"
+    ],
+    "text": [
+      "Call it a day...",
+      ""
+    ],
+    "label": "supply-home-rest-00",
+    "scene": "supply_village",
+    "screenshot": "screenshots/v06/supply_village/page-11.png",
+    "script_pc": "0x780",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_village",
+    "page": 12,
+    "records": [
+      "supply_village_line_022"
+    ],
+    "text": [
+      "All right! Good as new!",
+      ""
+    ],
+    "label": "supply-home-rest-01",
+    "scene": "supply_village",
+    "screenshot": "screenshots/v06/supply_village/page-12.png",
+    "script_pc": "0x7cc",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "supply_village",
+    "page": 13,
+    "records": [
+      "supply_village_line_023"
+    ],
+    "text": [
+      "Young man: We will starve!",
+      ""
+    ],
+    "label": "supply-young-west-again-00",
+    "scene": "supply_village",
+    "screenshot": "screenshots/v06/supply_village/page-13.png",
+    "script_pc": "0x836",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3"
+  },
+  {
+    "kind": "choice",
+    "section": "departure_houses",
+    "menu": 1,
+    "selected": 0,
+    "records": [
+      "departure_houses_line_005",
+      "departure_houses_line_006"
+    ],
+    "text": [
+      "Leave it to me!",
+      "Easy for you..."
+    ],
+    "label": "departure-yayoi-choice-confident",
+    "scene": "departure_houses",
+    "screenshot": "screenshots/v06/departure_houses/menu-1-selected-0.png",
+    "script_pc": "0x350",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32"
+  },
+  {
+    "kind": "choice",
+    "section": "departure_houses",
+    "menu": 1,
+    "selected": 1,
+    "records": [
+      "departure_houses_line_005",
+      "departure_houses_line_006"
+    ],
+    "text": [
+      "Leave it to me!",
+      "Easy for you..."
+    ],
+    "label": "departure-yayoi-choice-sarcastic",
+    "scene": "departure_houses",
+    "screenshot": "screenshots/v06/departure_houses/menu-1-selected-1.png",
+    "script_pc": "0x350",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32"
+  },
+  {
+    "kind": "choice",
+    "section": "departure_village",
+    "menu": 1,
+    "selected": 0,
+    "records": [
+      "departure_village_line_002",
+      "departure_village_line_003"
+    ],
+    "text": [
+      "Call it a day...",
+      "Keep going!"
+    ],
+    "label": "departure-home-choice-rest",
+    "scene": "departure_village",
+    "screenshot": "screenshots/v06/departure_village/menu-1-selected-0.png",
+    "script_pc": "0x232",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081"
+  },
+  {
+    "kind": "choice",
+    "section": "departure_village",
+    "menu": 1,
+    "selected": 1,
+    "records": [
+      "departure_village_line_002",
+      "departure_village_line_003"
+    ],
+    "text": [
+      "Call it a day...",
+      "Keep going!"
+    ],
+    "label": "departure-home-choice-keep",
+    "scene": "departure_village",
+    "screenshot": "screenshots/v06/departure_village/menu-1-selected-1.png",
+    "script_pc": "0x232",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081"
+  },
+  {
+    "kind": "choice",
+    "section": "supply_houses",
+    "menu": 1,
+    "selected": 0,
+    "records": [
+      "supply_houses_line_009",
+      "supply_houses_line_010"
+    ],
+    "text": [
+      "I'll go!",
+      "I'd rather not..."
+    ],
+    "label": "supply-elder-choice-accept",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/menu-1-selected-0.png",
+    "script_pc": "0x440",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "choice",
+    "section": "supply_houses",
+    "menu": 1,
+    "selected": 1,
+    "records": [
+      "supply_houses_line_009",
+      "supply_houses_line_010"
+    ],
+    "text": [
+      "I'll go!",
+      "I'd rather not..."
+    ],
+    "label": "supply-elder-choice-refuse",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/menu-1-selected-1.png",
+    "script_pc": "0x440",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "choice",
+    "section": "supply_houses",
+    "menu": 2,
+    "selected": 0,
+    "records": [
+      "supply_houses_line_021",
+      "supply_houses_line_022"
+    ],
+    "text": [
+      "Just need a word.",
+      "I came to see you."
+    ],
+    "label": "supply-yayoi-repeat-02",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/menu-2-selected-0.png",
+    "script_pc": "0x61e",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "choice",
+    "section": "supply_houses",
+    "menu": 2,
+    "selected": 1,
+    "records": [
+      "supply_houses_line_021",
+      "supply_houses_line_022"
+    ],
+    "text": [
+      "Just need a word.",
+      "I came to see you."
+    ],
+    "label": "supply-yayoi-choice-visit",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/menu-2-selected-1.png",
+    "script_pc": "0x61e",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "choice",
+    "section": "supply_houses",
+    "menu": 3,
+    "selected": 0,
+    "records": [
+      "supply_houses_line_040",
+      "supply_houses_line_041"
+    ],
+    "text": [
+      "I'll go!",
+      "I'd rather not..."
+    ],
+    "label": "supply-elder-return-choice-accept",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/menu-3-selected-0.png",
+    "script_pc": "0x9de",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "choice",
+    "section": "supply_houses",
+    "menu": 3,
+    "selected": 1,
+    "records": [
+      "supply_houses_line_040",
+      "supply_houses_line_041"
+    ],
+    "text": [
+      "I'll go!",
+      "I'd rather not..."
+    ],
+    "label": "supply-elder-return-choice-refuse",
+    "scene": "supply_houses",
+    "screenshot": "screenshots/v06/supply_houses/menu-3-selected-1.png",
+    "script_pc": "0x9de",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b"
+  },
+  {
+    "kind": "choice",
+    "section": "supply_village",
+    "menu": 1,
+    "selected": 0,
+    "records": [
+      "supply_village_line_002",
+      "supply_village_line_003"
+    ],
+    "text": [
+      "Call it a day...",
+      "Keep going!"
+    ],
+    "label": "supply-home-choice-rest",
+    "scene": "supply_village",
+    "screenshot": "screenshots/v06/supply_village/menu-1-selected-0.png",
+    "script_pc": "0x232",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3"
+  },
+  {
+    "kind": "choice",
+    "section": "supply_village",
+    "menu": 1,
+    "selected": 1,
+    "records": [
+      "supply_village_line_002",
+      "supply_village_line_003"
+    ],
+    "text": [
+      "Call it a day...",
+      "Keep going!"
+    ],
+    "label": "supply-home-choice-keep",
+    "scene": "supply_village",
+    "screenshot": "screenshots/v06/supply_village/menu-1-selected-1.png",
+    "script_pc": "0x232",
+    "pixel_match": true,
+    "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3"
+  }
+]

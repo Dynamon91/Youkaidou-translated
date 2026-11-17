@@ -1,0 +1,39 @@
+{
+  "backup_bytes": 8192,
+  "fresh_reset_loaded_save": true,
+  "continue_reached_gameplay": true,
+  "continued_field_menu_pixel_match": true,
+  "confirmation_choices": [
+    {
+      "requested": "No",
+      "observed_before_press": "Yes",
+      "matched_after_navigation": true
+    },
+    {
+      "requested": "Yes",
+      "observed_before_press": "Yes",
+      "matched_after_navigation": true
+    },
+    {
+      "requested": "Yes",
+      "observed_before_press": "Yes",
+      "matched_after_navigation": true
+    },
+    {
+      "requested": "No",
+      "observed_before_press": "Yes",
+      "matched_after_navigation": true
+    }
+  ],
+  "screens": [
+    "save-confirm.png",
+    "save-cancelled.png",
+    "save-complete.png",
+    "title-with-save.png",
+    "continue-game.png",
+    "continued-field-menu.png",
+    "save-again-confirm.png",
+    "overwrite-confirm.png",
+    "overwrite-cancelled.png"
+  ]
+}

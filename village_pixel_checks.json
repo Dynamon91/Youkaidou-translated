@@ -1411,7 +1411,7 @@
       "pixel_match": true
     }
   ],
-  "target_rom_sha256": "b64549259066bea6458350ea02638752e869252a731839a242c3574011f61bc1",
+  "target_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
   "shared_scenario_unchanged": true,
   "final_font_pixel_recheck": true,
   "evidence_releases": [
@@ -1439,5 +1439,6 @@
   "choice_menus_with_one_selection": [
     3,
     4
-  ]
+  ],
+  "earlier_event_assets_and_font_banks_unchanged": true
 }

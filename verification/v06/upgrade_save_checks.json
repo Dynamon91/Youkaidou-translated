@@ -1,0 +1,11 @@
+{
+  "target_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+  "post_mission_save_continued": true,
+  "accepted_mission_preserved": true,
+  "continued_yayoi_page": 2,
+  "source_v05_save_sha256": "6a8620c5990edffaddb00ceab2687200f64067bdf33ca0cbe642a67c0c5d08bb",
+  "v05_save_loaded_after_reset": true,
+  "v05_shrine_stage_preserved": true,
+  "upgraded_yayoi_page": 11,
+  "all_pixel_checks_pass": true
+}
