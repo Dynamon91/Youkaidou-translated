@@ -8,7 +8,7 @@ from PIL import Image
 from script_codec import encode_story
 
 ROOT=Path(__file__).resolve().parent
-ROM=(ROOT/'Youkaidou_English_v06.gba').read_bytes()
+ROM=(ROOT/'Youkaidou_English_v07.gba').read_bytes()
 GLYPHS=json.loads((ROOT/'verification_glyphs.json').read_text())
 
 def large_mask(text,width=27):
@@ -45,7 +45,7 @@ def small_mask(text):
     return result
 
 pages=choices=popups=0
-for filename in ['opening_pixel_checks.json','village_pixel_checks.json','house_pixel_checks.json','story_pixel_checks.json','mission_pixel_checks.json']:
+for filename in ['opening_pixel_checks.json','village_pixel_checks.json','house_pixel_checks.json','story_pixel_checks.json','mission_pixel_checks.json','rescue_pixel_checks.json']:
     data=json.loads((ROOT/filename).read_text())
     for page in data['pages']:
         im=Image.open(ROOT/page['screenshot']).convert('RGB')

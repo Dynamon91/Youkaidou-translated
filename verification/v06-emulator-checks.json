@@ -1,0 +1,271 @@
+{
+  "emulator": "mGBA 0.10.5",
+  "date": "2026-11-17",
+  "rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+  "dimensions": [
+    240,
+    160
+  ],
+  "dialogue_pages_pixel_checked": 232,
+  "retained_dialogue_pages_checked": 188,
+  "new_dialogue_pages_checked": 44,
+  "new_dialogue_pages_total": 83,
+  "choice_captures_pixel_checked": 34,
+  "new_choice_captures_checked": 12,
+  "new_choice_menus_checked": 6,
+  "new_choice_menus_total": 8,
+  "level_up_popup_pixel_checks": 7,
+  "ui_screen_checked_records": 51,
+  "ui_static_only_records": 34,
+  "all_recorded_pixel_checks_pass": true,
+  "earlier_event_assets_and_font_banks_unchanged": true,
+  "event_assets_rebuilt": 9,
+  "entry_offsets_rebased": 805,
+  "asset_references_redirected": 1284,
+  "save_roundtrip": {
+    "backup_bytes": 8192,
+    "fresh_reset_loaded_save": true,
+    "continue_reached_gameplay": true,
+    "continued_field_menu_pixel_match": true,
+    "confirmation_choices": [
+      {
+        "requested": "No",
+        "observed_before_press": "Yes",
+        "matched_after_navigation": true
+      },
+      {
+        "requested": "Yes",
+        "observed_before_press": "Yes",
+        "matched_after_navigation": true
+      },
+      {
+        "requested": "Yes",
+        "observed_before_press": "Yes",
+        "matched_after_navigation": true
+      },
+      {
+        "requested": "No",
+        "observed_before_press": "Yes",
+        "matched_after_navigation": true
+      }
+    ],
+    "screens": [
+      "save-confirm.png",
+      "save-cancelled.png",
+      "save-complete.png",
+      "title-with-save.png",
+      "continue-game.png",
+      "continued-field-menu.png",
+      "save-again-confirm.png",
+      "overwrite-confirm.png",
+      "overwrite-cancelled.png"
+    ]
+  },
+  "v05_save_upgrade": {
+    "target_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+    "post_mission_save_continued": true,
+    "accepted_mission_preserved": true,
+    "continued_yayoi_page": 2,
+    "source_v05_save_sha256": "6a8620c5990edffaddb00ceab2687200f64067bdf33ca0cbe642a67c0c5d08bb",
+    "v05_save_loaded_after_reset": true,
+    "v05_shrine_stage_preserved": true,
+    "upgraded_yayoi_page": 11,
+    "all_pixel_checks_pass": true
+  },
+  "new_scenarios": {
+    "supply_village": {
+      "localized_scenario_sha256": "8bf03b91fc2c504469bf728d8cef1a705d6ce81225cf708a0e66d531da8be4d3",
+      "dialogue_pages_checked": 9,
+      "dialogue_pages_total": 14,
+      "choice_menus_checked": 1,
+      "choice_menus_total": 1,
+      "choice_captures_checked": 2,
+      "unchecked_pages": [
+        7,
+        8,
+        9,
+        10,
+        14
+      ],
+      "unchecked_choice_menus": [],
+      "verified_record_ids": [
+        "supply_village_line_000",
+        "supply_village_line_002",
+        "supply_village_line_003",
+        "supply_village_line_004",
+        "supply_village_line_005",
+        "supply_village_line_006",
+        "supply_village_line_007",
+        "supply_village_line_008",
+        "supply_village_line_009",
+        "supply_village_line_010",
+        "supply_village_line_011",
+        "supply_village_line_012",
+        "supply_village_line_021",
+        "supply_village_line_022",
+        "supply_village_line_023"
+      ]
+    },
+    "supply_houses": {
+      "localized_scenario_sha256": "61679779cd1fd763ebc8b21063c09e73dd85bbf6b59e7a13b5d74bd6a8e4341b",
+      "dialogue_pages_checked": 21,
+      "dialogue_pages_total": 34,
+      "choice_menus_checked": 3,
+      "choice_menus_total": 4,
+      "choice_captures_checked": 6,
+      "unchecked_pages": [
+        5,
+        12,
+        13,
+        14,
+        18,
+        24,
+        25,
+        26,
+        27,
+        28,
+        32,
+        33,
+        34
+      ],
+      "unchecked_choice_menus": [
+        4
+      ],
+      "verified_record_ids": [
+        "supply_houses_line_000",
+        "supply_houses_line_001",
+        "supply_houses_line_002",
+        "supply_houses_line_003",
+        "supply_houses_line_004",
+        "supply_houses_line_005",
+        "supply_houses_line_006",
+        "supply_houses_line_007",
+        "supply_houses_line_009",
+        "supply_houses_line_010",
+        "supply_houses_line_012",
+        "supply_houses_line_013",
+        "supply_houses_line_014",
+        "supply_houses_line_015",
+        "supply_houses_line_016",
+        "supply_houses_line_017",
+        "supply_houses_line_018",
+        "supply_houses_line_019",
+        "supply_houses_line_021",
+        "supply_houses_line_022",
+        "supply_houses_line_023",
+        "supply_houses_line_024",
+        "supply_houses_line_025",
+        "supply_houses_line_026",
+        "supply_houses_line_033",
+        "supply_houses_line_034",
+        "supply_houses_line_035",
+        "supply_houses_line_036",
+        "supply_houses_line_037",
+        "supply_houses_line_038",
+        "supply_houses_line_040",
+        "supply_houses_line_041",
+        "supply_houses_line_043",
+        "supply_houses_line_044",
+        "supply_houses_line_045",
+        "supply_houses_line_046",
+        "supply_houses_line_047",
+        "supply_houses_line_048",
+        "supply_houses_line_049",
+        "supply_houses_line_050",
+        "supply_houses_line_051",
+        "supply_houses_line_052",
+        "supply_houses_line_066",
+        "supply_houses_line_067",
+        "supply_houses_line_068",
+        "supply_houses_line_069",
+        "supply_houses_line_070",
+        "supply_houses_line_071"
+      ]
+    },
+    "departure_village": {
+      "localized_scenario_sha256": "263e54b1d903ea0585eec5f9140b3f2b5b0d066e9e503f1a8ffffd8ca172a081",
+      "dialogue_pages_checked": 6,
+      "dialogue_pages_total": 16,
+      "choice_menus_checked": 1,
+      "choice_menus_total": 1,
+      "choice_captures_checked": 2,
+      "unchecked_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        15,
+        16
+      ],
+      "unchecked_choice_menus": [],
+      "verified_record_ids": [
+        "departure_village_line_000",
+        "departure_village_line_002",
+        "departure_village_line_003",
+        "departure_village_line_004",
+        "departure_village_line_017",
+        "departure_village_line_018",
+        "departure_village_line_019",
+        "departure_village_line_020",
+        "departure_village_line_023",
+        "departure_village_line_024"
+      ]
+    },
+    "departure_houses": {
+      "localized_scenario_sha256": "441c13b5cf814adadb6bcb05fe48ae11e1c6301505dc71722e13ec0be91c0b32",
+      "dialogue_pages_checked": 8,
+      "dialogue_pages_total": 19,
+      "choice_menus_checked": 1,
+      "choice_menus_total": 2,
+      "choice_captures_checked": 2,
+      "unchecked_pages": [
+        5,
+        6,
+        7,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "unchecked_choice_menus": [
+        2
+      ],
+      "verified_record_ids": [
+        "departure_houses_line_000",
+        "departure_houses_line_001",
+        "departure_houses_line_002",
+        "departure_houses_line_003",
+        "departure_houses_line_005",
+        "departure_houses_line_006",
+        "departure_houses_line_007",
+        "departure_houses_line_008",
+        "departure_houses_line_009",
+        "departure_houses_line_010",
+        "departure_houses_line_017",
+        "departure_houses_line_018",
+        "departure_houses_line_019",
+        "departure_houses_line_020",
+        "departure_houses_line_021",
+        "departure_houses_line_022",
+        "departure_houses_line_023",
+        "departure_houses_line_024"
+      ]
+    }
+  },
+  "known_unverified_scope": [
+    "39 pages and two menus in the newly translated batch retain static/source checks; see mission_pixel_checks.json.",
+    "The new pending pages include other villagers and house visits, conditional Yayoi variants, and brief choice confirmations.",
+    "Earlier pending village, Yayoi, shrine/home and return-reminder branches remain pending as recorded in their reports.",
+    "34 localized UI records retain static checks only.",
+    "Later scenarios, most yokai names, naming, the preflight notice, and some battle text/artwork labels remain Japanese.",
+    "Link connectivity, later battles/menus, late-game saves, and physical hardware have not been checked."
+  ]
+}

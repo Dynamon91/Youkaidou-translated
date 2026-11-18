@@ -1,0 +1,122 @@
+[
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 1,
+    "records": [
+      "cargo_road_line_000",
+      "cargo_road_line_001"
+    ],
+    "text": [
+      "Driver: Help me!",
+      ""
+    ],
+    "label": "final-driver-help-1",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v07/cargo_road/page-01.png",
+    "script_pc": "0x2fa",
+    "pixel_match": true,
+    "rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 2,
+    "records": [
+      "cargo_road_line_002",
+      "cargo_road_line_003"
+    ],
+    "text": [
+      "Driver: A-a yokai...!",
+      ""
+    ],
+    "label": "final-driver-help-2",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v07/cargo_road/page-02.png",
+    "script_pc": "0x330",
+    "pixel_match": true,
+    "rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 3,
+    "records": [
+      "cargo_road_line_004",
+      "cargo_road_line_005"
+    ],
+    "text": [
+      "Ittan-momen: All mine! Gii!",
+      ""
+    ],
+    "label": "final-ittan-intro-1",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v07/cargo_road/page-03.png",
+    "script_pc": "0x3ce",
+    "pixel_match": true,
+    "rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 4,
+    "records": [
+      "cargo_road_line_006",
+      "cargo_road_line_007"
+    ],
+    "text": [
+      "Ittan-momen: Back off! Gii!",
+      ""
+    ],
+    "label": "final-ittan-intro-2",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v07/cargo_road/page-04.png",
+    "script_pc": "0x410",
+    "pixel_match": true,
+    "rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 5,
+    "records": [
+      "cargo_road_line_008",
+      "cargo_road_line_009"
+    ],
+    "text": [
+      "Welcome to Ichinohe",
+      "Village!"
+    ],
+    "label": "explore-9-128",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v07/cargo_road/page-05.png",
+    "script_pc": "0x460",
+    "pixel_match": true,
+    "rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 10,
+    "records": [
+      "cargo_road_line_018",
+      "cargo_road_line_019"
+    ],
+    "text": [
+      "{PLAYER_NAME} found 5 gold!",
+      ""
+    ],
+    "label": "explore-112-16",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v07/cargo_road/page-10.png",
+    "script_pc": "0x5fc",
+    "pixel_match": true,
+    "rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  }
+]

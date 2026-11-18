@@ -100,6 +100,21 @@ def localize_script(rom, manifest):
         edits.append((start,end,new))
         records.append({'id':item['id'],'page':item['page'],'line':item['line'],'old_offset':item['offset'],'cells_with_variable_budget':cells,'max_pixels':cells*8,'limit_pixels':item['max_cells']*8,'section':item.get('section','opening'),'role':item.get('role','dialogue'),'variables':variables,'verification':item['verification']})
     edits.sort()
+    # These NPC intro pairs have one shared 27-cell buffer. Their original
+    # second print is empty and follows 0x4006 without the additional 0x4001
+    # used by regular dialogue.
+    # Per-line checks alone allow text that the stock renderer truncates.
+    by_id = {item['id']: item for item in manifest['strings']}
+    buffer_checks = []
+    for limit in manifest.get('text_buffer_limits', []):
+        items = [by_id[identifier] for identifier in limit['ids']]
+        assert len(items) == 2 and limit['max_cells'] == 27
+        first_end = int(items[0]['offset'], 16) + len(bytes.fromhex(items[0]['source_hex']))
+        second_marker = int(items[1]['offset'], 16) - 2
+        assert original[first_end:second_marker] == bytes.fromhex('0640')
+        cells = sum(encode_story(item['english'])[1] for item in items)
+        assert cells <= limit['max_cells'], (limit['ids'], 'shared NPC text buffer', cells)
+        buffer_checks.append(dict(ids=limit['ids'], cells=cells, max_cells=limit['max_cells']))
     result=bytearray();position=0;new_positions={}
     for start,end,new in edits:
         assert start>=position
@@ -143,4 +158,5 @@ def localize_script(rom, manifest):
     sections={x['section'] for x in records}
     report['dialogue_pages_by_section']={section:len({x['page'] for x in records if x['section']==section and x['role']=='dialogue' and x['cells_with_variable_budget']}) for section in sorted(sections)}
     report['choice_menus_by_section']={section:len({x['menu'] for x in manifest['strings'] if x.get('section','opening')==section and x.get('role')=='choice'}) for section in sorted(sections)}
+    report['text_buffer_limits_checked'] = buffer_checks
     return packed,references,report,bytes(result)

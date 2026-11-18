@@ -1,5 +1,5 @@
 {
-  "target_rom_sha256": "4a7d623ec159ac9102ea2bd529433c1a9d5cf94a16024a8e2b26219b4951098d",
+  "target_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
   "resolution": [
     240,
     160
@@ -1624,5 +1624,7 @@
     }
   },
   "method": "Actual mGBA captures reached with normal controls and checkpoints. No gameplay data edits. The decoded scenario RAM matched the final asset; both text lines and both selected choice rows were compared against exact final-ROM glyph ink.",
-  "all_pixel_checks_pass": true
+  "all_pixel_checks_pass": true,
+  "final_font_pixel_recheck": true,
+  "earlier_event_assets_and_font_banks_unchanged": true
 }

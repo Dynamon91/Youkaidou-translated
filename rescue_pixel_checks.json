@@ -1,0 +1,349 @@
+{
+  "target_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+  "resolution": [
+    240,
+    160
+  ],
+  "cells_per_line": 27,
+  "line_height": 16,
+  "default_player_name": "ヤシャオウ",
+  "pages": [
+    {
+      "section": "cargo_road",
+      "page": 1,
+      "screenshot": "screenshots/v07/cargo_road/page-01.png",
+      "capture_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+      "script_pc": "0x2fa",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: Help me!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 2,
+      "screenshot": "screenshots/v07/cargo_road/page-02.png",
+      "capture_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+      "script_pc": "0x330",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: A-a yokai...!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 3,
+      "screenshot": "screenshots/v07/cargo_road/page-03.png",
+      "capture_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+      "script_pc": "0x3ce",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Ittan-momen: All mine! Gii!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 4,
+      "screenshot": "screenshots/v07/cargo_road/page-04.png",
+      "capture_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+      "script_pc": "0x410",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Ittan-momen: Back off! Gii!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 5,
+      "screenshot": "screenshots/v07/cargo_road/page-05.png",
+      "capture_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+      "script_pc": "0x460",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Welcome to Ichinohe",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "Village!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 10,
+      "screenshot": "screenshots/v07/cargo_road/page-10.png",
+      "capture_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+      "script_pc": "0x5fc",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "{PLAYER_NAME} found 5 gold!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    }
+  ],
+  "choices": [],
+  "scenarios": {
+    "cargo_road": {
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "dialogue_pages_checked": 6,
+      "dialogue_pages_total": 52,
+      "choice_menus_checked": 0,
+      "choice_menus_total": 3,
+      "choice_captures_checked": 0,
+      "unchecked_pages": [
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "unchecked_choice_menus": [
+        1,
+        2,
+        3
+      ],
+      "verified_record_ids": [
+        "cargo_road_line_000",
+        "cargo_road_line_001",
+        "cargo_road_line_002",
+        "cargo_road_line_003",
+        "cargo_road_line_004",
+        "cargo_road_line_005",
+        "cargo_road_line_006",
+        "cargo_road_line_007",
+        "cargo_road_line_008",
+        "cargo_road_line_009",
+        "cargo_road_line_018",
+        "cargo_road_line_019"
+      ]
+    },
+    "cargo_village": {
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "dialogue_pages_checked": 0,
+      "dialogue_pages_total": 14,
+      "choice_menus_checked": 0,
+      "choice_menus_total": 1,
+      "choice_captures_checked": 0,
+      "unchecked_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "unchecked_choice_menus": [
+        1
+      ],
+      "verified_record_ids": []
+    },
+    "cargo_report": {
+      "localized_scenario_sha256": "f4e26e4a6a6568945c3e1ac944c871811da3339fe6fff2e814104a14ca72da60",
+      "dialogue_pages_checked": 0,
+      "dialogue_pages_total": 37,
+      "choice_menus_checked": 0,
+      "choice_menus_total": 1,
+      "choice_captures_checked": 0,
+      "unchecked_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "unchecked_choice_menus": [
+        1
+      ],
+      "verified_record_ids": []
+    },
+    "journey_village": {
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "dialogue_pages_checked": 0,
+      "dialogue_pages_total": 14,
+      "choice_menus_checked": 0,
+      "choice_menus_total": 1,
+      "choice_captures_checked": 0,
+      "unchecked_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "unchecked_choice_menus": [
+        1
+      ],
+      "verified_record_ids": []
+    }
+  },
+  "method": "Actual mGBA captures reached with normal controls and checkpoints; no gameplay data edits. Full decoded scenario RAM matched the final asset. Both text lines matched the exact final-ROM glyph ink.",
+  "all_recorded_pixel_checks_pass": true
+}

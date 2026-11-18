@@ -1,39 +1,40 @@
 # Youkaidou — English translation
 
 A work-in-progress English fan translation of **Youkaidou for Game Boy Advance**.
-Current version: **v06**.
+Current version: **v07**.
 
 Menus and early story dialogue use natural, mixed-case English while preserving
 the original text boxes, choices, and character-name variables.
 
 ## Current progress
 
-- New in v06: **140 English lines** for the village's supply shortage, the elder's
-  request, departure conversations, and party tips.
-- The request's acceptance, refusal, and return-after-refusal paths were checked,
-  along with both home/rest choices and the main replies to Yayoi.
-- **44 of 83 new dialogue pages** passed exact text-pixel checks. Across the
-  project, the included evidence covers **232 dialogue pages, 34 choice captures,
-  and seven level-up messages**.
-- Saving and Continue preserve the accepted mission. An earlier v05 save also
-  loads correctly in v06.
-- Later chapters and some UI text are still Japanese. Untested translated
-  branches are identified in the verification reports.
+- New in v07: **186 English lines** for the delivery rescue, the truck ride home,
+  village conversations, the elder's war warning, and the next departure.
+- Fixed a real text-buffer overflow in Ittan-momen's introduction. The driver
+  and Ittan-momen introductions, the road sign and a Healing Med pickup now pass
+  exact screen checks: **6 of 117 new dialogue pages**.
+- The other **111 pages and all six new choice menus await playtests**. The
+  rescue battle starts; victory and the subsequent story have not been verified.
+- Saving and Continue work on the delivery road. A v06 save also loads in v07
+  and preserves the accepted mission.
+- Included evidence covers **238 dialogue pages, 34 choice captures and seven
+  level-up messages**, with earlier captures rechecked against unchanged fonts.
+- Later chapters and some UI remain Japanese. This is a partial translation.
 
 ## Screenshots from the working translation
 
-Real emulator captures of the supply-shortage story and Yayoi's reply, enlarged
-without smoothing. The player name remains the game's variable.
+Real emulator captures of the delivery driver and Ittan-momen, enlarged without
+smoothing. These show the new dialogue running in the final v07 build.
 
-![v06 elder request and Yayoi dialogue](Youkaidou_English_v06_Preview.png)
+![v07 delivery driver and Ittan-momen dialogue](Youkaidou_English_v07_Preview.png)
 
-English field menu after loading the accepted mission:
+English field menu after saving and Continue:
 
-![English field menu after Continue](screenshots/save-v06/continued-field-menu.png)
+![English field menu after Continue](screenshots/save-v07/continued-field-menu.png)
 
-## Try v06
+## Try v07
 
-[Download the v06 IPS patch](https://github.com/Dynamon91/Youkaidou-translated/raw/refs/heads/main/Youkaidou_English_v06.ips)
+[Download the v07 IPS patch](https://github.com/Dynamon91/Youkaidou-translated/raw/refs/heads/main/Youkaidou_English_v07.ips)
 and apply it to the clean Japanese ROM with an IPS patcher.
 
 Required original: `YOUKAIDOU`, game code `AFUJ`, 8,388,608 bytes.
@@ -46,6 +47,6 @@ To build from source with Python 3.8 or newer:
 python3 build_patch.py "/path/to/Youkaidou (Japan).gba" --output rebuilt
 ```
 
-The repository contains the translation files, patch builder, IPS patches, and
-screenshot evidence. See [v06 technical notes](docs/technical-notes-v06.md)
-for detailed results and remaining work.
+The repository contains translation files, the patch builder, IPS patches, and
+screenshot evidence. See [v07 technical notes](docs/technical-notes-v07.md)
+for detailed checks and remaining work.

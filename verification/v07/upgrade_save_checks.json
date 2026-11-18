@@ -1,0 +1,8 @@
+{
+  "target_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+  "source_v06_save_sha256": "34067ef11e8ff677977aed89aacec4ad3b88d8b257f408b42e9d44db49db71c1",
+  "v06_save_loaded_after_reset": true,
+  "accepted_mission_preserved": true,
+  "upgraded_yayoi_page": 2,
+  "all_pixel_checks_pass": true
+}
