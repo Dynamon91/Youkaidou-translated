@@ -20,7 +20,8 @@ This is a development add-on built on the v0.8 English translation. The v0.8 rel
 
 - `journey_houses_translations.json` — source-aligned Japanese/English records and ROM offsets.
 - `build_journey_houses_v09.py` — reproducible add-on patch builder.
-- `Youkaidou_English_v09_journey_houses.ips` — incremental IPS patch.
+- `Youkaidou_v09_Journey_Houses_Package.zip` — verified package containing the incremental IPS patch, localized event asset, translation manifest, and validation reports.
+- The standalone IPS patch and localized binary are inside that ZIP; they are not separate repository-root files.
 - `verification/v09/journey_houses_static_validation.json` — compact validation record.
 
 ## Required ROM and patch order
@@ -38,7 +39,7 @@ python3 build_journey_houses_v09.py "/path/to/Youkaidou (Japan).gba" --output re
 For playtesting, apply the patches in this order:
 
 1. Apply `Youkaidou_English_v08.ips` to the clean Japanese ROM.
-2. Apply `Youkaidou_English_v09_journey_houses.ips` to that v0.8 result.
+2. Extract `Youkaidou_English_v09_journey_houses.ips` from `Youkaidou_v09_Journey_Houses_Package.zip` and apply it to that v0.8 result.
 
 The v0.9 patch is an add-on, not a replacement for v0.8. The original ROM is not included in this repository.
 
