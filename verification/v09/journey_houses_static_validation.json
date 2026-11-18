@@ -1,0 +1,66 @@
+{
+  "stage": "v0.9 incremental event localization — journey_houses",
+  "base_version": "v0.8",
+  "source_rom": {
+    "title": "YOUKAIDOU",
+    "game_code": "AFUJ",
+    "bytes": 8388608,
+    "sha256": "080a70324ee02c0ef850fccec0c2353faff4598e1f18cdf35277f5c05ba3ce06"
+  },
+  "source_asset": {
+    "rom_offset": "0x70bbfa",
+    "decoded_bytes": 2314,
+    "sha256": "47dd6b55872a9145bf2aa6674ee02a40f75169b9bad163f91e499afa6781e2b6"
+  },
+  "localized_asset": {
+    "rom_offset": "0x7c4000",
+    "decoded_bytes": 2560,
+    "compressed_bytes": 2884,
+    "sha256": "bb45c2c5a286055f38fc7efb411a90d0f8151ad845277ea92e5a3b6d99a433c8"
+  },
+  "translation": {
+    "records": 26,
+    "nonempty_english_lines": 26,
+    "dialogue_pages": 19,
+    "choice_menus": 3,
+    "player_name_variable_preserved": true,
+    "cell_budgets_passed": true
+  },
+  "structural_checks": {
+    "event_table_entries_checked": 88,
+    "vm_control_words_preserved": true,
+    "lzss_roundtrip_passed": true,
+    "ips_roundtrip_passed": true
+  },
+  "patch": {
+    "filename": "Youkaidou_English_v09_journey_houses.ips",
+    "bytes": 2911,
+    "sha256": "e0e59d4c48d2441fd99f76fcbe8b539162d4dbeacf582a4ee0ed118de9a6bc44",
+    "changed_bytes": 1821,
+    "write_ranges": [
+      [
+        "0x7c4000",
+        "0x7c4b44"
+      ],
+      [
+        "0x15e8e0",
+        "0x15e8e4"
+      ],
+      [
+        "0x76e174",
+        "0x76e178"
+      ]
+    ]
+  },
+  "compatibility_audit": {
+    "base_v08_patch_bytes": 140800,
+    "base_v08_patch_records": 271,
+    "overlapping_records": 0,
+    "passed": true
+  },
+  "application_order": [
+    "Youkaidou_English_v08.ips",
+    "Youkaidou_English_v09_journey_houses.ips"
+  ],
+  "emulator_verification": "pending"
+}
