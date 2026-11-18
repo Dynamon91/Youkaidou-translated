@@ -30,7 +30,6 @@ checked against the v08 patch; there are no overlapping records.
 **Gameplay verification is pending.** This branch is not yet a replacement for
 the v08 release and should not be merged into `main` until mGBA testing passes.
 
-- [v0.9 incremental IPS patch](https://github.com/Dynamon91/Youkaidou-translated/raw/refs/heads/v0.9-journey-houses/Youkaidou_English_v09_journey_houses.ips)
 - [Download the complete v0.9 package ZIP](https://github.com/Dynamon91/Youkaidou-translated/raw/refs/heads/v0.9-journey-houses/Youkaidou_v09_Journey_Houses_Package.zip)
 - [v0.9 translation manifest](journey_houses_translations.json)
 - [v0.9 technical notes](docs/technical-notes-v09-journey-houses.md)
