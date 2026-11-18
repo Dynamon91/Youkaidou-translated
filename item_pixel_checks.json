@@ -1,0 +1,136 @@
+{
+  "target_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+  "resolution": [
+    240,
+    160
+  ],
+  "records": [
+    {
+      "id": "item_healing_medicine",
+      "text": "HP Med",
+      "origin": [
+        96,
+        16
+      ],
+      "screenshot": "screenshots/items-v08/final-medicine-name.png",
+      "pixel_match": true,
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c"
+    },
+    {
+      "id": "battle_use_who",
+      "text": "Use on whom?",
+      "origin": [
+        80,
+        24
+      ],
+      "screenshot": "screenshots/items-v08/final-medicine-target.png",
+      "pixel_match": true,
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c"
+    },
+    {
+      "id": "hp_before_healing",
+      "text": "37",
+      "origin": [
+        112,
+        64
+      ],
+      "screenshot": "screenshots/items-v08/final-medicine-target.png",
+      "pixel_match": true,
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c"
+    },
+    {
+      "id": "hp_recovered",
+      "text": "28",
+      "origin": [
+        80,
+        72
+      ],
+      "screenshot": "screenshots/items-v08/final-medicine-effect.png",
+      "pixel_match": true,
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c"
+    },
+    {
+      "id": "hp_after_healing",
+      "text": "65",
+      "origin": [
+        32,
+        8
+      ],
+      "screenshot": "screenshots/items-v08/final-healed-battle.png",
+      "pixel_match": true,
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c"
+    }
+  ],
+  "healing_effect": {
+    "before_hp": 37,
+    "recovered_hp": 28,
+    "after_hp": 65,
+    "normal_item_use": true
+  },
+  "fixed_item_record": {
+    "name_cells": 6,
+    "encoded_bytes_including_terminators": 14,
+    "following_item_data_unchanged": true,
+    "item_pointer_references_unchanged": [
+      "0x1d888",
+      "0x1db80",
+      "0x1df70",
+      "0x1e684",
+      "0x1e858",
+      "0x2205c",
+      "0x2230c",
+      "0x224ec",
+      "0x4d1ec",
+      "0x4d850",
+      "0x4e46c",
+      "0x4e530",
+      "0x4e584",
+      "0x4e5e4",
+      "0x4ea4c",
+      "0x4eb30",
+      "0x4f040",
+      "0x4f098",
+      "0x4f110",
+      "0x4f4d8",
+      "0x4f59c",
+      "0x4f5f0",
+      "0x4f650",
+      "0x4fbb8",
+      "0x4fc10",
+      "0x4fc88",
+      "0x5b464",
+      "0x5b524",
+      "0x62984",
+      "0x62eac",
+      "0x6330c",
+      "0x63784",
+      "0x638e4",
+      "0x64c98",
+      "0x64d5c",
+      "0x64d78",
+      "0x64f70",
+      "0x67ca0",
+      "0x67d30",
+      "0x67f30",
+      "0x681d4",
+      "0x682ac",
+      "0x68474",
+      "0x6d090",
+      "0x6d17c",
+      "0x6d298",
+      "0x7baec",
+      "0x7bcc0",
+      "0x81cc8",
+      "0x87fd0",
+      "0x87fd8",
+      "0x882c8",
+      "0x88380",
+      "0x88390",
+      "0x883bc",
+      "0x8982c",
+      "0x899ac",
+      "0x899bc"
+    ]
+  },
+  "all_pixel_checks_pass": true
+}

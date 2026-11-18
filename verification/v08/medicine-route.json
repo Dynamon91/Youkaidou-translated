@@ -1,0 +1,33 @@
+{
+  "nodes_checked": 66,
+  "battle_branches_skipped": 0,
+  "path": [
+    32,
+    32,
+    32,
+    64,
+    64,
+    64,
+    64,
+    32,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    32,
+    64,
+    32,
+    32,
+    32
+  ],
+  "read_only_position_addresses": [
+    "0x03001340",
+    "0x03001310"
+  ],
+  "method": "Normal D-pad and A inputs; emulator checkpoint branches; no gameplay RAM writes."
+}

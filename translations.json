@@ -1,6 +1,6 @@
 {
   "game": "Youkaidou",
-  "batch": 2,
+  "batch": 8,
   "strings": [
     {
       "id": "title_new",
@@ -360,7 +360,7 @@
       "english": "Use on whom?\u0001",
       "max_cells": 26,
       "context": "Select an item target",
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Observed in mGBA field item menus; exact final-font text pixels matched. Healing effect verified with normal item use."
     },
     {
       "id": "battle_use_which",
@@ -892,6 +892,17 @@
       ],
       "context": "Level-up popup composition; only the listed level-up references are localized",
       "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+    },
+    {
+      "id": "item_healing_medicine",
+      "offset": "0x086430",
+      "source_hex": "82a982a282d382ad82e282ad01",
+      "japanese": "かいふくやく\u0001",
+      "english": "HP Med\u0001",
+      "max_cells": 6,
+      "storage": "fixed_item_record",
+      "context": "Inventory abbreviation of Healing Med. Six cells preserve the embedded item record and its effect/price bytes.",
+      "verification": "Observed in mGBA field item menus; exact final-font text pixels matched. Healing effect verified with normal item use."
     }
   ],
   "scope": "English UI and the complete 27-page opening cutscene. Later story and most names remain Japanese.",

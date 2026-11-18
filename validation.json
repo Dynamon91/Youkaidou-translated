@@ -1,9 +1,9 @@
 {
-  "stage": "English v07: delivery rescue, return journey and war warning; partial localization",
+  "stage": "English v08: delivery rescue, return journey and war warning; partial localization",
   "source_sha256": "080a70324ee02c0ef850fccec0c2353faff4598e1f18cdf35277f5c05ba3ce06",
-  "output_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+  "output_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
   "rom_size": 8388608,
-  "translated_strings": 85,
+  "translated_strings": 86,
   "lowercase_glyphs": 26,
   "existing_8x16_glyphs_preserved": 800,
   "existing_8x8_font_bank_unchanged_outside_lowercase_slots": true,
@@ -20,8 +20,8 @@
     "right_edge_pixels": 240,
     "longest_label_cells": 9
   },
-  "screen_checked_string_count": 51,
-  "static_only_string_count": 34,
+  "screen_checked_string_count": 53,
+  "static_only_string_count": 33,
   "story": {
     "source_asset_rom_offset": "0x70725f",
     "new_asset_rom_offset": "0x790000",
@@ -4358,7 +4358,8 @@
       "max_line_cells": 8,
       "max_line_pixels": 64,
       "limit_pixels": 64,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "title_continue",
@@ -4373,7 +4374,8 @@
       "max_line_cells": 8,
       "max_line_pixels": 64,
       "limit_pixels": 64,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "title_link",
@@ -4388,7 +4390,8 @@
       "max_line_cells": 4,
       "max_line_pixels": 32,
       "limit_pixels": 64,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "title_yes",
@@ -4405,7 +4408,8 @@
       "max_line_cells": 3,
       "max_line_pixels": 24,
       "limit_pixels": 24,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "title_no",
@@ -4422,7 +4426,8 @@
       "max_line_cells": 2,
       "max_line_pixels": 16,
       "limit_pixels": 24,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "records_clear_confirm",
@@ -4437,7 +4442,8 @@
       "max_line_cells": 25,
       "max_line_pixels": 200,
       "limit_pixels": 216,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "records_retry",
@@ -4452,7 +4458,8 @@
       "max_line_cells": 12,
       "max_line_pixels": 96,
       "limit_pixels": 216,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "records_cleared",
@@ -4467,7 +4474,8 @@
       "max_line_cells": 23,
       "max_line_pixels": 184,
       "limit_pixels": 216,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "save_corrupt",
@@ -4482,7 +4490,8 @@
       "max_line_cells": 27,
       "max_line_pixels": 216,
       "limit_pixels": 216,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "next_level",
@@ -4497,7 +4506,8 @@
       "max_line_cells": 7,
       "max_line_pixels": 56,
       "limit_pixels": 64,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "release_confirm",
@@ -4512,7 +4522,8 @@
       "max_line_cells": 8,
       "max_line_pixels": 64,
       "limit_pixels": 96,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "sort",
@@ -4527,7 +4538,8 @@
       "max_line_cells": 4,
       "max_line_pixels": 32,
       "limit_pixels": 80,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "sort_level",
@@ -4541,7 +4553,8 @@
       "max_line_cells": 11,
       "max_line_pixels": 88,
       "limit_pixels": 96,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "sort_name",
@@ -4555,7 +4568,8 @@
       "max_line_cells": 4,
       "max_line_pixels": 32,
       "limit_pixels": 96,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "sort_element",
@@ -4569,7 +4583,8 @@
       "max_line_cells": 7,
       "max_line_pixels": 56,
       "limit_pixels": 96,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "sort_hp",
@@ -4583,7 +4598,8 @@
       "max_line_cells": 2,
       "max_line_pixels": 16,
       "limit_pixels": 96,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "sort_maxhp",
@@ -4597,7 +4613,8 @@
       "max_line_cells": 6,
       "max_line_pixels": 48,
       "limit_pixels": 96,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "menu_magic",
@@ -4612,7 +4629,8 @@
       "max_line_cells": 5,
       "max_line_pixels": 40,
       "limit_pixels": 72,
-      "verification": "Observed in mGBA; no clipping on the first battle command menu"
+      "verification": "Observed in mGBA; no clipping on the first battle command menu",
+      "storage": "relocated_text"
     },
     {
       "id": "menu_items",
@@ -4627,7 +4645,8 @@
       "max_line_cells": 5,
       "max_line_pixels": 40,
       "limit_pixels": 72,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "menu_journal",
@@ -4642,7 +4661,8 @@
       "max_line_cells": 7,
       "max_line_pixels": 56,
       "limit_pixels": 72,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "menu_talismans",
@@ -4657,7 +4677,8 @@
       "max_line_cells": 9,
       "max_line_pixels": 72,
       "limit_pixels": 72,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "menu_codex",
@@ -4672,7 +4693,8 @@
       "max_line_cells": 5,
       "max_line_pixels": 40,
       "limit_pixels": 72,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "menu_options",
@@ -4687,7 +4709,8 @@
       "max_line_cells": 7,
       "max_line_pixels": 56,
       "limit_pixels": 72,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "menu_save",
@@ -4702,7 +4725,8 @@
       "max_line_cells": 4,
       "max_line_pixels": 32,
       "limit_pixels": 72,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "menu_close",
@@ -4717,7 +4741,8 @@
       "max_line_cells": 5,
       "max_line_pixels": 40,
       "limit_pixels": 72,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "items_key",
@@ -4732,7 +4757,8 @@
       "max_line_cells": 3,
       "max_line_pixels": 24,
       "limit_pixels": 32,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "items_use",
@@ -4747,7 +4773,8 @@
       "max_line_cells": 3,
       "max_line_pixels": 24,
       "limit_pixels": 48,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "items_discard",
@@ -4762,7 +4789,8 @@
       "max_line_cells": 4,
       "max_line_pixels": 32,
       "limit_pixels": 32,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "items_cancel",
@@ -4777,7 +4805,8 @@
       "max_line_cells": 4,
       "max_line_pixels": 32,
       "limit_pixels": 32,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_yes",
@@ -4813,7 +4842,8 @@
       "max_line_cells": 3,
       "max_line_pixels": 24,
       "limit_pixels": 24,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_no",
@@ -4849,7 +4879,8 @@
       "max_line_cells": 2,
       "max_line_pixels": 16,
       "limit_pixels": 24,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_items",
@@ -4866,7 +4897,8 @@
       "max_line_cells": 5,
       "max_line_pixels": 40,
       "limit_pixels": 64,
-      "verification": "Observed in mGBA; no clipping on the first battle command menu"
+      "verification": "Observed in mGBA; no clipping on the first battle command menu",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_switch",
@@ -4883,7 +4915,8 @@
       "max_line_cells": 6,
       "max_line_pixels": 48,
       "limit_pixels": 64,
-      "verification": "Observed in mGBA; no clipping on the first battle command menu"
+      "verification": "Observed in mGBA; no clipping on the first battle command menu",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_run",
@@ -4899,7 +4932,8 @@
       "max_line_cells": 3,
       "max_line_pixels": 24,
       "limit_pixels": 64,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_switch_who",
@@ -4914,7 +4948,8 @@
       "max_line_cells": 17,
       "max_line_pixels": 136,
       "limit_pixels": 208,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_use_who",
@@ -4931,7 +4966,8 @@
       "max_line_cells": 12,
       "max_line_pixels": 96,
       "limit_pixels": 208,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Observed in mGBA field item menus; exact final-font text pixels matched. Healing effect verified with normal item use.",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_use_which",
@@ -4946,7 +4982,8 @@
       "max_line_cells": 17,
       "max_line_pixels": 136,
       "limit_pixels": 208,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_switch_none",
@@ -4961,7 +4998,8 @@
       "max_line_cells": 23,
       "max_line_pixels": 184,
       "limit_pixels": 208,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_attack",
@@ -4976,7 +5014,8 @@
       "max_line_cells": 6,
       "max_line_pixels": 48,
       "limit_pixels": 64,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_no_items",
@@ -4991,7 +5030,8 @@
       "max_line_cells": 16,
       "max_line_pixels": 128,
       "limit_pixels": 208,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_no_magic",
@@ -5006,7 +5046,8 @@
       "max_line_cells": 18,
       "max_line_pixels": 144,
       "limit_pixels": 208,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "items_empty",
@@ -5021,7 +5062,8 @@
       "max_line_cells": 18,
       "max_line_pixels": 144,
       "limit_pixels": 216,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "items_wrong_place",
@@ -5036,7 +5078,8 @@
       "max_line_cells": 21,
       "max_line_pixels": 168,
       "limit_pixels": 216,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "options_text_speed",
@@ -5051,7 +5094,8 @@
       "max_line_cells": 10,
       "max_line_pixels": 80,
       "limit_pixels": 96,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "options_normal",
@@ -5066,7 +5110,8 @@
       "max_line_cells": 6,
       "max_line_pixels": 48,
       "limit_pixels": 64,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "options_fast",
@@ -5081,7 +5126,8 @@
       "max_line_cells": 4,
       "max_line_pixels": 32,
       "limit_pixels": 64,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "save_confirm",
@@ -5097,7 +5143,8 @@
       "max_line_cells": 19,
       "max_line_pixels": 152,
       "limit_pixels": 216,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "save_overwrite",
@@ -5112,7 +5159,8 @@
       "max_line_cells": 22,
       "max_line_pixels": 176,
       "limit_pixels": 216,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "save_cancelled",
@@ -5127,7 +5175,8 @@
       "max_line_cells": 15,
       "max_line_pixels": 120,
       "limit_pixels": 216,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "save_writing",
@@ -5142,7 +5191,8 @@
       "max_line_cells": 25,
       "max_line_pixels": 200,
       "limit_pixels": 216,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "save_complete",
@@ -5157,7 +5207,8 @@
       "max_line_cells": 14,
       "max_line_pixels": 112,
       "limit_pixels": 216,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "save_failed",
@@ -5174,7 +5225,8 @@
       "max_line_cells": 12,
       "max_line_pixels": 96,
       "limit_pixels": 216,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "save_wrong_place",
@@ -5189,7 +5241,8 @@
       "max_line_cells": 17,
       "max_line_pixels": 136,
       "limit_pixels": 216,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "shop_buy",
@@ -5204,7 +5257,8 @@
       "max_line_cells": 3,
       "max_line_pixels": 24,
       "limit_pixels": 64,
-      "verification": "Observed in mGBA; no clipping on the shop command menu"
+      "verification": "Observed in mGBA; no clipping on the shop command menu",
+      "storage": "relocated_text"
     },
     {
       "id": "shop_sell",
@@ -5219,7 +5273,8 @@
       "max_line_cells": 4,
       "max_line_pixels": 32,
       "limit_pixels": 64,
-      "verification": "Observed in mGBA; no clipping on the shop command menu"
+      "verification": "Observed in mGBA; no clipping on the shop command menu",
+      "storage": "relocated_text"
     },
     {
       "id": "shop_leave",
@@ -5234,7 +5289,8 @@
       "max_line_cells": 5,
       "max_line_pixels": 40,
       "limit_pixels": 40,
-      "verification": "Observed in mGBA; no clipping on the shop command menu"
+      "verification": "Observed in mGBA; no clipping on the shop command menu",
+      "storage": "relocated_text"
     },
     {
       "id": "name_confirm",
@@ -5249,7 +5305,8 @@
       "max_line_cells": 14,
       "max_line_pixels": 112,
       "limit_pixels": 144,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "talisman_done",
@@ -5264,7 +5321,8 @@
       "max_line_cells": 4,
       "max_line_pixels": 32,
       "limit_pixels": 32,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "talisman_undo",
@@ -5279,7 +5337,8 @@
       "max_line_cells": 4,
       "max_line_pixels": 32,
       "limit_pixels": 32,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "talisman_type",
@@ -5296,7 +5355,8 @@
       "max_line_cells": 4,
       "max_line_pixels": 32,
       "limit_pixels": 32,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "talisman_apply_help",
@@ -5313,7 +5373,8 @@
       "max_line_cells": 23,
       "max_line_pixels": 184,
       "limit_pixels": 192,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "talisman_apply_confirm",
@@ -5328,7 +5389,8 @@
       "max_line_cells": 19,
       "max_line_pixels": 152,
       "limit_pixels": 192,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "talisman_undo_help",
@@ -5345,7 +5407,8 @@
       "max_line_cells": 23,
       "max_line_pixels": 184,
       "limit_pixels": 192,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "talisman_undo_confirm",
@@ -5360,7 +5423,8 @@
       "max_line_cells": 19,
       "max_line_pixels": 152,
       "limit_pixels": 192,
-      "verification": "Observed in mGBA; no clipping on the checked screen"
+      "verification": "Observed in mGBA; no clipping on the checked screen",
+      "storage": "relocated_text"
     },
     {
       "id": "talisman_attack_type",
@@ -5374,7 +5438,8 @@
       "max_line_cells": 6,
       "max_line_pixels": 48,
       "limit_pixels": 48,
-      "verification": "Observed in mGBA; no clipping in the talisman description field"
+      "verification": "Observed in mGBA; no clipping in the talisman description field",
+      "storage": "relocated_text"
     },
     {
       "id": "talisman_guard_type",
@@ -5388,7 +5453,8 @@
       "max_line_cells": 5,
       "max_line_pixels": 40,
       "limit_pixels": 48,
-      "verification": "Observed in mGBA; no clipping in the talisman description field"
+      "verification": "Observed in mGBA; no clipping in the talisman description field",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_turn_player",
@@ -5403,7 +5469,8 @@
       "max_line_cells": 9,
       "max_line_pixels": 72,
       "limit_pixels": 128,
-      "verification": "Observed in mGBA; no clipping in the battle popup"
+      "verification": "Observed in mGBA; no clipping in the battle popup",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_turn_enemy",
@@ -5418,7 +5485,8 @@
       "max_line_cells": 10,
       "max_line_pixels": 80,
       "limit_pixels": 128,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_enemy_thinking",
@@ -5433,7 +5501,8 @@
       "max_line_cells": 17,
       "max_line_pixels": 136,
       "limit_pixels": 160,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_defending",
@@ -5449,7 +5518,8 @@
       "max_line_cells": 9,
       "max_line_pixels": 72,
       "limit_pixels": 128,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_enemy_defeated",
@@ -5464,7 +5534,8 @@
       "max_line_cells": 9,
       "max_line_pixels": 72,
       "limit_pixels": 128,
-      "verification": "Observed in mGBA; no clipping in the battle popup"
+      "verification": "Observed in mGBA; no clipping in the battle popup",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_yokai_defeated",
@@ -5479,7 +5550,8 @@
       "max_line_cells": 9,
       "max_line_pixels": 72,
       "limit_pixels": 128,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_party_defeated",
@@ -5494,7 +5566,8 @@
       "max_line_cells": 15,
       "max_line_pixels": 120,
       "limit_pixels": 128,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_outcome_win",
@@ -5509,7 +5582,8 @@
       "max_line_cells": 6,
       "max_line_pixels": 48,
       "limit_pixels": 128,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "battle_outcome_loss",
@@ -5524,7 +5598,8 @@
       "max_line_cells": 7,
       "max_line_pixels": 56,
       "limit_pixels": 128,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
     },
     {
       "id": "level_up_subject_link",
@@ -5563,7 +5638,8 @@
       "max_line_cells": 8,
       "max_line_pixels": 64,
       "limit_pixels": 64,
-      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values",
+      "storage": "relocated_text"
     },
     {
       "id": "level_up_level_label",
@@ -5579,7 +5655,8 @@
       "max_line_cells": 3,
       "max_line_pixels": 24,
       "limit_pixels": 24,
-      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values",
+      "storage": "relocated_text"
     },
     {
       "id": "level_up_result_end",
@@ -5596,7 +5673,8 @@
       "max_line_cells": 1,
       "max_line_pixels": 8,
       "limit_pixels": 8,
-      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values",
+      "storage": "relocated_text"
     },
     {
       "id": "level_up_stat_value_link",
@@ -5618,7 +5696,8 @@
       "max_line_cells": 8,
       "max_line_pixels": 64,
       "limit_pixels": 64,
-      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values",
+      "storage": "relocated_text"
     },
     {
       "id": "level_up_attack",
@@ -5640,7 +5719,8 @@
       "max_line_cells": 6,
       "max_line_pixels": 48,
       "limit_pixels": 48,
-      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values",
+      "storage": "relocated_text"
     },
     {
       "id": "level_up_defense",
@@ -5662,7 +5742,8 @@
       "max_line_cells": 7,
       "max_line_pixels": 56,
       "limit_pixels": 56,
-      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values",
+      "storage": "relocated_text"
     },
     {
       "id": "level_up_magic",
@@ -5680,7 +5761,8 @@
       "max_line_cells": 5,
       "max_line_pixels": 40,
       "limit_pixels": 40,
-      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values",
+      "storage": "relocated_text"
     },
     {
       "id": "level_up_magic_defense",
@@ -5698,7 +5780,8 @@
       "max_line_cells": 9,
       "max_line_pixels": 72,
       "limit_pixels": 72,
-      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values",
+      "storage": "relocated_text"
     },
     {
       "id": "level_up_speed",
@@ -5716,7 +5799,8 @@
       "max_line_cells": 5,
       "max_line_pixels": 40,
       "limit_pixels": 40,
-      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values"
+      "verification": "Observed in mGBA; exact 8x8 popup ink mask matched the composed text and the original name/numeric values",
+      "storage": "relocated_text"
     },
     {
       "id": "level_up_luck",
@@ -5732,7 +5816,80 @@
       "max_line_cells": 4,
       "max_line_pixels": 32,
       "limit_pixels": 32,
-      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending"
+      "verification": "Static encoding, control-code, and cell-budget checks only; in-context screen check pending",
+      "storage": "relocated_text"
+    },
+    {
+      "id": "item_healing_medicine",
+      "old_offset": "0x086430",
+      "new_offset": "0x86430",
+      "pointers": [],
+      "untouched_references": [
+        "0x1d888",
+        "0x1db80",
+        "0x1df70",
+        "0x1e684",
+        "0x1e858",
+        "0x2205c",
+        "0x2230c",
+        "0x224ec",
+        "0x4d1ec",
+        "0x4d850",
+        "0x4e46c",
+        "0x4e530",
+        "0x4e584",
+        "0x4e5e4",
+        "0x4ea4c",
+        "0x4eb30",
+        "0x4f040",
+        "0x4f098",
+        "0x4f110",
+        "0x4f4d8",
+        "0x4f59c",
+        "0x4f5f0",
+        "0x4f650",
+        "0x4fbb8",
+        "0x4fc10",
+        "0x4fc88",
+        "0x5b464",
+        "0x5b524",
+        "0x62984",
+        "0x62eac",
+        "0x6330c",
+        "0x63784",
+        "0x638e4",
+        "0x64c98",
+        "0x64d5c",
+        "0x64d78",
+        "0x64f70",
+        "0x67ca0",
+        "0x67d30",
+        "0x67f30",
+        "0x681d4",
+        "0x682ac",
+        "0x68474",
+        "0x6d090",
+        "0x6d17c",
+        "0x6d298",
+        "0x7baec",
+        "0x7bcc0",
+        "0x81cc8",
+        "0x87fd0",
+        "0x87fd8",
+        "0x882c8",
+        "0x88380",
+        "0x88390",
+        "0x883bc",
+        "0x8982c",
+        "0x899ac",
+        "0x899bc"
+      ],
+      "new_bytes": 14,
+      "max_line_cells": 6,
+      "max_line_pixels": 48,
+      "limit_pixels": 48,
+      "verification": "Observed in mGBA field item menus; exact final-font text pixels matched. Healing effect verified with normal item use.",
+      "storage": "fixed_item_record"
     }
   ],
   "level_up_layout": {
@@ -11186,7 +11343,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Observed in final v07 mGBA gameplay; full decoded asset and exact final-font text pixels matched",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x2d8",
           "new_end": "0x2f8"
         },
@@ -11201,7 +11358,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Observed in final v07 mGBA gameplay; full decoded asset and exact final-font text pixels matched",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x2fc",
           "new_end": "0x2fc"
         },
@@ -11216,7 +11373,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Observed in final v07 mGBA gameplay; full decoded asset and exact final-font text pixels matched",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x304",
           "new_end": "0x32e"
         },
@@ -11231,7 +11388,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Observed in final v07 mGBA gameplay; full decoded asset and exact final-font text pixels matched",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x332",
           "new_end": "0x332"
         },
@@ -11246,7 +11403,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Observed in final v07 mGBA gameplay; full decoded asset and exact final-font text pixels matched",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x396",
           "new_end": "0x3cc"
         },
@@ -11261,7 +11418,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Observed in final v07 mGBA gameplay; full decoded asset and exact final-font text pixels matched",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x3d0",
           "new_end": "0x3d0"
         },
@@ -11276,7 +11433,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Observed in final v07 mGBA gameplay; full decoded asset and exact final-font text pixels matched",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x3d8",
           "new_end": "0x40e"
         },
@@ -11291,7 +11448,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Observed in final v07 mGBA gameplay; full decoded asset and exact final-font text pixels matched",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x412",
           "new_end": "0x412"
         },
@@ -11306,7 +11463,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Observed in final v07 mGBA gameplay; full decoded asset and exact final-font text pixels matched",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x436",
           "new_end": "0x45c"
         },
@@ -11321,7 +11478,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Observed in final v07 mGBA gameplay; full decoded asset and exact final-font text pixels matched",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x462",
           "new_end": "0x472"
         },
@@ -11400,7 +11557,7 @@
           "variables": [
             "PLAYER_NAME"
           ],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x536",
           "new_end": "0x55e"
         },
@@ -11415,7 +11572,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x564",
           "new_end": "0x564"
         },
@@ -11430,7 +11587,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x586",
           "new_end": "0x5b0"
         },
@@ -11445,7 +11602,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x5b6",
           "new_end": "0x5b6"
         },
@@ -11462,7 +11619,7 @@
           "variables": [
             "PLAYER_NAME"
           ],
-          "verification": "Observed in final v07 mGBA gameplay; full decoded asset and exact final-font text pixels matched",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x5da",
           "new_end": "0x5f8"
         },
@@ -11477,7 +11634,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Observed in final v07 mGBA gameplay; full decoded asset and exact final-font text pixels matched",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x5fe",
           "new_end": "0x5fe"
         },
@@ -11492,7 +11649,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x620",
           "new_end": "0x640"
         },
@@ -11507,7 +11664,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x646",
           "new_end": "0x646"
         },
@@ -11522,7 +11679,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x69c",
           "new_end": "0x6ce"
         },
@@ -11537,7 +11694,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x6d4",
           "new_end": "0x6e8"
         },
@@ -11552,7 +11709,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x6f0",
           "new_end": "0x722"
         },
@@ -11567,7 +11724,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x728",
           "new_end": "0x728"
         },
@@ -11582,7 +11739,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x730",
           "new_end": "0x756"
         },
@@ -11597,7 +11754,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x75c",
           "new_end": "0x784"
         },
@@ -11612,7 +11769,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x78c",
           "new_end": "0x7c0"
         },
@@ -11627,7 +11784,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x7c6",
           "new_end": "0x7fc"
         },
@@ -11642,7 +11799,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x804",
           "new_end": "0x82e"
         },
@@ -11657,7 +11814,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x834",
           "new_end": "0x834"
         },
@@ -11672,7 +11829,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x864",
           "new_end": "0x898"
         },
@@ -11687,7 +11844,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x89e",
           "new_end": "0x8ce"
         },
@@ -11702,7 +11859,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x92a",
           "new_end": "0x954"
         },
@@ -11717,7 +11874,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x95a",
           "new_end": "0x986"
         },
@@ -11747,7 +11904,7 @@
           "section": "cargo_road",
           "role": "choice",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x990",
           "new_end": "0x9b4"
         },
@@ -11762,7 +11919,7 @@
           "section": "cargo_road",
           "role": "choice",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x9ba",
           "new_end": "0x9dc"
         },
@@ -11777,7 +11934,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x9ea",
           "new_end": "0xa0e"
         },
@@ -11792,7 +11949,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xa14",
           "new_end": "0xa14"
         },
@@ -11807,7 +11964,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xa22",
           "new_end": "0xa44"
         },
@@ -11822,7 +11979,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xa4a",
           "new_end": "0xa4a"
         },
@@ -11837,7 +11994,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xa58",
           "new_end": "0xa86"
         },
@@ -11852,7 +12009,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xa8c",
           "new_end": "0xabc"
         },
@@ -11867,7 +12024,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xac4",
           "new_end": "0xaf2"
         },
@@ -11882,7 +12039,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xaf8",
           "new_end": "0xb26"
         },
@@ -11897,7 +12054,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xb38",
           "new_end": "0xb58"
         },
@@ -11912,7 +12069,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xb5e",
           "new_end": "0xb5e"
         },
@@ -11927,7 +12084,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xb66",
           "new_end": "0xb7c"
         },
@@ -11942,7 +12099,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xb82",
           "new_end": "0xb82"
         },
@@ -11957,7 +12114,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xb8a",
           "new_end": "0xbaa"
         },
@@ -11972,7 +12129,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xbb0",
           "new_end": "0xbca"
         },
@@ -12002,7 +12159,7 @@
           "section": "cargo_road",
           "role": "choice",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xbd4",
           "new_end": "0xbf4"
         },
@@ -12017,7 +12174,7 @@
           "section": "cargo_road",
           "role": "choice",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xbfa",
           "new_end": "0xc10"
         },
@@ -12032,7 +12189,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xc1e",
           "new_end": "0xc50"
         },
@@ -12047,7 +12204,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xc56",
           "new_end": "0xc56"
         },
@@ -12062,7 +12219,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xc5e",
           "new_end": "0xc8c"
         },
@@ -12077,7 +12234,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xc92",
           "new_end": "0xcae"
         },
@@ -12092,7 +12249,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xcce",
           "new_end": "0xcd4"
         },
@@ -12107,7 +12264,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xcda",
           "new_end": "0xcda"
         },
@@ -12122,7 +12279,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xce6",
           "new_end": "0xd0e"
         },
@@ -12137,7 +12294,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xd14",
           "new_end": "0xd14"
         },
@@ -12152,7 +12309,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xd1c",
           "new_end": "0xd44"
         },
@@ -12167,7 +12324,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xd4a",
           "new_end": "0xd5e"
         },
@@ -12182,7 +12339,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xd66",
           "new_end": "0xd90"
         },
@@ -12197,7 +12354,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xd96",
           "new_end": "0xd96"
         },
@@ -12212,7 +12369,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xd9e",
           "new_end": "0xdb0"
         },
@@ -12227,7 +12384,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xdb6",
           "new_end": "0xdb6"
         },
@@ -12242,7 +12399,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xdc4",
           "new_end": "0xdf0"
         },
@@ -12257,7 +12414,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xdf6",
           "new_end": "0xdf6"
         },
@@ -12272,7 +12429,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xdfe",
           "new_end": "0xe30"
         },
@@ -12287,7 +12444,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xe36",
           "new_end": "0xe36"
         },
@@ -12302,7 +12459,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xe3e",
           "new_end": "0xe62"
         },
@@ -12317,7 +12474,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xe68",
           "new_end": "0xe8a"
         },
@@ -12332,7 +12489,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xe94",
           "new_end": "0xebe"
         },
@@ -12347,7 +12504,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xec4",
           "new_end": "0xeec"
         },
@@ -12362,7 +12519,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xef4",
           "new_end": "0xf14"
         },
@@ -12377,7 +12534,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xf1a",
           "new_end": "0xf1a"
         },
@@ -12392,7 +12549,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xf22",
           "new_end": "0xf58"
         },
@@ -12407,7 +12564,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xf5e",
           "new_end": "0xf94"
         },
@@ -12422,7 +12579,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xf9c",
           "new_end": "0xfc4"
         },
@@ -12437,7 +12594,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xfca",
           "new_end": "0xff2"
         },
@@ -12452,7 +12609,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xffa",
           "new_end": "0x102e"
         },
@@ -12467,7 +12624,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x1034",
           "new_end": "0x1068"
         },
@@ -12482,7 +12639,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x1070",
           "new_end": "0x1082"
         },
@@ -12497,7 +12654,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x1088",
           "new_end": "0x1088"
         },
@@ -12512,7 +12669,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x109c",
           "new_end": "0x10d0"
         },
@@ -12527,7 +12684,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x10d6",
           "new_end": "0x10d6"
         },
@@ -12542,7 +12699,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x10de",
           "new_end": "0x1114"
         },
@@ -12557,7 +12714,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x111a",
           "new_end": "0x114e"
         },
@@ -12587,7 +12744,7 @@
           "section": "cargo_road",
           "role": "choice",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x1158",
           "new_end": "0x1176"
         },
@@ -12602,7 +12759,7 @@
           "section": "cargo_road",
           "role": "choice",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x117c",
           "new_end": "0x119e"
         },
@@ -12617,7 +12774,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x11ac",
           "new_end": "0x11ce"
         },
@@ -12632,7 +12789,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x11d4",
           "new_end": "0x11d4"
         },
@@ -12647,7 +12804,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x11e2",
           "new_end": "0x1200"
         },
@@ -12662,7 +12819,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x1206",
           "new_end": "0x1206"
         },
@@ -12677,7 +12834,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x1214",
           "new_end": "0x1244"
         },
@@ -12692,7 +12849,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x124a",
           "new_end": "0x126a"
         },
@@ -12707,7 +12864,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x1272",
           "new_end": "0x129a"
         },
@@ -12722,7 +12879,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x12a0",
           "new_end": "0x12a0"
         },
@@ -12737,7 +12894,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x12dc",
           "new_end": "0x1308"
         },
@@ -12752,7 +12909,7 @@
           "section": "cargo_road",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x130e",
           "new_end": "0x130e"
         },
@@ -12954,7 +13111,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x210",
           "new_end": "0x234"
         },
@@ -12984,7 +13141,7 @@
           "section": "cargo_village",
           "role": "choice",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x240",
           "new_end": "0x260"
         },
@@ -12999,7 +13156,7 @@
           "section": "cargo_village",
           "role": "choice",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x266",
           "new_end": "0x27c"
         },
@@ -13014,7 +13171,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x28a",
           "new_end": "0x2a0"
         },
@@ -13029,7 +13186,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x3e0",
           "new_end": "0x416"
         },
@@ -13044,7 +13201,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x42e",
           "new_end": "0x462"
         },
@@ -13059,7 +13216,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x47a",
           "new_end": "0x4a6"
         },
@@ -13074,7 +13231,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x4ac",
           "new_end": "0x4c4"
         },
@@ -13089,7 +13246,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x4cc",
           "new_end": "0x500"
         },
@@ -13104,7 +13261,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x506",
           "new_end": "0x536"
         },
@@ -13119,7 +13276,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x53e",
           "new_end": "0x56a"
         },
@@ -13134,7 +13291,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x570",
           "new_end": "0x5a6"
         },
@@ -13149,7 +13306,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x5b8",
           "new_end": "0x5ea"
         },
@@ -13164,7 +13321,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x5f0",
           "new_end": "0x626"
         },
@@ -13179,7 +13336,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x62e",
           "new_end": "0x662"
         },
@@ -13194,7 +13351,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x668",
           "new_end": "0x692"
         },
@@ -13209,7 +13366,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x6a4",
           "new_end": "0x6d2"
         },
@@ -13224,7 +13381,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x6d8",
           "new_end": "0x6d8"
         },
@@ -13239,7 +13396,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x6ea",
           "new_end": "0x706"
         },
@@ -13254,7 +13411,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x70c",
           "new_end": "0x740"
         },
@@ -13269,7 +13426,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x752",
           "new_end": "0x784"
         },
@@ -13284,7 +13441,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x78a",
           "new_end": "0x7b2"
         },
@@ -13299,7 +13456,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x7da",
           "new_end": "0x7fa"
         },
@@ -13314,7 +13471,7 @@
           "section": "cargo_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x828",
           "new_end": "0x856"
         }
@@ -13331,9 +13488,9 @@
       "source_asset_rom_offset": "0x70b1df",
       "new_asset_rom_offset": "0x7bc000",
       "source_decoded_bytes": 3226,
-      "new_decoded_bytes": 4112,
+      "new_decoded_bytes": 4116,
       "original_compressed_end": "0x70b7db",
-      "new_packed_bytes": 4630,
+      "new_packed_bytes": 4635,
       "entry_offsets_checked": 87,
       "vm_control_words_preserved": true,
       "player_name_variable_preserved": true,
@@ -13346,7 +13503,7 @@
       "nonempty_english_lines": 61,
       "pointer_count": 2,
       "source_sha256": "1d4ae6af3d0e7ec8662c0fcedb866571f0af286254b8c3637644ce4e619ea3da",
-      "localized_sha256": "f4e26e4a6a6568945c3e1ac944c871811da3339fe6fff2e814104a14ca72da60",
+      "localized_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
       "records": [
         {
           "id": "cargo_report_line_000",
@@ -13361,7 +13518,7 @@
           "variables": [
             "PLAYER_NAME"
           ],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x2c4",
           "new_end": "0x2ec"
         },
@@ -13376,7 +13533,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x2f2",
           "new_end": "0x2f2"
         },
@@ -13391,7 +13548,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x2fa",
           "new_end": "0x31c"
         },
@@ -13406,7 +13563,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x322",
           "new_end": "0x322"
         },
@@ -13421,7 +13578,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x32a",
           "new_end": "0x34e"
         },
@@ -13436,7 +13593,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x354",
           "new_end": "0x354"
         },
@@ -13451,7 +13608,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x35c",
           "new_end": "0x37a"
         },
@@ -13466,7 +13623,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x380",
           "new_end": "0x380"
         },
@@ -13481,7 +13638,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x3b6",
           "new_end": "0x3e0"
         },
@@ -13496,7 +13653,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x3e6",
           "new_end": "0x40e"
         },
@@ -13511,7 +13668,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x448",
           "new_end": "0x462"
         },
@@ -13526,7 +13683,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x468",
           "new_end": "0x468"
         },
@@ -13541,7 +13698,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x484",
           "new_end": "0x4a2"
         },
@@ -13556,7 +13713,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x4a8",
           "new_end": "0x4a8"
         },
@@ -13571,7 +13728,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x4b0",
           "new_end": "0x4e0"
         },
@@ -13586,7 +13743,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x4e6",
           "new_end": "0x51c"
         },
@@ -13601,7 +13758,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x524",
           "new_end": "0x556"
         },
@@ -13616,7 +13773,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x55c",
           "new_end": "0x58a"
         },
@@ -13631,7 +13788,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x592",
           "new_end": "0x5be"
         },
@@ -13646,7 +13803,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x5c4",
           "new_end": "0x5f4"
         },
@@ -13676,7 +13833,7 @@
           "section": "cargo_report",
           "role": "choice",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x5fe",
           "new_end": "0x61a"
         },
@@ -13691,7 +13848,7 @@
           "section": "cargo_report",
           "role": "choice",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x620",
           "new_end": "0x644"
         },
@@ -13706,7 +13863,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x652",
           "new_end": "0x680"
         },
@@ -13721,7 +13878,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x686",
           "new_end": "0x686"
         },
@@ -13736,7 +13893,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x68e",
           "new_end": "0x6ba"
         },
@@ -13751,7 +13908,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x6c0",
           "new_end": "0x6c0"
         },
@@ -13768,7 +13925,7 @@
           "variables": [
             "PLAYER_NAME"
           ],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x704",
           "new_end": "0x71e"
         },
@@ -13783,7 +13940,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x724",
           "new_end": "0x73e"
         },
@@ -13798,7 +13955,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x746",
           "new_end": "0x77c"
         },
@@ -13813,7 +13970,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x782",
           "new_end": "0x7aa"
         },
@@ -13858,7 +14015,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x854",
           "new_end": "0x87c"
         },
@@ -13873,7 +14030,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x882",
           "new_end": "0x8b4"
         },
@@ -13888,7 +14045,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x8c6",
           "new_end": "0x8f4"
         },
@@ -13903,7 +14060,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x8fa",
           "new_end": "0x922"
         },
@@ -13918,7 +14075,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x92a",
           "new_end": "0x950"
         },
@@ -13933,7 +14090,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x956",
           "new_end": "0x956"
         },
@@ -13948,7 +14105,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x95e",
           "new_end": "0x98a"
         },
@@ -13963,7 +14120,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x990",
           "new_end": "0x9b0"
         },
@@ -14070,7 +14227,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xb00",
           "new_end": "0xb20"
         },
@@ -14085,7 +14242,7 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xb26",
           "new_end": "0xb58"
         },
@@ -14094,15 +14251,15 @@
           "page": 24,
           "line": 1,
           "old_offset": "0x90e",
-          "cells_with_variable_budget": 26,
-          "max_pixels": 208,
+          "cells_with_variable_budget": 25,
+          "max_pixels": 200,
           "limit_pixels": 216,
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0xb60",
-          "new_end": "0xb94"
+          "new_end": "0xb92"
         },
         {
           "id": "cargo_report_line_050",
@@ -14115,9 +14272,9 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xb9a",
-          "new_end": "0xbce"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xb98",
+          "new_end": "0xbcc"
         },
         {
           "id": "cargo_report_line_051",
@@ -14130,9 +14287,9 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xbde",
-          "new_end": "0xbe8"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xbdc",
+          "new_end": "0xbe6"
         },
         {
           "id": "cargo_report_line_052",
@@ -14145,9 +14302,9 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xbee",
-          "new_end": "0xbee"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xbec",
+          "new_end": "0xbec"
         },
         {
           "id": "cargo_report_line_053",
@@ -14160,9 +14317,9 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xbf6",
-          "new_end": "0xc26"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xbf4",
+          "new_end": "0xc24"
         },
         {
           "id": "cargo_report_line_054",
@@ -14175,9 +14332,9 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xc2c",
-          "new_end": "0xc5c"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xc2a",
+          "new_end": "0xc5a"
         },
         {
           "id": "cargo_report_line_055",
@@ -14190,9 +14347,9 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xc64",
-          "new_end": "0xc96"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xc62",
+          "new_end": "0xc94"
         },
         {
           "id": "cargo_report_line_056",
@@ -14205,9 +14362,9 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xc9c",
-          "new_end": "0xcbc"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xc9a",
+          "new_end": "0xcba"
         },
         {
           "id": "cargo_report_line_057",
@@ -14220,9 +14377,9 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xcc4",
-          "new_end": "0xce6"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xcc2",
+          "new_end": "0xce4"
         },
         {
           "id": "cargo_report_line_058",
@@ -14235,24 +14392,24 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xcec",
-          "new_end": "0xd16"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xcea",
+          "new_end": "0xd14"
         },
         {
           "id": "cargo_report_line_059",
           "page": 29,
           "line": 1,
           "old_offset": "0xa6c",
-          "cells_with_variable_budget": 23,
-          "max_pixels": 184,
+          "cells_with_variable_budget": 26,
+          "max_pixels": 208,
           "limit_pixels": 216,
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xd1e",
-          "new_end": "0xd4c"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xd1c",
+          "new_end": "0xd50"
         },
         {
           "id": "cargo_report_line_060",
@@ -14265,9 +14422,9 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xd52",
-          "new_end": "0xd80"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xd56",
+          "new_end": "0xd84"
         },
         {
           "id": "cargo_report_line_061",
@@ -14280,9 +14437,9 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xd88",
-          "new_end": "0xdb0"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xd8c",
+          "new_end": "0xdb4"
         },
         {
           "id": "cargo_report_line_062",
@@ -14295,9 +14452,9 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xdb6",
-          "new_end": "0xdd8"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xdba",
+          "new_end": "0xddc"
         },
         {
           "id": "cargo_report_line_063",
@@ -14310,9 +14467,9 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xde0",
-          "new_end": "0xe14"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xde4",
+          "new_end": "0xe18"
         },
         {
           "id": "cargo_report_line_064",
@@ -14325,9 +14482,9 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xe1a",
-          "new_end": "0xe1a"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xe1e",
+          "new_end": "0xe1e"
         },
         {
           "id": "cargo_report_line_065",
@@ -14340,9 +14497,9 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xe24",
-          "new_end": "0xe52"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xe28",
+          "new_end": "0xe56"
         },
         {
           "id": "cargo_report_line_066",
@@ -14355,9 +14512,9 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xe58",
-          "new_end": "0xe8e"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xe5c",
+          "new_end": "0xe92"
         },
         {
           "id": "cargo_report_line_067",
@@ -14372,14 +14529,14 @@
           "variables": [
             "PLAYER_NAME"
           ],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xe98",
-          "new_end": "0xeb8"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xe9c",
+          "new_end": "0xebc"
         },
         {
           "id": "cargo_report_line_068",
-          "page": 34,
-          "line": 1,
+          "page": 33,
+          "line": 2,
           "old_offset": "0xb9c",
           "cells_with_variable_budget": 24,
           "max_pixels": 192,
@@ -14387,13 +14544,13 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xec8",
-          "new_end": "0xef8"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xecc",
+          "new_end": "0xefc"
         },
         {
           "id": "cargo_report_line_069",
-          "page": 35,
+          "page": 34,
           "line": 1,
           "old_offset": "0xbc8",
           "cells_with_variable_budget": 13,
@@ -14402,13 +14559,13 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xf00",
-          "new_end": "0xf1a"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xf04",
+          "new_end": "0xf1e"
         },
         {
           "id": "cargo_report_line_070",
-          "page": 35,
+          "page": 34,
           "line": 2,
           "old_offset": "0xbe8",
           "cells_with_variable_budget": 0,
@@ -14417,13 +14574,13 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xf20",
-          "new_end": "0xf20"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xf24",
+          "new_end": "0xf24"
         },
         {
           "id": "cargo_report_line_071",
-          "page": 36,
+          "page": 35,
           "line": 1,
           "old_offset": "0xbfc",
           "cells_with_variable_budget": 25,
@@ -14432,13 +14589,13 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xf34",
-          "new_end": "0xf66"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xf38",
+          "new_end": "0xf6a"
         },
         {
           "id": "cargo_report_line_072",
-          "page": 36,
+          "page": 35,
           "line": 2,
           "old_offset": "0xc24",
           "cells_with_variable_budget": 9,
@@ -14447,13 +14604,13 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xf6c",
-          "new_end": "0xf7e"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xf70",
+          "new_end": "0xf82"
         },
         {
           "id": "cargo_report_line_073",
-          "page": 37,
+          "page": 36,
           "line": 1,
           "old_offset": "0xc2c",
           "cells_with_variable_budget": 21,
@@ -14462,13 +14619,13 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xf86",
-          "new_end": "0xfb0"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xf8a",
+          "new_end": "0xfb4"
         },
         {
           "id": "cargo_report_line_074",
-          "page": 37,
+          "page": 36,
           "line": 2,
           "old_offset": "0xc5a",
           "cells_with_variable_budget": 13,
@@ -14477,13 +14634,13 @@
           "section": "cargo_report",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
-          "new_offset": "0xfb6",
-          "new_end": "0xfd0"
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
+          "new_offset": "0xfba",
+          "new_end": "0xfd4"
         }
       ],
       "dialogue_pages_by_section": {
-        "cargo_report": 37
+        "cargo_report": 36
       },
       "choice_menus_by_section": {
         "cargo_report": 1
@@ -14522,7 +14679,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x200",
           "new_end": "0x224"
         },
@@ -14552,7 +14709,7 @@
           "section": "journey_village",
           "role": "choice",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x230",
           "new_end": "0x250"
         },
@@ -14567,7 +14724,7 @@
           "section": "journey_village",
           "role": "choice",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x256",
           "new_end": "0x26c"
         },
@@ -14582,7 +14739,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x27a",
           "new_end": "0x290"
         },
@@ -14597,7 +14754,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x3ac",
           "new_end": "0x3da"
         },
@@ -14612,7 +14769,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x3f2",
           "new_end": "0x428"
         },
@@ -14627,7 +14784,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x440",
           "new_end": "0x470"
         },
@@ -14642,7 +14799,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x476",
           "new_end": "0x4a4"
         },
@@ -14657,7 +14814,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x4ac",
           "new_end": "0x4cc"
         },
@@ -14672,7 +14829,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x4d2",
           "new_end": "0x4d2"
         },
@@ -14687,7 +14844,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x4da",
           "new_end": "0x506"
         },
@@ -14702,7 +14859,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x50c",
           "new_end": "0x538"
         },
@@ -14717,7 +14874,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x54a",
           "new_end": "0x578"
         },
@@ -14732,7 +14889,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x57e",
           "new_end": "0x5b2"
         },
@@ -14747,7 +14904,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x5c4",
           "new_end": "0x5f2"
         },
@@ -14762,7 +14919,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x5f8",
           "new_end": "0x628"
         },
@@ -14777,7 +14934,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x630",
           "new_end": "0x65a"
         },
@@ -14792,7 +14949,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x660",
           "new_end": "0x692"
         },
@@ -14807,7 +14964,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x6a4",
           "new_end": "0x6d8"
         },
@@ -14822,7 +14979,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x6de",
           "new_end": "0x704"
         },
@@ -14837,7 +14994,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x70c",
           "new_end": "0x73e"
         },
@@ -14852,7 +15009,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x744",
           "new_end": "0x744"
         },
@@ -14867,7 +15024,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x76e",
           "new_end": "0x78e"
         },
@@ -14882,7 +15039,7 @@
           "section": "journey_village",
           "role": "dialogue",
           "variables": [],
-          "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+          "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
           "new_offset": "0x7bc",
           "new_end": "0x7ea"
         }

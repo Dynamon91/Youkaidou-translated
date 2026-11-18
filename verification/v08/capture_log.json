@@ -1,0 +1,2362 @@
+[
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 1,
+    "records": [
+      "cargo_report_line_000",
+      "cargo_report_line_001"
+    ],
+    "text": [
+      "Elder: Well done, {PLAYER_NAME}!",
+      ""
+    ],
+    "label": "final-check-002",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-01.png",
+    "script_pc": "0x2f0",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 2,
+    "records": [
+      "cargo_report_line_002",
+      "cargo_report_line_003"
+    ],
+    "text": [
+      "Well, actually...",
+      ""
+    ],
+    "label": "final-check-003",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-02.png",
+    "script_pc": "0x320",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 3,
+    "records": [
+      "cargo_report_line_004",
+      "cargo_report_line_005"
+    ],
+    "text": [
+      "Elder: What is it?",
+      ""
+    ],
+    "label": "final-check-004",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-03.png",
+    "script_pc": "0x352",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 4,
+    "records": [
+      "cargo_report_line_006",
+      "cargo_report_line_007"
+    ],
+    "text": [
+      "The thing is...",
+      ""
+    ],
+    "label": "final-check-005",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-04.png",
+    "script_pc": "0x37e",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 5,
+    "records": [
+      "cargo_report_line_008",
+      "cargo_report_line_009"
+    ],
+    "text": [
+      "I told the elder what",
+      "the driver had said."
+    ],
+    "label": "final-check-006",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-05.png",
+    "script_pc": "0x3e4",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 6,
+    "records": [
+      "cargo_report_line_010",
+      "cargo_report_line_011"
+    ],
+    "text": [
+      "Elder: What?!",
+      ""
+    ],
+    "label": "final-check-007",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-06.png",
+    "script_pc": "0x466",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 7,
+    "records": [
+      "cargo_report_line_012",
+      "cargo_report_line_013"
+    ],
+    "text": [
+      "Elder: I see...",
+      ""
+    ],
+    "label": "final-check-008",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-07.png",
+    "script_pc": "0x4a6",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 8,
+    "records": [
+      "cargo_report_line_014",
+      "cargo_report_line_015"
+    ],
+    "text": [
+      "Elder: Those freed yokai",
+      "are fiercer than I thought."
+    ],
+    "label": "final-check-009",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-08.png",
+    "script_pc": "0x4e4",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 9,
+    "records": [
+      "cargo_report_line_016",
+      "cargo_report_line_017"
+    ],
+    "text": [
+      "Elder: At this rate, it's",
+      "not just our village..."
+    ],
+    "label": "final-check-010",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-09.png",
+    "script_pc": "0x55a",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 10,
+    "records": [
+      "cargo_report_line_018",
+      "cargo_report_line_019"
+    ],
+    "text": [
+      "Elder: The whole world",
+      "could fall into panic..."
+    ],
+    "label": "final-check-011",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-10.png",
+    "script_pc": "0x5c2",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 11,
+    "records": [
+      "cargo_report_line_023",
+      "cargo_report_line_024"
+    ],
+    "text": [
+      "Why are they so savage?",
+      ""
+    ],
+    "label": "final-check-012",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-11.png",
+    "script_pc": "0x684",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 12,
+    "records": [
+      "cargo_report_line_025",
+      "cargo_report_line_026"
+    ],
+    "text": [
+      "Elder: It's the war...",
+      ""
+    ],
+    "label": "final-check-013",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-12.png",
+    "script_pc": "0x6be",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 13,
+    "records": [
+      "cargo_report_line_027",
+      "cargo_report_line_028"
+    ],
+    "text": [
+      "Yayoi: Hi, {PLAYER_NAME}!",
+      "Welcome back!"
+    ],
+    "label": "final-check-014",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-13.png",
+    "script_pc": "0x722",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 14,
+    "records": [
+      "cargo_report_line_029",
+      "cargo_report_line_030"
+    ],
+    "text": [
+      "Yayoi: The elder is waiting",
+      "for you in the back."
+    ],
+    "label": "final-check-015",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-14.png",
+    "script_pc": "0x780",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 16,
+    "records": [
+      "cargo_report_line_033",
+      "cargo_report_line_034"
+    ],
+    "text": [
+      "Tomi: Thanks to you,",
+      "Grandma's feeling better!"
+    ],
+    "label": "final-check-016",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-16.png",
+    "script_pc": "0x880",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 17,
+    "records": [
+      "cargo_report_line_035",
+      "cargo_report_line_036"
+    ],
+    "text": [
+      "Granny Tora: I'm as fit",
+      "as a fiddle again..."
+    ],
+    "label": "final-check-017",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-17.png",
+    "script_pc": "0x8f8",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 18,
+    "records": [
+      "cargo_report_line_037",
+      "cargo_report_line_038"
+    ],
+    "text": [
+      "Granny Tora: Say...",
+      ""
+    ],
+    "label": "final-check-018",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-18.png",
+    "script_pc": "0x954",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 19,
+    "records": [
+      "cargo_report_line_039",
+      "cargo_report_line_040"
+    ],
+    "text": [
+      "Granny Tora: How about",
+      "a date sometime?"
+    ],
+    "label": "final-check-019",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-19.png",
+    "script_pc": "0x98e",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 23,
+    "records": [
+      "cargo_report_line_047",
+      "cargo_report_line_048"
+    ],
+    "text": [
+      "The whole world?",
+      "Isn't that a bit much...?"
+    ],
+    "label": "final-check-020",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-23.png",
+    "script_pc": "0xb24",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 24,
+    "records": [
+      "cargo_report_line_049",
+      "cargo_report_line_050"
+    ],
+    "text": [
+      "Elder: No. They will grow",
+      "even fiercer amid a war..."
+    ],
+    "label": "final-check-021",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-24.png",
+    "script_pc": "0xb96",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 25,
+    "records": [
+      "cargo_report_line_051",
+      "cargo_report_line_052"
+    ],
+    "text": [
+      "War?!",
+      ""
+    ],
+    "label": "final-check-022",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-25.png",
+    "script_pc": "0xbea",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 26,
+    "records": [
+      "cargo_report_line_053",
+      "cargo_report_line_054"
+    ],
+    "text": [
+      "Elder: Everyone's saying",
+      "war will break out soon."
+    ],
+    "label": "final-check-023",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-26.png",
+    "script_pc": "0xc28",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 27,
+    "records": [
+      "cargo_report_line_055",
+      "cargo_report_line_056"
+    ],
+    "text": [
+      "Elder: The whole world is",
+      "full of gloom..."
+    ],
+    "label": "final-check-024",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-27.png",
+    "script_pc": "0xc98",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 28,
+    "records": [
+      "cargo_report_line_057",
+      "cargo_report_line_058"
+    ],
+    "text": [
+      "Elder: Yokai love",
+      "that dark atmosphere."
+    ],
+    "label": "final-check-025",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-28.png",
+    "script_pc": "0xce8",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 29,
+    "records": [
+      "cargo_report_line_059",
+      "cargo_report_line_060"
+    ],
+    "text": [
+      "Elder: I think they've fed",
+      "on it and grown savage."
+    ],
+    "label": "final-check-026",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-29.png",
+    "script_pc": "0xd54",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 30,
+    "records": [
+      "cargo_report_line_061",
+      "cargo_report_line_062"
+    ],
+    "text": [
+      "Elder: If war really",
+      "does break out..."
+    ],
+    "label": "final-check-027",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-30.png",
+    "script_pc": "0xdb8",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 31,
+    "records": [
+      "cargo_report_line_063",
+      "cargo_report_line_064"
+    ],
+    "text": [
+      "They'll grow even fiercer!",
+      ""
+    ],
+    "label": "final-check-028",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-31.png",
+    "script_pc": "0xe1c",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 32,
+    "records": [
+      "cargo_report_line_065",
+      "cargo_report_line_066"
+    ],
+    "text": [
+      "Elder: It'll be the end",
+      "of the world as we know it."
+    ],
+    "label": "final-check-029",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-32.png",
+    "script_pc": "0xe5a",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 33,
+    "records": [
+      "cargo_report_line_067",
+      "cargo_report_line_068"
+    ],
+    "text": [
+      "Elder: {PLAYER_NAME}! Defeat",
+      "those yokai before then!"
+    ],
+    "label": "final-check-030",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-33.png",
+    "script_pc": "0xeca",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 34,
+    "records": [
+      "cargo_report_line_069",
+      "cargo_report_line_070"
+    ],
+    "text": [
+      "Y-yes, sir...",
+      ""
+    ],
+    "label": "final-check-031",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-34.png",
+    "script_pc": "0xf22",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 35,
+    "records": [
+      "cargo_report_line_071",
+      "cargo_report_line_072"
+    ],
+    "text": [
+      "Elder: Good! I'm counting",
+      "on you..."
+    ],
+    "label": "final-check-032",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-35.png",
+    "script_pc": "0xf6e",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_report",
+    "page": 36,
+    "records": [
+      "cargo_report_line_073",
+      "cargo_report_line_074"
+    ],
+    "text": [
+      "I agreed to take care",
+      "of the yokai."
+    ],
+    "label": "final-check-033",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/page-36.png",
+    "script_pc": "0xfb8",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 1,
+    "records": [
+      "cargo_road_line_000",
+      "cargo_road_line_001"
+    ],
+    "text": [
+      "Driver: Help me!",
+      ""
+    ],
+    "label": "final-check-040",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-01.png",
+    "script_pc": "0x2fa",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 2,
+    "records": [
+      "cargo_road_line_002",
+      "cargo_road_line_003"
+    ],
+    "text": [
+      "Driver: A-a yokai...!",
+      ""
+    ],
+    "label": "final-check-041",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-02.png",
+    "script_pc": "0x330",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 3,
+    "records": [
+      "cargo_road_line_004",
+      "cargo_road_line_005"
+    ],
+    "text": [
+      "Ittan-momen: All mine! Gii!",
+      ""
+    ],
+    "label": "final-check-042",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-03.png",
+    "script_pc": "0x3ce",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 4,
+    "records": [
+      "cargo_road_line_006",
+      "cargo_road_line_007"
+    ],
+    "text": [
+      "Ittan-momen: Back off! Gii!",
+      ""
+    ],
+    "label": "final-check-043",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-04.png",
+    "script_pc": "0x410",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 5,
+    "records": [
+      "cargo_road_line_008",
+      "cargo_road_line_009"
+    ],
+    "text": [
+      "Welcome to Ichinohe",
+      "Village!"
+    ],
+    "label": "final-check-044",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-05.png",
+    "script_pc": "0x460",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 8,
+    "records": [
+      "cargo_road_line_014",
+      "cargo_road_line_015"
+    ],
+    "text": [
+      "{PLAYER_NAME} found Healing Med!",
+      ""
+    ],
+    "label": "final-check-045",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-08.png",
+    "script_pc": "0x562",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 9,
+    "records": [
+      "cargo_road_line_016",
+      "cargo_road_line_017"
+    ],
+    "text": [
+      "Obtained Healing Med!",
+      ""
+    ],
+    "label": "final-check-046",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-09.png",
+    "script_pc": "0x5b4",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 10,
+    "records": [
+      "cargo_road_line_018",
+      "cargo_road_line_019"
+    ],
+    "text": [
+      "{PLAYER_NAME} found 5 gold!",
+      ""
+    ],
+    "label": "final-check-047",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-10.png",
+    "script_pc": "0x5fc",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 11,
+    "records": [
+      "cargo_road_line_020",
+      "cargo_road_line_021"
+    ],
+    "text": [
+      "Obtained 5 gold!",
+      ""
+    ],
+    "label": "final-check-048",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-11.png",
+    "script_pc": "0x644",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 12,
+    "records": [
+      "cargo_road_line_022",
+      "cargo_road_line_023"
+    ],
+    "text": [
+      "Driver: Thanks! You saved",
+      "my skin..."
+    ],
+    "label": "final-check-049",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-12.png",
+    "script_pc": "0x6d2",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 13,
+    "records": [
+      "cargo_road_line_024",
+      "cargo_road_line_025"
+    ],
+    "text": [
+      "I did it for the village.",
+      ""
+    ],
+    "label": "final-check-050",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-13.png",
+    "script_pc": "0x726",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 14,
+    "records": [
+      "cargo_road_line_026",
+      "cargo_road_line_027"
+    ],
+    "text": [
+      "Driver: You're from",
+      "Ichinohe Village...?"
+    ],
+    "label": "final-check-051",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-14.png",
+    "script_pc": "0x75a",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 15,
+    "records": [
+      "cargo_road_line_028",
+      "cargo_road_line_029"
+    ],
+    "text": [
+      "Driver: Then I'll give you",
+      "a ride back to the village."
+    ],
+    "label": "final-check-052",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-15.png",
+    "script_pc": "0x7c4",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 16,
+    "records": [
+      "cargo_road_line_030",
+      "cargo_road_line_031"
+    ],
+    "text": [
+      "Driver: Hop on, then!",
+      ""
+    ],
+    "label": "final-check-053",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-16.png",
+    "script_pc": "0x832",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 17,
+    "records": [
+      "cargo_road_line_032",
+      "cargo_road_line_033"
+    ],
+    "text": [
+      "I rode back to the village",
+      "along with the supplies."
+    ],
+    "label": "final-check-054",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-17.png",
+    "script_pc": "0x89c",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 18,
+    "records": [
+      "cargo_road_line_034",
+      "cargo_road_line_035"
+    ],
+    "text": [
+      "Driver: You're really",
+      "something, you know..."
+    ],
+    "label": "final-check-055",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-18.png",
+    "script_pc": "0x958",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 19,
+    "records": [
+      "cargo_road_line_039",
+      "cargo_road_line_040"
+    ],
+    "text": [
+      "It was only right.",
+      ""
+    ],
+    "label": "final-check-056",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-19.png",
+    "script_pc": "0xa12",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 20,
+    "records": [
+      "cargo_road_line_041",
+      "cargo_road_line_042"
+    ],
+    "text": [
+      "It was nothing...",
+      ""
+    ],
+    "label": "final-check-057",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-20.png",
+    "script_pc": "0xa48",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 21,
+    "records": [
+      "cargo_road_line_043",
+      "cargo_road_line_044"
+    ],
+    "text": [
+      "Driver: Not many people",
+      "could do what you did..."
+    ],
+    "label": "final-check-058",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-21.png",
+    "script_pc": "0xa8a",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 22,
+    "records": [
+      "cargo_road_line_045",
+      "cargo_road_line_046"
+    ],
+    "text": [
+      "Everyone in the village",
+      "is waiting on supplies."
+    ],
+    "label": "final-check-059",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-22.png",
+    "script_pc": "0xaf6",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 23,
+    "records": [
+      "cargo_road_line_047",
+      "cargo_road_line_048"
+    ],
+    "text": [
+      "Driver: I see...",
+      ""
+    ],
+    "label": "final-check-060",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-23.png",
+    "script_pc": "0xb5c",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 24,
+    "records": [
+      "cargo_road_line_049",
+      "cargo_road_line_050"
+    ],
+    "text": [
+      "Driver: ...",
+      ""
+    ],
+    "label": "final-check-061",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-24.png",
+    "script_pc": "0xb80",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 25,
+    "records": [
+      "cargo_road_line_051",
+      "cargo_road_line_052"
+    ],
+    "text": [
+      "(Huh? Why did he",
+      "fall silent?)"
+    ],
+    "label": "final-check-062",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-25.png",
+    "script_pc": "0xbae",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 26,
+    "records": [
+      "cargo_road_line_056",
+      "cargo_road_line_057"
+    ],
+    "text": [
+      "(Too bumpy to talk, huh?)",
+      ""
+    ],
+    "label": "final-check-063",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-26.png",
+    "script_pc": "0xc54",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 27,
+    "records": [
+      "cargo_road_line_058",
+      "cargo_road_line_059"
+    ],
+    "text": [
+      "The road's pretty rough",
+      "around here..."
+    ],
+    "label": "final-check-064",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-27.png",
+    "script_pc": "0xc90",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 28,
+    "records": [
+      "cargo_road_line_060",
+      "cargo_road_line_061"
+    ],
+    "text": [
+      "Ow!",
+      ""
+    ],
+    "label": "final-check-065",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-28.png",
+    "script_pc": "0xcd8",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 29,
+    "records": [
+      "cargo_road_line_062",
+      "cargo_road_line_063"
+    ],
+    "text": [
+      "(I bit my tongue...)",
+      ""
+    ],
+    "label": "final-check-066",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-29.png",
+    "script_pc": "0xd12",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 30,
+    "records": [
+      "cargo_road_line_064",
+      "cargo_road_line_065"
+    ],
+    "text": [
+      "Driver: Hey! Are you",
+      "all right?"
+    ],
+    "label": "final-check-067",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-30.png",
+    "script_pc": "0xd48",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 31,
+    "records": [
+      "cargo_road_line_066",
+      "cargo_road_line_067"
+    ],
+    "text": [
+      "Yesh... More or less.",
+      ""
+    ],
+    "label": "final-check-068",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-31.png",
+    "script_pc": "0xd94",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 32,
+    "records": [
+      "cargo_road_line_068",
+      "cargo_road_line_069"
+    ],
+    "text": [
+      "Anyway...",
+      ""
+    ],
+    "label": "final-check-069",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-32.png",
+    "script_pc": "0xdb4",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 33,
+    "records": [
+      "cargo_road_line_070",
+      "cargo_road_line_071"
+    ],
+    "text": [
+      "Is something wrong...?",
+      ""
+    ],
+    "label": "final-check-070",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-33.png",
+    "script_pc": "0xdf4",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 34,
+    "records": [
+      "cargo_road_line_072",
+      "cargo_road_line_073"
+    ],
+    "text": [
+      "Driver: Well, actually...",
+      ""
+    ],
+    "label": "final-check-071",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-34.png",
+    "script_pc": "0xe34",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 35,
+    "records": [
+      "cargo_road_line_074",
+      "cargo_road_line_075"
+    ],
+    "text": [
+      "Driver: We made it",
+      "this time, but..."
+    ],
+    "label": "final-check-072",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-35.png",
+    "script_pc": "0xe66",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 36,
+    "records": [
+      "cargo_road_line_076",
+      "cargo_road_line_077"
+    ],
+    "text": [
+      "Driver: I can't bring",
+      "the next shipment..."
+    ],
+    "label": "final-check-073",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-36.png",
+    "script_pc": "0xec2",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 37,
+    "records": [
+      "cargo_road_line_078",
+      "cargo_road_line_079"
+    ],
+    "text": [
+      "What?! Why not?!",
+      ""
+    ],
+    "label": "final-check-074",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-37.png",
+    "script_pc": "0xf18",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 38,
+    "records": [
+      "cargo_road_line_080",
+      "cargo_road_line_081"
+    ],
+    "text": [
+      "Driver: Yokai have appeared",
+      "in our town, Futago, too..."
+    ],
+    "label": "final-check-075",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-38.png",
+    "script_pc": "0xf5c",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 39,
+    "records": [
+      "cargo_road_line_082",
+      "cargo_road_line_083"
+    ],
+    "text": [
+      "Driver: We can't run",
+      "the train anymore..."
+    ],
+    "label": "final-check-076",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-39.png",
+    "script_pc": "0xfc8",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 40,
+    "records": [
+      "cargo_road_line_084",
+      "cargo_road_line_085"
+    ],
+    "text": [
+      "Driver: Without the train,",
+      "our town gets no supplies."
+    ],
+    "label": "final-check-077",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-40.png",
+    "script_pc": "0x1032",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 41,
+    "records": [
+      "cargo_road_line_086",
+      "cargo_road_line_087"
+    ],
+    "text": [
+      "Oh, no...",
+      ""
+    ],
+    "label": "final-check-078",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-41.png",
+    "script_pc": "0x1086",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 42,
+    "records": [
+      "cargo_road_line_088",
+      "cargo_road_line_089"
+    ],
+    "text": [
+      "Driver: Wait, I've got it!",
+      ""
+    ],
+    "label": "final-check-079",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-42.png",
+    "script_pc": "0x10d4",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 43,
+    "records": [
+      "cargo_road_line_090",
+      "cargo_road_line_091"
+    ],
+    "text": [
+      "Driver: Could you deal with",
+      "the yokai in our town too?"
+    ],
+    "label": "final-check-080",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-43.png",
+    "script_pc": "0x1118",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 44,
+    "records": [
+      "cargo_road_line_095",
+      "cargo_road_line_096"
+    ],
+    "text": [
+      "I'd rather not...",
+      ""
+    ],
+    "label": "final-check-081",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-44.png",
+    "script_pc": "0x11d2",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 45,
+    "records": [
+      "cargo_road_line_097",
+      "cargo_road_line_098"
+    ],
+    "text": [
+      "Leave it to me!",
+      ""
+    ],
+    "label": "final-check-082",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-45.png",
+    "script_pc": "0x1204",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 46,
+    "records": [
+      "cargo_road_line_099",
+      "cargo_road_line_100"
+    ],
+    "text": [
+      "Let me consult our elder",
+      "first, at least."
+    ],
+    "label": "final-check-083",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-46.png",
+    "script_pc": "0x1248",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 47,
+    "records": [
+      "cargo_road_line_101",
+      "cargo_road_line_102"
+    ],
+    "text": [
+      "Driver: All right...",
+      ""
+    ],
+    "label": "final-check-084",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-47.png",
+    "script_pc": "0x129e",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_road",
+    "page": 48,
+    "records": [
+      "cargo_road_line_103",
+      "cargo_road_line_104"
+    ],
+    "text": [
+      "Driver: Here we are...",
+      ""
+    ],
+    "label": "final-check-085",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/page-48.png",
+    "script_pc": "0x130c",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_village",
+    "page": 1,
+    "records": [
+      "cargo_village_line_000"
+    ],
+    "text": [
+      "This is my home...",
+      ""
+    ],
+    "label": "final-check-088",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/page-01.png",
+    "script_pc": "0x20c",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_village",
+    "page": 2,
+    "records": [
+      "cargo_village_line_004"
+    ],
+    "text": [
+      "Keep going!",
+      ""
+    ],
+    "label": "final-check-089",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/page-02.png",
+    "script_pc": "0x280",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_village",
+    "page": 3,
+    "records": [
+      "cargo_village_line_005"
+    ],
+    "text": [
+      "Young man: Whew, at last...",
+      ""
+    ],
+    "label": "final-check-090",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/page-03.png",
+    "script_pc": "0x3da",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_village",
+    "page": 4,
+    "records": [
+      "cargo_village_line_006"
+    ],
+    "text": [
+      "Young man: We owe you one!",
+      ""
+    ],
+    "label": "final-check-091",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/page-04.png",
+    "script_pc": "0x428",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_village",
+    "page": 5,
+    "records": [
+      "cargo_village_line_007",
+      "cargo_village_line_008"
+    ],
+    "text": [
+      "Mr. Toku: Defeat yokai",
+      "to earn EXP!"
+    ],
+    "label": "final-check-092",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/page-05.png",
+    "script_pc": "0x4aa",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_village",
+    "page": 6,
+    "records": [
+      "cargo_village_line_009",
+      "cargo_village_line_010"
+    ],
+    "text": [
+      "Mr. Toku: Yokai with their",
+      "bookmarks set share EXP."
+    ],
+    "label": "final-check-093",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/page-06.png",
+    "script_pc": "0x504",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_village",
+    "page": 7,
+    "records": [
+      "cargo_village_line_011",
+      "cargo_village_line_012"
+    ],
+    "text": [
+      "Mr. Toku: Set just one",
+      "to help it level up faster!"
+    ],
+    "label": "final-check-094",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/page-07.png",
+    "script_pc": "0x56e",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_village",
+    "page": 8,
+    "records": [
+      "cargo_village_line_013",
+      "cargo_village_line_014"
+    ],
+    "text": [
+      "Ippei: Elements determine",
+      "which talismans hold magic."
+    ],
+    "label": "final-check-095",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/page-08.png",
+    "script_pc": "0x5ee",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_village",
+    "page": 9,
+    "records": [
+      "cargo_village_line_015",
+      "cargo_village_line_016"
+    ],
+    "text": [
+      "Ippei: Swap your talismans",
+      "often. It's worth it!"
+    ],
+    "label": "final-check-096",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/page-09.png",
+    "script_pc": "0x666",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_village",
+    "page": 10,
+    "records": [
+      "cargo_village_line_017",
+      "cargo_village_line_018"
+    ],
+    "text": [
+      "Okin: Save often, okay?",
+      ""
+    ],
+    "label": "final-check-097",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/page-10.png",
+    "script_pc": "0x6d6",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_village",
+    "page": 11,
+    "records": [
+      "cargo_village_line_019",
+      "cargo_village_line_020"
+    ],
+    "text": [
+      "Bunmaru: Hmph!",
+      "Playing the hero, are you?"
+    ],
+    "label": "final-check-098",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/page-11.png",
+    "script_pc": "0x70a",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_village",
+    "page": 12,
+    "records": [
+      "cargo_village_line_021",
+      "cargo_village_line_022"
+    ],
+    "text": [
+      "Driver: About our talk...",
+      "I'm counting on you."
+    ],
+    "label": "final-check-099",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/page-12.png",
+    "script_pc": "0x788",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_village",
+    "page": 13,
+    "records": [
+      "cargo_village_line_023"
+    ],
+    "text": [
+      "Call it a day...",
+      ""
+    ],
+    "label": "final-check-100",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/page-13.png",
+    "script_pc": "0x7d6",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "dialogue",
+    "section": "cargo_village",
+    "page": 14,
+    "records": [
+      "cargo_village_line_024"
+    ],
+    "text": [
+      "All right! Good as new!",
+      ""
+    ],
+    "label": "final-check-101",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/page-14.png",
+    "script_pc": "0x822",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "dialogue",
+    "section": "journey_village",
+    "page": 1,
+    "records": [
+      "journey_village_line_000"
+    ],
+    "text": [
+      "This is my home...",
+      ""
+    ],
+    "label": "final-check-104",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/page-01.png",
+    "script_pc": "0x1fc",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "journey_village",
+    "page": 2,
+    "records": [
+      "journey_village_line_004"
+    ],
+    "text": [
+      "Keep going!",
+      ""
+    ],
+    "label": "final-check-105",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/page-02.png",
+    "script_pc": "0x270",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "journey_village",
+    "page": 3,
+    "records": [
+      "journey_village_line_005"
+    ],
+    "text": [
+      "Young man: Good luck...",
+      ""
+    ],
+    "label": "final-check-106",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/page-03.png",
+    "script_pc": "0x3a6",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "journey_village",
+    "page": 4,
+    "records": [
+      "journey_village_line_006"
+    ],
+    "text": [
+      "Young man: Counting on you!",
+      ""
+    ],
+    "label": "final-check-107",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/page-04.png",
+    "script_pc": "0x3ec",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "journey_village",
+    "page": 5,
+    "records": [
+      "journey_village_line_007",
+      "journey_village_line_008"
+    ],
+    "text": [
+      "Mr. Toku: When you rest,",
+      "your yokai recover too."
+    ],
+    "label": "final-check-108",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/page-05.png",
+    "script_pc": "0x474",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "journey_village",
+    "page": 6,
+    "records": [
+      "journey_village_line_009",
+      "journey_village_line_010"
+    ],
+    "text": [
+      "Mr. Toku: But...",
+      ""
+    ],
+    "label": "final-check-109",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/page-06.png",
+    "script_pc": "0x4d0",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "journey_village",
+    "page": 7,
+    "records": [
+      "journey_village_line_011",
+      "journey_village_line_012"
+    ],
+    "text": [
+      "Mr. Toku: Lodging away",
+      "from home costs money!"
+    ],
+    "label": "final-check-110",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/page-07.png",
+    "script_pc": "0x50a",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "journey_village",
+    "page": 8,
+    "records": [
+      "journey_village_line_013",
+      "journey_village_line_014"
+    ],
+    "text": [
+      "Ippei: I hear there are",
+      "all sorts of useful Items."
+    ],
+    "label": "final-check-111",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/page-08.png",
+    "script_pc": "0x57c",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "journey_village",
+    "page": 9,
+    "records": [
+      "journey_village_line_015",
+      "journey_village_line_016"
+    ],
+    "text": [
+      "Okin: New to traveling?",
+      "Set just one bookmark..."
+    ],
+    "label": "final-check-112",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/page-09.png",
+    "script_pc": "0x5f6",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "journey_village",
+    "page": 10,
+    "records": [
+      "journey_village_line_017",
+      "journey_village_line_018"
+    ],
+    "text": [
+      "Okin: Your yokai will",
+      "level up faster that way!"
+    ],
+    "label": "final-check-113",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/page-10.png",
+    "script_pc": "0x65e",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "journey_village",
+    "page": 11,
+    "records": [
+      "journey_village_line_019",
+      "journey_village_line_020"
+    ],
+    "text": [
+      "Bunmaru: It'll be a relief",
+      "to have you gone..."
+    ],
+    "label": "final-check-114",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/page-11.png",
+    "script_pc": "0x6dc",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "journey_village",
+    "page": 12,
+    "records": [
+      "journey_village_line_021",
+      "journey_village_line_022"
+    ],
+    "text": [
+      "Bunmaru: Don't come back!",
+      ""
+    ],
+    "label": "final-check-115",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/page-12.png",
+    "script_pc": "0x742",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "journey_village",
+    "page": 13,
+    "records": [
+      "journey_village_line_023"
+    ],
+    "text": [
+      "Call it a day...",
+      ""
+    ],
+    "label": "final-check-116",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/page-13.png",
+    "script_pc": "0x76a",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  },
+  {
+    "kind": "dialogue",
+    "section": "journey_village",
+    "page": 14,
+    "records": [
+      "journey_village_line_024"
+    ],
+    "text": [
+      "All right! Good as new!",
+      ""
+    ],
+    "label": "final-check-117",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/page-14.png",
+    "script_pc": "0x7b6",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  },
+  {
+    "kind": "choice",
+    "section": "cargo_report",
+    "menu": 1,
+    "selected": 0,
+    "records": [
+      "cargo_report_line_021",
+      "cargo_report_line_022"
+    ],
+    "text": [
+      "Why so savage?",
+      "That's a bit much."
+    ],
+    "label": "final-check-000",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/menu-1-selected-0.png",
+    "script_pc": "0x5f8",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "choice",
+    "section": "cargo_report",
+    "menu": 1,
+    "selected": 1,
+    "records": [
+      "cargo_report_line_021",
+      "cargo_report_line_022"
+    ],
+    "text": [
+      "Why so savage?",
+      "That's a bit much."
+    ],
+    "label": "final-check-001",
+    "scene": "cargo_report",
+    "screenshot": "screenshots/v08/cargo_report/menu-1-selected-1.png",
+    "script_pc": "0x5f8",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3"
+  },
+  {
+    "kind": "choice",
+    "section": "cargo_road",
+    "menu": 1,
+    "selected": 0,
+    "records": [
+      "cargo_road_line_037",
+      "cargo_road_line_038"
+    ],
+    "text": [
+      "It was only right.",
+      "It was nothing..."
+    ],
+    "label": "final-check-034",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/menu-1-selected-0.png",
+    "script_pc": "0x98a",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "choice",
+    "section": "cargo_road",
+    "menu": 1,
+    "selected": 1,
+    "records": [
+      "cargo_road_line_037",
+      "cargo_road_line_038"
+    ],
+    "text": [
+      "It was only right.",
+      "It was nothing..."
+    ],
+    "label": "final-check-035",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/menu-1-selected-1.png",
+    "script_pc": "0x98a",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "choice",
+    "section": "cargo_road",
+    "menu": 2,
+    "selected": 0,
+    "records": [
+      "cargo_road_line_054",
+      "cargo_road_line_055"
+    ],
+    "text": [
+      "Something wrong?",
+      "Bumpy road?"
+    ],
+    "label": "final-check-036",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/menu-2-selected-0.png",
+    "script_pc": "0xbce",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "choice",
+    "section": "cargo_road",
+    "menu": 2,
+    "selected": 1,
+    "records": [
+      "cargo_road_line_054",
+      "cargo_road_line_055"
+    ],
+    "text": [
+      "Something wrong?",
+      "Bumpy road?"
+    ],
+    "label": "final-check-037",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/menu-2-selected-1.png",
+    "script_pc": "0xbce",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "choice",
+    "section": "cargo_road",
+    "menu": 3,
+    "selected": 0,
+    "records": [
+      "cargo_road_line_093",
+      "cargo_road_line_094"
+    ],
+    "text": [
+      "Leave it to me!",
+      "I'd rather not..."
+    ],
+    "label": "final-check-038",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/menu-3-selected-0.png",
+    "script_pc": "0x1152",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "choice",
+    "section": "cargo_road",
+    "menu": 3,
+    "selected": 1,
+    "records": [
+      "cargo_road_line_093",
+      "cargo_road_line_094"
+    ],
+    "text": [
+      "Leave it to me!",
+      "I'd rather not..."
+    ],
+    "label": "final-check-039",
+    "scene": "cargo_road",
+    "screenshot": "screenshots/v08/cargo_road/menu-3-selected-1.png",
+    "script_pc": "0x1152",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e"
+  },
+  {
+    "kind": "choice",
+    "section": "cargo_village",
+    "menu": 1,
+    "selected": 0,
+    "records": [
+      "cargo_village_line_002",
+      "cargo_village_line_003"
+    ],
+    "text": [
+      "Call it a day...",
+      "Keep going!"
+    ],
+    "label": "final-check-086",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/menu-1-selected-0.png",
+    "script_pc": "0x23a",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "choice",
+    "section": "cargo_village",
+    "menu": 1,
+    "selected": 1,
+    "records": [
+      "cargo_village_line_002",
+      "cargo_village_line_003"
+    ],
+    "text": [
+      "Call it a day...",
+      "Keep going!"
+    ],
+    "label": "final-check-087",
+    "scene": "cargo_village",
+    "screenshot": "screenshots/v08/cargo_village/menu-1-selected-1.png",
+    "script_pc": "0x23a",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56"
+  },
+  {
+    "kind": "choice",
+    "section": "journey_village",
+    "menu": 1,
+    "selected": 0,
+    "records": [
+      "journey_village_line_002",
+      "journey_village_line_003"
+    ],
+    "text": [
+      "Call it a day...",
+      "Keep going!"
+    ],
+    "label": "final-check-102",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/menu-1-selected-0.png",
+    "script_pc": "0x22a",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  },
+  {
+    "kind": "choice",
+    "section": "journey_village",
+    "menu": 1,
+    "selected": 1,
+    "records": [
+      "journey_village_line_002",
+      "journey_village_line_003"
+    ],
+    "text": [
+      "Call it a day...",
+      "Keep going!"
+    ],
+    "label": "final-check-103",
+    "scene": "journey_village",
+    "screenshot": "screenshots/v08/journey_village/menu-1-selected-1.png",
+    "script_pc": "0x22a",
+    "pixel_match": true,
+    "rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+    "scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b"
+  }
+]

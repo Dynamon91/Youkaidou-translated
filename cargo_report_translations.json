@@ -28,7 +28,7 @@
       "max_variable_cells": {
         "PLAYER_NAME": 8
       },
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -44,7 +44,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -60,7 +60,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -76,7 +76,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -92,7 +92,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -108,7 +108,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -124,7 +124,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -140,7 +140,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -156,7 +156,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -172,7 +172,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -188,7 +188,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -204,7 +204,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -220,7 +220,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -236,7 +236,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -252,7 +252,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -268,7 +268,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -284,7 +284,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -300,7 +300,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -316,7 +316,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -332,7 +332,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -366,7 +366,7 @@
       "line": 1,
       "max_cells": 18,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -383,7 +383,7 @@
       "line": 1,
       "max_cells": 18,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -399,7 +399,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -415,7 +415,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -431,7 +431,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -447,7 +447,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -465,7 +465,7 @@
       "max_variable_cells": {
         "PLAYER_NAME": 8
       },
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -481,7 +481,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -497,7 +497,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -513,7 +513,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -561,7 +561,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -577,7 +577,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -593,7 +593,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -609,7 +609,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -625,7 +625,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -641,7 +641,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -657,7 +657,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -673,7 +673,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -787,7 +787,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -803,7 +803,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -812,14 +812,14 @@
       "source_hex": "5d020f031a003f00440084000b0053006e007e007e00580083006800fa01fd016b006e0258006600",
       "marker": "0x4005",
       "japanese": "長老：「いや、このままじゃと戦争に乗じて",
-      "english": "Elder: Yes. They will grow",
+      "english": "Elder: No. They will grow",
       "section": "cargo_report",
       "role": "dialogue",
       "page": 24,
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -835,7 +835,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -851,7 +851,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -867,7 +867,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -883,7 +883,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -899,7 +899,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -915,7 +915,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -931,7 +931,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -947,7 +947,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -963,7 +963,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -972,14 +972,14 @@
       "source_hex": "5d020f031a003f004d00630068005d006e0097014400fc0173019200a900ce00ec00af000d006b00",
       "marker": "0x4005",
       "japanese": "長老：「きっとその暗い空気をエネルギ−に",
-      "english": "Elder: I think they fed",
+      "english": "Elder: I think they've fed",
       "section": "cargo_report",
       "role": "dialogue",
       "page": 29,
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -995,7 +995,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -1011,7 +1011,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -1027,7 +1027,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -1043,7 +1043,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -1059,7 +1059,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -1075,7 +1075,7 @@
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -1091,7 +1091,7 @@
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -1109,7 +1109,7 @@
       "max_variable_cells": {
         "PLAYER_NAME": 8
       },
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -1121,11 +1121,11 @@
       "english": "those yokai before then!",
       "section": "cargo_report",
       "role": "dialogue",
-      "page": 34,
-      "line": 1,
+      "page": 33,
+      "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -1137,11 +1137,11 @@
       "english": "Y-yes, sir...",
       "section": "cargo_report",
       "role": "dialogue",
-      "page": 35,
+      "page": 34,
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -1153,11 +1153,11 @@
       "english": "",
       "section": "cargo_report",
       "role": "dialogue",
-      "page": 35,
+      "page": 34,
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -1169,11 +1169,11 @@
       "english": "Elder: Good! I'm counting",
       "section": "cargo_report",
       "role": "dialogue",
-      "page": 36,
+      "page": 35,
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -1185,11 +1185,11 @@
       "english": "on you...",
       "section": "cargo_report",
       "role": "dialogue",
-      "page": 36,
+      "page": 35,
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -1201,11 +1201,11 @@
       "english": "I agreed to take care",
       "section": "cargo_report",
       "role": "dialogue",
-      "page": 37,
+      "page": 36,
       "line": 1,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     },
     {
@@ -1217,15 +1217,15 @@
       "english": "of the yokai.",
       "section": "cargo_report",
       "role": "dialogue",
-      "page": 37,
+      "page": 36,
       "line": 2,
       "max_cells": 27,
       "max_variable_cells": {},
-      "verification": "Source glyphs, controls, variables and width checked; in-context emulator check pending",
+      "verification": "Observed in mGBA; decoded event RAM and exact text pixels checked against the v08 assets",
       "context": "Rescuing a delivery driver, returning with supplies, and the elder's warning about war"
     }
   ],
-  "version": 7,
+  "version": 8,
   "destination_rom_offset": "0x7bc000",
   "terminology": {
     "しおり": "bookmark",
@@ -1239,6 +1239,7 @@
   },
   "notes": [
     "Bookmarks select participating yokai and are distinct from the おふだ talisman grid.",
-    "Eight cells are reserved for the player name. Source event controls and branches are retained."
+    "Eight cells are reserved for the player name. Source event controls and branches are retained.",
+    "The elder order uses two lines on one screen; a portrait-expression command intervenes between the print slots."
   ]
 }

@@ -12,7 +12,7 @@ were checked for the full batch. In-context verification is deliberately narrowe
 | journey village | 0 / 14 | 0 / 1 |
 
 The six checked pages cover the driver's two help pages, Ittan-momen's two
-introductions, the Ichinohe Village sign and one Healing Med pickup. All 111
+introductions, the Ichinohe Village sign and one 5-gold chest. All 111
 other pages and six menus remain pending, with exact IDs in
 `rescue_pixel_checks.json` and the translation manifests. The battle was entered
 with ordinary controls; victory, the truck ride, village return, elder report,
@@ -84,3 +84,6 @@ some UI and battle labels remain Japanese. Link connectivity, later battles,
 late-game saves and physical hardware remain unverified. No full-game completion
 percentage is claimed. ROM files are not tracked in Git. The delivered source
 ZIP was independently rebuilt to the exact release ROM and IPS bytes.
+
+Correction in v08: the v07 chest capture shows 5 gold. The original 117-page
+count also split one two-line elder screen; the batch contains 116 screens.

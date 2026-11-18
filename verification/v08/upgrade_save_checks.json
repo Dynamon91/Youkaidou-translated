@@ -1,0 +1,10 @@
+{
+  "target_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+  "new_quest_stage_preserved_after_v08_reset": true,
+  "continued_scenario": "journey_village",
+  "source_v07_save_sha256": "850a395becc7d75528c49d5d0679b305404a939f2e84cf87c16557957a1e8bdb",
+  "v07_save_loaded_after_reset": true,
+  "old_delivery_mission_preserved": true,
+  "upgraded_driver_page": 1,
+  "all_pixel_checks_pass": true
+}

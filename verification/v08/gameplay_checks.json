@@ -1,0 +1,17 @@
+{
+  "normal_controls_only": true,
+  "gameplay_data_edits": false,
+  "rescue_battle_won": true,
+  "battle_columns_from_command": [
+    4,
+    2,
+    2,
+    0,
+    0
+  ],
+  "driver_choice_branches_checked": 6,
+  "elder_choice_branches_checked": 2,
+  "village_rest_branches_checked": 4,
+  "next_quest_accepted": true,
+  "notes": "D-pad/A menu inputs, normal medicine use, and emulator checkpoint branches. No game stats, inventory or quest flags were edited."
+}

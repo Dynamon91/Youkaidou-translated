@@ -1,0 +1,297 @@
+{
+  "emulator": "mGBA 0.10.5",
+  "date": "2026-11-18",
+  "rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+  "dimensions": [
+    240,
+    160
+  ],
+  "dialogue_pages_pixel_checked": 238,
+  "retained_dialogue_pages_checked": 232,
+  "new_dialogue_pages_checked": 6,
+  "new_dialogue_pages_total": 117,
+  "choice_captures_pixel_checked": 34,
+  "new_choice_captures_checked": 0,
+  "new_choice_menus_checked": 0,
+  "new_choice_menus_total": 6,
+  "level_up_popup_pixel_checks": 7,
+  "ui_screen_checked_records": 51,
+  "ui_static_only_records": 34,
+  "all_recorded_pixel_checks_pass": true,
+  "earlier_event_assets_and_font_banks_unchanged": true,
+  "event_assets_rebuilt": 13,
+  "entry_offsets_rebased": 1154,
+  "asset_references_redirected": 1293,
+  "npc_shared_buffer_checks": [
+    {
+      "ids": [
+        "cargo_road_line_000",
+        "cargo_road_line_001"
+      ],
+      "cells": 16,
+      "max_cells": 27
+    },
+    {
+      "ids": [
+        "cargo_road_line_002",
+        "cargo_road_line_003"
+      ],
+      "cells": 21,
+      "max_cells": 27
+    },
+    {
+      "ids": [
+        "cargo_road_line_004",
+        "cargo_road_line_005"
+      ],
+      "cells": 27,
+      "max_cells": 27
+    },
+    {
+      "ids": [
+        "cargo_road_line_006",
+        "cargo_road_line_007"
+      ],
+      "cells": 27,
+      "max_cells": 27
+    }
+  ],
+  "save_roundtrip": {
+    "backup_bytes": 8192,
+    "fresh_reset_loaded_save": true,
+    "continue_reached_gameplay": true,
+    "continued_field_menu_pixel_match": true,
+    "confirmation_choices": [
+      {
+        "requested": "No",
+        "observed_before_press": "Yes",
+        "matched_after_navigation": true
+      },
+      {
+        "requested": "Yes",
+        "observed_before_press": "Yes",
+        "matched_after_navigation": true
+      },
+      {
+        "requested": "Yes",
+        "observed_before_press": "Yes",
+        "matched_after_navigation": true
+      },
+      {
+        "requested": "No",
+        "observed_before_press": "Yes",
+        "matched_after_navigation": true
+      }
+    ],
+    "screens": [
+      "save-confirm.png",
+      "save-cancelled.png",
+      "save-complete.png",
+      "title-with-save.png",
+      "continue-game.png",
+      "continued-field-menu.png",
+      "save-again-confirm.png",
+      "overwrite-confirm.png",
+      "overwrite-cancelled.png"
+    ]
+  },
+  "v06_save_upgrade": {
+    "target_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+    "source_v06_save_sha256": "34067ef11e8ff677977aed89aacec4ad3b88d8b257f408b42e9d44db49db71c1",
+    "v06_save_loaded_after_reset": true,
+    "accepted_mission_preserved": true,
+    "upgraded_yayoi_page": 2,
+    "all_pixel_checks_pass": true
+  },
+  "new_scenarios": {
+    "cargo_road": {
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "dialogue_pages_checked": 6,
+      "dialogue_pages_total": 52,
+      "choice_menus_checked": 0,
+      "choice_menus_total": 3,
+      "choice_captures_checked": 0,
+      "unchecked_pages": [
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "unchecked_choice_menus": [
+        1,
+        2,
+        3
+      ],
+      "verified_record_ids": [
+        "cargo_road_line_000",
+        "cargo_road_line_001",
+        "cargo_road_line_002",
+        "cargo_road_line_003",
+        "cargo_road_line_004",
+        "cargo_road_line_005",
+        "cargo_road_line_006",
+        "cargo_road_line_007",
+        "cargo_road_line_008",
+        "cargo_road_line_009",
+        "cargo_road_line_018",
+        "cargo_road_line_019"
+      ]
+    },
+    "cargo_village": {
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "dialogue_pages_checked": 0,
+      "dialogue_pages_total": 14,
+      "choice_menus_checked": 0,
+      "choice_menus_total": 1,
+      "choice_captures_checked": 0,
+      "unchecked_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "unchecked_choice_menus": [
+        1
+      ],
+      "verified_record_ids": []
+    },
+    "cargo_report": {
+      "localized_scenario_sha256": "f4e26e4a6a6568945c3e1ac944c871811da3339fe6fff2e814104a14ca72da60",
+      "dialogue_pages_checked": 0,
+      "dialogue_pages_total": 37,
+      "choice_menus_checked": 0,
+      "choice_menus_total": 1,
+      "choice_captures_checked": 0,
+      "unchecked_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "unchecked_choice_menus": [
+        1
+      ],
+      "verified_record_ids": []
+    },
+    "journey_village": {
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "dialogue_pages_checked": 0,
+      "dialogue_pages_total": 14,
+      "choice_menus_checked": 0,
+      "choice_menus_total": 1,
+      "choice_captures_checked": 0,
+      "unchecked_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "unchecked_choice_menus": [
+        1
+      ],
+      "verified_record_ids": []
+    }
+  },
+  "known_unverified_scope": [
+    "111 of the 117 newly translated dialogue pages and all six new choice menus await in-context playtests; see rescue_pixel_checks.json.",
+    "The rescue battle was entered, but victory, the truck ride, return/report and departure branches were not verified.",
+    "Earlier pending branches remain pending in their reports; 34 localized UI records retain static checks only.",
+    "Later chapters, most yokai names, naming, the preflight notice, and some battle text/artwork labels remain Japanese.",
+    "Link connectivity, later battles/menus, late-game saves, and physical hardware have not been checked."
+  ]
+}

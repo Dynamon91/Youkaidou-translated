@@ -10,3 +10,4 @@ rebuilt/
 builds/
 !verification/v06/roundtrip.sav
 !verification/v07/roundtrip.sav
+!verification/v08/roundtrip.sav

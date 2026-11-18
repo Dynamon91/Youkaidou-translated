@@ -1,5 +1,5 @@
 {
-  "target_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+  "target_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
   "resolution": [
     240,
     160
@@ -9,10 +9,810 @@
   "default_player_name": "ヤシャオウ",
   "pages": [
     {
+      "section": "cargo_report",
+      "page": 1,
+      "screenshot": "screenshots/v08/cargo_report/page-01.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x2f0",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Well done, {PLAYER_NAME}!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 2,
+      "screenshot": "screenshots/v08/cargo_report/page-02.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x320",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Well, actually...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 3,
+      "screenshot": "screenshots/v08/cargo_report/page-03.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x352",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: What is it?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 4,
+      "screenshot": "screenshots/v08/cargo_report/page-04.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x37e",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "The thing is...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 5,
+      "screenshot": "screenshots/v08/cargo_report/page-05.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x3e4",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I told the elder what",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "the driver had said.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 6,
+      "screenshot": "screenshots/v08/cargo_report/page-06.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x466",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: What?!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 7,
+      "screenshot": "screenshots/v08/cargo_report/page-07.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x4a6",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: I see...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 8,
+      "screenshot": "screenshots/v08/cargo_report/page-08.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x4e4",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Those freed yokai",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "are fiercer than I thought.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 9,
+      "screenshot": "screenshots/v08/cargo_report/page-09.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x55a",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: At this rate, it's",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "not just our village...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 10,
+      "screenshot": "screenshots/v08/cargo_report/page-10.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x5c2",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: The whole world",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "could fall into panic...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 11,
+      "screenshot": "screenshots/v08/cargo_report/page-11.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x684",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Why are they so savage?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 12,
+      "screenshot": "screenshots/v08/cargo_report/page-12.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x6be",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: It's the war...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 13,
+      "screenshot": "screenshots/v08/cargo_report/page-13.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x722",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: Hi, {PLAYER_NAME}!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "Welcome back!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 14,
+      "screenshot": "screenshots/v08/cargo_report/page-14.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x780",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yayoi: The elder is waiting",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "for you in the back.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 16,
+      "screenshot": "screenshots/v08/cargo_report/page-16.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x880",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Tomi: Thanks to you,",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "Grandma's feeling better!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 17,
+      "screenshot": "screenshots/v08/cargo_report/page-17.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x8f8",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Granny Tora: I'm as fit",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "as a fiddle again...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 18,
+      "screenshot": "screenshots/v08/cargo_report/page-18.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x954",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Granny Tora: Say...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 19,
+      "screenshot": "screenshots/v08/cargo_report/page-19.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x98e",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Granny Tora: How about",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "a date sometime?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 23,
+      "screenshot": "screenshots/v08/cargo_report/page-23.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xb24",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "The whole world?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "Isn't that a bit much...?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 24,
+      "screenshot": "screenshots/v08/cargo_report/page-24.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xb96",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: No. They will grow",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "even fiercer amid a war...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 25,
+      "screenshot": "screenshots/v08/cargo_report/page-25.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xbea",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "War?!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 26,
+      "screenshot": "screenshots/v08/cargo_report/page-26.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xc28",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Everyone's saying",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "war will break out soon.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 27,
+      "screenshot": "screenshots/v08/cargo_report/page-27.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xc98",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: The whole world is",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "full of gloom...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 28,
+      "screenshot": "screenshots/v08/cargo_report/page-28.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xce8",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Yokai love",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "that dark atmosphere.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 29,
+      "screenshot": "screenshots/v08/cargo_report/page-29.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xd54",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: I think they've fed",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "on it and grown savage.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 30,
+      "screenshot": "screenshots/v08/cargo_report/page-30.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xdb8",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: If war really",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "does break out...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 31,
+      "screenshot": "screenshots/v08/cargo_report/page-31.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xe1c",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "They'll grow even fiercer!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 32,
+      "screenshot": "screenshots/v08/cargo_report/page-32.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xe5a",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: It'll be the end",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "of the world as we know it.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 33,
+      "screenshot": "screenshots/v08/cargo_report/page-33.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xeca",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: {PLAYER_NAME}! Defeat",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "those yokai before then!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 34,
+      "screenshot": "screenshots/v08/cargo_report/page-34.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xf22",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Y-yes, sir...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 35,
+      "screenshot": "screenshots/v08/cargo_report/page-35.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xf6e",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Elder: Good! I'm counting",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "on you...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "page": 36,
+      "screenshot": "screenshots/v08/cargo_report/page-36.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xfb8",
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I agreed to take care",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "of the yokai.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
       "section": "cargo_road",
       "page": 1,
-      "screenshot": "screenshots/v07/cargo_road/page-01.png",
-      "capture_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+      "screenshot": "screenshots/v08/cargo_road/page-01.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
       "script_pc": "0x2fa",
       "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
       "lines": [
@@ -36,8 +836,8 @@
     {
       "section": "cargo_road",
       "page": 2,
-      "screenshot": "screenshots/v07/cargo_road/page-02.png",
-      "capture_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+      "screenshot": "screenshots/v08/cargo_road/page-02.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
       "script_pc": "0x330",
       "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
       "lines": [
@@ -61,8 +861,8 @@
     {
       "section": "cargo_road",
       "page": 3,
-      "screenshot": "screenshots/v07/cargo_road/page-03.png",
-      "capture_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+      "screenshot": "screenshots/v08/cargo_road/page-03.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
       "script_pc": "0x3ce",
       "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
       "lines": [
@@ -86,8 +886,8 @@
     {
       "section": "cargo_road",
       "page": 4,
-      "screenshot": "screenshots/v07/cargo_road/page-04.png",
-      "capture_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+      "screenshot": "screenshots/v08/cargo_road/page-04.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
       "script_pc": "0x410",
       "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
       "lines": [
@@ -111,8 +911,8 @@
     {
       "section": "cargo_road",
       "page": 5,
-      "screenshot": "screenshots/v07/cargo_road/page-05.png",
-      "capture_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+      "screenshot": "screenshots/v08/cargo_road/page-05.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
       "script_pc": "0x460",
       "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
       "lines": [
@@ -135,9 +935,59 @@
     },
     {
       "section": "cargo_road",
+      "page": 8,
+      "screenshot": "screenshots/v08/cargo_road/page-08.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x562",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "{PLAYER_NAME} found Healing Med!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 9,
+      "screenshot": "screenshots/v08/cargo_road/page-09.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x5b4",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Obtained Healing Med!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
       "page": 10,
-      "screenshot": "screenshots/v07/cargo_road/page-10.png",
-      "capture_rom_sha256": "07f366021ac8036e74371d669e0d96a603949452bef6acc603b3c7bddec632cf",
+      "screenshot": "screenshots/v08/cargo_road/page-10.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
       "script_pc": "0x5fc",
       "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
       "lines": [
@@ -157,70 +1007,2001 @@
         }
       ],
       "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 11,
+      "screenshot": "screenshots/v08/cargo_road/page-11.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x644",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Obtained 5 gold!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 12,
+      "screenshot": "screenshots/v08/cargo_road/page-12.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x6d2",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: Thanks! You saved",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "my skin...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 13,
+      "screenshot": "screenshots/v08/cargo_road/page-13.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x726",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I did it for the village.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 14,
+      "screenshot": "screenshots/v08/cargo_road/page-14.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x75a",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: You're from",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "Ichinohe Village...?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 15,
+      "screenshot": "screenshots/v08/cargo_road/page-15.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x7c4",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: Then I'll give you",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "a ride back to the village.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 16,
+      "screenshot": "screenshots/v08/cargo_road/page-16.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x832",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: Hop on, then!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 17,
+      "screenshot": "screenshots/v08/cargo_road/page-17.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x89c",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I rode back to the village",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "along with the supplies.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 18,
+      "screenshot": "screenshots/v08/cargo_road/page-18.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x958",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: You're really",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "something, you know...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 19,
+      "screenshot": "screenshots/v08/cargo_road/page-19.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xa12",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "It was only right.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 20,
+      "screenshot": "screenshots/v08/cargo_road/page-20.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xa48",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "It was nothing...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 21,
+      "screenshot": "screenshots/v08/cargo_road/page-21.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xa8a",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: Not many people",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "could do what you did...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 22,
+      "screenshot": "screenshots/v08/cargo_road/page-22.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xaf6",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Everyone in the village",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "is waiting on supplies.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 23,
+      "screenshot": "screenshots/v08/cargo_road/page-23.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xb5c",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: I see...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 24,
+      "screenshot": "screenshots/v08/cargo_road/page-24.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xb80",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: ...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 25,
+      "screenshot": "screenshots/v08/cargo_road/page-25.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xbae",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(Huh? Why did he",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "fall silent?)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 26,
+      "screenshot": "screenshots/v08/cargo_road/page-26.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xc54",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(Too bumpy to talk, huh?)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 27,
+      "screenshot": "screenshots/v08/cargo_road/page-27.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xc90",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "The road's pretty rough",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "around here...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 28,
+      "screenshot": "screenshots/v08/cargo_road/page-28.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xcd8",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Ow!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 29,
+      "screenshot": "screenshots/v08/cargo_road/page-29.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xd12",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "(I bit my tongue...)",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 30,
+      "screenshot": "screenshots/v08/cargo_road/page-30.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xd48",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: Hey! Are you",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "all right?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 31,
+      "screenshot": "screenshots/v08/cargo_road/page-31.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xd94",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Yesh... More or less.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 32,
+      "screenshot": "screenshots/v08/cargo_road/page-32.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xdb4",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Anyway...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 33,
+      "screenshot": "screenshots/v08/cargo_road/page-33.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xdf4",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Is something wrong...?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 34,
+      "screenshot": "screenshots/v08/cargo_road/page-34.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xe34",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: Well, actually...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 35,
+      "screenshot": "screenshots/v08/cargo_road/page-35.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xe66",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: We made it",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "this time, but...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 36,
+      "screenshot": "screenshots/v08/cargo_road/page-36.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xec2",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: I can't bring",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "the next shipment...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 37,
+      "screenshot": "screenshots/v08/cargo_road/page-37.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xf18",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "What?! Why not?!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 38,
+      "screenshot": "screenshots/v08/cargo_road/page-38.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xf5c",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: Yokai have appeared",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "in our town, Futago, too...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 39,
+      "screenshot": "screenshots/v08/cargo_road/page-39.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xfc8",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: We can't run",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "the train anymore...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 40,
+      "screenshot": "screenshots/v08/cargo_road/page-40.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x1032",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: Without the train,",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "our town gets no supplies.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 41,
+      "screenshot": "screenshots/v08/cargo_road/page-41.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x1086",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Oh, no...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 42,
+      "screenshot": "screenshots/v08/cargo_road/page-42.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x10d4",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: Wait, I've got it!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 43,
+      "screenshot": "screenshots/v08/cargo_road/page-43.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x1118",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: Could you deal with",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "the yokai in our town too?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 44,
+      "screenshot": "screenshots/v08/cargo_road/page-44.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x11d2",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "I'd rather not...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 45,
+      "screenshot": "screenshots/v08/cargo_road/page-45.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x1204",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Leave it to me!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 46,
+      "screenshot": "screenshots/v08/cargo_road/page-46.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x1248",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Let me consult our elder",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "first, at least.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 47,
+      "screenshot": "screenshots/v08/cargo_road/page-47.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x129e",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: All right...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "page": 48,
+      "screenshot": "screenshots/v08/cargo_road/page-48.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x130c",
+      "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: Here we are...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "page": 1,
+      "screenshot": "screenshots/v08/cargo_village/page-01.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x20c",
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "lines": [
+        {
+          "line": 1,
+          "text": "This is my home...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "page": 2,
+      "screenshot": "screenshots/v08/cargo_village/page-02.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x280",
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Keep going!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "page": 3,
+      "screenshot": "screenshots/v08/cargo_village/page-03.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x3da",
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Young man: Whew, at last...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "page": 4,
+      "screenshot": "screenshots/v08/cargo_village/page-04.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x428",
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Young man: We owe you one!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "page": 5,
+      "screenshot": "screenshots/v08/cargo_village/page-05.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x4aa",
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: Defeat yokai",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "to earn EXP!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "page": 6,
+      "screenshot": "screenshots/v08/cargo_village/page-06.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x504",
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: Yokai with their",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "bookmarks set share EXP.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "page": 7,
+      "screenshot": "screenshots/v08/cargo_village/page-07.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x56e",
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: Set just one",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "to help it level up faster!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "page": 8,
+      "screenshot": "screenshots/v08/cargo_village/page-08.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x5ee",
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Ippei: Elements determine",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "which talismans hold magic.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "page": 9,
+      "screenshot": "screenshots/v08/cargo_village/page-09.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x666",
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Ippei: Swap your talismans",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "often. It's worth it!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "page": 10,
+      "screenshot": "screenshots/v08/cargo_village/page-10.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x6d6",
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Okin: Save often, okay?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "page": 11,
+      "screenshot": "screenshots/v08/cargo_village/page-11.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x70a",
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Bunmaru: Hmph!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "Playing the hero, are you?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "page": 12,
+      "screenshot": "screenshots/v08/cargo_village/page-12.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x788",
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Driver: About our talk...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "I'm counting on you.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "page": 13,
+      "screenshot": "screenshots/v08/cargo_village/page-13.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x7d6",
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Call it a day...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "page": 14,
+      "screenshot": "screenshots/v08/cargo_village/page-14.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x822",
+      "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
+      "lines": [
+        {
+          "line": 1,
+          "text": "All right! Good as new!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "page": 1,
+      "screenshot": "screenshots/v08/journey_village/page-01.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x1fc",
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "This is my home...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "page": 2,
+      "screenshot": "screenshots/v08/journey_village/page-02.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x270",
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Keep going!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "page": 3,
+      "screenshot": "screenshots/v08/journey_village/page-03.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x3a6",
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Young man: Good luck...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "page": 4,
+      "screenshot": "screenshots/v08/journey_village/page-04.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x3ec",
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Young man: Counting on you!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "page": 5,
+      "screenshot": "screenshots/v08/journey_village/page-05.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x474",
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: When you rest,",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "your yokai recover too.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "page": 6,
+      "screenshot": "screenshots/v08/journey_village/page-06.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x4d0",
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: But...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "page": 7,
+      "screenshot": "screenshots/v08/journey_village/page-07.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x50a",
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Mr. Toku: Lodging away",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "from home costs money!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "page": 8,
+      "screenshot": "screenshots/v08/journey_village/page-08.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x57c",
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Ippei: I hear there are",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "all sorts of useful Items.",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "page": 9,
+      "screenshot": "screenshots/v08/journey_village/page-09.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x5f6",
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Okin: New to traveling?",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "Set just one bookmark...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "page": 10,
+      "screenshot": "screenshots/v08/journey_village/page-10.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x65e",
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Okin: Your yokai will",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "level up faster that way!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "page": 11,
+      "screenshot": "screenshots/v08/journey_village/page-11.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x6dc",
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Bunmaru: It'll be a relief",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "to have you gone...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "page": 12,
+      "screenshot": "screenshots/v08/journey_village/page-12.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x742",
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Bunmaru: Don't come back!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "page": 13,
+      "screenshot": "screenshots/v08/journey_village/page-13.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x76a",
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Call it a day...",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "page": 14,
+      "screenshot": "screenshots/v08/journey_village/page-14.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x7b6",
+      "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
+      "lines": [
+        {
+          "line": 1,
+          "text": "All right! Good as new!",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "line": 2,
+          "text": "",
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
     }
   ],
-  "choices": [],
+  "choices": [
+    {
+      "section": "cargo_report",
+      "menu": 1,
+      "selected": 0,
+      "screenshot": "screenshots/v08/cargo_report/menu-1-selected-0.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x5f8",
+      "lines": [
+        {
+          "id": "cargo_report_line_021",
+          "text": "Why so savage?",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "cargo_report_line_022",
+          "text": "That's a bit much.",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_report",
+      "menu": 1,
+      "selected": 1,
+      "screenshot": "screenshots/v08/cargo_report/menu-1-selected-1.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x5f8",
+      "lines": [
+        {
+          "id": "cargo_report_line_021",
+          "text": "Why so savage?",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "cargo_report_line_022",
+          "text": "That's a bit much.",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "menu": 1,
+      "selected": 0,
+      "screenshot": "screenshots/v08/cargo_road/menu-1-selected-0.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x98a",
+      "lines": [
+        {
+          "id": "cargo_road_line_037",
+          "text": "It was only right.",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "cargo_road_line_038",
+          "text": "It was nothing...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "menu": 1,
+      "selected": 1,
+      "screenshot": "screenshots/v08/cargo_road/menu-1-selected-1.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x98a",
+      "lines": [
+        {
+          "id": "cargo_road_line_037",
+          "text": "It was only right.",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "cargo_road_line_038",
+          "text": "It was nothing...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "menu": 2,
+      "selected": 0,
+      "screenshot": "screenshots/v08/cargo_road/menu-2-selected-0.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xbce",
+      "lines": [
+        {
+          "id": "cargo_road_line_054",
+          "text": "Something wrong?",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "cargo_road_line_055",
+          "text": "Bumpy road?",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "menu": 2,
+      "selected": 1,
+      "screenshot": "screenshots/v08/cargo_road/menu-2-selected-1.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0xbce",
+      "lines": [
+        {
+          "id": "cargo_road_line_054",
+          "text": "Something wrong?",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "cargo_road_line_055",
+          "text": "Bumpy road?",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "menu": 3,
+      "selected": 0,
+      "screenshot": "screenshots/v08/cargo_road/menu-3-selected-0.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x1152",
+      "lines": [
+        {
+          "id": "cargo_road_line_093",
+          "text": "Leave it to me!",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "cargo_road_line_094",
+          "text": "I'd rather not...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_road",
+      "menu": 3,
+      "selected": 1,
+      "screenshot": "screenshots/v08/cargo_road/menu-3-selected-1.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x1152",
+      "lines": [
+        {
+          "id": "cargo_road_line_093",
+          "text": "Leave it to me!",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "cargo_road_line_094",
+          "text": "I'd rather not...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "menu": 1,
+      "selected": 0,
+      "screenshot": "screenshots/v08/cargo_village/menu-1-selected-0.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x23a",
+      "lines": [
+        {
+          "id": "cargo_village_line_002",
+          "text": "Call it a day...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "cargo_village_line_003",
+          "text": "Keep going!",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "cargo_village",
+      "menu": 1,
+      "selected": 1,
+      "screenshot": "screenshots/v08/cargo_village/menu-1-selected-1.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x23a",
+      "lines": [
+        {
+          "id": "cargo_village_line_002",
+          "text": "Call it a day...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "cargo_village_line_003",
+          "text": "Keep going!",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "menu": 1,
+      "selected": 0,
+      "screenshot": "screenshots/v08/journey_village/menu-1-selected-0.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x22a",
+      "lines": [
+        {
+          "id": "journey_village_line_002",
+          "text": "Call it a day...",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "journey_village_line_003",
+          "text": "Keep going!",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    },
+    {
+      "section": "journey_village",
+      "menu": 1,
+      "selected": 1,
+      "screenshot": "screenshots/v08/journey_village/menu-1-selected-1.png",
+      "capture_rom_sha256": "7fbdc556e47462ce8510893e9f35c81ef5a2513178f660e6e2416d78eb29b16c",
+      "script_pc": "0x22a",
+      "lines": [
+        {
+          "id": "journey_village_line_002",
+          "text": "Call it a day...",
+          "selected": false,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        },
+        {
+          "id": "journey_village_line_003",
+          "text": "Keep going!",
+          "selected": true,
+          "missing_ink_pixels": 0,
+          "unexpected_ink_pixels": 0,
+          "pixel_match": true
+        }
+      ],
+      "pixel_match": true
+    }
+  ],
   "scenarios": {
     "cargo_road": {
       "localized_scenario_sha256": "ef84d0f7d595aab69d21a8095761e4b18d452599e94d5c25f09408524ef7f97e",
-      "dialogue_pages_checked": 6,
+      "dialogue_pages_checked": 46,
       "dialogue_pages_total": 52,
-      "choice_menus_checked": 0,
+      "choice_menus_checked": 3,
       "choice_menus_total": 3,
-      "choice_captures_checked": 0,
+      "choice_captures_checked": 6,
       "unchecked_pages": [
         6,
         7,
-        8,
-        9,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
         49,
         50,
         51,
         52
       ],
-      "unchecked_choice_menus": [
-        1,
-        2,
-        3
-      ],
+      "unchecked_choice_menus": [],
       "verified_record_ids": [
         "cargo_road_line_000",
         "cargo_road_line_001",
@@ -232,118 +3013,252 @@
         "cargo_road_line_007",
         "cargo_road_line_008",
         "cargo_road_line_009",
+        "cargo_road_line_014",
+        "cargo_road_line_015",
+        "cargo_road_line_016",
+        "cargo_road_line_017",
         "cargo_road_line_018",
-        "cargo_road_line_019"
+        "cargo_road_line_019",
+        "cargo_road_line_020",
+        "cargo_road_line_021",
+        "cargo_road_line_022",
+        "cargo_road_line_023",
+        "cargo_road_line_024",
+        "cargo_road_line_025",
+        "cargo_road_line_026",
+        "cargo_road_line_027",
+        "cargo_road_line_028",
+        "cargo_road_line_029",
+        "cargo_road_line_030",
+        "cargo_road_line_031",
+        "cargo_road_line_032",
+        "cargo_road_line_033",
+        "cargo_road_line_034",
+        "cargo_road_line_035",
+        "cargo_road_line_037",
+        "cargo_road_line_038",
+        "cargo_road_line_039",
+        "cargo_road_line_040",
+        "cargo_road_line_041",
+        "cargo_road_line_042",
+        "cargo_road_line_043",
+        "cargo_road_line_044",
+        "cargo_road_line_045",
+        "cargo_road_line_046",
+        "cargo_road_line_047",
+        "cargo_road_line_048",
+        "cargo_road_line_049",
+        "cargo_road_line_050",
+        "cargo_road_line_051",
+        "cargo_road_line_052",
+        "cargo_road_line_054",
+        "cargo_road_line_055",
+        "cargo_road_line_056",
+        "cargo_road_line_057",
+        "cargo_road_line_058",
+        "cargo_road_line_059",
+        "cargo_road_line_060",
+        "cargo_road_line_061",
+        "cargo_road_line_062",
+        "cargo_road_line_063",
+        "cargo_road_line_064",
+        "cargo_road_line_065",
+        "cargo_road_line_066",
+        "cargo_road_line_067",
+        "cargo_road_line_068",
+        "cargo_road_line_069",
+        "cargo_road_line_070",
+        "cargo_road_line_071",
+        "cargo_road_line_072",
+        "cargo_road_line_073",
+        "cargo_road_line_074",
+        "cargo_road_line_075",
+        "cargo_road_line_076",
+        "cargo_road_line_077",
+        "cargo_road_line_078",
+        "cargo_road_line_079",
+        "cargo_road_line_080",
+        "cargo_road_line_081",
+        "cargo_road_line_082",
+        "cargo_road_line_083",
+        "cargo_road_line_084",
+        "cargo_road_line_085",
+        "cargo_road_line_086",
+        "cargo_road_line_087",
+        "cargo_road_line_088",
+        "cargo_road_line_089",
+        "cargo_road_line_090",
+        "cargo_road_line_091",
+        "cargo_road_line_093",
+        "cargo_road_line_094",
+        "cargo_road_line_095",
+        "cargo_road_line_096",
+        "cargo_road_line_097",
+        "cargo_road_line_098",
+        "cargo_road_line_099",
+        "cargo_road_line_100",
+        "cargo_road_line_101",
+        "cargo_road_line_102",
+        "cargo_road_line_103",
+        "cargo_road_line_104"
       ]
     },
     "cargo_village": {
       "localized_scenario_sha256": "dea9a10c90376c83bf21db2dd22cd0971464f5f07dde22607225d5a4634afe56",
-      "dialogue_pages_checked": 0,
+      "dialogue_pages_checked": 14,
       "dialogue_pages_total": 14,
-      "choice_menus_checked": 0,
+      "choice_menus_checked": 1,
       "choice_menus_total": 1,
-      "choice_captures_checked": 0,
-      "unchecked_pages": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14
-      ],
-      "unchecked_choice_menus": [
-        1
-      ],
-      "verified_record_ids": []
+      "choice_captures_checked": 2,
+      "unchecked_pages": [],
+      "unchecked_choice_menus": [],
+      "verified_record_ids": [
+        "cargo_village_line_000",
+        "cargo_village_line_002",
+        "cargo_village_line_003",
+        "cargo_village_line_004",
+        "cargo_village_line_005",
+        "cargo_village_line_006",
+        "cargo_village_line_007",
+        "cargo_village_line_008",
+        "cargo_village_line_009",
+        "cargo_village_line_010",
+        "cargo_village_line_011",
+        "cargo_village_line_012",
+        "cargo_village_line_013",
+        "cargo_village_line_014",
+        "cargo_village_line_015",
+        "cargo_village_line_016",
+        "cargo_village_line_017",
+        "cargo_village_line_018",
+        "cargo_village_line_019",
+        "cargo_village_line_020",
+        "cargo_village_line_021",
+        "cargo_village_line_022",
+        "cargo_village_line_023",
+        "cargo_village_line_024"
+      ]
     },
     "cargo_report": {
-      "localized_scenario_sha256": "f4e26e4a6a6568945c3e1ac944c871811da3339fe6fff2e814104a14ca72da60",
-      "dialogue_pages_checked": 0,
-      "dialogue_pages_total": 37,
-      "choice_menus_checked": 0,
+      "localized_scenario_sha256": "3489ced99c78e104fb7caba838843311a8e16fb5ac22262315eeb6652a0aa5f3",
+      "dialogue_pages_checked": 32,
+      "dialogue_pages_total": 36,
+      "choice_menus_checked": 1,
       "choice_menus_total": 1,
-      "choice_captures_checked": 0,
+      "choice_captures_checked": 2,
       "unchecked_pages": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
         15,
-        16,
-        17,
-        18,
-        19,
         20,
         21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37
+        22
       ],
-      "unchecked_choice_menus": [
-        1
-      ],
-      "verified_record_ids": []
+      "unchecked_choice_menus": [],
+      "verified_record_ids": [
+        "cargo_report_line_000",
+        "cargo_report_line_001",
+        "cargo_report_line_002",
+        "cargo_report_line_003",
+        "cargo_report_line_004",
+        "cargo_report_line_005",
+        "cargo_report_line_006",
+        "cargo_report_line_007",
+        "cargo_report_line_008",
+        "cargo_report_line_009",
+        "cargo_report_line_010",
+        "cargo_report_line_011",
+        "cargo_report_line_012",
+        "cargo_report_line_013",
+        "cargo_report_line_014",
+        "cargo_report_line_015",
+        "cargo_report_line_016",
+        "cargo_report_line_017",
+        "cargo_report_line_018",
+        "cargo_report_line_019",
+        "cargo_report_line_021",
+        "cargo_report_line_022",
+        "cargo_report_line_023",
+        "cargo_report_line_024",
+        "cargo_report_line_025",
+        "cargo_report_line_026",
+        "cargo_report_line_027",
+        "cargo_report_line_028",
+        "cargo_report_line_029",
+        "cargo_report_line_030",
+        "cargo_report_line_033",
+        "cargo_report_line_034",
+        "cargo_report_line_035",
+        "cargo_report_line_036",
+        "cargo_report_line_037",
+        "cargo_report_line_038",
+        "cargo_report_line_039",
+        "cargo_report_line_040",
+        "cargo_report_line_047",
+        "cargo_report_line_048",
+        "cargo_report_line_049",
+        "cargo_report_line_050",
+        "cargo_report_line_051",
+        "cargo_report_line_052",
+        "cargo_report_line_053",
+        "cargo_report_line_054",
+        "cargo_report_line_055",
+        "cargo_report_line_056",
+        "cargo_report_line_057",
+        "cargo_report_line_058",
+        "cargo_report_line_059",
+        "cargo_report_line_060",
+        "cargo_report_line_061",
+        "cargo_report_line_062",
+        "cargo_report_line_063",
+        "cargo_report_line_064",
+        "cargo_report_line_065",
+        "cargo_report_line_066",
+        "cargo_report_line_067",
+        "cargo_report_line_068",
+        "cargo_report_line_069",
+        "cargo_report_line_070",
+        "cargo_report_line_071",
+        "cargo_report_line_072",
+        "cargo_report_line_073",
+        "cargo_report_line_074"
+      ]
     },
     "journey_village": {
       "localized_scenario_sha256": "c772148f09348676f1a37b454bc96d171be78c8ba1138fbbc6b3758b0358260b",
-      "dialogue_pages_checked": 0,
+      "dialogue_pages_checked": 14,
       "dialogue_pages_total": 14,
-      "choice_menus_checked": 0,
+      "choice_menus_checked": 1,
       "choice_menus_total": 1,
-      "choice_captures_checked": 0,
-      "unchecked_pages": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14
-      ],
-      "unchecked_choice_menus": [
-        1
-      ],
-      "verified_record_ids": []
+      "choice_captures_checked": 2,
+      "unchecked_pages": [],
+      "unchecked_choice_menus": [],
+      "verified_record_ids": [
+        "journey_village_line_000",
+        "journey_village_line_002",
+        "journey_village_line_003",
+        "journey_village_line_004",
+        "journey_village_line_005",
+        "journey_village_line_006",
+        "journey_village_line_007",
+        "journey_village_line_008",
+        "journey_village_line_009",
+        "journey_village_line_010",
+        "journey_village_line_011",
+        "journey_village_line_012",
+        "journey_village_line_013",
+        "journey_village_line_014",
+        "journey_village_line_015",
+        "journey_village_line_016",
+        "journey_village_line_017",
+        "journey_village_line_018",
+        "journey_village_line_019",
+        "journey_village_line_020",
+        "journey_village_line_021",
+        "journey_village_line_022",
+        "journey_village_line_023",
+        "journey_village_line_024"
+      ]
     }
   },
-  "method": "Actual mGBA captures reached with normal controls and checkpoints; no gameplay data edits. Full decoded scenario RAM matched the final asset. Both text lines matched the exact final-ROM glyph ink.",
+  "method": "Normal mGBA gameplay controls and checkpoint branches; no gameplay-data edits. Canonical checkpoints were resumed in the final ROM, their full decoded scenario RAM matched the final asset, and exact final-font text ink matched on both lines and selected rows.",
   "all_recorded_pixel_checks_pass": true
 }

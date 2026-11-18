@@ -8,7 +8,7 @@ from PIL import Image
 from script_codec import encode_story
 
 ROOT=Path(__file__).resolve().parent
-ROM=(ROOT/'Youkaidou_English_v07.gba').read_bytes()
+ROM=(ROOT/'Youkaidou_English_v08.gba').read_bytes()
 GLYPHS=json.loads((ROOT/'verification_glyphs.json').read_text())
 
 def large_mask(text,width=27):
@@ -65,4 +65,9 @@ for popup in json.loads((ROOT/'level_up_pixel_checks.json').read_text())['record
     im=Image.open(ROOT/popup['screenshot']).convert('RGB');x,y=popup['origin']
     assert small_mask(popup['text'])==image_ink(im,x,y,len(popup['text'])*8,8),popup['text']
     popups+=1
-print(f'Exact ink matches: {pages} dialogue pages, {choices} choice captures, {popups} level-up popups.')
+item_checks=0
+for record in json.loads((ROOT/'item_pixel_checks.json').read_text())['records']:
+    im=Image.open(ROOT/record['screenshot']).convert('RGB');x,y=record['origin']
+    assert small_mask(record['text'])==image_ink(im,x,y,len(record['text'])*8,8),record['id']
+    item_checks+=1
+print(f'Exact ink matches: {pages} dialogue pages, {choices} choice captures, {popups} level-up popups, {item_checks} item checks.')

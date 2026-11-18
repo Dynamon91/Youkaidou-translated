@@ -110,12 +110,19 @@ def apply_ips(source, patch):
             b[addr:addr+n] = bytes([value])*n
     return bytes(b)
 
+def apply_fixed_item_name(source, patched, offset, original, raw):
+    """Replace only a name, retaining the embedded item's fixed byte layout."""
+    assert len(raw) == len(original)+1, 'fixed item name size'
+    assert source[offset:offset+len(raw)] == original+b'\0'
+    assert original.endswith(b'\x01') and raw.endswith(b'\x01\0')
+    patched[offset:offset+len(raw)] = raw
+
 def build(path, out):
     source = path.read_bytes()
     if hashlib.sha256(source).hexdigest() != SOURCE_SHA256:
         raise SystemExit('Wrong source ROM. This batch requires the exact unmodified ROM identified in README.md.')
     manifest = json.loads((Path(__file__).parent/'translations.json').read_text())
-    if (out/'Youkaidou_English_v07.gba').resolve() == path.resolve():
+    if (out/'Youkaidou_English_v08.gba').resolve() == path.resolve():
         raise SystemExit('The output must not overwrite the input ROM.')
     patched = bytearray(source); font = make_font(source)
     assert all(x == 0 for x in source[FONT_DEST:FONT_DEST+len(font)])
@@ -180,17 +187,25 @@ def build(path, out):
         if 'reference_offsets' in item:
             refs = [int(p,16) for p in item['reference_offsets']]
             assert len(refs)==len(set(refs)) and set(refs)<=set(all_refs),item['id']+' reference scope'
-        cursor = (cursor+3)&~3
-        assert not any(source[cursor:cursor+len(raw)]), 'destination is not empty'
-        patched[cursor:cursor+len(raw)] = raw
-        for reference in refs:
-            assert patched[reference:reference+4] == ptr
-            patched[reference:reference+4] = struct.pack('<I',0x8000000+cursor)
+        if item.get('storage') == 'fixed_item_record':
+            # This name is embedded in an item record. Preserve its exact byte
+            # extent and terminator so effect/price data and object pointers stay valid.
+            assert 'reference_offsets' not in item
+            destination = offset
+            apply_fixed_item_name(source,patched,destination,original,raw)
+        else:
+            cursor = (cursor+3)&~3
+            assert not any(source[cursor:cursor+len(raw)]), 'destination is not empty'
+            destination = cursor
+            patched[destination:destination+len(raw)] = raw
+            for reference in refs:
+                assert patched[reference:reference+4] == ptr
+                patched[reference:reference+4] = struct.pack('<I',0x8000000+destination)
+            cursor += len(raw)
         for reference in all_refs:
             if reference not in refs:
                 assert patched[reference:reference+4] == ptr,item['id']+' changed an unrelated reference'
-        records.append({'id':item['id'],'old_offset':item['offset'],'new_offset':hex(cursor),'pointers':[hex(r) for r in refs],'untouched_references':[hex(r) for r in all_refs if r not in refs],'new_bytes':len(raw),'max_line_cells':max(map(len,segments)),'max_line_pixels':8*max(map(len,segments)),'limit_pixels':8*item['max_cells'],'verification':item['verification']})
-        cursor += len(raw)
+        records.append({'id':item['id'],'old_offset':item['offset'],'new_offset':hex(destination),'pointers':[hex(r) for r in refs] if destination!=offset else [],'untouched_references':[hex(r) for r in all_refs if r not in refs or destination==offset],'new_bytes':len(raw),'max_line_cells':max(map(len,segments)),'max_line_pixels':8*max(map(len,segments)),'limit_pixels':8*item['max_cells'],'verification':item['verification'],'storage':item.get('storage','relocated_text')})
     ui = {x['id']:x['english'].replace('\x01','') for x in manifest['strings']}
     level_cells = 8+len(ui['level_up_subject_link'])+len(ui['level_up_level_label'])+3+len(ui['level_up_result_end'])
     stat_ids = ['level_up_attack','level_up_defense','level_up_magic','level_up_magic_defense','level_up_speed','level_up_luck']
@@ -236,9 +251,9 @@ def build(path, out):
     patch = ips(source,patched)
     assert apply_ips(source,patch) == patched
     out.mkdir(parents=True,exist_ok=True)
-    (out/'Youkaidou_English_v07.gba').write_bytes(patched)
-    (out/'Youkaidou_English_v07.ips').write_bytes(patch)
-    report = {'stage':'English v07: delivery rescue, return journey and war warning; partial localization','source_sha256':SOURCE_SHA256,'output_sha256':hashlib.sha256(patched).hexdigest(),'rom_size':len(patched),'translated_strings':len(records),'lowercase_glyphs':26,'existing_8x16_glyphs_preserved':800,'existing_8x8_font_bank_unchanged_outside_lowercase_slots':True,'font_sizes':['8x8','8x16'],'header_unchanged':True,'control_sequences_preserved':True,'patch_roundtrip_verified':True,'main_menu_layout':{'x_tiles':18,'width_tiles':12,'right_edge_pixels':240,'longest_label_cells':9},'screen_checked_string_count':sum(x['verification'].startswith('Observed') for x in manifest['strings']),'static_only_string_count':sum(not x['verification'].startswith('Observed') for x in manifest['strings']),'story':story_report,'houses':house_report,'records':records}
+    (out/'Youkaidou_English_v08.gba').write_bytes(patched)
+    (out/'Youkaidou_English_v08.ips').write_bytes(patch)
+    report = {'stage':'English v08: delivery rescue, return journey and war warning; partial localization','source_sha256':SOURCE_SHA256,'output_sha256':hashlib.sha256(patched).hexdigest(),'rom_size':len(patched),'translated_strings':len(records),'lowercase_glyphs':26,'existing_8x16_glyphs_preserved':800,'existing_8x8_font_bank_unchanged_outside_lowercase_slots':True,'font_sizes':['8x8','8x16'],'header_unchanged':True,'control_sequences_preserved':True,'patch_roundtrip_verified':True,'main_menu_layout':{'x_tiles':18,'width_tiles':12,'right_edge_pixels':240,'longest_label_cells':9},'screen_checked_string_count':sum(x['verification'].startswith('Observed') for x in manifest['strings']),'static_only_string_count':sum(not x['verification'].startswith('Observed') for x in manifest['strings']),'story':story_report,'houses':house_report,'records':records}
     report['level_up_layout'] = {'name_budget_cells':8,'level_digits':3,'stat_digits_with_sign':6,'level_sentence_max_cells':level_cells,'stat_sentence_max_cells':stat_cells,'limit_cells':24,'reference_scope':'Only level-up call sites; shared Japanese particles and fixed-field stat paths are preserved elsewhere'}
     (out/'localized_scenario.bin').write_bytes(localized_script)
     (out/'localized_houses.bin').write_bytes(localized_houses)
