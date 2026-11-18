@@ -14,33 +14,35 @@
   },
   "localized_asset": {
     "rom_offset": "0x7c4000",
-    "decoded_bytes": 2560,
-    "compressed_bytes": 2884,
-    "sha256": "bb45c2c5a286055f38fc7efb411a90d0f8151ad845277ea92e5a3b6d99a433c8"
+    "decoded_bytes": 2564,
+    "compressed_bytes": 2889,
+    "sha256": "64fb8df38041887a1168f33c767e04d12ad4b4006113b80e5615ee1048745418"
   },
   "translation": {
     "records": 26,
     "nonempty_english_lines": 26,
     "dialogue_pages": 19,
     "choice_menus": 3,
+    "all_print_and_choice_slots_localized": true,
     "player_name_variable_preserved": true,
     "cell_budgets_passed": true
   },
   "structural_checks": {
     "event_table_entries_checked": 88,
+    "pointer_references_checked": 2,
     "vm_control_words_preserved": true,
     "lzss_roundtrip_passed": true,
     "ips_roundtrip_passed": true
   },
   "patch": {
     "filename": "Youkaidou_English_v09_journey_houses.ips",
-    "bytes": 2911,
-    "sha256": "e0e59d4c48d2441fd99f76fcbe8b539162d4dbeacf582a4ee0ed118de9a6bc44",
-    "changed_bytes": 1821,
+    "bytes": 2915,
+    "sha256": "6b2b8e98a9f846b992dad2b8cdb8d98022c44cf4cb0792f5e3919eb37edb7b54",
+    "changed_bytes": 1831,
     "write_ranges": [
       [
         "0x7c4000",
-        "0x7c4b44"
+        "0x7c4b49"
       ],
       [
         "0x15e8e0",

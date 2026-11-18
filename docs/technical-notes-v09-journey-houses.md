@@ -4,7 +4,7 @@
 
 This is a development add-on built on the v0.8 English translation. The v0.8 release on `main` remains unchanged.
 
-- 26 non-empty text records translated and encoded.
+- 26 non-empty text records translated and encoded; a source scan confirms all 26 print/choice slots are covered.
 - 19 dialogue pages and 3 choice menus included.
 - Player-name variable slots retained.
 - 88 event-table entries checked during relocation.
@@ -12,6 +12,7 @@ This is a development add-on built on the v0.8 English translation. The v0.8 rel
 - LZSS decompression/recompression round-trip passed.
 - IPS apply/round-trip passed.
 - All dialogue and choice text stays within the original 27-cell / 18-cell limits.
+- The localized asset is 2,564 decoded bytes and 2,889 compressed bytes at ROM offset `0x7c4000`.
 - The v0.8 IPS range audit found no overlap with the v0.9 add-on's three write ranges.
 - **mGBA gameplay verification is still pending.** Do not treat this as a fully tested release or merge it into `main` yet.
 
@@ -43,11 +44,11 @@ The v0.9 patch is an add-on, not a replacement for v0.8. The original ROM is not
 
 ## Change scope
 
-The add-on writes the relocated event asset at `0x7c4000–0x7c4b44` and updates two pointer references at `0x15e8e0–0x15e8e4` and `0x76e174–0x76e178`. No other ROM bytes are changed by this patch.
+The add-on writes the relocated event asset at `0x7c4000–0x7c4b49` and updates two pointer references at `0x15e8e0–0x15e8e4` and `0x76e174–0x76e178`. No other ROM bytes are changed by this patch.
 
-The v0.8 IPS was parsed as 271 records (140,800 bytes); none intersect these v0.9 ranges. The generated v0.9 IPS is 2,911 bytes with SHA-256:
+The v0.8 IPS was parsed as 271 records (140,800 bytes); none intersect these v0.9 ranges. The generated v0.9 IPS is 2,915 bytes with SHA-256:
 
-`e0e59d4c48d2441fd99f76fcbe8b539162d4dbeacf582a4ee0ed118de9a6bc44`
+`6b2b8e98a9f846b992dad2b8cdb8d98022c44cf4cb0792f5e3919eb37edb7b54`
 
 ## Next verification work
 
