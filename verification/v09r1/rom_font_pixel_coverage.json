@@ -1,0 +1,19 @@
+{
+  "project": "Youkaidou v0.9r1 ROM font pixel validation",
+  "status": "PASS (static font and patch verification only)",
+  "date": "2026-11-19",
+  "source_rom_sha256": "080a70324ee02c0ef850fccec0c2353faff4598e1f18cdf35277f5c05ba3ce06",
+  "v08_font_source": "original clean ROM font + build_patch.py lowercase glyph code, cross-inspected against v08 IPS font bank",
+  "v09r1_patch_sha256": "e93985ac4b66c72f35ea1c48df312931b4c0677b1d8bf307400eb504ca086594",
+  "translated_records_verified_in_patched_asset": 26,
+  "unique_glyphs_including_space": 47,
+  "inked_glyphs": 46,
+  "blank_unsupported_glyphs": [],
+  "example_previews": [
+    "previews/v09r1/01-elder-and-yayoi.svg",
+    "previews/v09r1/02-hp-med-dialogue.svg",
+    "previews/v09r1/03-yayoi-choice-menu.svg",
+    "previews/v09r1/04-yayoi-corrected-line.svg"
+  ],
+  "notes": "SVG previews use extracted v08 GBA font pixel masks and v09r1 translation records. The frames are schematic new layouts, NOT captured gameplay. Actual mGBA tests remain pending."
+}
