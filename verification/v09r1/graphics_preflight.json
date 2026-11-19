@@ -279,5 +279,16 @@
       "max_cells": 27,
       "fit": true
     }
-  ]
+  ],
+  "negative_control_tests": {
+    "status": "PASS: 5 out of 5 deliberately introduced regressions rejected by local preflight",
+    "cases": [
+      "Font bitmap byte modification outside event region",
+      "Dialogue line over 27 cells",
+      "Unsupported character glyph",
+      "Mismatched localized event asset",
+      "Tampered event pointer"
+    ],
+    "disclaimer": "Negative controls confirm the static validator detects these classes of errors; they do not substitute for actual mGBA screenshots."
+  }
 }
