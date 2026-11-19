@@ -1,0 +1,283 @@
+{
+  "stage": "Youkaidou v0.9r1 — graphics integrity preflight",
+  "status": "PASS: STATIC TESTS ONLY; mGBA screen captures pending",
+  "source_rom_sha256": "080a70324ee02c0ef850fccec0c2353faff4598e1f18cdf35277f5c05ba3ce06",
+  "patch_sha256": "e93985ac4b66c72f35ea1c48df312931b4c0677b1d8bf307400eb504ca086594",
+  "patch_bytes": 2915,
+  "event_sha256": "a61f9dce2a7716a9484c65b4cec947e6a1fabf224b5922a8805035f2a7550799",
+  "event_decoded_bytes": 2564,
+  "event_compressed_bytes": 2889,
+  "original_vs_revised_asset_changed_bytes": 11,
+  "source_rom_changed_bytes": 1831,
+  "source_rom_ips_records": 3,
+  "event_entry_table_entries_relocated": 88,
+  "source_event_pointer_references": 2,
+  "dialogue_pages": 19,
+  "translated_records": 26,
+  "choice_menus": 3,
+  "player_name_slots_preserved": 3,
+  "maximum_line_pixels": 216,
+  "static_checks": {
+    "clean_ROM_sha256": true,
+    "IPS_apply_roundtrip_and_reproducibility": true,
+    "LZSS_roundtrip": true,
+    "event_VM_control_words_preserved": true,
+    "entry_table_offsets_relocated": true,
+    "English_glyphs_supported": true,
+    "dialogue_and_choice_character_limits": true,
+    "font_and_menu_asset_regions_untouched": true,
+    "entire_patch_limited_to_event_asset_and_two_pointers": true,
+    "GBA_header_unchanged": true,
+    "visual_emulator_rendering": "PENDING",
+    "graphics_sprites_palettes_and_text_clipping_capture_review": "PENDING",
+    "save_and_continue_regression": "PENDING"
+  },
+  "v09_to_v09r1_hotfix": {
+    "file": "Youkaidou_v09_to_v09r1_text_hotfix.ips",
+    "bytes": 34,
+    "sha256": "5147f6a8ded4d10c28ed6cb0fdaeadcb60cf655daebcd521079cdd54ab0668bc",
+    "content_scope": "21 bytes at 0x7c4730; changes only the already relocated English dialogue, preserves all other ROM bytes",
+    "application_order": [
+      "v08 base patch",
+      "v09 journey_houses patch",
+      "v09r1 text hotfix"
+    ]
+  },
+  "download_note": "The complete direct v09r1 add-on can be reproducibly rebuilt with build_journey_houses_v09r1.py and the v09r1 manifest; the tiny hotfix updates the v09 package already hosted on this branch.",
+  "per_line_fit": [
+    {
+      "id": "journey_houses_line_000",
+      "page": 1,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 27,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_002",
+      "page": 2,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 27,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_005",
+      "page": 2,
+      "role": "choice",
+      "menu": 1,
+      "cells": 15,
+      "max_cells": 18,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_006",
+      "page": 2,
+      "role": "choice",
+      "menu": 1,
+      "cells": 15,
+      "max_cells": 18,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_007",
+      "page": 3,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 15,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_009",
+      "page": 4,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 25,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_011",
+      "page": 5,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 26,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_012",
+      "page": 5,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 23,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_013",
+      "page": 6,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 21,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_015",
+      "page": 7,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 26,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_017",
+      "page": 8,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 26,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_019",
+      "page": 9,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 27,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_021",
+      "page": 10,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 26,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_023",
+      "page": 11,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 27,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_025",
+      "page": 12,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 27,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_028",
+      "page": 12,
+      "role": "choice",
+      "menu": 2,
+      "cells": 16,
+      "max_cells": 18,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_029",
+      "page": 12,
+      "role": "choice",
+      "menu": 2,
+      "cells": 15,
+      "max_cells": 18,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_030",
+      "page": 13,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 27,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_032",
+      "page": 14,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 27,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_034",
+      "page": 15,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 26,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_036",
+      "page": 16,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 27,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_038",
+      "page": 17,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 27,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_041",
+      "page": 17,
+      "role": "choice",
+      "menu": 3,
+      "cells": 15,
+      "max_cells": 18,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_042",
+      "page": 17,
+      "role": "choice",
+      "menu": 3,
+      "cells": 15,
+      "max_cells": 18,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_043",
+      "page": 18,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 15,
+      "max_cells": 27,
+      "fit": true
+    },
+    {
+      "id": "journey_houses_line_045",
+      "page": 19,
+      "role": "dialogue",
+      "menu": null,
+      "cells": 25,
+      "max_cells": 27,
+      "fit": true
+    }
+  ]
+}
