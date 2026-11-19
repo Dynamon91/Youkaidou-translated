@@ -20,6 +20,12 @@ Current stable release: **v08**. A separate development branch, **v0.9-journey-h
   Japanese. Pending checks are listed in the reports.
 
 
+## New v0.9r1 patch-font preview gallery (static QA)
+
+[View the four new ROM-font preview images](docs/v09r1-font-qa-and-previews.md) and [pixel-glyph coverage report](verification/v09r1/rom_font_pixel_coverage.json). The preview images use the actual v0.8 English GBA font bitmaps and v0.9r1 translation strings. **47 unique glyphs, including space, were checked; none are missing.** A [reproducible font pixel check script](qa/rom_font_pixel_check.py) is included.
+
+**Important:** These are reconstructed, diagnostic text-layout previews, **not actual gameplay or mGBA screenshots**. The game graphics, choice behavior, save/load and page transitions still require emulator review.
+
 ## v0.9r1 development update — graphics preflight and text fidelity
 
 The branch now includes a verified 34-byte [v0.9 → v0.9r1 hotfix](Youkaidou_v09_to_v09r1_text_hotfix.ips) for one Yayoi line, plus a new [v0.9r1 translation manifest](journey_houses_translations_v09r1.json), [direct-patch builder](build_journey_houses_v09r1.py), [static graphics integrity report](verification/v09r1/graphics_preflight.json) and [emulator screenshot acceptance checklist](docs/visual-review-v09r1.md).
