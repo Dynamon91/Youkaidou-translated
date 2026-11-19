@@ -11,6 +11,10 @@ This check was performed against the user's clean 8,388,608-byte AFUJ ROM. **Sta
 - Patch footprint: 1,831 ROM bytes differ; changes confined to relocated event data and its two pointer references; GBA header and font/UI graphic regions unchanged by add-on.
 - Negative controls **passed 5/5**: injected font-region corruption, dialogue overflow, unsupported glyph, mismatching localized asset, and event-pointer tampering were all rejected by the validator.
 
+## Patch-path equivalence check
+
+The 2,915-byte v0.9 add-on was applied to the clean ROM and then followed by the repository's 34-byte hotfix. The result was compared byte-for-byte against the clean ROM patched once with the direct v0.9r1 IPS: **identical output**, with only **16 ROM bytes** changed by the hotfix relative to the v0.9 build. The hotfix's SHA-256 was independently checked as `5147f6a8ded4d10c28ed6cb0fdaeadcb60cf655daebcd521079cdd54ab0668bc`.
+
 ## Applying the patch
 
 1. Start with your own **clean** Japanese Youkaidou ROM (`AFUJ`).
