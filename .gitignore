@@ -11,3 +11,6 @@ builds/
 !verification/v06/roundtrip.sav
 !verification/v07/roundtrip.sav
 !verification/v08/roundtrip.sav
+
+# Local Japanese event source dumps; do not upload to public GitHub
+event_candidates_local.json
