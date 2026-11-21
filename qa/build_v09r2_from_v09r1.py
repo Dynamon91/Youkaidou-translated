@@ -47,7 +47,7 @@ def main():
     offset, start, size = records[-1]
     if size != 2886:
         raise ValueError("Unexpected event data size")
-    before_packed = b"\\x00\\x00" + base[start:start+size] + b"\\x00"
+    before_packed = b"\x00\x00" + base[start:start+size] + b"\x00"
     before, consumed = decode_lzss(before_packed)
     if len(before) != 2564 or consumed != 2889:
         raise ValueError("Reference event asset changed")
@@ -79,7 +79,7 @@ def main():
     if controls(data) != controls(before):
         raise ValueError("Event VM opcodes changed")
     compressed = encode_lzss_literals(bytes(data))
-    if len(compressed) != 2889 or compressed[:2] != b"\\x00\\x00" or compressed[-1:] != b"\\x00":
+    if len(compressed) != 2889 or compressed[:2] != b"\x00\x00" or compressed[-1:] != b"\x00":
         raise ValueError("Compressed layout changed")
     if decode_lzss(compressed)[0] != data:
         raise ValueError("LZSS round-trip failure")
