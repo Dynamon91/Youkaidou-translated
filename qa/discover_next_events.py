@@ -14,6 +14,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from script_codec import decode_lzss
+from build_japanese_glyph_map import decode_words
 
 SOURCE_SHA256 = '080a70324ee02c0ef850fccec0c2353faff4598e1f18cdf35277f5c05ba3ce06'
 POINTER_WINDOWS = ((0x15E000, 0x161000), (0x76E000, 0x76F000))
@@ -62,7 +63,7 @@ def known_assets(root):
     return known
 
 
-def discover(rom, known):
+def discover(rom, known, glyphs=None):
     """Find candidate GBA event references in the verified code/pointer windows."""
     refs = {}
     for first, end in POINTER_WINDOWS:
@@ -92,6 +93,14 @@ def discover(rom, known):
             if any(idx >= code_size for idx in offsets):
                 continue
             slots = extract_slots(raw, base)
+            if glyphs is not None:
+                for slot in slots:
+                    decoded = decode_words(slot['source_hex'], glyphs)
+                    slot['japanese'] = decoded['japanese']
+                    slot['japanese_decoding'] = decoded
+                    slot['status'] = ('MAPPED_DRAFT — confirm Japanese text against source gameplay'
+                                      if not decoded['unmapped_glyph_codes']
+                                      else 'PARTIAL_DRAFT — unknown Japanese glyphs remain')
             events.append({
                 'asset_rom_offset': hex(off),
                 'status': 'known' if off in known else 'candidate_untranslated',
@@ -121,13 +130,19 @@ def main():
     source = args.rom.read_bytes()
     if len(source) != 0x800000 or hashlib.sha256(source).hexdigest() != SOURCE_SHA256:
         parser.error('Requires verified clean AFUJ ROM (8,388,608 bytes)')
-    results = discover(source, known_assets(ROOT))
+    map_path = ROOT / 'qa/japanese_glyph_map.json'
+    mapping = json.loads(map_path.read_text(encoding='utf-8'))
+    if mapping.get('format') != 'youkaidou_ja_glyph_map_v1':
+        parser.error('Unsupported glyph map format')
+    results = discover(source, known_assets(ROOT), mapping['glyphs'])
     if args.untranslated_only:
         results = [r for r in results if r['status'] == 'candidate_untranslated']
     results = [r for r in results if int(r['asset_rom_offset'], 16) > args.after]
     payload = {
         'status': 'SOURCE EXTRACTION ONLY',
-        'note': 'Glyph IDs must be transcribed and translated manually; none are auto-approved.',
+        'note': 'Draft Japanese decoded from 608 prior transcriptions; verify original glyphs and dialogue context. Unknown glyph codes are never guessed. No translations are auto-approved.',
+        'glyph_map': 'qa/japanese_glyph_map.json',
+        'glyph_map_coverage_basis': '326 codewords; 15 previously transcribed manifests',
         'events': results,
     }
     args.output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
