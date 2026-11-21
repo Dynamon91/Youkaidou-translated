@@ -4,6 +4,17 @@ A work-in-progress English fan translation of **Youkaidou for Game Boy Advance**
 
 Current stable release: **v08**. A separate development branch, **v0.9-journey-houses**, contains the next incremental dialogue update.
 
+## Japanese decoder milestone — 326 original glyph codes (21 November 2026)
+
+The development branch now contains a **reproducible Japanese glyph-code decoder** compiled from 15 earlier, transcribed scenario manifests. Across **608 aligned records (9,605 original glyph positions)**, it identified **326 code-to-character mappings with zero internal conflicts**. The special `{PLAYER_NAME}` script variable remains distinct from ordinary text.
+
+- [Japanese glyph map](qa/japanese_glyph_map.json) and [deterministic map compiler](qa/build_japanese_glyph_map.py).
+- [Decoded text regression tests](qa/test_japanese_glyph_map.py): round-trip all 608 Japanese source records and require unknown glyphs to stay visible.
+- [Next-event extractor](qa/discover_next_events.py): can now emit **draft Japanese text** alongside the raw glyph IDs for later event candidates when a clean original ROM is supplied.
+- [GitHub Actions source-free CI](.github/workflows/static-translation-qa.yml): [successful run](https://github.com/Dynamon91/Youkaidou-translated/actions/runs/44917188636) confirms v0.9r2 IPS reproducibility, 608-string map round-trip, synthetic event parsing and script/IPS regression.
+
+**Current patch remains v0.9r2; no additional chapter has been translated in this milestone.** Source transcriptions and automated checks are not substitutes for the Japanese game context, accurate in-game font pixels or mGBA gameplay captures. Original Japanese GBA ROM is not published. See [next-event instructions](docs/next-event-extraction.md).
+
 ## Continued work — verification and next-event discovery (21 November 2026)
 
 The latest **v0.9r2** English patch was re-audited against the existing **v0.8** IPS: all 26 encoded strings were found in the event data, the 271 v0.8 IPS records have **zero overlapping write ranges** with the add-on, and event tables and VM commands remain intact. See [extended static audit](verification/v09r2/extended_static_audit_2026-11-21.json).
