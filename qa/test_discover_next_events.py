@@ -11,7 +11,7 @@ from discover_next_events import discover
 def main():
     rom = bytearray(0x800000)
     off = 0x70C000
-    code = bytes.fromhex('054021000200 034003000140') + bytes.fromhex('0140') * 50
+    code = bytes.fromhex('05403f007e00 034001000140') + bytes.fromhex('0140') * 50
     script = struct.pack('<4I', 16, 20, 24, len(code)) + struct.pack('<2I', 0, 0) + code
     rom[off:off + len(encode_lzss_literals(script))] = encode_lzss_literals(script)
     for ref in (0x15E020, 0x76E120):
@@ -23,9 +23,9 @@ def main():
     assert event['pointer_references'] == 2
     assert event['asset_rom_offset'] == '0x70c000'
     assert len(event['slots']) == 2, event['slots']
-    assert event['slots'][0]['source_hex'] == '21000200'
+    assert event['slots'][0]['source_hex'] == '3f007e00'
     assert event['slots'][0]['role'] == 'dialogue'
-    assert event['slots'][1]['source_hex'] == '0300'
+    assert event['slots'][1]['source_hex'] == '0100'
     assert event['slots'][1]['role'] == 'choice'
     assert event['slots'][1]['english'] is None
     assert discover(rom, {off: ['known.json']})[0]['status'] == 'known'
