@@ -1,0 +1,37 @@
+name: Youkaidou translation static QA
+
+on:
+  push:
+    branches: [v0.9-journey-houses]
+  pull_request:
+    branches: [main, v0.9-journey-houses]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  rom-free-translation-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Configure Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Audit published patch text and ROM write regions
+        run: python3 qa/audit_v09r2_patch.py
+      - name: Verify compiled Japanese glyph map against 15 manifests
+        run: python3 qa/build_japanese_glyph_map.py --check
+      - name: Re-decode all 608 Japanese source records
+        run: python3 qa/test_japanese_glyph_map.py
+      - name: Test next-event discovery on synthetic data only
+        run: python3 qa/test_discover_next_events.py
+      - name: Rebuild v09r2 IPS deterministically
+        run: |
+          EXPECTED_SHA="$(sha256sum Youkaidou_English_v09r2_journey_houses.ips | cut -d ' ' -f1)"
+          python3 qa/build_v09r2_from_v09r1.py
+          ACTUAL_SHA="$(sha256sum Youkaidou_English_v09r2_journey_houses.ips | cut -d ' ' -f1)"
+          test "$EXPECTED_SHA" = "$ACTUAL_SHA"
+          echo "Source-free IPS reproducibility: PASS ($ACTUAL_SHA)"
