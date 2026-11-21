@@ -33,7 +33,7 @@ def glyph_index(char):
 
 def ink_from_ips(font, known, code):
     origin = (code // 10) * 640 + (code % 10) * 32
-    if origin + 324 > len(font):
+    if origin + 328 > len(font):
         return {'result': 'FAIL', 'reason': 'glyph outside font allocation'}
     inks = 0
     missing = 0
