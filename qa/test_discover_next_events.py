@@ -29,6 +29,13 @@ def main():
     assert event['slots'][1]['role'] == 'choice'
     assert event['slots'][1]['english'] is None
     assert discover(rom, {off: ['known.json']})[0]['status'] == 'known'
+    from build_japanese_glyph_map import compile_map
+    glyphs = compile_map()["glyphs"]
+    mapped = discover(rom, {}, glyphs)[0]["slots"]
+    assert mapped[0]["japanese_decoding"]["unmapped_glyph_codes"] == []
+    assert mapped[0]["japanese_decoding"]["mapped_glyph_tokens"] == 2
+    assert mapped[1]["japanese_decoding"]["mapped_glyph_tokens"] == 1
+    assert mapped[0]["status"].startswith("MAPPED_DRAFT")
     rom[off:off + 4] = b'\xff\xff\xff\xff'
     assert discover(rom, {}) == []
     print('PASS: synthetic event discovery, 2 pointer refs, 2 slots, known-asset skip, bad header rejection')
