@@ -24,3 +24,9 @@ To play: **clean Japanese AFUJ ROM → v0.8 IPS → direct v0.9r2 IPS**. Do not 
 **Graphics caution:** No font tiles, palettes, sprite graphics, GBA header, event pointers or UI assets were altered by the v0.9r2 revision. This static property is *not* proof of error-free graphics. The new revision **has not been tested in mGBA**. Capture all 19 text pages, 3 menus (both choices), transitions and save/continue before promoting to the stable branch.
 
 Actual v0.8 screenshots remain in [the repository screenshots folder](../screenshots), and v0.9r1 font-layout illustrations are in [the static preview guide](v09r1-font-qa-and-previews.md). They do not demonstrate v0.9r2 gameplay.
+
+## Font coverage for the new wording
+
+The two revised strings introduce three characters not previously exercised in this event asset: uppercase `D`, `O`, and `K`. This does **not** modify the font, but it does expand the required glyph coverage from 47 to **48 unique characters** in total (three additions and two previously used characters removed).
+
+Run `python3 qa/rom_font_pixel_check_v09r2.py '/path/to/Youkaidou (Japan).gba'` with a matching clean user-owned AFUJ ROM. The script reconstructs the v0.8 font from the original and checks ink coverage for every v0.9r2 character. **This ROM-dependent font check remains pending** in the current environment. The source-free validation already performed proves encoding, cell budgets and patch containment, not actual glyph visibility or gameplay.
