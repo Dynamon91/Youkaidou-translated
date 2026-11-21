@@ -6,7 +6,23 @@ The development branch now includes a guarded script scanner to continue transla
 
 The original Japanese GBA ROM is not stored in this repository. The source-free tests can confirm the existing IPS and event data, but they cannot discover additional story dialogue from the game without the user's clean original. Guessing a source pointer or substituting fabricated Japanese text would risk corrupting the game.
 
-The next step is **source inventory**, not publication of an unverified patch. The scanner identifies probable new LZSS-compressed event assets referenced by the GBA engine and emits a *local* JSON file of raw two-byte text-code sequences, with original marker offsets and pointer references. Source glyph codes must subsequently be decoded/transcribed and interpreted in story context.
+The next step is **source inventory**, not publication of an unverified patch. The scanner identifies probable new LZSS-compressed event assets referenced by the GBA engine and emits a *local* JSON file with original marker offsets, pointer references, source text-code sequences, and **draft Japanese text decoded through the recovered glyph map**. Unknown codes are marked `[?0xNNNN]` and never guessed. Source glyph mappings and dialogue context must still be visually checked before a translation is accepted.
+
+## New Japanese glyph map
+
+The [reproducible map](../qa/japanese_glyph_map.json) was compiled from **15 previously transcribed original-script manifests**. Across **608 non-empty source-aligned records and 9,605 glyph tokens**, it derives **326 distinct source glyph code → Japanese character mappings, with zero internal conflicts**. The player-name token `0x1000` is kept as `{PLAYER_NAME}`. A Japanese character can map to more than one glyph code (for example `間`), so the decoder uses **code-to-character** rather than assuming a one-to-one inverse.
+
+The map is drawn from existing project transcription data, not independently certified against every original Japanese glyph bitmap. It can reduce manual transcription effort for later chapters, but must not be mistaken for full-game coverage or final dialogue verification.
+
+Rebuild/check and test without a ROM:
+
+```sh
+python3 qa/build_japanese_glyph_map.py --check
+python3 qa/test_japanese_glyph_map.py
+python3 qa/test_discover_next_events.py
+```
+
+The decoder's `japanese` result is a **draft**. An untranslated asset may contain glyph codes not in the map; those remain visible as unknowns, and any completed Japanese lines still require contextual review. Existing English v0.9r2 IPS data is unchanged.
 
 ## Commands
 
@@ -26,7 +42,7 @@ The scanner checks for a **clean unmodified** 8,388,608-byte Japanese `AFUJ` ROM
 
 Default scan threshold is after source asset offset `0x70BBFA` (the current journey-and-houses event). It examines only established event-pointer windows (`0x15E000–0x161000`, `0x76E000–0x76F000`) and checks LZSS, header layout and table entries. This scoped scan may **miss** assets referenced differently: no claim of full-game coverage is made.
 
-Review `event_candidates_local.json` locally. The scanner deliberately marks each English/Japanese transcription as `null` rather than inventing text. The result is **not** a finished patch, and probable slots may include false positives. Leave extracted commercial source content local rather than committing the ROM or raw dumps to public GitHub.
+Review `event_candidates_local.json` locally. The scanner leaves every English translation as `null` and offers **draft mapped Japanese text** only where a glyph code is known. Unmapped glyphs are explicit placeholders. The result is **not** a finished patch, and probable slots may include false positives. Leave extracted commercial source content local rather than committing the ROM or raw dumps to public GitHub.
 
 ## Quality gates for the next translation
 
