@@ -4,6 +4,17 @@ A work-in-progress English fan translation of **Youkaidou for Game Boy Advance**
 
 Current stable release: **v08**. A separate development branch, **v0.9-journey-houses**, contains the next incremental dialogue update.
 
+## Continued work — verification and next-event discovery (21 November 2026)
+
+The latest **v0.9r2** English patch was re-audited against the existing **v0.8** IPS: all 26 encoded strings were found in the event data, the 271 v0.8 IPS records have **zero overlapping write ranges** with the add-on, and event tables and VM commands remain intact. See [extended static audit](verification/v09r2/extended_static_audit_2026-11-21.json).
+
+New tools:
+- [Source-free v0.9r2 IPS and text validator](qa/audit_v09r2_patch.py) — `python3 qa/audit_v09r2_patch.py`.
+- [Next-event candidate extractor](qa/discover_next_events.py) and [synthetic test](qa/test_discover_next_events.py).
+- [Instructions and emulator quality gates](docs/next-event-extraction.md).
+
+**Scope:** The scanner is ready for the next Japanese event assets, but this session did not have access to the clean AFUJ ROM. **No further chapter has yet been translated or emulator-verified.** Stable v0.8 on `main` is unchanged. The development patch remains v0.9r2.
+
 ## v0.9r2 development translation refinement (21 November 2026)
 
 Two contextual English improvements are now available on this branch, without changing text-cell counts: `Tomi: Do take care...` and `Yayoi: Goofing off? You OK?`. The journey-and-houses section still covers **26/26 strings, 19 dialogue pages and 3 choice menus**.
