@@ -1,0 +1,43 @@
+{
+  "project": "Youkaidou GBA English fan translation",
+  "stage": "v0.9r2 source-free extended audit",
+  "date": "2026-11-21",
+  "branch": "v0.9-journey-houses",
+  "scope": "Static ROM patch and embedded event script only. Not a live emulator test.",
+  "actual_repo_artifacts_examined": [
+    "Youkaidou_English_v08.ips",
+    "Youkaidou_English_v09r1_journey_houses.ips",
+    "Youkaidou_English_v09r2_journey_houses.ips",
+    "journey_houses_translations_v09r2.json"
+  ],
+  "observed": {
+    "v08_ips_records": 271,
+    "v09r2_ips_records": 3,
+    "v09r2_patch_bytes": 2915,
+    "overlapping_ips_write_ranges": 0,
+    "event_decoded_bytes": 2564,
+    "event_packed_bytes": 2889,
+    "translation_records_verified_against_decoded_bytes": 26,
+    "translation_marker_mismatches": 0,
+    "translation_text_mismatches": 0,
+    "text_cell_overflows": 0,
+    "choice_menus": 3,
+    "dialogue_pages": 19,
+    "header_and_entry_table_unchanged": true,
+    "vm_control_word_sequence_unchanged": true,
+    "v09r1_to_r2_event_changed_bytes": 40
+  },
+  "tool_added_to_repository": "qa/audit_v09r2_patch.py",
+  "next_section_extractor": "qa/discover_next_events.py",
+  "extractor_local_synthetic_fixture": {
+    "status": "PASS",
+    "fixtures": "1 synthetic event, 2 pointers, 2 mock dialogue/choice slots",
+    "note": "The newly committed repo test provides the same scenario using the real codec. It has not yet been executed by CI."
+  },
+  "limitations": [
+    "No clean AFUJ ROM available in this session for next-event data extraction",
+    "No new gameplay capture or ROM-based glyph inspection",
+    "Full-game English completion percentage unknown",
+    "All inferred candidates require manual Japanese glyph/context review"
+  ]
+}
