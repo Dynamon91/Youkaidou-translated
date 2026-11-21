@@ -4,6 +4,14 @@ A work-in-progress English fan translation of **Youkaidou for Game Boy Advance**
 
 Current stable release: **v08**. A separate development branch, **v0.9-journey-houses**, contains the next incremental dialogue update.
 
+## v0.9r2 development translation refinement (21 November 2026)
+
+Two contextual English improvements are now available on this branch, without changing text-cell counts: `Tomi: Do take care...` and `Yayoi: Goofing off? You OK?`. The journey-and-houses section still covers **26/26 strings, 19 dialogue pages and 3 choice menus**.
+
+**Direct patch:** [Download v0.9r2 IPS](Youkaidou_English_v09r2_journey_houses.ips). Apply **v0.8 first**, then this v0.9r2 IPS; **do not apply v0.9r1 or other journey-houses patches after it**. [Read the translation and static QA notes](docs/v09r2-fidelity.md). The reproducible build is in `qa/build_v09r2_from_v09r1.py` and does not require distributing an original ROM.
+
+This is a **development patch**. mGBA captures, on-screen clipping, menu behavior, transitions, save and Continue remain **unverified**. Stable `main` stays at v0.8. Earlier v0.9r1 documentation is retained for history.
+
 ## Current progress
 
 - The delivery rescue is won and the ride home, elder report and next quest

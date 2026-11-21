@@ -1,0 +1,49 @@
+{
+  "build": "v0.9r2 journey-houses English fidelity revision",
+  "date": "2026-11-21",
+  "base_patch": "Youkaidou_English_v09r1_journey_houses.ips",
+  "result_patch": "Youkaidou_English_v09r2_journey_houses.ips",
+  "source_rom_used_for_this_revision": false,
+  "updated_strings": [
+    {
+      "id": "journey_houses_line_013",
+      "previous_english": "Tomi: Stay healthy...",
+      "english": "Tomi: Do take care...",
+      "decoded_offset": "0x4ce",
+      "cells": 21,
+      "maximum_cells": 27
+    },
+    {
+      "id": "journey_houses_line_023",
+      "previous_english": "Yayoi: Joking? Really okay?",
+      "english": "Yayoi: Goofing off? You OK?",
+      "decoded_offset": "0x652",
+      "cells": 27,
+      "maximum_cells": 27
+    }
+  ],
+  "static_checks": {
+    "reference_blob_verified": true,
+    "source_event_decoded": true,
+    "baseline_event_bytes": 2564,
+    "updated_event_bytes": 2564,
+    "base_new_compressed_size_same": true,
+    "lzss_decode_encode_roundtrip": true,
+    "vm_control_words_preserved": true,
+    "entry_table_unchanged": true,
+    "player_name_slots_untouched": true,
+    "ips_structure_unchanged": true,
+    "emulator_test": "PENDING"
+  },
+  "baseline_ips_bytes": 2915,
+  "updated_ips_bytes": 2915,
+  "changed_decoded_bytes": 40,
+  "changed_compressed_ips_bytes": 47,
+  "menu_and_graphics_assets_touched": false,
+  "application_order": [
+    "Clean YOUKAIDOU AFUJ ROM",
+    "Youkaidou_English_v08.ips",
+    "Youkaidou_English_v09r2_journey_houses.ips"
+  ],
+  "warning": "Do not stack the v0.9, v0.9r1 or hotfix patches after v0.9r2. Real mGBA captures and save/continue regression are still pending."
+}
