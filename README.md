@@ -15,6 +15,12 @@ The development branch now contains a **reproducible Japanese glyph-code decoder
 
 **Current patch remains v0.9r2; no additional chapter has been translated in this milestone.** Source transcriptions and automated checks are not substitutes for the Japanese game context, accurate in-game font pixels or mGBA gameplay captures. Original Japanese GBA ROM is not published. See [next-event instructions](docs/next-event-extraction.md).
 
+### Font graphics regression check (21 November 2026)
+
+The new [ROM-free IPS font coverage audit](qa/audit_published_font_v09r2.py) examines the **actual font tile bytes present in the published v0.8 IPS**, then checks all printable glyphs used by the v0.9r2 dialogue, including newly introduced uppercase `D`, `O` and `K`. Unlike the older ROM-dependent font reconstruction check, this can run in GitHub Actions without a game ROM.
+
+Run `python3 qa/audit_published_font_v09r2.py`. It distinguishes **PASS** (known glyph pixels have ink), **FAIL** (fully known glyph is blank) and **INCONCLUSIVE** (patch lacks bytes needed to decide). The automated workflow now includes this check. It is **not** an emulator graphics certification; palette selection, text position, transitions and on-screen rendering still require mGBA screenshots.
+
 ## Continued work — verification and next-event discovery (21 November 2026)
 
 The latest **v0.9r2** English patch was re-audited against the existing **v0.8** IPS: all 26 encoded strings were found in the event data, the 271 v0.8 IPS records have **zero overlapping write ranges** with the add-on, and event tables and VM commands remain intact. See [extended static audit](verification/v09r2/extended_static_audit_2026-11-21.json).
