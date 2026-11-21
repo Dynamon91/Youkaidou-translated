@@ -28,6 +28,8 @@ jobs:
         run: python3 qa/test_japanese_glyph_map.py
       - name: Test next-event discovery on synthetic data only
         run: python3 qa/test_discover_next_events.py
+      - name: Check glyph ink coverage from published v08 IPS (no original ROM)
+        run: python3 qa/audit_published_font_v09r2.py
       - name: Rebuild v09r2 IPS deterministically
         run: |
           EXPECTED_SHA="$(sha256sum Youkaidou_English_v09r2_journey_houses.ips | cut -d ' ' -f1)"
