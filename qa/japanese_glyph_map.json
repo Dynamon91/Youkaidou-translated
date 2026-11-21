@@ -1,0 +1,3638 @@
+{
+  "format": "youkaidou_ja_glyph_map_v1",
+  "manifest_count": 15,
+  "aligned_records": 608,
+  "aligned_glyph_tokens": 9605,
+  "unique_glyph_codes": 326,
+  "conflicts": 0,
+  "manifest_inventory": [
+    {
+      "path": "story_translations.json",
+      "aligned_records": 40,
+      "aligned_glyph_tokens": 602
+    },
+    {
+      "path": "village_translations.json",
+      "aligned_records": 74,
+      "aligned_glyph_tokens": 1232
+    },
+    {
+      "path": "house_translations.json",
+      "aligned_records": 75,
+      "aligned_glyph_tokens": 1170
+    },
+    {
+      "path": "elder_story_translations.json",
+      "aligned_records": 62,
+      "aligned_glyph_tokens": 992
+    },
+    {
+      "path": "return_translations.json",
+      "aligned_records": 6,
+      "aligned_glyph_tokens": 66
+    },
+    {
+      "path": "shrine_translations.json",
+      "aligned_records": 43,
+      "aligned_glyph_tokens": 597
+    },
+    {
+      "path": "supply_houses_translations.json",
+      "aligned_records": 48,
+      "aligned_glyph_tokens": 774
+    },
+    {
+      "path": "supply_village_translations.json",
+      "aligned_records": 23,
+      "aligned_glyph_tokens": 375
+    },
+    {
+      "path": "departure_houses_translations.json",
+      "aligned_records": 28,
+      "aligned_glyph_tokens": 429
+    },
+    {
+      "path": "departure_village_translations.json",
+      "aligned_records": 24,
+      "aligned_glyph_tokens": 400
+    },
+    {
+      "path": "journey_village_translations.json",
+      "aligned_records": 20,
+      "aligned_glyph_tokens": 315
+    },
+    {
+      "path": "journey_houses_translations_v09r2.json",
+      "aligned_records": 26,
+      "aligned_glyph_tokens": 442
+    },
+    {
+      "path": "cargo_road_translations.json",
+      "aligned_records": 71,
+      "aligned_glyph_tokens": 1061
+    },
+    {
+      "path": "cargo_report_translations.json",
+      "aligned_records": 46,
+      "aligned_glyph_tokens": 780
+    },
+    {
+      "path": "cargo_village_translations.json",
+      "aligned_records": 22,
+      "aligned_glyph_tokens": 370
+    }
+  ],
+  "glyphs": {
+    "0x0000": {
+      "character": "　",
+      "occurrences": 470,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0001": {
+      "character": "！",
+      "occurrences": 183,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0007": {
+      "character": "（",
+      "occurrences": 46,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0008": {
+      "character": "）",
+      "occurrences": 46,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x000b": {
+      "character": "、",
+      "occurrences": 207,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x000c": {
+      "character": "。",
+      "occurrences": 36,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x000d": {
+      "character": "−",
+      "occurrences": 9,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "departure_village_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "shrine_translations.json"
+      ]
+    },
+    "0x0010": {
+      "character": "０",
+      "occurrences": 7,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "house_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0011": {
+      "character": "１",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "journey_village_translations.json"
+      ]
+    },
+    "0x0012": {
+      "character": "２",
+      "occurrences": 2,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x0013": {
+      "character": "３",
+      "occurrences": 4,
+      "source_manifests": [
+        "departure_village_translations.json",
+        "house_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0015": {
+      "character": "５",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x001a": {
+      "character": "：",
+      "occurrences": 244,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x001f": {
+      "character": "？",
+      "occurrences": 63,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "shrine_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x003c": {
+      "character": "・",
+      "occurrences": 624,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x003e": {
+      "character": "〜",
+      "occurrences": 1,
+      "source_manifests": [
+        "shrine_translations.json"
+      ]
+    },
+    "0x003f": {
+      "character": "「",
+      "occurrences": 367,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0040": {
+      "character": "」",
+      "occurrences": 367,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0041": {
+      "character": "ぁ",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "supply_village_translations.json"
+      ]
+    },
+    "0x0042": {
+      "character": "あ",
+      "occurrences": 108,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0044": {
+      "character": "い",
+      "occurrences": 365,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0046": {
+      "character": "う",
+      "occurrences": 195,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0047": {
+      "character": "ぇ",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0048": {
+      "character": "え",
+      "occurrences": 21,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "shrine_translations.json",
+        "supply_village_translations.json"
+      ]
+    },
+    "0x004a": {
+      "character": "お",
+      "occurrences": 50,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_village_translations.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x004b": {
+      "character": "か",
+      "occurrences": 165,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x004c": {
+      "character": "が",
+      "occurrences": 124,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x004d": {
+      "character": "き",
+      "occurrences": 55,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x004e": {
+      "character": "ぎ",
+      "occurrences": 5,
+      "source_manifests": [
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x004f": {
+      "character": "く",
+      "occurrences": 63,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0050": {
+      "character": "ぐ",
+      "occurrences": 4,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x0051": {
+      "character": "け",
+      "occurrences": 63,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0052": {
+      "character": "げ",
+      "occurrences": 5,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "house_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x0053": {
+      "character": "こ",
+      "occurrences": 67,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0054": {
+      "character": "ご",
+      "occurrences": 6,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "departure_houses_translations.json",
+        "house_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json"
+      ]
+    },
+    "0x0055": {
+      "character": "さ",
+      "occurrences": 78,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0056": {
+      "character": "ざ",
+      "occurrences": 6,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "story_translations.json",
+        "supply_village_translations.json"
+      ]
+    },
+    "0x0057": {
+      "character": "し",
+      "occurrences": 138,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0058": {
+      "character": "じ",
+      "occurrences": 76,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0059": {
+      "character": "す",
+      "occurrences": 48,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x005a": {
+      "character": "ず",
+      "occurrences": 8,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "departure_houses_translations.json",
+        "shrine_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x005b": {
+      "character": "せ",
+      "occurrences": 30,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x005c": {
+      "character": "ぜ",
+      "occurrences": 14,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "story_translations.json",
+        "supply_village_translations.json"
+      ]
+    },
+    "0x005d": {
+      "character": "そ",
+      "occurrences": 55,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x005e": {
+      "character": "ぞ",
+      "occurrences": 29,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x005f": {
+      "character": "た",
+      "occurrences": 216,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0060": {
+      "character": "だ",
+      "occurrences": 115,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0061": {
+      "character": "ち",
+      "occurrences": 76,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0063": {
+      "character": "っ",
+      "occurrences": 188,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0064": {
+      "character": "つ",
+      "occurrences": 33,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0065": {
+      "character": "づ",
+      "occurrences": 2,
+      "source_manifests": [
+        "house_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0066": {
+      "character": "て",
+      "occurrences": 123,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0067": {
+      "character": "で",
+      "occurrences": 52,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0068": {
+      "character": "と",
+      "occurrences": 146,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0069": {
+      "character": "ど",
+      "occurrences": 23,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x006a": {
+      "character": "な",
+      "occurrences": 197,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x006b": {
+      "character": "に",
+      "occurrences": 159,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x006c": {
+      "character": "ぬ",
+      "occurrences": 1,
+      "source_manifests": [
+        "supply_houses_translations.json"
+      ]
+    },
+    "0x006d": {
+      "character": "ね",
+      "occurrences": 15,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "shrine_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x006e": {
+      "character": "の",
+      "occurrences": 170,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x006f": {
+      "character": "は",
+      "occurrences": 145,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0070": {
+      "character": "ば",
+      "occurrences": 47,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0071": {
+      "character": "ぱ",
+      "occurrences": 4,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0072": {
+      "character": "ひ",
+      "occurrences": 2,
+      "source_manifests": [
+        "house_translations.json",
+        "journey_village_translations.json"
+      ]
+    },
+    "0x0073": {
+      "character": "び",
+      "occurrences": 6,
+      "source_manifests": [
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "shrine_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x0074": {
+      "character": "ぴ",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "journey_village_translations.json"
+      ]
+    },
+    "0x0075": {
+      "character": "ふ",
+      "occurrences": 28,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_village_translations.json"
+      ]
+    },
+    "0x0076": {
+      "character": "ぶ",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0078": {
+      "character": "へ",
+      "occurrences": 7,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "elder_story_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0079": {
+      "character": "べ",
+      "occurrences": 5,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x007b": {
+      "character": "ほ",
+      "occurrences": 9,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "return_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x007c": {
+      "character": "ぼ",
+      "occurrences": 9,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "elder_story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x007e": {
+      "character": "ま",
+      "occurrences": 77,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x007f": {
+      "character": "み",
+      "occurrences": 15,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0080": {
+      "character": "む",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "elder_story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0081": {
+      "character": "め",
+      "occurrences": 25,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x0082": {
+      "character": "も",
+      "occurrences": 93,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0083": {
+      "character": "ゃ",
+      "occurrences": 69,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0084": {
+      "character": "や",
+      "occurrences": 140,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0086": {
+      "character": "ゆ",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "supply_houses_translations.json"
+      ]
+    },
+    "0x0087": {
+      "character": "ょ",
+      "occurrences": 36,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0088": {
+      "character": "よ",
+      "occurrences": 168,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0089": {
+      "character": "ら",
+      "occurrences": 102,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x008a": {
+      "character": "り",
+      "occurrences": 70,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x008b": {
+      "character": "る",
+      "occurrences": 103,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x008c": {
+      "character": "れ",
+      "occurrences": 54,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x008d": {
+      "character": "ろ",
+      "occurrences": 33,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x008f": {
+      "character": "わ",
+      "occurrences": 44,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0092": {
+      "character": "を",
+      "occurrences": 80,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0093": {
+      "character": "ん",
+      "occurrences": 209,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0096": {
+      "character": "一",
+      "occurrences": 4,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x0097": {
+      "character": "二",
+      "occurrences": 1,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x009f": {
+      "character": "十",
+      "occurrences": 1,
+      "source_manifests": [
+        "departure_village_translations.json"
+      ]
+    },
+    "0x00a0": {
+      "character": "『",
+      "occurrences": 46,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00a1": {
+      "character": "』",
+      "occurrences": 46,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00a3": {
+      "character": "ア",
+      "occurrences": 13,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_village_translations.json",
+        "shrine_translations.json"
+      ]
+    },
+    "0x00a5": {
+      "character": "イ",
+      "occurrences": 35,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00a7": {
+      "character": "ウ",
+      "occurrences": 13,
+      "source_manifests": [
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "shrine_translations.json"
+      ]
+    },
+    "0x00a9": {
+      "character": "エ",
+      "occurrences": 13,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "elder_story_translations.json",
+        "journey_village_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00ab": {
+      "character": "オ",
+      "occurrences": 59,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00ad": {
+      "character": "ガ",
+      "occurrences": 10,
+      "source_manifests": [
+        "departure_houses_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00ae": {
+      "character": "キ",
+      "occurrences": 8,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00af": {
+      "character": "ギ",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x00b0": {
+      "character": "ク",
+      "occurrences": 29,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00b1": {
+      "character": "グ",
+      "occurrences": 1,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x00b2": {
+      "character": "ケ",
+      "occurrences": 11,
+      "source_manifests": [
+        "house_translations.json",
+        "shrine_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x00b4": {
+      "character": "コ",
+      "occurrences": 21,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "house_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00b5": {
+      "character": "ゴ",
+      "occurrences": 6,
+      "source_manifests": [
+        "journey_houses_translations_v09r2.json",
+        "shrine_translations.json"
+      ]
+    },
+    "0x00b6": {
+      "character": "サ",
+      "occurrences": 2,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x00b8": {
+      "character": "シ",
+      "occurrences": 32,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "house_translations.json",
+        "shrine_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00b9": {
+      "character": "ジ",
+      "occurrences": 7,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "elder_story_translations.json",
+        "shrine_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00bb": {
+      "character": "ズ",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "departure_houses_translations.json",
+        "journey_houses_translations_v09r2.json"
+      ]
+    },
+    "0x00bc": {
+      "character": "セ",
+      "occurrences": 7,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "journey_village_translations.json"
+      ]
+    },
+    "0x00c0": {
+      "character": "タ",
+      "occurrences": 32,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "shrine_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00c2": {
+      "character": "チ",
+      "occurrences": 4,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "house_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x00c4": {
+      "character": "ッ",
+      "occurrences": 48,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00c5": {
+      "character": "ツ",
+      "occurrences": 14,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "house_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00c7": {
+      "character": "テ",
+      "occurrences": 1,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x00c8": {
+      "character": "デ",
+      "occurrences": 1,
+      "source_manifests": [
+        "cargo_report_translations.json"
+      ]
+    },
+    "0x00c9": {
+      "character": "ト",
+      "occurrences": 53,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00ca": {
+      "character": "ド",
+      "occurrences": 3,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x00cc": {
+      "character": "ニ",
+      "occurrences": 1,
+      "source_manifests": [
+        "cargo_report_translations.json"
+      ]
+    },
+    "0x00ce": {
+      "character": "ネ",
+      "occurrences": 1,
+      "source_manifests": [
+        "cargo_report_translations.json"
+      ]
+    },
+    "0x00cf": {
+      "character": "ノ",
+      "occurrences": 13,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "departure_houses_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "supply_houses_translations.json"
+      ]
+    },
+    "0x00d0": {
+      "character": "ハ",
+      "occurrences": 6,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00d1": {
+      "character": "バ",
+      "occurrences": 11,
+      "source_manifests": [
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "shrine_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x00d2": {
+      "character": "パ",
+      "occurrences": 1,
+      "source_manifests": [
+        "cargo_report_translations.json"
+      ]
+    },
+    "0x00d3": {
+      "character": "ヒ",
+      "occurrences": 1,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x00d6": {
+      "character": "フ",
+      "occurrences": 5,
+      "source_manifests": [
+        "shrine_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00d7": {
+      "character": "ブ",
+      "occurrences": 17,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00d8": {
+      "character": "プ",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "journey_village_translations.json"
+      ]
+    },
+    "0x00d9": {
+      "character": "ヘ",
+      "occurrences": 1,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x00da": {
+      "character": "ベ",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "journey_village_translations.json"
+      ]
+    },
+    "0x00db": {
+      "character": "ペ",
+      "occurrences": 10,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "journey_village_translations.json",
+        "story_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00dc": {
+      "character": "ホ",
+      "occurrences": 11,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "house_translations.json",
+        "shrine_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00dd": {
+      "character": "ボ",
+      "occurrences": 1,
+      "source_manifests": [
+        "departure_village_translations.json"
+      ]
+    },
+    "0x00df": {
+      "character": "マ",
+      "occurrences": 20,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_village_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00e0": {
+      "character": "ミ",
+      "occurrences": 11,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "departure_houses_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "shrine_translations.json",
+        "supply_houses_translations.json"
+      ]
+    },
+    "0x00e1": {
+      "character": "ム",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x00e2": {
+      "character": "メ",
+      "occurrences": 3,
+      "source_manifests": [
+        "departure_village_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00e3": {
+      "character": "モ",
+      "occurrences": 2,
+      "source_manifests": [
+        "shrine_translations.json"
+      ]
+    },
+    "0x00e4": {
+      "character": "ャ",
+      "occurrences": 4,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00e5": {
+      "character": "ヤ",
+      "occurrences": 2,
+      "source_manifests": [
+        "shrine_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00e6": {
+      "character": "ュ",
+      "occurrences": 6,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "house_translations.json",
+        "shrine_translations.json"
+      ]
+    },
+    "0x00ea": {
+      "character": "ラ",
+      "occurrences": 57,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00eb": {
+      "character": "リ",
+      "occurrences": 1,
+      "source_manifests": [
+        "house_translations.json"
+      ]
+    },
+    "0x00ec": {
+      "character": "ル",
+      "occurrences": 19,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00ed": {
+      "character": "レ",
+      "occurrences": 51,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00ee": {
+      "character": "ロ",
+      "occurrences": 6,
+      "source_manifests": [
+        "journey_houses_translations_v09r2.json",
+        "shrine_translations.json"
+      ]
+    },
+    "0x00f0": {
+      "character": "ワ",
+      "occurrences": 5,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "shrine_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x00f4": {
+      "character": "ン",
+      "occurrences": 29,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x00fa": {
+      "character": "新",
+      "occurrences": 1,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x00fb": {
+      "character": "相",
+      "occurrences": 1,
+      "source_manifests": [
+        "village_translations.json"
+      ]
+    },
+    "0x00fc": {
+      "character": "会",
+      "occurrences": 8,
+      "source_manifests": [
+        "departure_houses_translations.json",
+        "house_translations.json",
+        "supply_houses_translations.json"
+      ]
+    },
+    "0x0106": {
+      "character": "悪",
+      "occurrences": 1,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x0108": {
+      "character": "腹",
+      "occurrences": 1,
+      "source_manifests": [
+        "journey_houses_translations_v09r2.json"
+      ]
+    },
+    "0x0109": {
+      "character": "当",
+      "occurrences": 7,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x010a": {
+      "character": "集",
+      "occurrences": 1,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x010c": {
+      "character": "遊",
+      "occurrences": 1,
+      "source_manifests": [
+        "village_translations.json"
+      ]
+    },
+    "0x010f": {
+      "character": "以",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x0112": {
+      "character": "家",
+      "occurrences": 8,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0114": {
+      "character": "生",
+      "occurrences": 2,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x0115": {
+      "character": "行",
+      "occurrences": 1,
+      "source_manifests": [
+        "village_translations.json"
+      ]
+    },
+    "0x0119": {
+      "character": "言",
+      "occurrences": 1,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x011b": {
+      "character": "今",
+      "occurrences": 32,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x011d": {
+      "character": "色",
+      "occurrences": 1,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x0120": {
+      "character": "印",
+      "occurrences": 12,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "elder_story_translations.json",
+        "shrine_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0126": {
+      "character": "上",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x0128": {
+      "character": "受",
+      "occurrences": 8,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "house_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0129": {
+      "character": "動",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x012b": {
+      "character": "後",
+      "occurrences": 1,
+      "source_manifests": [
+        "village_translations.json"
+      ]
+    },
+    "0x012d": {
+      "character": "売",
+      "occurrences": 2,
+      "source_manifests": [
+        "village_translations.json"
+      ]
+    },
+    "0x0138": {
+      "character": "追",
+      "occurrences": 1,
+      "source_manifests": [
+        "shrine_translations.json"
+      ]
+    },
+    "0x013b": {
+      "character": "奥",
+      "occurrences": 13,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "supply_houses_translations.json"
+      ]
+    },
+    "0x013c": {
+      "character": "男",
+      "occurrences": 1,
+      "source_manifests": [
+        "shrine_translations.json"
+      ]
+    },
+    "0x0142": {
+      "character": "鬼",
+      "occurrences": 2,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x0143": {
+      "character": "重",
+      "occurrences": 1,
+      "source_manifests": [
+        "village_translations.json"
+      ]
+    },
+    "0x0144": {
+      "character": "思",
+      "occurrences": 6,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0145": {
+      "character": "同",
+      "occurrences": 2,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x0147": {
+      "character": "送",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x014f": {
+      "character": "外",
+      "occurrences": 3,
+      "source_manifests": [
+        "departure_village_translations.json",
+        "supply_village_translations.json"
+      ]
+    },
+    "0x0154": {
+      "character": "怪",
+      "occurrences": 69,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0156": {
+      "character": "間",
+      "occurrences": 6,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "shrine_translations.json"
+      ]
+    },
+    "0x0159": {
+      "character": "帰",
+      "occurrences": 3,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json"
+      ]
+    },
+    "0x015a": {
+      "character": "変",
+      "occurrences": 2,
+      "source_manifests": [
+        "shrine_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x015b": {
+      "character": "顔",
+      "occurrences": 1,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x015f": {
+      "character": "活",
+      "occurrences": 1,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x016a": {
+      "character": "考",
+      "occurrences": 1,
+      "source_manifests": [
+        "departure_village_translations.json"
+      ]
+    },
+    "0x016c": {
+      "character": "体",
+      "occurrences": 3,
+      "source_manifests": [
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0173": {
+      "character": "気",
+      "occurrences": 19,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0178": {
+      "character": "汽",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x017a": {
+      "character": "聞",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "elder_story_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x017f": {
+      "character": "凶",
+      "occurrences": 9,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json"
+      ]
+    },
+    "0x0180": {
+      "character": "切",
+      "occurrences": 1,
+      "source_manifests": [
+        "house_translations.json"
+      ]
+    },
+    "0x0182": {
+      "character": "金",
+      "occurrences": 15,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_village_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0184": {
+      "character": "急",
+      "occurrences": 1,
+      "source_manifests": [
+        "supply_village_translations.json"
+      ]
+    },
+    "0x0187": {
+      "character": "具",
+      "occurrences": 2,
+      "source_manifests": [
+        "departure_village_translations.json",
+        "journey_village_translations.json"
+      ]
+    },
+    "0x018a": {
+      "character": "薬",
+      "occurrences": 2,
+      "source_manifests": [
+        "supply_houses_translations.json"
+      ]
+    },
+    "0x018d": {
+      "character": "国",
+      "occurrences": 2,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x0197": {
+      "character": "暗",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_report_translations.json"
+      ]
+    },
+    "0x0198": {
+      "character": "来",
+      "occurrences": 15,
+      "source_manifests": [
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0199": {
+      "character": "車",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x01ac": {
+      "character": "子",
+      "occurrences": 9,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "elder_story_translations.json"
+      ]
+    },
+    "0x01b2": {
+      "character": "声",
+      "occurrences": 1,
+      "source_manifests": [
+        "village_translations.json"
+      ]
+    },
+    "0x01ba": {
+      "character": "最",
+      "occurrences": 5,
+      "source_manifests": [
+        "house_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x01be": {
+      "character": "先",
+      "occurrences": 1,
+      "source_manifests": [
+        "journey_village_translations.json"
+      ]
+    },
+    "0x01c1": {
+      "character": "酒",
+      "occurrences": 4,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x01c5": {
+      "character": "探",
+      "occurrences": 1,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x01cc": {
+      "character": "死",
+      "occurrences": 1,
+      "source_manifests": [
+        "supply_village_translations.json"
+      ]
+    },
+    "0x01cd": {
+      "character": "仕",
+      "occurrences": 5,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "story_translations.json"
+      ]
+    },
+    "0x01ce": {
+      "character": "師",
+      "occurrences": 3,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x01d0": {
+      "character": "自",
+      "occurrences": 1,
+      "source_manifests": [
+        "journey_village_translations.json"
+      ]
+    },
+    "0x01d1": {
+      "character": "時",
+      "occurrences": 5,
+      "source_manifests": [
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x01d2": {
+      "character": "事",
+      "occurrences": 9,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "story_translations.json"
+      ]
+    },
+    "0x01d4": {
+      "character": "親",
+      "occurrences": 2,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "house_translations.json"
+      ]
+    },
+    "0x01db": {
+      "character": "衆",
+      "occurrences": 19,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "journey_village_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x01dd": {
+      "character": "商",
+      "occurrences": 2,
+      "source_manifests": [
+        "village_translations.json"
+      ]
+    },
+    "0x01de": {
+      "character": "少",
+      "occurrences": 13,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x01e4": {
+      "character": "丈",
+      "occurrences": 1,
+      "source_manifests": [
+        "journey_houses_translations_v09r2.json"
+      ]
+    },
+    "0x01ec": {
+      "character": "信",
+      "occurrences": 1,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x01f1": {
+      "character": "住",
+      "occurrences": 3,
+      "source_manifests": [
+        "house_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json"
+      ]
+    },
+    "0x01f2": {
+      "character": "好",
+      "occurrences": 1,
+      "source_manifests": [
+        "cargo_report_translations.json"
+      ]
+    },
+    "0x01f4": {
+      "character": "世",
+      "occurrences": 11,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "elder_story_translations.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x01f9": {
+      "character": "然",
+      "occurrences": 5,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x01fa": {
+      "character": "戦",
+      "occurrences": 10,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x01fc": {
+      "character": "空",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_report_translations.json"
+      ]
+    },
+    "0x01fd": {
+      "character": "争",
+      "occurrences": 6,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x01fe": {
+      "character": "他",
+      "occurrences": 2,
+      "source_manifests": [
+        "departure_houses_translations.json"
+      ]
+    },
+    "0x01ff": {
+      "character": "大",
+      "occurrences": 8,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "elder_story_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "shrine_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0200": {
+      "character": "代",
+      "occurrences": 12,
+      "source_manifests": [
+        "house_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0201": {
+      "character": "退",
+      "occurrences": 24,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0203": {
+      "character": "倒",
+      "occurrences": 1,
+      "source_manifests": [
+        "cargo_village_translations.json"
+      ]
+    },
+    "0x0208": {
+      "character": "助",
+      "occurrences": 4,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "elder_story_translations.json",
+        "supply_houses_translations.json"
+      ]
+    },
+    "0x0209": {
+      "character": "立",
+      "occurrences": 1,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x020a": {
+      "character": "旅",
+      "occurrences": 2,
+      "source_manifests": [
+        "journey_village_translations.json"
+      ]
+    },
+    "0x020c": {
+      "character": "食",
+      "occurrences": 2,
+      "source_manifests": [
+        "supply_houses_translations.json",
+        "supply_village_translations.json"
+      ]
+    },
+    "0x020f": {
+      "character": "宝",
+      "occurrences": 1,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x0211": {
+      "character": "玉",
+      "occurrences": 1,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x0215": {
+      "character": "団",
+      "occurrences": 1,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x0216": {
+      "character": "楽",
+      "occurrences": 1,
+      "source_manifests": [
+        "house_translations.json"
+      ]
+    },
+    "0x0217": {
+      "character": "平",
+      "occurrences": 2,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x021c": {
+      "character": "近",
+      "occurrences": 6,
+      "source_manifests": [
+        "house_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0220": {
+      "character": "力",
+      "occurrences": 1,
+      "source_manifests": [
+        "cargo_village_translations.json"
+      ]
+    },
+    "0x0225": {
+      "character": "続",
+      "occurrences": 1,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x0226": {
+      "character": "付",
+      "occurrences": 1,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x0227": {
+      "character": "使",
+      "occurrences": 4,
+      "source_manifests": [
+        "departure_village_translations.json",
+        "shrine_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0229": {
+      "character": "次",
+      "occurrences": 1,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x022c": {
+      "character": "伝",
+      "occurrences": 1,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x023a": {
+      "character": "手",
+      "occurrences": 30,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x023b": {
+      "character": "帳",
+      "occurrences": 3,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x023d": {
+      "character": "的",
+      "occurrences": 1,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x023e": {
+      "character": "出",
+      "occurrences": 1,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x0243": {
+      "character": "転",
+      "occurrences": 23,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json"
+      ]
+    },
+    "0x0244": {
+      "character": "泊",
+      "occurrences": 2,
+      "source_manifests": [
+        "journey_village_translations.json"
+      ]
+    },
+    "0x0246": {
+      "character": "取",
+      "occurrences": 4,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "house_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x024e": {
+      "character": "戸",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x024f": {
+      "character": "度",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "house_translations.json"
+      ]
+    },
+    "0x0253": {
+      "character": "童",
+      "occurrences": 4,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x0254": {
+      "character": "所",
+      "occurrences": 1,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x0255": {
+      "character": "届",
+      "occurrences": 9,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json"
+      ]
+    },
+    "0x0257": {
+      "character": "止",
+      "occurrences": 1,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x0258": {
+      "character": "名",
+      "occurrences": 2,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x0259": {
+      "character": "無",
+      "occurrences": 1,
+      "source_manifests": [
+        "cargo_report_translations.json"
+      ]
+    },
+    "0x025a": {
+      "character": "治",
+      "occurrences": 21,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x025b": {
+      "character": "中",
+      "occurrences": 10,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_village_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x025c": {
+      "character": "仲",
+      "occurrences": 6,
+      "source_manifests": [
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x025d": {
+      "character": "長",
+      "occurrences": 86,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json"
+      ]
+    },
+    "0x025f": {
+      "character": "何",
+      "occurrences": 3,
+      "source_manifests": [
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0260": {
+      "character": "流",
+      "occurrences": 1,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x0262": {
+      "character": "荷",
+      "occurrences": 11,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0265": {
+      "character": "主",
+      "occurrences": 1,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x026b": {
+      "character": "年",
+      "occurrences": 5,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "house_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x026e": {
+      "character": "乗",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x0274": {
+      "character": "呑",
+      "occurrences": 4,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x027f": {
+      "character": "派",
+      "occurrences": 1,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x0282": {
+      "character": "入",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x0284": {
+      "character": "運",
+      "occurrences": 24,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "supply_village_translations.json"
+      ]
+    },
+    "0x0285": {
+      "character": "走",
+      "occurrences": 1,
+      "source_manifests": [
+        "village_translations.json"
+      ]
+    },
+    "0x0287": {
+      "character": "話",
+      "occurrences": 10,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "supply_houses_translations.json"
+      ]
+    },
+    "0x0288": {
+      "character": "反",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x0291": {
+      "character": "始",
+      "occurrences": 1,
+      "source_manifests": [
+        "cargo_report_translations.json"
+      ]
+    },
+    "0x0294": {
+      "character": "日",
+      "occurrences": 27,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0297": {
+      "character": "東",
+      "occurrences": 1,
+      "source_manifests": [
+        "house_translations.json"
+      ]
+    },
+    "0x0298": {
+      "character": "引",
+      "occurrences": 4,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "supply_houses_translations.json"
+      ]
+    },
+    "0x029a": {
+      "character": "人",
+      "occurrences": 14,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_village_translations.json"
+      ]
+    },
+    "0x029f": {
+      "character": "部",
+      "occurrences": 12,
+      "source_manifests": [
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "supply_houses_translations.json"
+      ]
+    },
+    "0x02a0": {
+      "character": "封",
+      "occurrences": 12,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "elder_story_translations.json",
+        "shrine_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x02a4": {
+      "character": "夫",
+      "occurrences": 1,
+      "source_manifests": [
+        "journey_houses_translations_v09r2.json"
+      ]
+    },
+    "0x02a8": {
+      "character": "復",
+      "occurrences": 1,
+      "source_manifests": [
+        "journey_village_translations.json"
+      ]
+    },
+    "0x02ae": {
+      "character": "便",
+      "occurrences": 1,
+      "source_manifests": [
+        "journey_village_translations.json"
+      ]
+    },
+    "0x02b8": {
+      "character": "本",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "journey_houses_translations_v09r2.json"
+      ]
+    },
+    "0x02ba": {
+      "character": "方",
+      "occurrences": 5,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "journey_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x02bc": {
+      "character": "間",
+      "occurrences": 8,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_village_translations.json"
+      ]
+    },
+    "0x02bd": {
+      "character": "魔",
+      "occurrences": 4,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "elder_story_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x02be": {
+      "character": "前",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "elder_story_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x02c0": {
+      "character": "町",
+      "occurrences": 10,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x02c1": {
+      "character": "回",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "journey_village_translations.json"
+      ]
+    },
+    "0x02c9": {
+      "character": "待",
+      "occurrences": 6,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x02d7": {
+      "character": "見",
+      "occurrences": 3,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x02d9": {
+      "character": "道",
+      "occurrences": 7,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "journey_village_translations.json"
+      ]
+    },
+    "0x02da": {
+      "character": "乱",
+      "occurrences": 1,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x02dc": {
+      "character": "向",
+      "occurrences": 1,
+      "source_manifests": [
+        "shrine_translations.json"
+      ]
+    },
+    "0x02de": {
+      "character": "娘",
+      "occurrences": 1,
+      "source_manifests": [
+        "house_translations.json"
+      ]
+    },
+    "0x02df": {
+      "character": "昔",
+      "occurrences": 2,
+      "source_manifests": [
+        "elder_story_translations.json",
+        "story_translations.json"
+      ]
+    },
+    "0x02e0": {
+      "character": "村",
+      "occurrences": 24,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x02e3": {
+      "character": "目",
+      "occurrences": 1,
+      "source_manifests": [
+        "elder_story_translations.json"
+      ]
+    },
+    "0x02e4": {
+      "character": "和",
+      "occurrences": 2,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x02e5": {
+      "character": "持",
+      "occurrences": 4,
+      "source_manifests": [
+        "cargo_road_translations.json"
+      ]
+    },
+    "0x02e6": {
+      "character": "元",
+      "occurrences": 8,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x02e7": {
+      "character": "戻",
+      "occurrences": 1,
+      "source_manifests": [
+        "shrine_translations.json"
+      ]
+    },
+    "0x02ec": {
+      "character": "物",
+      "occurrences": 14,
+      "source_manifests": [
+        "cargo_road_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x02ee": {
+      "character": "屋",
+      "occurrences": 12,
+      "source_manifests": [
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "supply_houses_translations.json"
+      ]
+    },
+    "0x02ef": {
+      "character": "宿",
+      "occurrences": 2,
+      "source_manifests": [
+        "journey_village_translations.json"
+      ]
+    },
+    "0x02f1": {
+      "character": "休",
+      "occurrences": 13,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x02f3": {
+      "character": "山",
+      "occurrences": 2,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "departure_village_translations.json"
+      ]
+    },
+    "0x0303": {
+      "character": "妖",
+      "occurrences": 69,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "cargo_village_translations.json",
+        "departure_houses_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "journey_village_translations.json",
+        "shrine_translations.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0304": {
+      "character": "用",
+      "occurrences": 4,
+      "source_manifests": [
+        "house_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x0305": {
+      "character": "呼",
+      "occurrences": 1,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x030b": {
+      "character": "寄",
+      "occurrences": 4,
+      "source_manifests": [
+        "house_translations.json",
+        "story_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x030d": {
+      "character": "利",
+      "occurrences": 1,
+      "source_manifests": [
+        "journey_village_translations.json"
+      ]
+    },
+    "0x030f": {
+      "character": "老",
+      "occurrences": 84,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "return_translations.json",
+        "shrine_translations.json",
+        "supply_houses_translations.json"
+      ]
+    },
+    "0x0310": {
+      "character": "料",
+      "occurrences": 1,
+      "source_manifests": [
+        "supply_village_translations.json"
+      ]
+    },
+    "0x0317": {
+      "character": "分",
+      "occurrences": 8,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "elder_story_translations.json",
+        "journey_village_translations.json"
+      ]
+    },
+    "0x031a": {
+      "character": "若",
+      "occurrences": 17,
+      "source_manifests": [
+        "cargo_village_translations.json",
+        "departure_village_translations.json",
+        "journey_village_translations.json",
+        "supply_village_translations.json",
+        "village_translations.json"
+      ]
+    },
+    "0x031f": {
+      "character": "々",
+      "occurrences": 7,
+      "source_manifests": [
+        "story_translations.json"
+      ]
+    },
+    "0x1000": {
+      "character": "{PLAYER_NAME}",
+      "occurrences": 31,
+      "source_manifests": [
+        "cargo_report_translations.json",
+        "cargo_road_translations.json",
+        "departure_houses_translations.json",
+        "elder_story_translations.json",
+        "house_translations.json",
+        "journey_houses_translations_v09r2.json",
+        "story_translations.json",
+        "supply_houses_translations.json",
+        "village_translations.json"
+      ]
+    }
+  }
+}
